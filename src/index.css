@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@theme{
+    --color-titleColor: #1C4A66;
+    --color-inscripcion: #EFC063;
+    --color-disertante: #23AAB4;        
+    --color-tertiary: #;
+}
