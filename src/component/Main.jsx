@@ -1,5 +1,5 @@
 import heroBackground from "../assets/bg.png";
-import jornadasOverlay from "../assets/Jornadas.png";
+import jornadasOverlay from "../assets/jornadas.png";
 
 const featureCards = [
   {
@@ -241,158 +241,156 @@ function Main() {
             vamos adelantando los temas de algunas actividades que ya están
             definidas:
           </p>
-          
+
           <div className="rounded-4xl border-2  border-tertiary p-2  ">
             <h2 className="text-2xl font-semibold text-black  ">
               Ver programa - Jueves 7 de mayo
             </h2>
           </div>
-        
-            <article>
-              <h2 className="font-medium m-5">
-           
-                <strong> BLOQUE 1 </strong> | MODULO PARED ABDOMINAL RESIDENTES
-                08:30 - 10:00 hs
-                  <hr className="m-2 border-1 border-inscripcion"/>
-              </h2>
-              <p className="m-5">
-                Cordinadores: Dr. Juan Perez · Dra. Maria Gomez
-                <br />
-                Comentadores: Dr. Carlos Lopez · Dra. Ana Martinez
-                <br />
-                <br />
-                <strong>Temas y Disertantes:</strong>
-                <br />
-                Anatomia de la pared abdominal anterior - Dr. Luis Rodriguez
-                <br />
-                Hermoplasia y eventraciones - Dra. Sofia Fernandez
-                <br />
-                Hernioplastia laparoscopica - Dr. Diego Sanchez
-                <br />
-                Eventtroplastia compleja - Dra. Lucia Ramirez
-                <br />
-              </p>
 
-              <h2 className="font-medium m-5">
-                {" "}
-                <strong> BLOQUE 2 </strong> | MODULO PARED ABDOMINAL RESIDENTES
-                08:30 - 10:00 hs
-                  <hr className="m-2 border-1 border-inscripcion"/>
-              </h2>
-              <p className="m-5">
-                <strong>Cordinadores:</strong> Dr. Juan Perez · Dra. Maria Gomez
-                <br />
-                Comentadores: Dr. Carlos Lopez · Dra. Ana Martinez
-                <br />
-                <br />
-                <strong>Temas y Disertantes:</strong>
-                <br />
-                Anatomia de la pared abdominal anterior - Dr. Luis Rodriguez
-                <br />
-                Hermoplasia y eventraciones - Dra. Sofia Fernandez
-                <br />
-                Hernioplastia laparoscopica - Dr. Diego Sanchez
-                <br />
-                Eventtroplastia compleja - Dra. Lucia Ramirez
-                <br />
-              </p>
-            </article>
-            <article>
-               <div className="rounded-4xl border-2  border-tertiary p-2  ">
-            <h2 className="text-2xl font-semibold text-black  ">
-              Ver programa - Jueves 8 de mayo
+          <article>
+            <h2 className="font-medium m-5">
+              <strong> BLOQUE 1 </strong> | MODULO PARED ABDOMINAL RESIDENTES
+              08:30 - 10:00 hs
+              <hr className="m-2 border-1 border-inscripcion" />
             </h2>
-          </div>
-              <h2 className="font-medium m-5">
-                
-                {" "}
-                <strong> BLOQUE 1 </strong> | MODULO PARED ABDOMINAL RESIDENTES
-                08:30 - 10:00 hs
-                <hr className="m-2 border-1 border-inscripcion"/>
-              </h2>
-              <p className="m-5">
-                Cordinadores: Dr. Juan Perez · Dra. Maria Gomez
-                <br />
-                Comentadores: Dr. Carlos Lopez · Dra. Ana Martinez
-                <br />
-                <br />
-                <strong>Temas y Disertantes:</strong>
-                <br />
-                Anatomia de la pared abdominal anterior - Dr. Luis Rodriguez
-                <br />
-                Hermoplasia y eventraciones - Dra. Sofia Fernandez
-                <br />
-                Hernioplastia laparoscopica - Dr. Diego Sanchez
-                <br />
-                Eventtroplastia compleja - Dra. Lucia Ramirez
-                <br />
-              </p>
+            <p className="m-5">
+              Cordinadores: Dr. Juan Perez · Dra. Maria Gomez
+              <br />
+              Comentadores: Dr. Carlos Lopez · Dra. Ana Martinez
+              <br />
+              <br />
+              <strong>Temas y Disertantes:</strong>
+              <br />
+              Anatomia de la pared abdominal anterior - Dr. Luis Rodriguez
+              <br />
+              Hermoplasia y eventraciones - Dra. Sofia Fernandez
+              <br />
+              Hernioplastia laparoscopica - Dr. Diego Sanchez
+              <br />
+              Eventtroplastia compleja - Dra. Lucia Ramirez
+              <br />
+            </p>
 
-              <h2 className="font-medium m-5">
-                {" "}
-                <strong> BLOQUE 2 </strong> | MODULO PARED ABDOMINAL RESIDENTES
-                08:30 - 10:00 hs
-                  <hr className="m-2 border-1 border-inscripcion"/>
+            <h2 className="font-medium m-5">
+              {" "}
+              <strong> BLOQUE 2 </strong> | MODULO PARED ABDOMINAL RESIDENTES
+              08:30 - 10:00 hs
+              <hr className="m-2 border-1 border-inscripcion" />
+            </h2>
+            <p className="m-5">
+              <strong>Cordinadores:</strong> Dr. Juan Perez · Dra. Maria Gomez
+              <br />
+              Comentadores: Dr. Carlos Lopez · Dra. Ana Martinez
+              <br />
+              <br />
+              <strong>Temas y Disertantes:</strong>
+              <br />
+              Anatomia de la pared abdominal anterior - Dr. Luis Rodriguez
+              <br />
+              Hermoplasia y eventraciones - Dra. Sofia Fernandez
+              <br />
+              Hernioplastia laparoscopica - Dr. Diego Sanchez
+              <br />
+              Eventtroplastia compleja - Dra. Lucia Ramirez
+              <br />
+            </p>
+          </article>
+          <article>
+            <div className="rounded-4xl border-2  border-tertiary p-2  ">
+              <h2 className="text-2xl font-semibold text-black  ">
+                Ver programa - Jueves 8 de mayo
               </h2>
-              <p className="m-5">
-                Cordinadores: Dr. Juan Perez · Dra. Maria Gomez
-                <br />
-                Comentadores: Dr. Carlos Lopez · Dra. Ana Martinez
-                <br />
-                <br />
-                <strong>Temas y Disertantes:</strong>
-                <br />
-                Anatomia de la pared abdominal anterior - Dr. Luis Rodriguez
-                <br />
-                Hermoplasia y eventraciones - Dra. Sofia Fernandez
-                <br />
-                Hernioplastia laparoscopica - Dr. Diego Sanchez
-                <br />
-                Eventtroplastia compleja - Dra. Lucia Ramirez
-                <br />
-              </p>
-            </article>
-          </div>
-          
-       
-      
+            </div>
+            <h2 className="font-medium m-5">
+              {" "}
+              <strong> BLOQUE 1 </strong> | MODULO PARED ABDOMINAL RESIDENTES
+              08:30 - 10:00 hs
+              <hr className="m-2 border-1 border-inscripcion" />
+            </h2>
+            <p className="m-5">
+              Cordinadores: Dr. Juan Perez · Dra. Maria Gomez
+              <br />
+              Comentadores: Dr. Carlos Lopez · Dra. Ana Martinez
+              <br />
+              <br />
+              <strong>Temas y Disertantes:</strong>
+              <br />
+              Anatomia de la pared abdominal anterior - Dr. Luis Rodriguez
+              <br />
+              Hermoplasia y eventraciones - Dra. Sofia Fernandez
+              <br />
+              Hernioplastia laparoscopica - Dr. Diego Sanchez
+              <br />
+              Eventtroplastia compleja - Dra. Lucia Ramirez
+              <br />
+            </p>
+
+            <h2 className="font-medium m-5">
+              {" "}
+              <strong> BLOQUE 2 </strong> | MODULO PARED ABDOMINAL RESIDENTES
+              08:30 - 10:00 hs
+              <hr className="m-2 border-1 border-inscripcion" />
+            </h2>
+            <p className="m-5">
+              Cordinadores: Dr. Juan Perez · Dra. Maria Gomez
+              <br />
+              Comentadores: Dr. Carlos Lopez · Dra. Ana Martinez
+              <br />
+              <br />
+              <strong>Temas y Disertantes:</strong>
+              <br />
+              Anatomia de la pared abdominal anterior - Dr. Luis Rodriguez
+              <br />
+              Hermoplasia y eventraciones - Dra. Sofia Fernandez
+              <br />
+              Hernioplastia laparoscopica - Dr. Diego Sanchez
+              <br />
+              Eventtroplastia compleja - Dra. Lucia Ramirez
+              <br />
+            </p>
+          </article>
+        </div>
       </section>
       <section id="disertante" className="space-y-10 bg-titleColor py-7">
         <div>
-          <h2>
-            Disertantes
-          </h2>
+          <h2>Disertantes</h2>
           <p>
-            El programa de las Jornadas de Cirugía Otoño 2026, que se desarrollará en cuatro salas del Hotel Sheraton, de la ciudad de Mendoza. Si bien el mismo se encuentra en proceso de definiciones vamos adelantando los temas de algunas actividades que ya están definidas:
+            El programa de las Jornadas de Cirugía Otoño 2026, que se
+            desarrollará en cuatro salas del Hotel Sheraton, de la ciudad de
+            Mendoza. Si bien el mismo se encuentra en proceso de definiciones
+            vamos adelantando los temas de algunas actividades que ya están
+            definidas:
           </p>
         </div>
         <div className="text-center">
-          <h2 className="text-2xl font-semibold text-inscripcion">Disertantes Nacionales</h2>
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {speakers.map((speaker) => (
-            <article
-              key={speaker.name}
-              className="  text-white  p-6"
-            >
-              <div   />
-              <div className=" ">
-               
-                <div>
-                  <h3 className="text-2xl
-                   font-semibold">{speaker.name}</h3>
-                  <div className="text-sm text-white">{speaker.title}</div>
-                  <p className="mt-2  text-white/80">
-                    {speaker.institution}
-                  </p>
+          <h2 className="text-2xl font-semibold text-inscripcion">
+            Disertantes Nacionales
+          </h2>
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {speakers.map((speaker) => (
+              <article key={speaker.name} className="  text-white  p-6">
+                <div />
+                <div className=" ">
+                  <div>
+                    <h3
+                      className="text-2xl
+                   font-semibold"
+                    >
+                      {speaker.name}
+                    </h3>
+                    <div className="text-sm text-white">{speaker.title}</div>
+                    <p className="mt-2  text-white/80">{speaker.institution}</p>
+                  </div>
                 </div>
-              </div>
-            </article>
-          ))}
-        </div>
+              </article>
+            ))}
+          </div>
         </div>
         <div className="text-center">
-          <h2 className="text-2xl font-semibold text-inscripcion">Disertantes Internacionales</h2>
-          
+          <h2 className="text-2xl font-semibold text-inscripcion">
+            Disertantes Internacionales
+          </h2>
         </div>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {speakers.map((speaker) => (
@@ -412,17 +410,14 @@ function Main() {
                 <div>
                   <h3 className="text-lg font-semibold">{speaker.name}</h3>
                   <div className=" text-white">{speaker.title}</div>
-                  <p className="mt-2  text-white/80">
-                    {speaker.institution}
-                  </p>
+                  <p className="mt-2  text-white/80">{speaker.institution}</p>
                 </div>
               </div>
             </article>
           ))}
         </div>
       </section>
-   
-    
+
       <section
         id="inscripcion"
         className="grid gap-8 rounded-3xl border border-white/10 bg-gradient-to-br from-[#03312E]/85 via-[#0A7D69]/35 to-[#F29F05]/22 p-10 lg:grid-cols-[1fr_1fr]"
