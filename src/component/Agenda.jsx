@@ -5,7 +5,7 @@ function Agenda() {
         <h2 className="text-3xl text-deep-blue flex justify-center font-semibold">
           Programa
         </h2>
-        <p className="text-black p-5 m-5">
+        <p className="text-black p-5 m-5 text-center">
           El programa de las Jornadas de Cirugía Otoño 2026, que se desarrollará
           en cuatro salas del Hotel Sheraton, de la ciudad de Mendoza. Si bien
           el mismo se encuentra en proceso de definiciones vamos adelantando los

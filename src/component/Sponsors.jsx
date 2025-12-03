@@ -1,3 +1,13 @@
+import nike from "../assets/nike.png";
+import adidas from "../assets/adidas.png";
+import amazon from "../assets/amazon.png";
+import disney from "../assets/disney.png";
+import spiderman from "../assets/spiderman.png";
+
+
+
+
+
 function Sponsors() {
   return (
     <section id="patrocinadores" className="text-center px-4 md:px-16 lg:px-50 space-y-6 scroll-mt-36">
@@ -7,6 +17,38 @@ function Sponsors() {
         las siguientes <br/>
         empresas y entidades.
       </p>
+      <div>
+        <img
+          alt="Patrocinadores"
+          src={nike}
+          className="mx-auto"
+        />
+        <img
+          alt="Patrocinadores"
+          src={spiderman}
+          className="mx-auto"
+        />
+        <img
+          alt="Patrocinadores"
+          src={amazon}
+          className="mx-auto"
+        />
+        <img
+          alt="Patrocinadores"
+          src={disney}
+          className="mx-auto"
+        />
+        <img
+          alt="Patrocinadores"
+          src={adidas}
+          className="mx-auto"
+        />
+        <img
+          alt="Patrocinadores"
+          src={nike}
+          className="mx-auto"
+        />
+      </div>
     </section>
   );
 };

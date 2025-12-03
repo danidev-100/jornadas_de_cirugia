@@ -3,7 +3,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import clsx from 'clsx';
 import logoNav from "../assets/logo-nav.png";
 
-const navigation = [
+ const navigation = [
   { name: "Inicio", href: "#inicio", current: true },
   { name: "Público", href: "#publico", current: false },
   { name: "Programa", href: "#programa", current: false },
@@ -13,7 +13,10 @@ const navigation = [
   { name: "Patrocinadores", href: "#patrocinadores", current: false },
   { name: "Organización", href: "#organizacion", current: false },
   { name: "Contacto", href: "#contacto", current: false },
-];
+]
+
+
+
 
 function Nav() {
   return (

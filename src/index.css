@@ -1,5 +1,24 @@
 @import "tailwindcss";
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @theme{
   --color-deep-blue: #1C4A66;
   --color-gold: #EFC063;
@@ -9,6 +28,7 @@
   --color-cloud: #E8F4F5;
   --color-sand: #EEDAB2;
   --color-ink: #1D1D1B;
+  --color-chocolate: #524D41;
 
   --font-sans: InterVariable, sans-serif;
   --font-sans--font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
