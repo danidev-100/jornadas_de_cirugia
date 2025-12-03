@@ -17,7 +17,7 @@ const navigation = [
 
 function Nav() {
   return (
-    <Disclosure as="nav" className="relative bg-deep-blue shadow-lg/20">
+    <Disclosure as="nav" className="sticky top-0 z-50 bg-deep-blue shadow-lg/20">
       <div className="px-2 lg:px-8">
         <div className="relative flex h-24 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center lg:hidden">

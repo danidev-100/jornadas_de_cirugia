@@ -1,6 +1,6 @@
 function Agenda() {
   return (
-    <section id="programa" className="flex py-7 ">
+    <section id="programa" className="flex py-7 scroll-mt-36">
       <div className=" flex-3 space-y-4">
         <h2 className="text-3xl text-deep-blue flex justify-center font-semibold">
           Programa

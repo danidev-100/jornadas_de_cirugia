@@ -2,7 +2,7 @@ import speakers from "../data/speakers";
 
 function Speakers() {
   return (
-    <section id="disertantes" className="space-y-10 py-7">
+    <section id="disertantes" className="space-y-10 py-7 scroll-mt-36">
       <div className="text-center px-4 md:px-16 lg:px-50 space-y-6">
         <h2 className="text-3xl font-semibold text-white">
           Disertantes

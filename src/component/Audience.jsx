@@ -1,7 +1,7 @@
 function Audience() {
 
   return (
-    <section id="publico" className="text-center px-4 md:px-16 lg:px-50 space-y-6">
+    <section id="publico" className="text-center px-4 md:px-16 lg:px-50 space-y-6 scroll-mt-36">
       <h2 className="text-3xl font-semibold text-deep-blue">
         A quién está dirigido
       </h2>

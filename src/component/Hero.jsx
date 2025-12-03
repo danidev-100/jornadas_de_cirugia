@@ -30,7 +30,7 @@ const galleryImages = [
 
 function Hero() {
   return (
-    <div>
+    <div id="inicio" className="scroll-mt-36">
       <section className="relative grid min-h-140 gap-1 overflow-hidden lg:grid-cols-[1.2fr_1fr]">
         <div className="absolute inset-0 -z-10">
           <img

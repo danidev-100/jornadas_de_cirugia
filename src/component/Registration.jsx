@@ -2,7 +2,7 @@ function Registration() {
   return (
     <section
       id="inscripciones"
-      className="grid gap-8  p-10 lg:grid-cols-[1fr_1fr]"
+      className="grid gap-8  p-10 lg:grid-cols-[1fr_1fr] scroll-mt-36"
     >
       <div className="space-y-4">
         <h2 className="text-3xl font-semibold">Asegura tu lugar</h2>
