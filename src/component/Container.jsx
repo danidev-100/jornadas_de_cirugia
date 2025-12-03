@@ -2,9 +2,8 @@ import clsx from "clsx";
 
 export function Container({ className, ...props }) {
   return (
-    <div
-        className={clsx("mx-auto max-w-7xl px-4 sm:px-6 lg:px-8", className)}
-        {...props}
-    />
+    <div className={clsx(className)}>
+      <div className="mx-auto max-w-7xl py-6 md:py-10 lg:py-14" {...props} />
+    </div>
   );
 }

@@ -1,11 +1,14 @@
 @import "tailwindcss";
 
 @theme{
-  --color-titleColor: #1C4A66;
-  --color-inscripcion: #EFC063;
-  --color-disertante: #23AAB4;
-  --color-tertiary: #58D7E0;
+  --color-deep-blue: #1C4A66;
+  --color-gold: #EFC063;
+  --color-lagoon: #23AAB4;
+  --color-wave: #58D7E0;
   --color-ocean-blue: #177FAB;
+  --color-cloud: #E8F4F5;
+  --color-sand: #EEDAB2;
+  --color-ink: #1D1D1B;
 
   --font-sans: InterVariable, sans-serif;
   --font-sans--font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';

@@ -1,21 +1,39 @@
 import { Container } from "./component/Container";
-import Header from "./component/Header";
-import Main from "./component/Main";
+import Nav from "./component/Nav";
+import Hero from "./component/Hero";
 import Footer from "./component/Footer";
-import { Patrocinadores } from "./component/Patrocinadores";
-import { Form } from "./component/Form";
+import Sponsors from "./component/Sponsors";
+import Form from "./component/Form";
+import Registration from "./component/Registration";
+import Agenda from "./component/Agenda";
+import Audience from "./component/Audience";
+import Speakers from "./component/Speakers";
+import Works from "./component/Works";
 
 const App = () => {
   return (
     <div>
-      <Container className="sticky bg-titleColor shadow-lg/20">
-        <Header />
+      <Nav />
+      <Hero />
+      <Container className="bg-cloud">
+        <Audience />
+      </Container>
+      <Container className="bg-white">
+        <Agenda />
+      </Container>
+      <Container className="bg-deep-blue">
+        <Speakers />
+      </Container>
+      <Container className="bg-cloud">
+        <Works />
+      </Container>
+      <Container className="bg-sand">
+        <Registration />
+      </Container>
+      <Container className="bg-white">
+        <Sponsors />
       </Container>
       <Container>
-        <Main />
-      </Container>
-      <Container>
-        <Patrocinadores />
         <Form />
         <Footer />
         <footer className=" py-8 text-center text-xs text-[#A9C8C0]">
