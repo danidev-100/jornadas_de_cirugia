@@ -213,7 +213,7 @@ function Main() {
           </div>
         </div>
       </section>
-      <section id="objetivos" className="bg-disertante py-5">
+      <section id="publico" className="bg-disertante py-5">
         <div className="text-center ">
           <h2 className="text-3xl font-semibold bottom-2.5 text-titleColor py-3">
             A quien esta dirigido
