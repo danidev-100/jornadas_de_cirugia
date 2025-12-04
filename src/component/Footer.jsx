@@ -7,7 +7,8 @@ import logoNav from "../assets/logo-nav.png";
 
 function Footer() {
   return (
-    <div className=" text-white p-5 bg-deep-blue ">
+
+    <section className="">
       <div className="py-4">
         <img
           alt="Jornadas de Cirugia"
@@ -16,13 +17,14 @@ function Footer() {
         />
       </div>
       <hr></hr>
+      <div className="flex justify-between text-white p-5 bg-deep-blue ">
 
-      <div className="grid gap-1.5 text-sm text-gray-500 mt-9">
+      <div className="grid gap-1.5 grid-cols-3  text-sm text-gray-500 mt-9 ">
         {navigation.map((item) => (
           <a
             key={item.name}
             href={item.href}
-            className="px-7 py-2 text-xl text-white justify-center hover:text-white font-medium "
+            className=" log: px-7 py-2 text-xl text-white justify-center hover:text-white font-medium "
           >
             {item.name}
           </a>
@@ -43,6 +45,8 @@ function Footer() {
         </div>
       </div>
     </div>
+    </section>
+    
   );
 }
 export default Footer;

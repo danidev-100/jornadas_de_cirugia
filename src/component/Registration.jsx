@@ -2,7 +2,7 @@ function Registration() {
   return (
     <section
       id="inscripciones"
-      className="grid gap-8  p-4 lg:grid-cols-[1fr_1fr] scroll-mt-36"
+      className="text-center px-4 md:px-16  lg:px-50  space-y-6 scroll-mt-36"
     >
       <div>
         <h2 className="text-4xl font-semibold text-center text-white">

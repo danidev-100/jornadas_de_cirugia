@@ -1,3 +1,5 @@
+import pdf from "../assets/acta.pdf";
+
 function Works() {
   return (
     <section
@@ -24,47 +26,51 @@ function Works() {
         Nos vemos en la jornadas para continuar con los vínculos académicos que
         marcan el gran compromiso con la salud.
       </p>
-      <div className="flex  my-6 ">
-        <button className=" bg-chocolate rounded-3xl px-6 py-3 text-white font-semibold mx-2 hover:bg-lagoon-dark transition w-60">
-          <div className="flex justify-center items-center space-x-3 ">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="gold"
-              class="size-6"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M12 9.75v6.75m0 0-3-3m3 3 3-3m-8.25 6a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.233-2.33 3 3 0 0 1 3.758 3.848A3.752 3.752 0 0 1 18 19.5H6.75Z"
-              />
-            </svg>
-          
+      <div className="flex justify-center  my-6 ">
+        <a href={pdf} download>
+          <button className="flex space-x-5 bg-chocolate rounded-3xl px-6 py-3 text-white font-semibold mx-2 hover:bg-lagoon-dark transition">
+            <div className="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 9.75v6.75m0 0-3-3m3 3 3-3m-8.25 6a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.233-2.33 3 3 0 0 1 3.758 3.848A3.752 3.752 0 0 1 18 19.5H6.75Z"
+                />
+              </svg>
+            </div>
+
             <h2>Normativas</h2>
-          </div>
-          
-        </button>
-        <button className=" rounded-3xl bg-chocolate px-6 py-3 text-white font-semibold mx-2 hover:bg-lagoon-dark transition w-60">
-          <div className="flex justify-center items-center space-x-2  ">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="gold"
-              class="size-6"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M12 9.75v6.75m0 0-3-3m3 3 3-3m-8.25 6a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.233-2.33 3 3 0 0 1 3.758 3.848A3.752 3.752 0 0 1 18 19.5H6.75Z"
-              />
-            </svg>
-          <h2>Plantillas</h2>
-          </div>
-        </button>
+          </button>
+        </a>
+
+        <a href={pdf} download>
+          <button className=" flex space-x-5  bg-chocolate rounded-3xl  px-6 py-3 text-white font-semibold mx-2 hover:bg-lagoon-dark transition">
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 9.75v6.75m0 0-3-3m3 3 3-3m-8.25 6a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.233-2.33 3 3 0 0 1 3.758 3.848A3.752 3.752 0 0 1 18 19.5H6.75Z"
+                />
+              </svg>
+            </div>
+            <h2>Plantillas</h2>
+          </button>
+        </a>
       </div>
     </section>
   );
