@@ -12,7 +12,7 @@ function Agenda() {
           temas de algunas actividades que ya están definidas:
         </p>
 
-        <div className="rounded-4xl border-2  border-wave p-2  ">
+        <div className="rounded-4xl border-2  border-wave p-4 m-2   ">
           <h2 className="text-2xl font-semibold text-black  ">
             Ver programa - Jueves 7 de mayo
           </h2>
@@ -68,7 +68,7 @@ function Agenda() {
         </article>
         <article>
           <div className="rounded-4xl border-2  border-wave p-2  ">
-            <h2 className="text-2xl font-semibold text-black  ">
+            <h2 className="text-2xl font-semibold text-black p-2  ">
               Ver programa - Jueves 8 de mayo
             </h2>
           </div>

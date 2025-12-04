@@ -1,3 +1,7 @@
+import { FaWhatsapp } from "react-icons/fa";
+import { LuFacebook } from "react-icons/lu";
+import { CiInstagram } from "react-icons/ci";
+
 import navigation from "../data/navigation";
 import logoNav from "../assets/logo-nav.png";
 
@@ -8,7 +12,7 @@ function Footer() {
         <img
           alt="Jornadas de Cirugia"
           src={logoNav}
-          className=" h-9  w-auto mb-1 text-center mx-auto "
+          className=" h-11  w-auto mb-1 text-center mx-auto "
         />
       </div>
       <hr></hr>
@@ -18,16 +22,25 @@ function Footer() {
           <a
             key={item.name}
             href={item.href}
-            className="px-7 py-2 text-white justify-center hover:text-white font-medium "
+            className="px-7 py-2 text-xl text-white justify-center hover:text-white font-medium "
           >
             {item.name}
           </a>
         ))}
       </div>
-      <div className=" grid gap-4 text-sm text-white m-7">
-        <h2>Whatsapp</h2>
-        <h2>Instagram</h2>
-        <h2>Facebook</h2>
+      <div className=" grid gap-4 text-xl text-white m-7">
+        <div className="flex items-center gap-2">
+          <FaWhatsapp className="text-lagoon  text-4xl"/>
+          <h2 className="">Whatsapp</h2>
+        </div>
+        <div className="flex items-center gap-2">
+          <CiInstagram  className="text-lagoon text-4xl "/>
+          <h2>Instagram</h2>
+        </div>
+        <div className="flex items-center gap-2">
+          <LuFacebook className="text-lagoon text-4xl"  />
+          <h2>Facebook</h2>
+        </div>
       </div>
     </div>
   );

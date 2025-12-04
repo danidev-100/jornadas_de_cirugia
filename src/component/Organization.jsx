@@ -1,10 +1,10 @@
 function Organization() {
   return (
     <div className="m-7 text-center">
-      <h1 className="text-center text-3xl m-6 text-deep-blue font-bold">
+      <h1 className="text-center text-4xl m-6 text-deep-blue font-bold">
         Organizacion
       </h1>
-      <p >
+      <p className="text-2xl">
         <strong>
           La XXVI Edición de las Jornadas de Cirugía, Otoño 2025, son
           organizadas por la Asociación Argentina de Cirugía y la Asociación de
@@ -13,7 +13,7 @@ function Organization() {
         </strong>
         <br />
       </p>
-      <p className="p-5">
+      <p className="p-5 text-2xl">
         ASOCIACIÓN CIRUGÍA DE ROSARIO <br />
         COMISIÓN DIRECTIVA 2024/25
         <br />

@@ -2,14 +2,14 @@ function Registration() {
   return (
     <section
       id="inscripciones"
-      className="grid gap-8  p-10 lg:grid-cols-[1fr_1fr] scroll-mt-36"
+      className="grid gap-8  p-4 lg:grid-cols-[1fr_1fr] scroll-mt-36"
     >
       <div>
-        <h2 className="text-3xl font-semibold text-center text-white">
+        <h2 className="text-4xl font-semibold text-center text-white">
           Contacto
         </h2>
       </div>
-      <div className="space-y-4  redonded-lg bg-white rounded-3xl p-6 shadow-lg shadow-deep-blue/30">
+      <div className="space-y-4  redonded-lg bg-white rounded-3xl p-10 shadow-lg shadow-deep-blue/30">
         <h3 className="text-deep-blue font-bold text-2xl ">Contactanos para mas informacion</h3>
         <h3 className="text-deep-blue text-2xl p-4">Responderemos a la brevedad</h3>
         <form className="grid gap-4 text-sm text-ink  ">
@@ -31,7 +31,7 @@ function Registration() {
           />
           <button
             type="submit"
-            className="rounded-full bg-ocean-blue w-25 text-center  px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-[#0F4C75]/30 transition hover:opacity-90"
+            className="rounded-full bg-ocean-blue w-25 text-center  px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-[#0F4C75]/30 transition hover:opacity-90 flex  mr-4 justify-center mx-auto"
           >
             Enviar
           </button>
