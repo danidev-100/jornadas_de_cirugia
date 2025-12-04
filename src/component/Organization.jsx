@@ -1,6 +1,6 @@
 function Organization() {
   return (
-    <div className="m-7 text-center">
+    <div id="organizacion" className="m-7 text-center">
       <h1 className="text-center text-4xl m-6 text-deep-blue font-bold">
         Organizacion
       </h1>

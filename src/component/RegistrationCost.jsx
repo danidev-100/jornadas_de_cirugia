@@ -1,7 +1,7 @@
 function RegistrationCost() {
   return (
-    <div className=" my-1 p-4 m-4">
-      <div>
+    <div id="inscripciones" className=" my-1 p-4 m-4">
+      <div className="p-6">
         <h2 className="text-center text-4xl text-deep-blue font-bold py-5">
           Inscripciones
         </h2>
@@ -24,7 +24,7 @@ function RegistrationCost() {
           <li>Acceso Virtual Premium: $70,000</li>
           <li>Acceso Virtual Premium: $70,000</li>
         </ul>
-        <button className="justify-center flex w-full">
+        <button className="justify-center flex w-full p-8">
           <div className="flex justify-center items-center space-x-3 bg-ink rounded-full px-4 py-2 hover:bg-lagoon-dark transition cursor-pointer">
             <svg
               xmlns="http://www.w3.org/2000/svg"

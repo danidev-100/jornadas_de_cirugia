@@ -10,10 +10,12 @@ import Speakers from "./component/Speakers";
 import Works from "./component/Works";
 import RegistrationCost from "./component/RegistrationCost";
 import Organization from "./component/Organization";
+import FixedCode from "./component/Whatsapp";
 
 const App = () => {
   return (
     <div>
+      <FixedCode className=""/>
       <Nav />
       <Hero />
       <Container className="bg-cloud">

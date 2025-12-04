@@ -9,8 +9,8 @@ import logoNav from "../assets/logo-nav.png";
   { name: "Programa", href: "#programa", current: false },
   { name: "Disertantes", href: "#disertantes", current: false },
   { name: "Trabajos científicos", href: "#trabajos", current: false },
-  { name: "Inscripciones", href: "#inscripciones", current: false },
   { name: "Patrocinadores", href: "#patrocinadores", current: false },
+  { name: "Inscripciones", href: "#inscripciones", current: false },
   { name: "Organización", href: "#organizacion", current: false },
   { name: "Contacto", href: "#contacto", current: false },
 ]

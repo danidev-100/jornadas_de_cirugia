@@ -1,7 +1,7 @@
 function Registration() {
   return (
     <section
-      id="inscripciones"
+      id="contacto"
       className="text-center px-4 md:px-16  lg:px-50  space-y-6 scroll-mt-36"
     >
       <div>
