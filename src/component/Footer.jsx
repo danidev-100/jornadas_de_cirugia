@@ -16,19 +16,19 @@ function Footer() {
         />
       </div>
       <hr className="border-1 border-white/50"></hr>
-      <div className=" m-7 text-white p-5 bg-deep-blue ">
-        <div className=" flex flex-col items-cent m-2">
+      <div className="lg:flex justify-around m-7 text-white p-5 bg-deep-blue ">
+        <div className="lg:grid grid-cols-3 flex flex-col items-cent m-2">
           {navigation.map((item) => (
             <a
               key={item.name}
               href={item.href}
-              className=" px-7 py-4 text-xl text-white justify-center hover:text-white font-medium "
+              className=" px-7 py-4 text-xl text-white  hover:text-white font-medium "
             >
               {item.name}
             </a>
           ))}
         </div>
-        <div className=" grid gap-4 text-xl text-white m-7">
+        <div className=" grid gap-5 text-xl text-white m-7">
           <div className="flex items-center gap-2">
             <FaWhatsapp className="text-lagoon  text-4xl" />
             <h2 className="">Whatsapp</h2>

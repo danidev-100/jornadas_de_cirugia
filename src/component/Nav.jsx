@@ -9,8 +9,8 @@ import logoNav from "../assets/logo-nav.png";
   { name: "Programa", href: "#programa", current: false },
   { name: "Disertantes", href: "#disertantes", current: false },
   { name: "Trabajos científicos", href: "#trabajos", current: false },
-  { name: "Patrocinadores", href: "#patrocinadores", current: false },
   { name: "Inscripciones", href: "#inscripciones", current: false },
+  { name: "Patrocinadores", href: "#patrocinadores", current: false },
   { name: "Organización", href: "#organizacion", current: false },
   { name: "Contacto", href: "#contacto", current: false },
 ]
@@ -32,7 +32,7 @@ function Nav() {
               <XMarkIcon aria-hidden="true" className="hidden size-6 group-data-open:block" />
             </DisclosureButton>
           </div>
-          <div className="flex flex-1 items-center justify-center lg:items-stretch lg:justify-start">
+          <div className="flex flex-1 items-center justify-center lg:items-stretch lg:justify-around">
             <div className="flex shrink-0 items-center lg:hidden xl:flex">
               <img
                 alt="Jornadas de Cirugia"
