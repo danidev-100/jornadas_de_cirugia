@@ -1,4 +1,4 @@
-import pdf from "../assets/acta.pdf";
+import pdf from "../assets/REGLAMENTO.pdf";
 
 function Works() {
   return (
@@ -15,7 +15,7 @@ function Works() {
         Jornadas de otoño de Cirugía 2026
       </p>
       <p className="text-ink text-xl">
-        El 31 de marzo de 2025, terminó el plazo de entrega de los trabajos
+        El 31 de marzo de 2026, terminó el plazo de entrega de los trabajos
         científicos.
       </p>
       <p className="text-ink text-xl">
@@ -46,29 +46,28 @@ function Works() {
               </svg>
             </div>
 
-            <h2>Normativas</h2>
+            <h2>Reglamento</h2>
           </button>
         </a>
-
-        <a href={pdf} download>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jornadasmza2026.trabajos@gmail.com">
           <button className=" flex space-x-5  bg-chocolate rounded-3xl  px-6 py-3 text-white font-semibold mx-2 hover:bg-lagoon-dark transition">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="currentColor"
-                class="size-6"
+                className="size-6"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M12 9.75v6.75m0 0-3-3m3 3 3-3m-8.25 6a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.233-2.33 3 3 0 0 1 3.758 3.848A3.752 3.752 0 0 1 18 19.5H6.75Z"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M12 16.5V9.75m0 0-3 3m3-3 3 3M6.75 19.5a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.233-2.33 3 3 0 0 1 3.758 3.848A3.752 3.752 0 0 1 18 19.5H6.75Z"
                 />
               </svg>
             </div>
-            <h2>Plantillas</h2>
+            <h2>Trabajos</h2>
           </button>
         </a>
       </div>

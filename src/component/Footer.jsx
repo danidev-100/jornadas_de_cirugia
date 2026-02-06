@@ -5,6 +5,13 @@ import { CiInstagram } from "react-icons/ci";
 import navigation from "../data/navigation";
 import logoNav from "../assets/logo-nav.png";
 
+const SOCIAL_LINKS = {
+  whatsapp: "#",
+  instagram:
+    "https://www.instagram.com/asociacioncirugiamendoza?igsh=bHdqazEybHUxdjdw&utm_source=qr",
+  facebook: "https://www.facebook.com/share/18Df2zrGEH/?mibextid=wwXIfr",
+};
+
 function Footer() {
   return (
     <section className="">
@@ -30,15 +37,36 @@ function Footer() {
         </div>
         <div className=" grid gap-5 text-xl text-white m-7">
           <div className="flex items-center gap-2">
-            <FaWhatsapp className="text-lagoon  text-4xl" />
+            <a
+              href={SOCIAL_LINKS.whatsapp}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp"
+            >
+              <FaWhatsapp className="text-lagoon  text-4xl" />
+            </a>
             <h2 className="">Whatsapp</h2>
           </div>
           <div className="flex items-center gap-2">
-            <CiInstagram className="text-lagoon text-4xl " />
+            <a
+              href={SOCIAL_LINKS.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
+              <CiInstagram className="text-lagoon text-4xl " />
+            </a>
             <h2>Instagram</h2>
           </div>
           <div className="flex items-center gap-2">
-            <LuFacebook className="text-lagoon text-4xl" />
+            <a
+              href={SOCIAL_LINKS.facebook}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+            >
+              <LuFacebook className="text-lagoon text-4xl" />
+            </a>
             <h2>Facebook</h2>
           </div>
         </div>

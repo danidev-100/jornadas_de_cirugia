@@ -1,0 +1,193 @@
+export const programaJueves = {
+  titulo: "Jueves 7/5/26 — Día 1",
+  columnas: ["Hora", "Sala A", "Sala B", "Sala C (Trabajos científicos)"],
+  filas: [
+    {
+      hora: "08:00–08:30",
+      salaA: "HPB",
+      salaB: "Coloproctología",
+      salaC: "Comunicaciones orales",
+    },
+    {
+      hora: "08:45–09:15",
+      salaA: "Trauma",
+      salaB: "Oncología",
+      salaC: "Comunicaciones orales",
+    },
+    {
+      hora: "09:15–09:30",
+      salaA: "Coffee Break (AM)",
+      salaB: "Coffee break (AM)",
+      salaC: "Coffee break (AM)",
+    },
+    {
+      hora: "09:30–10:00",
+      salaA: "HPB",
+      salaB: "Coloproctología",
+      salaC: "Comunicaciones orales",
+    },
+    {
+      hora: "10:15–11:00",
+      salaA: "ACM",
+      salaB: "Equidad-Igualdad",
+      salaC: "Comunicaciones orales",
+    },
+    {
+      hora: "11:15–11:45",
+      salaA: "Trauma",
+      salaB: "Pared Abdominal",
+      salaC: "Comunicaciones orales",
+    },
+    {
+      hora: "12:00–13:00",
+      salaA: "Almuerzo",
+      salaB: "Almuerzo",
+      salaC: "Almuerzo",
+    },
+    {
+      hora: "13:00–13:30",
+      salaA: "AAMRCG",
+      salaB: "Esófago Gastro",
+      salaC: "PSQ",
+    },
+    {
+      hora: "13:45–14:15",
+      salaA: "Eco Percutáneo",
+      salaB: "AAMRCG",
+      salaC: "PSQ",
+    },
+    {
+      hora: "14:30–15:00",
+      salaA: "Instrumentadores",
+      salaB: "Tórax",
+      salaC: "PSQ",
+    },
+    {
+      hora: "15:00–15:15",
+      salaA: "Coffee break (PM)",
+      salaB: "Coffee break (PM)",
+      salaC: "Coffee break (PM)",
+    },
+    {
+      hora: "15:30-16:00",
+      salaA: "Coloproctología",
+      salaB: "Pared Abdominal",
+      salaC: "PSQ",
+    },
+    {
+      hora: "16:15-16:45",
+      salaA: "Cirujanos Jóvenes",
+      salaB: "HPB",
+      salaC: "PSQ",
+    },
+    {
+      hora: "17:00-17:30",
+      salaA: "Pared Abdominal",
+      salaB: "Gremiales Capítulos",
+      salaC: "PSQ",
+    },
+    {
+      hora: "17:45-18:45",
+      salaA: "ACTO INAUGURAL",
+      salaB: "ACTO INAUGURAL",
+      salaC: "ACTO INAUGURAL",
+    },
+  ],
+};
+
+export const programaViernes = {
+  titulo: "Viernes 8/5/26 — Día 2",
+  columnas: ["Hora", "Sala A", "Sala B", "Sala C (Trabajos científicos)"],
+  filas: [
+    {
+      hora: "08:00–08:30",
+      salaA: "Coloproctología",
+      salaB: "MAMA",
+      salaC: "Comunicaciones orales",
+    },
+    {
+      hora: "08:45–09:15",
+      salaA: "Bariátrica",
+      salaB: "Comite Colegio",
+      salaC: "Comunicaciones orales",
+    },
+    {
+      hora: "09:15–09:30",
+      salaA: "Coffee break (AM)",
+      salaB: "Coffee break(AM)",
+      salaC: "Coffee break (AM)",
+    },
+    {
+      hora: "09:30–10:00",
+      salaA: "Coloproctología",
+      salaB: "Tórax",
+      salaC: "Comunicaciones orales",
+    },
+    {
+      hora: "10:15–11:00",
+      salaA: "Oncología",
+      salaB: "AAMRCG Olimpiadas",
+      salaC: "Almuerzo",
+    },
+    {
+      hora: "11:15–11:45",
+      salaA: "Esófago Gastro",
+      salaB: "Pared Abdominal",
+      salaC: "Comunicaciones orales",
+    },
+    {
+      hora: "12:00–13:00",
+      salaA: "Almuerzo",
+      salaB: "Almuerzo",
+      salaC: "Almuerzo",
+    },
+    {
+      hora: "13:00–13:30",
+      salaA: "Endoscopía",
+      salaB: "HPB",
+      salaC: "PSQ",
+    },
+    {
+      hora: "13:45–14:15",
+      salaA: "Instrumentadores",
+      salaB: "Tórax",
+      salaC: "PSQ",
+    },
+    {
+      hora: "14:30–15:00",
+      salaA: "HPB",
+      salaB: "Coloproctología",
+      salaC: "PSQ",
+    },
+    {
+      hora: "15:00–15:15",
+      salaA: "Coffee break (PM)",
+      salaB: "Coffee break (PM)",
+      salaC: "Coffee break (PM)",
+    },
+    {
+      hora: "15:30-16:00",
+      salaA: "Bariátrica",
+      salaB: "Tórax",
+      salaC: "PSQ",
+    },
+    {
+      hora: "16:15-16:45",
+      salaA: "Oncología",
+      salaB: "Esófago Gastro",
+      salaC: "PSQ",
+    },
+    {
+      hora: "17:00-17:30",
+      salaA: "Pared Abdominal",
+      salaB: "Endoscopía",
+      salaC: "PSQ",
+    },
+    {
+      hora: "17:45-18:45",
+      salaA: "Eco Percutáneo",
+      salaB: "AAMRCG",
+      salaC: "PSQ",
+    },
+  ],
+};
