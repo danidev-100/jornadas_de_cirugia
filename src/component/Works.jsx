@@ -1,4 +1,4 @@
-import pdf from "../assets/REGLAMENTO.pdf";
+import pdf from "../assets/REGLAMENTO-ACM.pdf";
 
 function Works() {
   return (
@@ -15,8 +15,7 @@ function Works() {
         Jornadas de otoño de Cirugía 2026
       </p>
       <p className="text-ink text-xl">
-        El 31 de marzo de 2026, terminó el plazo de entrega de los trabajos
-        científicos.
+        La fecha límite para presentar los trabajos científicos es el 31 de marzo de 2026.
       </p>
       <p className="text-ink text-xl">
         Valoramos muchísimo el esfuerzo realizado, hemos recibido cantidad de
@@ -67,7 +66,7 @@ function Works() {
                 />
               </svg>
             </div>
-            <h2>Trabajos</h2>
+            <h2>Enviar trabajo científico</h2>
           </button>
         </a>
       </div>

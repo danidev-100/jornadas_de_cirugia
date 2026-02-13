@@ -1,8 +1,7 @@
-import nike from "../assets/nike.png";
-import adidas from "../assets/adidas.png";
-import amazon from "../assets/amazon.png";
-import disney from "../assets/disney.png";
-import spiderman from "../assets/spiderman.png";
+
+import megamedica from "../assets/megamedica.svg"
+import abbott from "../assets/abbott.svg"
+import coloplast from "../assets/coloplast.svg"
 
 
 
@@ -17,37 +16,23 @@ function Sponsors() {
         las siguientes <br/>
         empresas y entidades.
       </p>
-      <div className="grid grid-cols-3 grid-rows-2 gap-9  items-center justify-items-center  ">
+      <div className="grid grid-cols-2 grid-rows-2 gap-9  items-center justify-items-center  ">
         <img
           alt="Patrocinadores"
-          src={nike}
+          src={megamedica}
           className="mx-auto"
         />
         <img
           alt="Patrocinadores"
-          src={spiderman}
+          src={coloplast}
           className="mx-auto"
         />
         <img
           alt="Patrocinadores"
-          src={amazon}
-          className="mx-auto"
+          src={abbott}
+          className="mx-auto "
         />
-        <img
-          alt="Patrocinadores"
-          src={disney}
-          className="mx-auto"
-        />
-        <img
-          alt="Patrocinadores"
-          src={adidas}
-          className="mx-auto"
-        />
-        <img
-          alt="Patrocinadores"
-          src={nike}
-          className="mx-auto"
-        />
+      
       </div>
     </section>
   );

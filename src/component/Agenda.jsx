@@ -61,7 +61,7 @@ function Agenda() {
           </p>
           <div className=" bg-wave rounded-3xl p-5 my-4 ">
             <p>
-              <span className="font-bold">Duracion:</span> 2 días (jueves y
+              <span className="font-bold">Duración:</span> 2 días (jueves y
               viernes) <br />
               <span className="font-bold">Horario:</span> 08:00 - 19:00 <br />
               <span className="font-bold">Aulas simultáneas:</span> 3 <br />
@@ -131,7 +131,7 @@ function Agenda() {
                 </svg>
               </div>
 
-              <h2 className=""> Descargar Programa</h2>
+              <h2 className=""> Ver Programa</h2>
             </button>
           </a>
         </div>

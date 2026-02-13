@@ -12,17 +12,17 @@ function RegistrationCost() {
           Costos de abonados antes del 10 de febrero del 2026
         </h3>
         <ul className="list-disc list-inside m-3 text-white text-2xl space-y-2">
-          <li>Profesionales: $100,000</li>
+          <li>Socios (AAC-ACM): $100,000</li>
           <li>Estudiantes y Residentes: $50,000</li>
+          <li>No Socios: 120.000 $</li>
           <li>Acceso Virtual Premium: $70,000</li>
-          <li>Acceso Virtual Premium: $70,000</li>
-          <li>Acceso Virtual Premium: $70,000</li>
-          <li>Acceso Virtual Premium: $70,000</li>
-          <li>Acceso Virtual Premium: $70,000</li>
-          <li>Acceso Virtual Premium: $70,000</li>
-          <li>Acceso Virtual Premium: $70,000</li>
-          <li>Acceso Virtual Premium: $70,000</li>
-          <li>Acceso Virtual Premium: $70,000</li>
+          <li>Extranjeros $120.000 </li>
+          <li>Residentes: $60.000 </li>
+          <li>Estudiantes Medicina: $30.000 </li>
+          <li>Instrumentadores/as: $70.000 </li>
+          <li>Estudiantes $30.000</li>
+          <li>AADI $50.000 </li>
+         
         </ul>
         <button className="justify-center flex w-full p-8">
           <div className="flex justify-center items-center space-x-3 bg-ink rounded-full px-4 py-2 hover:bg-lagoon-dark transition cursor-pointer">
@@ -41,7 +41,7 @@ function RegistrationCost() {
               />
             </svg>
 
-            <h1 className=" text-white text- font-semibold">Inscribite aqui</h1>
+            <h1 className=" text-white text- font-semibold">Inscribirme</h1>
           </div>
         </button>
       </article>

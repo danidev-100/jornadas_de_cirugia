@@ -10,7 +10,7 @@ function Registration() {
         </h2>
       </div>
       <div className="space-y-4  redonded-lg bg-white rounded-3xl p-10 shadow-lg shadow-deep-blue/30">
-        <h3 className="text-deep-blue font-bold text-2xl ">Contactanos para mas informacion</h3>
+        <h3 className="text-deep-blue font-bold text-2xl ">Contáctanos para más información</h3>
         <h3 className="text-deep-blue text-2xl p-4">Responderemos a la brevedad</h3>
         <form className="grid gap-4 text-sm text-ink  ">
           <input

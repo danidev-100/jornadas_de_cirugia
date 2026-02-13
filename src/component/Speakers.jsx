@@ -17,7 +17,7 @@ function Speakers() {
       <hr className="border-1 border-white/50" />
       <div className="text-center">
         <h2 className="text-2xl font-semibold text-gold">
-          Disertantes Nacionales
+          Disertantes 
         </h2>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {speakers.map((speaker) => (
@@ -40,12 +40,12 @@ function Speakers() {
         </div>
       </div>
       <hr className="border-1 border-white/50" />
-      <div className="text-center">
+      {/* <div className="text-center">
         <h2 className="text-2xl font-semibold text-gold">
           Disertantes Internacionales
         </h2>
-      </div>
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      </div> */}
+      {/* <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {speakers.map((speaker) => (
           <article
             key={speaker.name}
@@ -68,7 +68,7 @@ function Speakers() {
             </div>
           </article>
         ))}
-      </div>
+      </div> */}
     </section>
   );
 }

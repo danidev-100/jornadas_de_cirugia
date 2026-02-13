@@ -2,50 +2,39 @@ function Organization() {
   return (
     <div id="organizacion" className="m-7 text-center">
       <h1 className="text-center text-4xl m-6 text-deep-blue font-bold">
-        Organizacion
+        Organización
       </h1>
       <p className="text-2xl">
         <strong>
-          La XXVI Edición de las Jornadas de Cirugía, Otoño 2025, son
-          organizadas por la Asociación Argentina de Cirugía y la Asociación de
-          Cirugía de Rosario, junto a un equipo de profesionales liderado por el
-          Dr. Gustavo Marcucci.
+          La XXVII Edición de las Jornadas de Cirugía, Otoño 2026, son
+          organizadas por la <span className="whitespace-nowrap">Asociación de Cirugía de Mendoza</span > y <span className="whitespace-nowrap">Asociación Argentina de Cirugía</span>.
         </strong>
         <br />
       </p>
       <p className="p-5 text-2xl">
-        ASOCIACIÓN CIRUGÍA DE ROSARIO <br />
-        COMISIÓN DIRECTIVA 2024/25
+        ASOCIACIÓN  DE CIRUGÍA DE MENDOZA ACM 
         <br />
-        PRESIDENTE: Dr. Gustavo Marcucci
+        COMISIÓN DIRECTIVA 
         <br />
-        VICEPRESIDENTE: Dr. Oscar Scavuzzo
+        PRESIDENTE: Dr. Humberto Tagarelli
         <br />
-        SECRETARIO GENERAL: Dr.Juan Blas Gigli
+        SECRETARIO GENERAL: Dr. Rafael Cenci 
         <br />
-        SECRETARIO DE ACTAS: Dr. Sebastian Pardini
+        TESORERO: Dr. Antonio Bianchi
         <br />
-        TESORERO: Dr. Gustavo Lavallen
+        <h3>VOCALES</h3>
+        Dr. Javier Rossi
         <br />
-        SECRETARIO PUBLICACIONES: Dr. German Giacosa
+        Dr. Walter Minatti
         <br />
-        VOCALES: Dr. Fernando Barrios
+        Dr. Guillermo Sanguinetti
         <br />
-        Dr. Ignacio Moreno
+        Dr. Jorge Chaine
         <br />
-        Dra. Ana Clara Giavaresco
+        Dr. Francisco Boato
         <br />
-        Dr. Miguel Alvarez
-        <br />
-        Dr. Diego Murature
-        <br />
-        SECRETARIA RESIDENTES Y CONCURRENTES: Dra. Maria E. Feldman
-        <br />
-        Dra. Camila Quagliatti
-        <br />
-        Dr. Matias Di Biasio
-        <br />
-        Dra. Delfina Uboldi
+        Dr. Mario Gutiérrez
+        
       </p>
     </div>
   );
