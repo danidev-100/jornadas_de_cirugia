@@ -6,7 +6,7 @@ import navigation from "../data/navigation";
 import logoNav from "../assets/logo-nav.png";
 
 const SOCIAL_LINKS = {
-  whatsapp: "#",
+  whatsapp: "https://wa.me/5492634365089", // Reemplaza con tu número y código de país
   instagram:
     "https://www.instagram.com/asociacioncirugiamendoza?igsh=bHdqazEybHUxdjdw&utm_source=qr",
   facebook: "https://www.facebook.com/share/18Df2zrGEH/?mibextid=wwXIfr",
@@ -37,29 +37,31 @@ function Footer() {
         </div>
         <div className=" grid gap-5 text-xl text-white m-7">
           <div className="flex items-center gap-2">
-            <a
+            <a className="flex items-center gap-2"
+            
               href={SOCIAL_LINKS.whatsapp}
               target="_blank"
               rel="noopener noreferrer"
               aria-label="WhatsApp"
             >
               <FaWhatsapp className="text-lagoon  text-4xl" />
+            <h2 >Whatsapp</h2>
             </a>
-            <h2 className="">Whatsapp</h2>
+            
           </div>
           <div className="flex items-center gap-2">
-            <a
+            <a className="flex items-center gap-2"
               href={SOCIAL_LINKS.instagram}
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
             >
               <CiInstagram className="text-lagoon text-4xl " />
-            </a>
             <h2>Instagram</h2>
+            </a>
           </div>
           <div className="flex items-center gap-2">
-            <a
+            <a className="flex items-center gap-2"
               href={SOCIAL_LINKS.facebook}
               target="_blank"
               rel="noopener noreferrer"
@@ -67,8 +69,8 @@ function Footer() {
             >
               <LuFacebook className="text-lagoon text-4xl" />
               
-            </a>
             <h2>Facebook</h2>
+            </a>
           </div>
         </div>
       </div>
