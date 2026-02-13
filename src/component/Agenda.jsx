@@ -113,7 +113,7 @@ function Agenda() {
 
         <div className="flex justify-center ">
           <a href={pdf} download>
-            <button className="flex space-x-5 bg-chocolate rounded-3xl px-6 py-3 text-white font-semibold mx-2 hover:bg-lagoon-dark transition">
+            <button className="flex space-x-1 bg-chocolate rounded-3xl px-6 py-3 text-white font-semibold mx-2 hover:bg-lagoon-dark transition">
               <div className="">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

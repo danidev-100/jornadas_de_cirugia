@@ -7,7 +7,7 @@ function Organization() {
       <p className="text-2xl">
         <strong>
           La XXVII Edición de las Jornadas de Cirugía, Otoño 2026, son
-          organizadas por la <span className="whitespace-nowrap">Asociación de Cirugía de Mendoza</span > y <span className="whitespace-nowrap">Asociación Argentina de Cirugía</span>.
+          organizadas por la <span >Asociación de Cirugía de Mendoza</span > y Asociación Argentina de Cirugía.
         </strong>
         <br />
       </p>

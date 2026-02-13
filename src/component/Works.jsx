@@ -25,9 +25,9 @@ function Works() {
         Nos vemos en la jornadas para continuar con los vínculos académicos que
         marcan el gran compromiso con la salud.
       </p>
-      <div className="flex justify-center  my-6 ">
+      <div className="flex justify-center  gap-4 md:flex-row flex-col items-center">
         <a href={pdf} download>
-          <button className="flex space-x-5 bg-chocolate rounded-3xl px-6 py-3 text-white font-semibold mx-2 hover:bg-lagoon-dark transition">
+          <button className="flex space-x-1 bg-chocolate rounded-3xl px-6 py-3 text-white font-semibold mx-2 hover:bg-lagoon-dark transition">
             <div className="">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,7 @@ function Works() {
           </button>
         </a>
         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jornadasmza2026.trabajos@gmail.com">
-          <button className=" flex space-x-5  bg-chocolate rounded-3xl  px-6 py-3 text-white font-semibold mx-2 hover:bg-lagoon-dark transition">
+          <button className=" flex space-x-1  bg-chocolate rounded-3xl px-6 py-3 text-white font-semibold mx-2 hover:bg-lagoon-dark transition">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +66,7 @@ function Works() {
                 />
               </svg>
             </div>
-            <h2>Enviar trabajo científico</h2>
+            <h2>Enviar trabajo </h2>
           </button>
         </a>
       </div>

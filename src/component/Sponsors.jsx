@@ -16,7 +16,7 @@ function Sponsors() {
         las siguientes <br/>
         empresas y entidades.
       </p>
-      <div className="grid grid-cols-2 grid-rows-2 gap-9  items-center justify-items-center  ">
+      <div className="grid grid-cols-1 grid-rows-2 gap-9  items-center justify-items-center ">
         <img
           alt="Patrocinadores"
           src={megamedica}
