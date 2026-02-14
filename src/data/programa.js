@@ -1,6 +1,7 @@
 export const programaJueves = {
   titulo: "Jueves 7/5/26 — Día 1",
-  columnas: ["Hora", "Sala A", "Sala B", "Sala C (Trabajos científicos)"],
+  fecha: "2026-05-07",
+  columnas: ["Sala A", "Sala B", "Sala C (Trabajos científicos)"],
   filas: [
     {
       hora: "08:00–08:30",
@@ -97,7 +98,8 @@ export const programaJueves = {
 
 export const programaViernes = {
   titulo: "Viernes 8/5/26 — Día 2",
-  columnas: ["Hora", "Sala A", "Sala B", "Sala C (Trabajos científicos)"],
+  fecha: "2026-05-08",
+  columnas: ["Sala A", "Sala B", "Sala C (Trabajos científicos)"],
   filas: [
     {
       hora: "08:00–08:30",

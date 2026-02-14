@@ -20,17 +20,17 @@ function Sponsors() {
         <img
           alt="Patrocinadores"
           src={megamedica}
-          className="mx-auto"
+          className="mx-auto w-70"
         />
         <img
           alt="Patrocinadores"
           src={coloplast}
-          className="mx-auto"
+          className="mx-auto w-70"
         />
         <img
           alt="Patrocinadores"
           src={abbott}
-          className="mx-auto "
+          className="mx-auto w-70 "
         />
       
       </div>

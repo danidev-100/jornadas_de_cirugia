@@ -7,11 +7,11 @@ function RegistrationCost() {
         </h2>
       </div>
 
-      <article className="bg-chocolate rounded-2xl max-w-3xl mx-auto p-1 space-y-1 ">
-        <h3 className="text-white text-3xl font-bold m-3">
-          Costos de abonados antes del 10 de febrero del 2026
+      <article className="bg-chocolate rounded-2xl max-w-3xl mx-auto p-2  ">
+        <h3 className="text-white text-3xl font-bold m-3 text-center p-5">
+          Costos 
         </h3>
-        <ul className=" m-3 text-white text-1xl text-center space-y-2">
+        <ul className=" m-3 text-white text-1xl  space-y-2 list-disc list-inside">
           <li>Socios (AAC-ACM): $100,000</li>
           <li>Estudiantes y Residentes: $50,000</li>
           <li>No Socios: 120.000 $</li>
