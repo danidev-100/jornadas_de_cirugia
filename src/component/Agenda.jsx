@@ -12,7 +12,7 @@ function getSlotVariant(text = "") {
   return "session";
 }
 
-function AgendaCard({ hora, contenido }) {
+function AgendaCard({ hora, contenido, compact = false }) {
   const variant = getSlotVariant(contenido);
 
   const variantClasses =
@@ -24,12 +24,22 @@ function AgendaCard({ hora, contenido }) {
           ? "bg-deep-blue text-white"
           : "bg-wave text-ink";
 
+  const paddingClasses = compact ? "px-2 py-2" : "px-3 py-2";
+  const timeTextClasses = compact ? "text-[10px]" : "text-xs";
+  const contentTextClasses = compact ? "text-[11px]" : "text-sm";
+
   return (
-    <div className={`rounded-xl px-3 py-2 ${variantClasses}`}>
-      <div className="text-xs font-semibold opacity-90 whitespace-nowrap">
+    <div className={`min-w-0 rounded-xl ${paddingClasses} ${variantClasses}`}>
+      <div
+        className={`${timeTextClasses} font-semibold opacity-90 whitespace-nowrap`}
+      >
         {hora}
       </div>
-      <div className="text-sm font-semibold leading-snug">{contenido}</div>
+      <div
+        className={`${contentTextClasses} font-semibold leading-snug break-words`}
+      >
+        {contenido}
+      </div>
     </div>
   );
 }
@@ -184,37 +194,33 @@ function AgendaTable({ titulo, fecha, columnas, filas, alwaysShowNowLine }) {
         <h3 className="text-2xl font-semibold text-ink">{titulo}</h3>
       </div>
 
-      {/* Mobile: apilado por bloque, sin scroll horizontal */}
-      <div className="md:hidden space-y-3">
-        {filas.map((fila) => (
-          <div
-            key={fila.hora}
-            className="rounded-2xl border border-wave bg-white p-3"
-          >
-            <div className="space-y-3">
-              <div>
-                <div className="px-1 pb-1 text-xs font-semibold text-deep-blue">
-                  {columnas[0]}
-                </div>
-                <AgendaCard hora={fila.hora} contenido={fila.salaA} />
-              </div>
+      {/* Mobile: 3 columnas (Sala A/B/C) en la misma fila */}
+      <div className="md:hidden space-y-2">
+        <div className="grid grid-cols-3 gap-2 px-1">
+          {columnas.slice(0, 3).map((col) => (
+            <div
+              key={col}
+              className="min-w-0 text-[10px] leading-tight font-semibold text-deep-blue break-words"
+            >
+              {col}
+            </div>
+          ))}
+        </div>
 
-              <div>
-                <div className="px-1 pb-1 text-xs font-semibold text-deep-blue">
-                  {columnas[1]}
-                </div>
-                <AgendaCard hora={fila.hora} contenido={fila.salaB} />
-              </div>
-
-              <div>
-                <div className="px-1 pb-1 text-xs font-semibold text-deep-blue">
-                  {columnas[2]}
-                </div>
-                <AgendaCard hora={fila.hora} contenido={fila.salaC} />
+        <div className="space-y-2">
+          {filas.map((fila) => (
+            <div
+              key={fila.hora}
+              className="rounded-2xl border border-wave bg-white p-2"
+            >
+              <div className="grid grid-cols-3 gap-2">
+                <AgendaCard hora={fila.hora} contenido={fila.salaA} compact />
+                <AgendaCard hora={fila.hora} contenido={fila.salaB} compact />
+                <AgendaCard hora={fila.hora} contenido={fila.salaC} compact />
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
 
       {/* Desktop/Tablet: tabla tipo PDF */}
