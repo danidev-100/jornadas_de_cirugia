@@ -12,7 +12,7 @@ function getSlotVariant(text = "") {
   return "session";
 }
 
-function AgendaCard({ hora, contenido, compact = false }) {
+function AgendaCard({ hora, contenido, compact = false, highlight = false }) {
   const variant = getSlotVariant(contenido);
 
   const variantClasses =
@@ -27,16 +27,19 @@ function AgendaCard({ hora, contenido, compact = false }) {
   const paddingClasses = compact ? "px-2 py-2" : "px-3 py-2";
   const timeTextClasses = compact ? "text-[10px]" : "text-xs";
   const contentTextClasses = compact ? "text-[11px]" : "text-sm";
+  const highlightClasses = highlight ? "animate-pulse" : "";
 
   return (
-    <div className={`min-w-0 rounded-xl ${paddingClasses} ${variantClasses}`}>
+    <div
+      className={`min-w-0 h-full rounded-xl ${paddingClasses} ${variantClasses} ${highlightClasses} flex flex-col gap-1`}
+    >
       <div
         className={`${timeTextClasses} font-semibold opacity-90 whitespace-nowrap`}
       >
         {hora}
       </div>
       <div
-        className={`${contentTextClasses} font-semibold leading-snug break-words`}
+        className={`${contentTextClasses} flex-1 font-semibold leading-snug break-words`}
       >
         {contenido}
       </div>
@@ -81,6 +84,7 @@ function getDemoTimeMinutes() {
 
 function AgendaTable({ titulo, fecha, columnas, filas, alwaysShowNowLine }) {
   const [nowLineTop, setNowLineTop] = useState(null);
+  const [activeRowIndex, setActiveRowIndex] = useState(null);
   const rowRefs = useRef([]);
   const desktopWrapperRef = useRef(null);
 
@@ -94,6 +98,7 @@ function AgendaTable({ titulo, fecha, columnas, filas, alwaysShowNowLine }) {
   useEffect(() => {
     if (!shouldShowNowLine) {
       setNowLineTop(null);
+      setActiveRowIndex(null);
       return;
     }
 
@@ -128,6 +133,8 @@ function AgendaTable({ titulo, fecha, columnas, filas, alwaysShowNowLine }) {
           break;
         }
       }
+
+      setActiveRowIndex(activeIndex !== -1 ? activeIndex : null);
 
       const wrapperRect = wrapper.getBoundingClientRect();
 
@@ -208,15 +215,30 @@ function AgendaTable({ titulo, fecha, columnas, filas, alwaysShowNowLine }) {
         </div>
 
         <div className="space-y-2">
-          {filas.map((fila) => (
+          {filas.map((fila, index) => (
             <div
               key={fila.hora}
               className="rounded-2xl border border-wave bg-white p-2"
             >
               <div className="grid grid-cols-3 gap-2">
-                <AgendaCard hora={fila.hora} contenido={fila.salaA} compact />
-                <AgendaCard hora={fila.hora} contenido={fila.salaB} compact />
-                <AgendaCard hora={fila.hora} contenido={fila.salaC} compact />
+                <AgendaCard
+                  hora={fila.hora}
+                  contenido={fila.salaA}
+                  compact
+                  highlight={activeRowIndex === index}
+                />
+                <AgendaCard
+                  hora={fila.hora}
+                  contenido={fila.salaB}
+                  compact
+                  highlight={activeRowIndex === index}
+                />
+                <AgendaCard
+                  hora={fila.hora}
+                  contenido={fila.salaC}
+                  compact
+                  highlight={activeRowIndex === index}
+                />
               </div>
             </div>
           ))}
@@ -258,13 +280,25 @@ function AgendaTable({ titulo, fecha, columnas, filas, alwaysShowNowLine }) {
                 className="odd:bg-white even:bg-cloud/40"
               >
                 <td className="border-b border-wave px-4 py-3">
-                  <AgendaCard hora={fila.hora} contenido={fila.salaA} />
+                  <AgendaCard
+                    hora={fila.hora}
+                    contenido={fila.salaA}
+                    highlight={activeRowIndex === index}
+                  />
                 </td>
                 <td className="border-b border-wave px-4 py-3">
-                  <AgendaCard hora={fila.hora} contenido={fila.salaB} />
+                  <AgendaCard
+                    hora={fila.hora}
+                    contenido={fila.salaB}
+                    highlight={activeRowIndex === index}
+                  />
                 </td>
                 <td className="border-b border-wave px-4 py-3">
-                  <AgendaCard hora={fila.hora} contenido={fila.salaC} />
+                  <AgendaCard
+                    hora={fila.hora}
+                    contenido={fila.salaC}
+                    highlight={activeRowIndex === index}
+                  />
                 </td>
               </tr>
             ))}
