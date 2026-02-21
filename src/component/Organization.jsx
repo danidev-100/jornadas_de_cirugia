@@ -12,14 +12,14 @@ function Organization() {
         </strong>
         <br />
       </p>
-      <p className="p-5 text-1xl ">
+      <div className="p-5 text-1xl ">
         <ul>
           <li className="font-bold ">ASOCIACIÓN DE CIRUGÍA DE MENDOZA </li>
           <li className="font-bold">COMISIÓN DIRECTIVA </li>
           <li className=""> <span className="font-bold">PRESIDENTE:</span> Dr. Humberto Tagarelli</li>
-          <li className=""><sapn className="font-bold">SECRETARIO GENERAL:</sapn> Dr. Rafael Cenci </li>
+          <li className=""><span className="font-bold">SECRETARIO GENERAL:</span> Dr. Rafael Cenci </li>
           <li className=""><span className="font-bold">TESORERO:</span> Dr. Antonio Bianchi</li>
-          <h3 className="font-bold">VOCALES:</h3>
+          <li className="font-bold list-none">VOCALES:</li>
           <li className="">Dr. Javier Rossi</li>
           <li className=""> Dr. Walter Minatti</li>
           <li className="">Dr. Guillermo Sanguinetti</li>
@@ -29,7 +29,7 @@ function Organization() {
         </ul>
 
       
-      </p>
+      </div>
     </div>
   );
 }
