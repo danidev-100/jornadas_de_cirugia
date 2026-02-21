@@ -82,7 +82,7 @@ function getDemoTimeMinutes() {
   return parseHHMMToMinutes(demoTime);
 }
 
-function AgendaTable({ titulo, fecha, columnas, filas, alwaysShowNowLine }) {
+function AgendaTable({ titulo, fecha, filas, alwaysShowNowLine }) {
   const [nowLineTop, setNowLineTop] = useState(null);
   const [activeRowIndex, setActiveRowIndex] = useState(null);
   const rowRefs = useRef([]);
@@ -204,14 +204,15 @@ function AgendaTable({ titulo, fecha, columnas, filas, alwaysShowNowLine }) {
       {/* Mobile: 3 columnas (Sala A/B/C) en la misma fila */}
       <div className="md:hidden space-y-2">
         <div className="grid grid-cols-3 gap-2 px-1">
-          {columnas.slice(0, 3).map((col) => (
-            <div
-              key={col}
-              className="min-w-0 text-[10px] leading-tight font-semibold text-deep-blue break-words"
-            >
-              {col}
-            </div>
-          ))}
+          <div className="min-w-0 text-[10px] leading-tight font-semibold text-deep-blue break-words">
+            Sala A
+          </div>
+          <div className="min-w-0 text-[10px] leading-tight font-semibold text-deep-blue break-words">
+            Sala B
+          </div>
+          <div className="min-w-0 text-[10px] leading-tight font-semibold text-deep-blue break-words">
+            Sala C (<span className="whitespace-nowrap">Trabajos científicos</span>)
+          </div>
         </div>
 
         <div className="space-y-2">
@@ -259,15 +260,24 @@ function AgendaTable({ titulo, fecha, columnas, filas, alwaysShowNowLine }) {
         <table className="min-w-[780px] w-full border-collapse">
           <thead className="bg-cloud">
             <tr>
-              {columnas.map((col) => (
-                <th
-                  key={col}
-                  scope="col"
-                  className="border-b border-wave px-4 py-3 text-left text-sm font-semibold text-deep-blue "
-                >
-                  {col}
-                </th>
-              ))}
+              <th
+                scope="col"
+                className="border-b border-wave px-4 py-3 text-left text-sm font-semibold text-deep-blue "
+              >
+                Sala A
+              </th>
+              <th
+                scope="col"
+                className="border-b border-wave px-4 py-3 text-left text-sm font-semibold text-deep-blue "
+              >
+                Sala B
+              </th>
+              <th
+                scope="col"
+                className="border-b border-wave px-4 py-3 text-left text-sm font-semibold text-deep-blue "
+              >
+                Sala C (<span className="whitespace-nowrap">Trabajos científicos</span>)
+              </th>
             </tr>
           </thead>
           <tbody>
