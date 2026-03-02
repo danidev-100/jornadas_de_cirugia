@@ -23,7 +23,7 @@ function Registration() {
             placeholder="Correo"
             className="rounded-full border border-gray-400 bg-white/90 px-5 py-3 placeholder:text-slate-500 focus:border-[#0F4C75] focus:outline-none focus:ring-2 focus:ring-[#0F4C75]"
           />
-       
+
           <textarea
             placeholder=" Mensaje"
             rows={4}

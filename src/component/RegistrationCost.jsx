@@ -1,29 +1,40 @@
+import PriceTier from "./PriceTier";
+
+const registrationPrices = [
+  { label: "Socios (AAC-ACM)", price: 100000 },
+  { label: "No Socios", price: 120000 },
+  { label: "Extranjeros", price: 120000 },
+  { label: "Residentes", price: 60000 },
+  { label: "Socios AAMRCG", price: 45000 },
+  { label: "Estudiantes Medicina", price: 30000 },
+  { label: "Instrumentadores/as", price: 70000 },
+  { label: "AADI", price: 50000 },
+  { label: "Estudiantes", price: 30000 },
+];
+
 function RegistrationCost() {
   return (
-    <div id="inscripciones" className=" my-1 p-1 m-1">
-      <div className="p-6">
-        <h2 className="text-center text-4xl text-deep-blue font-bold py-5">
-          Inscripciones
+    <section id="inscripciones" className="my-1 p-1 m-1 scroll-mt-36">
+      <div className="max-w-5xl mx-auto px-4 py-10 text-center">
+        <p className="inline-flex rounded-full bg-cloud text-lagoon font-bold text-sm px-4 py-1.5">
+          Inscripciones abiertas
+        </p>
+        <h2 className="text-deep-blue font-extrabold text-4xl md:text-6xl leading-tight mt-4">
+          Asegurá tu lugar en el evento médico más esperado del año
         </h2>
+        <p className="text-slate-600 text-xl md:text-2xl mt-5">
+          Seleccioná la categoría que mejor se adapte a tu perfil profesional. <br />
+          Precios expresados en Pesos Argentinos (ARS)
+        </p>
       </div>
 
-      <article className="bg-chocolate rounded-2xl max-w-3xl mx-auto p-2  ">
-        <h3 className="text-white text-3xl font-bold m-3 text-center p-5">
-          Costos 
-        </h3>
-        <ul className=" m-3 text-white text-1xl  space-y-2 list-disc list-inside">
-          <li>Socios (AAC-ACM): $100,000</li>
-          <li>Estudiantes y Residentes: $50,000</li>
-          <li>No Socios: 120.000 $</li>
-          <li>Acceso Virtual Premium: $70,000</li>
-          <li>Extranjeros $120.000 </li>
-          <li>Residentes: $60.000 </li>
-          <li>Estudiantes Medicina: $30.000 </li>
-          <li>Instrumentadores/as: $70.000 </li>
-          <li>Estudiantes $30.000</li>
-          <li>AADI $50.000 </li>
-         
-        </ul>
+      <article className="bg-chocolate rounded-2xl max-w-6xl mx-auto p-4">
+        <h3 className="text-white text-3xl font-bold m-3 text-center p-5">Costos</h3>
+        <div className="m-3 grid grid-cols-3 gap-4">
+          {registrationPrices.map(({ label, price }) => (
+            <PriceTier key={label} label={label} price={price} />
+          ))}
+        </div>
         <button className="justify-center flex w-full p-8">
           <div className="flex justify-center items-center space-x-3 bg-ink rounded-full px-4 py-2 hover:bg-lagoon-dark transition cursor-pointer">
             <svg
@@ -45,7 +56,7 @@ function RegistrationCost() {
           </div>
         </button>
       </article>
-    </div>
+    </section>
   );
 }
 
