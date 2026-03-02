@@ -11,7 +11,8 @@ function Audience() {
       <h4 className="font-bold text-2xl ">Debates Actuales e Innovación en Cirugía</h4>
       <p className="font-bold">
         Te damos la bienvenida a uno de los encuentros quirúrgicos más
-        relevantes del año en la región. Los días 7 y 8 de mayo de 2026, Mendoza
+        relevantes del año en la región. Los días{" "}
+        <span className="whitespace-nowrap">7 y 8</span> de mayo de 2026, Mendoza
         será sede de las 27 Jornadas de Cirugía Otoño 2026, que se realizarán en
         el Hotel Sheraton Mendoza, organizadas por la Asociación de Cirugía de
         Mendoza (ACM) y la Asociación Argentina de Cirugía (AAC).
