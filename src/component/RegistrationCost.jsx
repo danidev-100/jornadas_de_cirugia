@@ -16,21 +16,21 @@ function RegistrationCost() {
   return (
     <section id="inscripciones" className="my-1 p-1 m-1 scroll-mt-36">
       <div className="max-w-5xl mx-auto px-4 py-10 text-center">
-        <p className="inline-flex rounded-full bg-cloud text-lagoon font-bold text-sm px-4 py-1.5">
+        <p className="inline-flex rounded-full bg-cloud text-lagoon font-bold text-xs md:text-sm px-4 py-1.5">
           Inscripciones abiertas
         </p>
-        <h2 className="text-deep-blue font-extrabold text-4xl md:text-6xl leading-tight mt-4">
+        <h2 className="text-deep-blue font-bold text-3xl md:text-4xl leading-tight mt-4">
           Asegurá tu lugar en el evento médico más esperado del año
         </h2>
-        <p className="text-slate-600 text-xl md:text-2xl mt-5">
-          Seleccioná la categoría que mejor se adapte a tu perfil profesional. <br />
-          Precios expresados en Pesos Argentinos (ARS)
+        <p className="text-slate-600 text-lg md:text-xl mt-5">
+          Seleccioná la categoría que mejor se adapte a tu perfil profesional<br />
+          Precios expresados en Pesos <span className="whitespace-nowrap">Argentinos (ARS)</span>
         </p>
       </div>
 
       <article className="bg-chocolate rounded-2xl max-w-6xl mx-auto p-4">
         <h3 className="text-white text-3xl font-bold m-3 text-center p-5">Costos</h3>
-        <div className="m-3 grid grid-cols-3 gap-4">
+        <div className="m-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {registrationPrices.map(({ label, price }) => (
             <PriceTier key={label} label={label} price={price} />
           ))}
