@@ -6,7 +6,6 @@ const registrationPrices = [
   { label: "Extranjeros", price: 120000 },
   { label: "Residentes", price: 60000 },
   { label: "Socios AAMRCG", price: 45000 },
-  { label: "Estudiantes Medicina", price: 30000 },
   { label: "Instrumentadores/as", price: 70000 },
   { label: "AADI", price: 50000 },
   { label: "Estudiantes", price: 30000 },
