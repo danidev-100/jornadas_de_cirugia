@@ -15,7 +15,7 @@ function Works() {
         Jornadas de otoño de Cirugía 2026
       </p>
       <p className="text-ink text-xl">
-        La fecha límite para presentar los trabajos científicos es el 31 de marzo de 2026.
+        La fecha límite para presentar los trabajos científicos es el 1 de abril de 2026.
       </p>
       <p className="text-ink text-xl">
         Valoramos muchísimo el esfuerzo realizado, hemos recibido cantidad de
