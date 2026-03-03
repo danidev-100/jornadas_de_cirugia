@@ -66,7 +66,7 @@ function Works() {
                 />
               </svg>
             </div>
-            <h2>Enviar trabajos Científicos </h2>
+            <h2>Enviar trabajo científico</h2>
           </button>
         </a>
       </div>
