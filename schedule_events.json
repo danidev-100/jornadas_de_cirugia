@@ -1,0 +1,1492 @@
+[
+  {
+    "day": "JUEVES 7/5/26 - Día 1",
+    "date": "2026-05-07",
+    "rooms": [
+      {
+        "room": "SALA A",
+        "events": [
+          {
+            "start_time": "08:00",
+            "end_time": "08:30",
+            "activity": "Trauma",
+            "description": "Cirugía de Emergencias, Trauma y Cuidados Críticos en lugares Austeros (Dr. Erick Acosta Barros - Dra. M. Soledad Ferrante)",
+            "title": "Cirugía de Emergencias, Trauma y Cuidados Críticos en lugares Austeros",
+            "speakers": [
+              {
+                "speaker_name": "Dr. Erick Acosta Barros",
+                "institution": null
+              },
+              {
+                "speaker_name": "Dra. M. Soledad Ferrante",
+                "institution": null
+              }
+            ],
+            "lightning_talks": [],
+            "moderators": [
+              "Dr. Norberto Brusa"
+            ]
+          },
+          {
+            "start_time": "08:45",
+            "end_time": "09:15",
+            "activity": "Trauma",
+            "description": "Educación en Cirugía en Emergencias, Trauma y Cuidados Críticos (Dra. Carolina Brofman - Dr. Maximiliano Tittarelli)",
+            "title": "Educación en Cirugía en Emergencias, Trauma y Cuidados Críticos",
+            "speakers": [
+              {
+                "speaker_name": "Dra. Carolina Brofman",
+                "institution": null
+              },
+              {
+                "speaker_name": "Dr. Maximiliano Tittarelli",
+                "institution": null
+              }
+            ],
+            "lightning_talks": [],
+            "moderators": [
+              "Dr. Daniel Algieri"
+            ]
+          },
+          {
+            "start_time": "09:15",
+            "end_time": "09:45",
+            "activity": "Coffee Break",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "09:45",
+            "end_time": "10:15",
+            "activity": "HPB",
+            "description": "Conferencia magistral: \"Avances actuales en cirugía hepática mínimamente invasiva\".",
+            "title": "Conferencia magistral: Avances actuales en cirugía hepática mínimamente invasiva.",
+            "speakers": [],
+            "lightning_talks": [
+              {
+                "title": "Indicaciones actuales de la resección hepática laparoscópica y robótica",
+                "speaker_name": "Dr. Diego Fernandez",
+                "institution": null
+              },
+              {
+                "title": "Tips & tricks en cirugía hepática mínimamente invasiva",
+                "speaker_name": "Dr. Rodrigo Sanchez Claria",
+                "institution": null
+              },
+              {
+                "title": "Selección de pacientes y curva de aprendizaje",
+                "speaker_name": "Dr. Mariano Moro",
+                "institution": null
+              }
+            ],
+            "moderators": [
+              "Dr. Eduardo Cassone"
+            ]
+          },
+          {
+            "start_time": "10:15",
+            "end_time": "11:00",
+            "activity": "ACM",
+            "description": "Gremial",
+            "title": "Gremial",
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "11:15",
+            "end_time": "11:45",
+            "activity": "HPB",
+            "description": "Sesión interactiva de casos clínicos: \"Decisiones complejas en metástasis hepáticas de cáncer de colon\".",
+            "title": "Sesión interactiva de casos clínicos: Decisiones complejas en metástasis hepáticas de cáncer de colon.",
+            "speakers": [],
+            "lightning_talks": [
+              {
+                "title": "Caso Clínico",
+                "speaker_name": "Dr. Pablo Sanchez",
+                "institution": null
+              },
+              {
+                "title": "Caso Clínico",
+                "speaker_name": "Dra. Victoria Ardiles",
+                "institution": null
+              },
+              {
+                "title": "Caso Clínico",
+                "speaker_name": "Dra. Fernanda Bersano",
+                "institution": null
+              }
+            ],
+            "moderators": [
+              "Dr. Carlos Valenzuela"
+            ]
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:00",
+            "activity": "Almuerzo",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "13:00",
+            "end_time": "13:30",
+            "activity": "AAMRCG",
+            "description": "Cirugía robótica: lo que el residente necesita saber. Juan Pekolj, Gustavo Marcucci.",
+            "title": "Cirugía robótica: lo que el residente necesita saber.",
+            "speakers": [
+              {
+                "speaker_name": "Juan Pekolj",
+                "institution": null
+              },
+              {
+                "speaker_name": "Gustavo Marcucci",
+                "institution": null
+              }
+            ],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "13:45",
+            "end_time": "14:15",
+            "activity": "Cirugía Percutánea",
+            "description": "Conferencia: Utilidad de la Colecistostomía en la práctica quirúrgica habitual. Dr. Suarez Anzorena",
+            "title": "Conferencia: Utilidad de la Colecistostomía en la práctica quirúrgica habitual.",
+            "speakers": [
+              {
+                "speaker_name": "Dr. Suarez Anzorena",
+                "institution": null
+              }
+            ],
+            "lightning_talks": [],
+            "moderators": [
+              "Dr. Juan Pablo Córdoba",
+              "Dr. Eduardo Cassone",
+              "Dr. Javier Rossi"
+            ]
+          },
+          {
+            "start_time": "14:30",
+            "end_time": "15:00",
+            "activity": "Instrumentadores",
+            "description": "Dinámica funcional del quirófano robótico: coordinación entre cirujano en consola y equipo Jefa de instrumentación del área cirugía Digestiva HOSPITAL DE CLÍNICAS JOSÉ DE SAN MARTÍN Coordinadora del centro de simulación del hospital",
+            "title": "Dinámica funcional del quirófano robótico: coordinación entre cirujano en consola y equipo",
+            "speakers": [
+              {
+                "speaker_name": "Asociación Argentina de Instrumentadores Quirúrgicos",
+                "institution": null
+              }
+            ],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "15:00",
+            "end_time": "15:30",
+            "activity": "Coffee Break",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "15:30",
+            "end_time": "16:00",
+            "activity": "Coloproctología",
+            "description": "Cirugía colorrectal ¿cambió todo?",
+            "title": "Cirugía colorrectal ¿cambió todo?",
+            "speakers": [],
+            "lightning_talks": [
+              {
+                "title": "Estrategias para confección de anastomosis seguras",
+                "speaker_name": "Dr. Alejandro Moreira Grecco",
+                "institution": null
+              },
+              {
+                "title": "Utilidad del verde de indocianina en cirugía colorrectal segura",
+                "speaker_name": "Dr. Juan Patrón Uriburu",
+                "institution": null
+              },
+              {
+                "title": "Endometriosis intestinal, nuevas técnicas",
+                "speaker_name": "Dr. Joaquin Tognelli",
+                "institution": null
+              }
+            ],
+            "moderators": [
+              "Dr. Agustin Correa"
+            ]
+          },
+          {
+            "start_time": "16:15",
+            "end_time": "16:45",
+            "activity": "Cirujanos Jóvenes",
+            "description": "Lesión de vía aérea iatrogénica en cirugía programada: Lecciones aprendidas para un diagnóstico oportuno. \" Dr. Quintana Alan \" Hospital Cuenca",
+            "title": "Lesión de vía aérea iatrogénica en cirugía programada: Lecciones aprendidas para un diagnóstico oportuno. Hospital Cuenca",
+            "speakers": [
+              {
+                "speaker_name": "Dr. Quintana Alan",
+                "institution": "Hospital Cuenca"
+              }
+            ],
+            "lightning_talks": [
+              {
+                "title": "Todo podía malir sal",
+                "speaker_name": "Dra. Pardal Pilar",
+                "institution": "Hospital Dr"
+              },
+              {
+                "title": "Todo podía malir sal",
+                "speaker_name": "Dr. Alejandro Korn",
+                "institution": "Hospital Dr"
+              },
+              {
+                "title": "Colecistitis y tumor de suprarrenal",
+                "speaker_name": "Dr. José Varela y Dra. María",
+                "institution": "Hospital General de Agudos Dr. Cosme Argerich"
+              },
+              {
+                "title": "Colecistitis y tumor de suprarrenal",
+                "speaker_name": "Dr. Cosme Argerich",
+                "institution": "Hospital General de Agudos Dr. Cosme Argerich"
+              },
+              {
+                "title": "Desafíos en el diagnóstico de la patología biliar, a propósito de un caso",
+                "speaker_name": "Dra. Balent Aguirre Emilie",
+                "institution": "Hospital El Cruce"
+              },
+              {
+                "title": "Por las ramas no, por los dientes",
+                "speaker_name": "Dra",
+                "institution": "Hospital de Ezeiza"
+              }
+            ],
+            "moderators": [
+              "Dra. Anabella Sanchez"
+            ]
+          },
+          {
+            "start_time": "17:00",
+            "end_time": "17:30",
+            "activity": "Pared Abdominal",
+            "description": "Hernias incisional complejas: del diagnóstico a la estrategia quirúrgica. \"Pensar antes de operar\". Dr. Federico Gorganchian",
+            "title": "Hernias incisional complejas: del diagnóstico a la estrategia quirúrgica. Pensar antes de operar.",
+            "speakers": [
+              {
+                "speaker_name": "Dr. Federico Gorganchian",
+                "institution": null
+              }
+            ],
+            "lightning_talks": [],
+            "moderators": [
+              "Dr. Walther Minatti"
+            ]
+          },
+          {
+            "start_time": "17:45",
+            "end_time": "18:45",
+            "activity": "ACTO INAUGURAL",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          }
+        ]
+      },
+      {
+        "room": "SALA B",
+        "events": [
+          {
+            "start_time": "08:00",
+            "end_time": "08:30",
+            "activity": "Coloproctología",
+            "description": "Casos Desafiantes en coloproctología: presentados por la comisión de coloproctología: mesa panel de expertos locales",
+            "title": "Casos Desafiantes en coloproctología: presentados por la comisión de coloproctología: mesa panel de expertos locales",
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": [
+              "Dr. Moreira Greco",
+              "Dr. Rossi",
+              "Dr. Patron",
+              "Dr. Fernandez"
+            ]
+          },
+          {
+            "start_time": "08:45",
+            "end_time": "09:15",
+            "activity": "Oncología",
+            "description": "Conferencia: Actualización de las estrategias terapéuticas para el manejo de los Tumores Retroperitoneales. Dr. Gonzalo Cervelo",
+            "title": "Conferencia: Actualización de las estrategias terapéuticas para el manejo de los Tumores Retroperitoneales.",
+            "speakers": [
+              {
+                "speaker_name": "Dr. Gonzalo Cervelo",
+                "institution": null
+              }
+            ],
+            "lightning_talks": [
+              {
+                "title": "Debate: Metástasis hepáticas CCR 3 cm y menores. Hay consenso en su manejo?",
+                "speaker_name": "Dr. Emilio Quiñones",
+                "institution": null
+              },
+              {
+                "title": "Caso 1: No hay duda: opero siempre",
+                "speaker_name": "Dr. Pablo Sanchez",
+                "institution": null
+              },
+              {
+                "title": "Caso 2: Siempre ablación percutánea con energía",
+                "speaker_name": "Dr. Hernan Bertoni",
+                "institution": null
+              }
+            ],
+            "moderators": [
+              "Dr. Walter Nardi",
+              "Dr. Taype Xavier"
+            ]
+          },
+          {
+            "start_time": "09:15",
+            "end_time": "09:45",
+            "activity": "Coffee Break",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "09:45",
+            "end_time": "10:15",
+            "activity": "Coloproctología",
+            "description": "Nuevas estrategias en el Tratamiento del cáncer de Recto",
+            "title": "Nuevas estrategias en el Tratamiento del cáncer de Recto",
+            "speakers": [],
+            "lightning_talks": [
+              {
+                "title": "Esquemas de neoadyuvancia actuales",
+                "speaker_name": "Dr. Jorge Ibarra",
+                "institution": "Centro Oncológico Regional COIR"
+              },
+              {
+                "title": "Es segura actualmente la estrategia de w&w?",
+                "speaker_name": "Dra. Laura Fernández",
+                "institution": "Fundación Champalimaud"
+              },
+              {
+                "title": "Cuándo conviene operar a mi paciente después de TNT?",
+                "speaker_name": "Dr. Moreira Grecco",
+                "institution": "Hospital de Clínicas de Bs As"
+              }
+            ],
+            "moderators": [
+              "Dr. Guillermo Sanguinetti"
+            ]
+          },
+          {
+            "start_time": "10:15",
+            "end_time": "11:00",
+            "activity": "Equidad-Igualdad",
+            "description": "Innovación Quirúrgica con Perspectiva de Equidad: Acceso, Oportunidades y Diversidad en el Ámbito Institucional. Una vuelta más de reflexión bajo la lupa del pensamiento crítico. Dra. Gisela Aquije Matta",
+            "title": "Innovación Quirúrgica con Perspectiva de Equidad: Acceso, Oportunidades y Diversidad en el Ámbito Institucional. Una vuelta más de reflexión bajo la lupa del pensamiento crítico.",
+            "speakers": [
+              {
+                "speaker_name": "Dra. Gisela Aquije Matta",
+                "institution": null
+              }
+            ],
+            "lightning_talks": [
+              {
+                "title": "Formación en residencias quirúrgicas y posgrado con la visión de la comisión de equidad, igualdad y diversidad",
+                "speaker_name": "Dra. Loreley Toresan",
+                "institution": null
+              }
+            ],
+            "moderators": []
+          },
+          {
+            "start_time": "11:15",
+            "end_time": "11:45",
+            "activity": "Pared Abdominal",
+            "description": "Simposio Separación de componentes: indicaciones reales y elección técnica",
+            "title": "Simposio Separación de componentes: indicaciones reales y elección técnica",
+            "speakers": [],
+            "lightning_talks": [
+              {
+                "title": "Anterior vs posterior",
+                "speaker_name": "Dr. Facundo Nogueira",
+                "institution": null
+              },
+              {
+                "title": "Abordaje abierto, laparoscópico y robótico",
+                "speaker_name": "Dr. Pablo Congolani",
+                "institution": null
+              },
+              {
+                "title": "Resultados y complicaciones",
+                "speaker_name": "Dr. Juan Vaccaro",
+                "institution": null
+              }
+            ],
+            "moderators": [
+              "Dr. Enrique Ruiz"
+            ]
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:00",
+            "activity": "Almuerzo",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "13:00",
+            "end_time": "13:30",
+            "activity": "Esófago Gastro",
+            "description": "Simposio de discusión de casos oncológicos.",
+            "title": "Simposio de discusión de casos oncológicos.",
+            "speakers": [],
+            "lightning_talks": [
+              {
+                "title": "Caso 1",
+                "speaker_name": "Dr. Franco Signorini",
+                "institution": null
+              },
+              {
+                "title": "Caso 2",
+                "speaker_name": "Dra. Adelina Coturel",
+                "institution": null
+              }
+            ],
+            "moderators": [
+              "Dr. Lucio Obeide"
+            ]
+          },
+          {
+            "start_time": "13:45",
+            "end_time": "14:15",
+            "activity": "AAMRCG",
+            "description": "Fluorescencia en la residencia de cirugía. Alejandro Moreira Grecco, Diego Sinagra",
+            "title": "Fluorescencia en la residencia de cirugía.",
+            "speakers": [
+              {
+                "speaker_name": "Alejandro Moreira Grecco",
+                "institution": null
+              },
+              {
+                "speaker_name": "Diego Sinagra",
+                "institution": null
+              }
+            ],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "14:30",
+            "end_time": "15:00",
+            "activity": "Tórax",
+            "description": "TORAX",
+            "title": "TORAX",
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "15:00",
+            "end_time": "15:30",
+            "activity": "Coffee Break",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "15:30",
+            "end_time": "16:00",
+            "activity": "Pared Abdominal",
+            "description": "Conferencia: Cirugía robótica en la pared abdominal: ¿moda o verdadera evolución? Dr. Heitor Santos",
+            "title": "Conferencia: Cirugía robótica en la pared abdominal: ¿moda o verdadera evolución?",
+            "speakers": [
+              {
+                "speaker_name": "Dr. Heitor Santos",
+                "institution": null
+              }
+            ],
+            "lightning_talks": [],
+            "moderators": [
+              "Dr. Gustavo Bardaro"
+            ]
+          },
+          {
+            "start_time": "16:15",
+            "end_time": "16:45",
+            "activity": "HPB",
+            "description": "Simposio temático: Manejo quirúrgico del cáncer de vesícula biliar y vías biliares",
+            "title": "Simposio temático: Manejo quirúrgico del cáncer de vesícula biliar y vías biliares",
+            "speakers": [],
+            "lightning_talks": [
+              {
+                "title": "Extensión de resección hepática",
+                "speaker_name": "Dr. Christian Bertona",
+                "institution": null
+              },
+              {
+                "title": "Rol de la linfadenectomía",
+                "speaker_name": "Dr. Emilio Quiñones",
+                "institution": null
+              },
+              {
+                "title": "Integración con terapias neoadyuvantes y adyuvantes",
+                "speaker_name": "Dr. Jeremías Goransky",
+                "institution": null
+              }
+            ],
+            "moderators": [
+              "Dr. Martín Duhalde"
+            ]
+          },
+          {
+            "start_time": "17:00",
+            "end_time": "17:30",
+            "activity": "Gremiales Capítulos",
+            "description": "ENCUENTRO FEDERAL DE CAPÍTULOS DE LA AAC",
+            "title": "ENCUENTRO FEDERAL DE CAPÍTULOS DE LA AAC",
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": [
+              "Dr. Cingolani"
+            ]
+          },
+          {
+            "start_time": "17:45",
+            "end_time": "18:45",
+            "activity": "ACTO INAUGURAL",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          }
+        ]
+      },
+      {
+        "room": "SALA C",
+        "events": [
+          {
+            "start_time": "08:00",
+            "end_time": "08:30",
+            "activity": "PSQ",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "08:45",
+            "end_time": "09:15",
+            "activity": "PSQ",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "09:15",
+            "end_time": "09:45",
+            "activity": "Coffee Break",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "09:45",
+            "end_time": "10:15",
+            "activity": "PSQ",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "10:15",
+            "end_time": "11:00",
+            "activity": "PSQ",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "11:15",
+            "end_time": "11:45",
+            "activity": "PSQ",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:00",
+            "activity": "Almuerzo",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "13:00",
+            "end_time": "13:30",
+            "activity": "PSQ",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "13:45",
+            "end_time": "14:15",
+            "activity": "PSQ",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "14:30",
+            "end_time": "15:00",
+            "activity": "PSQ",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "15:00",
+            "end_time": "15:30",
+            "activity": "Coffee Break",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "15:30",
+            "end_time": "16:00",
+            "activity": "PSQ",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "16:15",
+            "end_time": "16:45",
+            "activity": "PSQ",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "17:00",
+            "end_time": "17:30",
+            "activity": "PSQ",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "17:45",
+            "end_time": "18:45",
+            "activity": "ACTO INAUGURAL",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": "VIERNES 8/5/26 - Día 2",
+    "date": "2026-05-08",
+    "rooms": [
+      {
+        "room": "SALA A",
+        "events": [
+          {
+            "start_time": "08:00",
+            "end_time": "08:30",
+            "activity": "Bariátrica",
+            "description": "Qué debe saber el cirujano general de guardia de cirugía bariátrica? Dr. Luciano Deluca",
+            "title": "Qué debe saber el cirujano general de guardia de cirugía bariátrica?",
+            "speakers": [
+              {
+                "speaker_name": "Dr. Luciano Deluca",
+                "institution": null
+              }
+            ],
+            "lightning_talks": [
+              {
+                "title": "Manejo de la litiasis biliar en el paciente con by-pass gástrico",
+                "speaker_name": "Dr. Jorge Nefa",
+                "institution": null
+              }
+            ],
+            "moderators": [
+              "Dr. Omelanczuk",
+              "Dr. Signorini"
+            ]
+          },
+          {
+            "start_time": "08:45",
+            "end_time": "09:15",
+            "activity": "Bariátrica",
+            "description": "Eventración en el paciente obeso cuándo se opera. Antes durante o después de la cirugía bariátrica. Dr. Juan Pablo Gempel",
+            "title": "Eventración en el paciente obeso cuándo se opera. Antes durante o después de la cirugía bariátrica.",
+            "speakers": [
+              {
+                "speaker_name": "Dr. Juan Pablo Gempel",
+                "institution": null
+              }
+            ],
+            "lightning_talks": [
+              {
+                "title": "Abdomen agudo oclusivo postcirugía bariátrica",
+                "speaker_name": "Dr. Mario Corengia",
+                "institution": null
+              },
+              {
+                "title": "Discusión",
+                "speaker_name": null,
+                "institution": null
+              }
+            ],
+            "moderators": [
+              "Dr. Luciano Deluca",
+              "Dr. Alejandro Birman"
+            ]
+          },
+          {
+            "start_time": "09:15",
+            "end_time": "09:45",
+            "activity": "Coffee Break",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "09:45",
+            "end_time": "10:15",
+            "activity": "Coloproctología",
+            "description": "Tratamiento actual de la Diverticulitis – HI al HIV",
+            "title": "Tratamiento actual de la Diverticulitis – HI al HIV",
+            "speakers": [],
+            "lightning_talks": [
+              {
+                "title": "HI, Tratamiento médico ambulatorio? , uso racional de Atb",
+                "speaker_name": "Dra. Bruzzi Susana",
+                "institution": null
+              },
+              {
+                "title": "HII, III y IV. Algoritmo de tratamiento. Cuándo técnicas mínimamente invasivas. Cuándo realizar anastomosis? , Uso del lavado y drenaje laparoscópico, Abdomen abierto y contenido ¿todavía?",
+                "speaker_name": "Dr. Diego Bertani",
+                "institution": null
+              },
+              {
+                "title": "Cirugía Electiva Post Evento Agudo. Selección de Paciente. Actualización",
+                "speaker_name": "Dr. Minatti Walther",
+                "institution": null
+              }
+            ],
+            "moderators": [
+              "Dr. Rubén Balmaceda"
+            ]
+          },
+          {
+            "start_time": "10:15",
+            "end_time": "11:00",
+            "activity": "Cx Robótica",
+            "description": "Simposio Expositor extranjero Dr. Cugat (España)",
+            "title": "Simposio Expositor extranjero",
+            "speakers": [
+              {
+                "speaker_name": "Dr. Cugat (España)",
+                "institution": null
+              }
+            ],
+            "lightning_talks": [],
+            "moderators": [
+              "Dr. Ruiz Samuel"
+            ]
+          },
+          {
+            "start_time": "11:15",
+            "end_time": "11:45",
+            "activity": "Esófago Gastro",
+            "description": "Cirugía antirreflujo ¿Cómo lo hago yo?",
+            "title": "Cirugía antirreflujo ¿Cómo lo hago yo?",
+            "speakers": [],
+            "lightning_talks": [
+              {
+                "title": "Funduplicatura de Nissen Laparoscópica.",
+                "speaker_name": "Dra. Adelina Coturel",
+                "institution": null
+              },
+              {
+                "title": "Funduplicatura de Toupet Robótica.",
+                "speaker_name": "Dr. Mauricio Ramírez",
+                "institution": null
+              }
+            ],
+            "moderators": [
+              "Dr. Cuenca Abente"
+            ]
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:00",
+            "activity": "Almuerzo",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "13:00",
+            "end_time": "13:30",
+            "activity": "Endoscopía",
+            "description": "Endoscopía terapéutica avanzada: redefiniendo la cirugía esofagogástrica Dr. Mauricio Ramírez",
+            "title": "Endoscopía terapéutica avanzada: redefiniendo la cirugía esofagogástrica",
+            "speakers": [
+              {
+                "speaker_name": "Dr. Mauricio Ramírez",
+                "institution": null
+              }
+            ],
+            "lightning_talks": [],
+            "moderators": [
+              "Dr. Adrian Cena"
+            ]
+          },
+          {
+            "start_time": "13:45",
+            "end_time": "14:15",
+            "activity": "HPB",
+            "description": "Debate experto: Estrategias quirúrgicas en cáncer de páncreas cefálico: ¿abordaje clásico vs. técnicas extendidas?",
+            "title": "Debate experto: Estrategias quirúrgicas en cáncer de páncreas cefálico: ¿abordaje clásico vs. técnicas extendidas?",
+            "speakers": [],
+            "lightning_talks": [
+              {
+                "title": "Criterios de resecabilidad y borderline resectable",
+                "speaker_name": "Dr. Gustavo Kohan",
+                "institution": null
+              },
+              {
+                "title": "Rol de la resección vascular",
+                "speaker_name": "Dr. Lucio Uranga",
+                "institution": null
+              },
+              {
+                "title": "Resultados oncológicos y selección de pacientes",
+                "speaker_name": "Dr. Martín De santibañes",
+                "institution": null
+              }
+            ],
+            "moderators": [
+              "Dr. Mazza"
+            ]
+          },
+          {
+            "start_time": "14:30",
+            "end_time": "15:00",
+            "activity": "Simposio Club Pancreas",
+            "description": "El arte de decidir en cirugía pancreática",
+            "title": "El arte de decidir en cirugía pancreática",
+            "speakers": [],
+            "lightning_talks": [
+              {
+                "title": "Caso clínico 1",
+                "speaker_name": "Dr. Pablo Capitanich",
+                "institution": "Hospital Alemán"
+              },
+              {
+                "title": "Caso clínico 2",
+                "speaker_name": "Dr. Gustavo Kohan",
+                "institution": "Hospital Rivadavia"
+              }
+            ],
+            "moderators": [
+              "Dr. Javier Crisci"
+            ]
+          },
+          {
+            "start_time": "15:00",
+            "end_time": "15:30",
+            "activity": "Coffee Break",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "15:30",
+            "end_time": "16:00",
+            "activity": "Coloproctología",
+            "description": "Manejo actual de los trastornos del piso pelviano",
+            "title": "Manejo actual de los trastornos del piso pelviano",
+            "speakers": [],
+            "lightning_talks": [
+              {
+                "title": "Neuromodulación sacra",
+                "speaker_name": "Dr. Rubén Miravalle",
+                "institution": null
+              },
+              {
+                "title": "Manejo médico y quirúrgico de SOTS",
+                "speaker_name": "Dra. Flavia Alexandre",
+                "institution": null
+              }
+            ],
+            "moderators": [
+              "Dr. Arnoldo Castro"
+            ]
+          },
+          {
+            "start_time": "16:15",
+            "end_time": "16:45",
+            "activity": "Oncología",
+            "description": "Neoplasias del peritoneo, poniendo blanco sobre negro. Cuando citoreducción, Pipac, Hipec. (Conf y casos)",
+            "title": "Neoplasias del peritoneo, poniendo blanco sobre negro. Cuando citoreducción, Pipac, Hipec. (Conf y casos)",
+            "speakers": [
+              {
+                "speaker_name": "Dr. Pablo Carmignani",
+                "institution": null
+              }
+            ],
+            "lightning_talks": [
+              {
+                "title": "Casos",
+                "speaker_name": "Dr. Raffa Ignacio",
+                "institution": null
+              },
+              {
+                "title": "Casos",
+                "speaker_name": "Dr. Fernando Iglesias",
+                "institution": null
+              },
+              {
+                "title": "Programas de recuperación avanzada (eras) en cirugía oncológica. Cómo alcanzar objetivos cumplibles en nuestro medio.",
+                "speaker_name": "Dr. Badra Roberto",
+                "institution": null
+              },
+              {
+                "title": "Disertante EGD",
+                "speaker_name": "Dr. Mauricio Ramirez",
+                "institution": null
+              },
+              {
+                "title": "Disertante EGD",
+                "speaker_name": "Dr. Alejandro Pairola",
+                "institution": null
+              },
+              {
+                "title": "Disertante EGD",
+                "speaker_name": "Dr. Bufaliza",
+                "institution": null
+              }
+            ],
+            "moderators": [
+              "Dr. Cingolani"
+            ]
+          },
+          {
+            "start_time": "17:00",
+            "end_time": "17:30",
+            "activity": "Pared Abdominal",
+            "description": "Prótesis en cirugía de pared – Tipo de Malla Intraperitoneal: Evidencia o Dogma. Está todo dicho? Debate Dirigido",
+            "title": "Prótesis en cirugía de pared – Tipo de Malla Intraperitoneal: Evidencia o Dogma. Está todo dicho? Debate Dirigido",
+            "speakers": [],
+            "lightning_talks": [
+              {
+                "title": "Malla de Polipropileno sin cobertura antiadherente",
+                "speaker_name": "Dr. Walther Minatti",
+                "institution": null
+              },
+              {
+                "title": "Mallas con cobertura antiadherente",
+                "speaker_name": "Dr. Heitor Santos",
+                "institution": null
+              }
+            ],
+            "moderators": [
+              "Dr. Fabian Lerda"
+            ]
+          },
+          {
+            "start_time": "17:45",
+            "end_time": "18:15",
+            "activity": "Instrumentadores",
+            "description": "Fluorescencia en qx. Usos en cirugía Digestiva LIC ELEONORA TIMPONIL /LIC. DANIELA POZZO",
+            "title": "Fluorescencia en qx. Usos en cirugía Digestiva",
+            "speakers": [
+              {
+                "speaker_name": "Lic. ELEONORA TIMPONIL",
+                "institution": null
+              },
+              {
+                "speaker_name": "Lic. DANIELA POZZO",
+                "institution": null
+              }
+            ],
+            "lightning_talks": [],
+            "moderators": []
+          }
+        ]
+      },
+      {
+        "room": "SALA B",
+        "events": [
+          {
+            "start_time": "08:00",
+            "end_time": "08:30",
+            "activity": "Oncología",
+            "description": "Update en Ca de vesícula. Mesa de MDT (cirujano, oncólogo, rt, imágenes)",
+            "title": "Update en Ca de vesícula. Mesa de MDT (cirujano, oncólogo, rt, imágenes). Watch and wait en adenocarcinoma UGE y Gástrico. Estamos en condiciones de ofrecerla? (Conf y casos)",
+            "speakers": [
+              {
+                "speaker_name": "Dra. Adelina Coturel",
+                "institution": null
+              },
+              {
+                "speaker_name": "Dr. Jorge Ibarra",
+                "institution": null
+              }
+            ],
+            "lightning_talks": [
+              {
+                "title": "Casos",
+                "speaker_name": "Dr. Franco Signorini",
+                "institution": null
+              },
+              {
+                "title": "Casos",
+                "speaker_name": "Dr. Mauricio Ramirez",
+                "institution": null
+              }
+            ],
+            "moderators": [
+              "Dr. Cassone",
+              "Dr. Taype Xavier"
+            ]
+          },
+          {
+            "start_time": "08:45",
+            "end_time": "09:15",
+            "activity": "Comité Colegio-Residencia",
+            "description": "¿Cómo mejorar la calidad de las residencias y servicios de cirugía mediante evaluaciones continuas?",
+            "title": "¿Cómo mejorar la calidad de las residencias y servicios de cirugía mediante evaluaciones continuas?",
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": [
+              "Dr. Pirchi"
+            ]
+          },
+          {
+            "start_time": "09:15",
+            "end_time": "09:45",
+            "activity": "Coffee Break",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "09:45",
+            "end_time": "10:15",
+            "activity": "Tórax",
+            "description": "TORAX",
+            "title": "TORAX",
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "10:15",
+            "end_time": "11:00",
+            "activity": "AAMRCG Olimpiadas",
+            "description": "El residente en 2026. Oscar Mazza, José Cooke, Gustavo Matus, Ezequiel Palmisano",
+            "title": "El residente en 2026.",
+            "speakers": [
+              {
+                "speaker_name": "Oscar Mazza",
+                "institution": null
+              },
+              {
+                "speaker_name": "José Cooke",
+                "institution": null
+              },
+              {
+                "speaker_name": "Gustavo Matus",
+                "institution": null
+              },
+              {
+                "speaker_name": "Ezequiel Palmisano",
+                "institution": null
+              }
+            ],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "11:15",
+            "end_time": "11:45",
+            "activity": "Pared Abdominal",
+            "description": "Simposio Optimización y prehabilitación del paciente herniado. Optimización y prehabilitación del paciente herniado. \"El éxito empieza antes del quirófano\".",
+            "title": "Simposio Optimización y prehabilitación del paciente herniado. Optimización y prehabilitación del paciente herniado. El éxito empieza antes del quirófano.",
+            "speakers": [],
+            "lightning_talks": [
+              {
+                "title": "Control de comorbilidades",
+                "speaker_name": "Dr. Heitor Santos",
+                "institution": null
+              },
+              {
+                "title": "Neumoperitoneo progresivo y toxina botulínica",
+                "speaker_name": "Dr. Gustavo Bardaro",
+                "institution": null
+              },
+              {
+                "title": "Timing quirúrgico",
+                "speaker_name": "Dr. Pablo Medina",
+                "institution": null
+              }
+            ],
+            "moderators": [
+              "Dr. Dario Guareschi"
+            ]
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:00",
+            "activity": "Almuerzo",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "13:00",
+            "end_time": "13:30",
+            "activity": "CX ROBOTICA",
+            "description": "SIMPOSIO Cx Robótica - Dr. Samuel Ruiz",
+            "title": "SIMPOSIO Cx Robótica",
+            "speakers": [
+              {
+                "speaker_name": "Dr. Samuel Ruiz",
+                "institution": null
+              }
+            ],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "13:45",
+            "end_time": "14:15",
+            "activity": "Tórax",
+            "description": "TORAX",
+            "title": "TORAX",
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "14:30",
+            "end_time": "15:00",
+            "activity": "Coloproctología",
+            "description": "Urgencias en coloproctología. ¿Qué hacer en la guardia? Casos clínicos motivadores a la participación de los asistentes y cerrando cada tema con 6 claves concluyentes en el tratamiento de cada caso",
+            "title": "Urgencias en coloproctología. ¿Qué hacer en la guardia? Casos clínicos motivadores a la participación de los asistentes y cerrando cada tema con 6 claves concluyentes en el tratamiento de cada caso",
+            "speakers": [],
+            "lightning_talks": [
+              {
+                "title": "Manejo de abscesos complejos",
+                "speaker_name": "Dr. Claudio Fermani",
+                "institution": null
+              },
+              {
+                "title": "Manejo del plastrón apendicular",
+                "speaker_name": "Dr. Pablo Pellegrini",
+                "institution": null
+              },
+              {
+                "title": "Trauma obstétrico",
+                "speaker_name": "Dra. Flavia Alexandre",
+                "institution": null
+              }
+            ],
+            "moderators": [
+              "Dr. Pablo Blanco"
+            ]
+          },
+          {
+            "start_time": "15:00",
+            "end_time": "15:30",
+            "activity": "Coffee Break",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "15:30",
+            "end_time": "16:00",
+            "activity": "Tórax",
+            "description": "TORAX",
+            "title": "TORAX",
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "16:15",
+            "end_time": "16:45",
+            "activity": "Esófago Gastro",
+            "description": "Charla magistral: Linfadenectomías en gastrectomías y esofaguectomías. Dr. Franco Signorini",
+            "title": "Charla magistral: Linfadenectomías en gastrectomías y esofaguectomías.",
+            "speakers": [
+              {
+                "speaker_name": "Dr. Franco Signorini",
+                "institution": null
+              }
+            ],
+            "lightning_talks": [],
+            "moderators": [
+              "Dr. Axel Beskow"
+            ]
+          },
+          {
+            "start_time": "17:00",
+            "end_time": "17:30",
+            "activity": "Endoscopía",
+            "description": "Radiofrecuencia en vía biliar Dr. Hernán Cordero",
+            "title": "Radiofrecuencia en vía biliar",
+            "speakers": [
+              {
+                "speaker_name": "Dr. Hernán Cordero",
+                "institution": null
+              }
+            ],
+            "lightning_talks": [],
+            "moderators": [
+              "Dr. Omar Veloso"
+            ]
+          },
+          {
+            "start_time": "17:45",
+            "end_time": "18:15",
+            "activity": "AAMRCG",
+            "description": "Inteligencia Artificial en la formación quirúrgica.",
+            "title": "Inteligencia Artificial en la formación quirúrgica.",
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          }
+        ]
+      },
+      {
+        "room": "SALA C",
+        "events": [
+          {
+            "start_time": "08:00",
+            "end_time": "08:30",
+            "activity": "TRABAJOS CIENTÍFICOS",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "08:45",
+            "end_time": "09:15",
+            "activity": "TRABAJOS CIENTÍFICOS",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "09:15",
+            "end_time": "09:45",
+            "activity": "Coffee Break",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "09:45",
+            "end_time": "10:15",
+            "activity": "TRABAJOS CIENTÍFICOS",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "10:15",
+            "end_time": "11:00",
+            "activity": "TRABAJOS CIENTÍFICOS",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "11:15",
+            "end_time": "11:45",
+            "activity": "TRABAJOS CIENTÍFICOS",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:00",
+            "activity": "Almuerzo",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "13:00",
+            "end_time": "13:30",
+            "activity": "TRABAJOS CIENTÍFICOS",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "13:45",
+            "end_time": "14:15",
+            "activity": "TRABAJOS CIENTÍFICOS",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "14:30",
+            "end_time": "15:00",
+            "activity": "TRABAJOS CIENTÍFICOS",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "15:00",
+            "end_time": "15:30",
+            "activity": "Coffee Break",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "15:30",
+            "end_time": "16:00",
+            "activity": "TRABAJOS CIENTÍFICOS",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "16:15",
+            "end_time": "16:45",
+            "activity": "TRABAJOS CIENTÍFICOS",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "17:00",
+            "end_time": "17:30",
+            "activity": "TRABAJOS CIENTÍFICOS",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          },
+          {
+            "start_time": "17:45",
+            "end_time": "18:15",
+            "activity": "TRABAJOS CIENTÍFICOS",
+            "description": null,
+            "title": null,
+            "speakers": [],
+            "lightning_talks": [],
+            "moderators": []
+          }
+        ]
+      }
+    ]
+  }
+]

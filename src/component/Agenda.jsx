@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { programaJueves, programaViernes } from "../data/programa";
 import pdf from "../assets/PROGRAMA-ACM.pdf";
+import DynamicSchedule from "./dynamicSchedule/DynamicSchedule";
 
 function getSlotVariant(text = "") {
   const normalized = String(text).toLowerCase();
@@ -359,6 +360,8 @@ function Agenda() {
             </p>
           </div>
         </div>
+
+        <DynamicSchedule />
 
         <div className="space-y-8">
           <AgendaTable {...programaJueves} alwaysShowNowLine />
