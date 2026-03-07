@@ -14,7 +14,7 @@ const SOCIAL_LINKS = {
 
 function Footer() {
   return (
-    <section className="">
+    <section className="flex flex-col gap-10">
       <div className="py-4">
         <img
           alt="Jornadas de Cirugia"
@@ -23,32 +23,31 @@ function Footer() {
         />
       </div>
       <hr className="border-1 border-white/50"></hr>
-      <div className="lg:flex justify-around m-7 text-white p-5 bg-deep-blue ">
-        <div className="lg:grid grid-cols-3 flex flex-col items-cent m-2">
+      <div className="flex flex-col lg:flex lg:flex-row gap-20 lg:gap-0 justify-around text-white bg-deep-blue">
+        <div className="grid grid-cols-3 flex flex-col items-center gap-10">
           {navigation.map((item) => (
             <a
               key={item.name}
               href={item.href}
-              className=" px-7 py-4 text-xl text-white  hover:text-white font-medium "
+              className="text-xl text-white  hover:text-white font-medium "
             >
               {item.name}
             </a>
           ))}
         </div>
-        <div className=" grid gap-5 text-xl text-white m-7">
+        <div className="flex flex-row flex-wrap gap-10 text-xl text-white lg:flex-col lg:justify-start">
           <div className="flex items-center gap-2">
             <a className="flex items-center gap-2"
-            
               href={SOCIAL_LINKS.whatsapp}
               target="_blank"
               rel="noopener noreferrer"
               aria-label="WhatsApp"
             >
               <FaWhatsapp className="text-lagoon  text-4xl" />
-            <h2 >Whatsapp</h2>
+              <div>Whatsapp</div>
             </a>
-            
           </div>
+
           <div className="flex items-center gap-2">
             <a className="flex items-center gap-2"
               href={SOCIAL_LINKS.instagram}
@@ -57,9 +56,10 @@ function Footer() {
               aria-label="Instagram"
             >
               <CiInstagram className="text-lagoon text-4xl " />
-            <h2>Instagram</h2>
+              <div>Instagram</div>
             </a>
           </div>
+
           <div className="flex items-center gap-2">
             <a className="flex items-center gap-2"
               href={SOCIAL_LINKS.facebook}
@@ -68,8 +68,7 @@ function Footer() {
               aria-label="Facebook"
             >
               <LuFacebook className="text-lagoon text-4xl" />
-              
-            <h2>Facebook</h2>
+              <div>Facebook</div>
             </a>
           </div>
         </div>
