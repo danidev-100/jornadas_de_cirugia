@@ -1,11 +1,7 @@
 
-import megamedica from "../assets/megamedica.svg"
-import abbott from "../assets/abbott.svg"
-import coloplast from "../assets/coloplast.svg"
-
-
-
-
+import megamedica from "../assets/sponsors/megamedica.svg"
+import abbott from "../assets/sponsors/abbott.svg"
+import coloplast from "../assets/sponsors/coloplast.svg"
 
 function Sponsors() {
   return (
