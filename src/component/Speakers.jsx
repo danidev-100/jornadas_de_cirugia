@@ -39,27 +39,29 @@ function Speakers() {
           <article
             id={getPersonAnchorId(person.id)}
             key={person.id}
-            className="group relative scroll-mt-36 overflow-hidden rounded-3xl border border-white/15 bg-white/5 p-6 text-white"
+            className="group relative flex h-36 scroll-mt-36 gap-4 overflow-hidden rounded-3xl border border-white/15 bg-white/5 text-white"
           >
-            <div className="relative flex items-start gap-4">
-              <div className="flex h-20 w-20 shrink-0 items-center justify-center overflow-hidden rounded-3xl border border-white/10 bg-white/10 text-white/70">
-                {person.imageSrc ? (
-                  <img
-                    src={person.imageSrc}
-                    alt={person.name}
-                    className="h-full w-full object-cover transition duration-500 group-hover:scale-110"
-                  />
-                ) : (
-                  <PersonFallbackIcon />
-                )}
-              </div>
-              <div className="min-w-0 space-y-1">
-                <h3 className="text-lg font-semibold">{person.name}</h3>
+            <div className="flex h-full w-28 shrink-0 items-center justify-center overflow-hidden rounded-l-3xl border-r border-white/10 bg-white/10 text-white/70 sm:w-32">
+              {person.imageSrc ? (
+                <img
+                  src={person.imageSrc}
+                  alt={person.name}
+                  className="h-full w-full object-cover transition duration-500 group-hover:scale-115"
+                />
+              ) : (
+                <PersonFallbackIcon />
+              )}
+            </div>
+            <div className="flex min-w-0 flex-1 flex-col gap-1 overflow-hidden py-4 pr-5">
+              <h3 className="shrink-0 text-lg leading-tight font-semibold">
+                {person.name}
+              </h3>
+              <div className="flex min-h-0 flex-col gap-1 overflow-hidden">
                 {person.job_title ? (
                   <p className="text-white/90">{person.job_title}</p>
                 ) : null}
                 {person.institution ? (
-                  <p className="text-white/70">{person.institution}</p>
+                  <p className="text-white/60 text-sm">{person.institution}</p>
                 ) : null}
               </div>
             </div>
