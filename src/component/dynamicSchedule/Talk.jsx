@@ -1,7 +1,17 @@
-function formatNameWithInstitution(name, institution) {
-  const cleanInstitution = typeof institution === "string" ? institution.trim() : "";
-  if (!cleanInstitution) return name;
-  return `${name} (${cleanInstitution})`;
+function formatNameWithDetail(name, detail) {
+  const cleanName = typeof name === "string" ? name.trim() : "";
+  const cleanDetail = typeof detail === "string" ? detail.trim() : "";
+
+  if (!cleanName) return cleanDetail;
+  if (!cleanDetail) return cleanName;
+  return `${cleanName} (${cleanDetail})`;
+}
+
+function formatModerator(moderator) {
+  if (typeof moderator === "string") return moderator;
+  if (!moderator || typeof moderator !== "object") return "";
+
+  return formatNameWithDetail(moderator.name, moderator.job_title);
 }
 
 function Talk({ event }) {
@@ -34,7 +44,7 @@ function Talk({ event }) {
 
       {speakers.map((speaker, index) => (
         <p key={`speaker-${index}`} className="text-sm text-ink">
-          {formatNameWithInstitution(speaker.speaker_name, speaker.institution)}
+          {formatNameWithDetail(speaker.speaker_name, speaker.institution)}
         </p>
       ))}
 
@@ -42,7 +52,7 @@ function Talk({ event }) {
         <div key={`lightning-${index}`} className="space-y-1">
           <p className="text-sm text-ink">{lightningTalk.title}</p>
           <p className="text-sm text-ink">
-            {formatNameWithInstitution(
+            {formatNameWithDetail(
               lightningTalk.speaker_name,
               lightningTalk.institution,
             )}
@@ -50,11 +60,16 @@ function Talk({ event }) {
         </div>
       ))}
 
-      {moderators.map((moderator, index) => (
-        <p key={`moderator-${index}`} className="text-sm text-ink">
-          {moderator}
-        </p>
-      ))}
+      {moderators.map((moderator, index) => {
+        const moderatorLabel = formatModerator(moderator);
+        if (!moderatorLabel) return null;
+
+        return (
+          <p key={`moderator-${index}`} className="text-sm text-ink">
+            {moderatorLabel}
+          </p>
+        );
+      })}
 
     </article>
   );

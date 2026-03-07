@@ -23,7 +23,10 @@
             ],
             "lightning_talks": [],
             "moderators": [
-              "Dr. Norberto Brusa"
+              {
+                "name": "Dr. Norberto Brusa",
+                "job_title": null
+              }
             ]
           },
           {
@@ -43,7 +46,10 @@
             ],
             "lightning_talks": [],
             "moderators": [
-              "Dr. Daniel Algieri"
+              {
+                "name": "Dr. Daniel Algieri",
+                "job_title": null
+              }
             ]
           },
           {
@@ -79,7 +85,10 @@
               }
             ],
             "moderators": [
-              "Dr. Eduardo Cassone"
+              {
+                "name": "Dr. Eduardo Cassone",
+                "job_title": null
+              }
             ]
           },
           {
@@ -115,7 +124,10 @@
               }
             ],
             "moderators": [
-              "Dr. Carlos Valenzuela"
+              {
+                "name": "Dr. Carlos Valenzuela",
+                "job_title": null
+              }
             ]
           },
           {
@@ -158,9 +170,18 @@
             ],
             "lightning_talks": [],
             "moderators": [
-              "Dr. Juan Pablo Córdoba",
-              "Dr. Eduardo Cassone",
-              "Dr. Javier Rossi"
+              {
+                "name": "Dr. Juan Pablo Córdoba",
+                "job_title": null
+              },
+              {
+                "name": "Dr. Eduardo Cassone",
+                "job_title": null
+              },
+              {
+                "name": "Dr. Javier Rossi",
+                "job_title": null
+              }
             ]
           },
           {
@@ -206,11 +227,15 @@
               {
                 "title": "Endometriosis intestinal, nuevas técnicas",
                 "speaker_name": "Dr. Joaquin Tognelli",
-                "institution": null
+                "job_title": "Coloproctólogo de staff",
+                "institution": "Hospital Fernández, Sanatorio Finochietto y Sagrado Corazón"
               }
             ],
             "moderators": [
-              "Dr. Agustin Correa"
+              {
+                "name": "Dr. Agustin Correa",
+                "job_title": null
+              }
             ]
           },
           {
@@ -257,7 +282,10 @@
               }
             ],
             "moderators": [
-              "Dra. Anabella Sanchez"
+              {
+                "name": "Dra. Anabella Sanchez",
+                "job_title": null
+              }
             ]
           },
           {
@@ -273,7 +301,10 @@
             ],
             "lightning_talks": [],
             "moderators": [
-              "Dr. Walther Minatti"
+              {
+                "name": "Dr. Walther Minatti",
+                "job_title": null
+              }
             ]
           },
           {
@@ -298,10 +329,22 @@
             "speakers": [],
             "lightning_talks": [],
             "moderators": [
-              "Dr. Moreira Grecco",
-              "Dr. Rossi",
-              "Dr. Patron",
-              "Dr. Fernandez"
+              {
+                "name": "Dr. Moreira Grecco",
+                "job_title": null
+              },
+              {
+                "name": "Dr. Rossi",
+                "job_title": null
+              },
+              {
+                "name": "Dr. Patron",
+                "job_title": null
+              },
+              {
+                "name": "Dr. Fernandez",
+                "job_title": null
+              }
             ]
           },
           {
@@ -333,8 +376,14 @@
               }
             ],
             "moderators": [
-              "Dr. Walter Nardi",
-              "Dr. Taype Xavier"
+              {
+                "name": "Dr. Walter Nardi",
+                "job_title": null
+              },
+              {
+                "name": "Dr. Taype Xavier",
+                "job_title": null
+              }
             ]
           },
           {
@@ -370,7 +419,10 @@
               }
             ],
             "moderators": [
-              "Dr. Guillermo Sanguinetti"
+              {
+                "name": "Dr. Guillermo Sanguinetti",
+                "job_title": null
+              }
             ]
           },
           {
@@ -417,7 +469,10 @@
               }
             ],
             "moderators": [
-              "Dr. Enrique Ruiz"
+              {
+                "name": "Dr. Enrique Ruiz",
+                "job_title": null
+              }
             ]
           },
           {
@@ -448,7 +503,10 @@
               }
             ],
             "moderators": [
-              "Dr. Lucio Obeide"
+              {
+                "name": "Dr. Lucio Obeide",
+                "job_title": null
+              }
             ]
           },
           {
@@ -500,7 +558,10 @@
             ],
             "lightning_talks": [],
             "moderators": [
-              "Dr. Gustavo Bardaro"
+              {
+                "name": "Dr. Gustavo Bardaro",
+                "job_title": null
+              }
             ]
           },
           {
@@ -527,7 +588,10 @@
               }
             ],
             "moderators": [
-              "Dr. Martín Duhalde"
+              {
+                "name": "Dr. Martín Duhalde",
+                "job_title": null
+              }
             ]
           },
           {
@@ -538,7 +602,10 @@
             "speakers": [],
             "lightning_talks": [],
             "moderators": [
-              "Dr. Cingolani"
+              {
+                "name": "Dr. Cingolani",
+                "job_title": null
+              }
             ]
           },
           {
@@ -720,8 +787,14 @@
               }
             ],
             "moderators": [
-              "Dr. Omelanczuk",
-              "Dr. Signorini"
+              {
+                "name": "Dr. Omelanczuk",
+                "job_title": null
+              },
+              {
+                "name": "Dr. Signorini",
+                "job_title": null
+              }
             ]
           },
           {
@@ -748,8 +821,14 @@
               }
             ],
             "moderators": [
-              "Dr. Luciano Deluca",
-              "Dr. Alejandro Birman"
+              {
+                "name": "Dr. Luciano Deluca",
+                "job_title": null
+              },
+              {
+                "name": "Dr. Alejandro Birman",
+                "job_title": null
+              }
             ]
           },
           {
@@ -770,7 +849,8 @@
             "lightning_talks": [
               {
                 "title": "HI, Tratamiento médico ambulatorio? , uso racional de Atb",
-                "speaker_name": "Dra. Bruzzi Susana",
+                "speaker_name": "Dra. María Susana Bruzzi",
+                "job_title": "Coordinadora de la Comisión de Coloproctología AAC",
                 "institution": null
               },
               {
@@ -785,7 +865,10 @@
               }
             ],
             "moderators": [
-              "Dr. Rubén Balmaceda"
+              {
+                "name": "Dr. Rubén Balmaceda",
+                "job_title": null
+              }
             ]
           },
           {
@@ -801,7 +884,10 @@
             ],
             "lightning_talks": [],
             "moderators": [
-              "Dr. Ruiz Samuel"
+              {
+                "name": "Dr. Ruiz Samuel",
+                "job_title": null
+              }
             ]
           },
           {
@@ -823,7 +909,10 @@
               }
             ],
             "moderators": [
-              "Dr. Cuenca Abente"
+              {
+                "name": "Dr. Cuenca Abente",
+                "job_title": null
+              }
             ]
           },
           {
@@ -848,7 +937,10 @@
             ],
             "lightning_talks": [],
             "moderators": [
-              "Dr. Adrian Cena"
+              {
+                "name": "Dr. Adrian Cena",
+                "job_title": null
+              }
             ]
           },
           {
@@ -875,7 +967,10 @@
               }
             ],
             "moderators": [
-              "Dr. Mazza"
+              {
+                "name": "Dr. Mazza",
+                "job_title": null
+              }
             ]
           },
           {
@@ -897,7 +992,10 @@
               }
             ],
             "moderators": [
-              "Dr. Javier Crisci"
+              {
+                "name": "Dr. Javier Crisci",
+                "job_title": null
+              }
             ]
           },
           {
@@ -928,7 +1026,10 @@
               }
             ],
             "moderators": [
-              "Dr. Arnoldo Castro"
+              {
+                "name": "Dr. Arnoldo Castro",
+                "job_title": null
+              }
             ]
           },
           {
@@ -975,7 +1076,10 @@
               }
             ],
             "moderators": [
-              "Dr. Cingolani"
+              {
+                "name": "Dr. Cingolani",
+                "job_title": null
+              }
             ]
           },
           {
@@ -997,7 +1101,10 @@
               }
             ],
             "moderators": [
-              "Dr. Fabian Lerda"
+              {
+                "name": "Dr. Fabian Lerda",
+                "job_title": null
+              }
             ]
           },
           {
@@ -1051,8 +1158,14 @@
               }
             ],
             "moderators": [
-              "Dr. Cassone",
-              "Dr. Taype Xavier"
+              {
+                "name": "Dr. Cassone",
+                "job_title": null
+              },
+              {
+                "name": "Dr. Taype Xavier",
+                "job_title": null
+              }
             ]
           },
           {
@@ -1063,7 +1176,10 @@
             "speakers": [],
             "lightning_talks": [],
             "moderators": [
-              "Dr. Pirchi"
+              {
+                "name": "Dr. Daniel Pirchi",
+                "job_title": "Presidente de Comité Colegio - AAC"
+              }
             ]
           },
           {
@@ -1134,7 +1250,10 @@
               }
             ],
             "moderators": [
-              "Dr. Dario Guareschi"
+              {
+                "name": "Dr. Dario Guareschi",
+                "job_title": null
+              }
             ]
           },
           {
@@ -1193,7 +1312,10 @@
               }
             ],
             "moderators": [
-              "Dr. Pablo Blanco"
+              {
+                "name": "Dr. Pablo Blanco",
+                "job_title": null
+              }
             ]
           },
           {
@@ -1227,7 +1349,10 @@
             ],
             "lightning_talks": [],
             "moderators": [
-              "Dr. Axel Beskow"
+              {
+                "name": "Dr. Axel Beskow",
+                "job_title": null
+              }
             ]
           },
           {
@@ -1243,7 +1368,10 @@
             ],
             "lightning_talks": [],
             "moderators": [
-              "Dr. Omar Veloso"
+              {
+                "name": "Dr. Omar Veloso",
+                "job_title": null
+              }
             ]
           },
           {
