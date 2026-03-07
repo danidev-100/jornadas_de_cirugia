@@ -53,15 +53,15 @@ function Speakers() {
               )}
             </div>
             <div className="flex min-w-0 flex-1 flex-col gap-1 overflow-hidden py-4 pr-5">
-              <h3 className="shrink-0 text-lg leading-tight font-semibold">
+              <h3 className="shrink-0 text-base leading-tight font-semibold">
                 {person.name}
               </h3>
               <div className="flex min-h-0 flex-col gap-1 overflow-hidden">
                 {person.job_title ? (
-                  <p className="text-white/90">{person.job_title}</p>
+                  <p className="text-white/90 text-sm">{person.job_title}</p>
                 ) : null}
                 {person.institution ? (
-                  <p className="text-white/60 text-sm">{person.institution}</p>
+                  <p className="text-white/60 text-xs">{person.institution}</p>
                 ) : null}
               </div>
             </div>

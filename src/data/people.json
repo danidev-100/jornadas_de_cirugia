@@ -17,13 +17,24 @@
   },
   "dr_alejandro_moreira_grecco": {
     "name": "Dr. Alejandro Moreira Grecco",
-    "institution": "Hospital de Clínicas de Bs As",
+    "credentials": "MD, PhD",
+    "job_title": "Jefe de División de Cirugía Digestiva",
+    "institution": "Hospital de Clínicas de Buenos Aires",
     "image": "dr-alejandro-moreira-grecco.jpeg",
+    "academic_roles": [
+      "Director de la Carrera de Especialista en Cirugía Digestiva, Universidad de Buenos Aires",
+      "Docente Adscripto, Universidad de Buenos Aires"
+    ],
+    "memberships": [
+      "AAC",
+      "SACP",
+      "SBCP"
+    ],
     "aliases": [
       "Alejandro Moreira Grecco",
       "Dr. Moreira Grecco"
     ],
-    "submitted_at": "2026-03-07T19:46:54-03:00"
+    "submitted_at": "2026-03-07T19:56:54-03:00"
   },
   "dr_alejandro_pairola": {
     "name": "Dr. Alejandro Pairola",
@@ -406,7 +417,7 @@
     "name": "Dra. María Susana Bruzzi",
     "job_title": "Coordinadora de la Comisión de Coloproctología AAC",
     "image": "dra-maría-susana-bruzzi.jpeg",
-    "submitted_at": "2026-03-07T19:46:54-03:00"
+    "submitted_at": "2026-03-07T18:46:54-03:00"
   },
   "dra_pardal_pilar": {
     "name": "Dra. Pardal Pilar",
