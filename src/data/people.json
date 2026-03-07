@@ -1,15 +1,19 @@
 {
   "diego_sinagra": {
-    "name": "Diego Sinagra"
+    "name": "Diego Sinagra",
+    "submitted_at": null
   },
   "dr_adrian_cena": {
-    "name": "Dr. Adrian Cena"
+    "name": "Dr. Adrian Cena",
+    "submitted_at": null
   },
   "dr_agustin_correa": {
-    "name": "Dr. Agustin Correa"
+    "name": "Dr. Agustin Correa",
+    "submitted_at": null
   },
   "dr_alejandro_birman": {
-    "name": "Dr. Alejandro Birman"
+    "name": "Dr. Alejandro Birman",
+    "submitted_at": null
   },
   "dr_alejandro_moreira_grecco": {
     "name": "Dr. Alejandro Moreira Grecco",
@@ -18,343 +22,438 @@
     "aliases": [
       "Alejandro Moreira Grecco",
       "Dr. Moreira Grecco"
-    ]
+    ],
+    "submitted_at": "2026-03-07T19:46:54-03:00"
   },
   "dr_alejandro_pairola": {
-    "name": "Dr. Alejandro Pairola"
+    "name": "Dr. Alejandro Pairola",
+    "submitted_at": null
   },
   "dr_arnoldo_castro": {
-    "name": "Dr. Arnoldo Castro"
+    "name": "Dr. Arnoldo Castro",
+    "submitted_at": null
   },
   "dr_axel_beskow": {
-    "name": "Dr. Axel Beskow"
+    "name": "Dr. Axel Beskow",
+    "submitted_at": null
   },
   "dr_badra_roberto": {
-    "name": "Dr. Badra Roberto"
+    "name": "Dr. Badra Roberto",
+    "submitted_at": null
   },
   "dr_bufaliza": {
-    "name": "Dr. Bufaliza"
+    "name": "Dr. Bufaliza",
+    "submitted_at": null
   },
   "dr_carlos_valenzuela": {
-    "name": "Dr. Carlos Valenzuela"
+    "name": "Dr. Carlos Valenzuela",
+    "submitted_at": null
   },
   "dr_christian_bertona": {
-    "name": "Dr. Christian Bertona"
+    "name": "Dr. Christian Bertona",
+    "submitted_at": null
   },
   "dr_claudio_fermani": {
-    "name": "Dr. Claudio Fermani"
+    "name": "Dr. Claudio Fermani",
+    "submitted_at": null
   },
   "dr_cuenca_abente": {
-    "name": "Dr. Cuenca Abente"
+    "name": "Dr. Cuenca Abente",
+    "submitted_at": null
   },
   "dr_cugat": {
     "name": "Dr. Cugat",
     "institution": "España",
     "aliases": [
       "Dr. Cugat (España)"
-    ]
+    ],
+    "submitted_at": null
   },
   "dr_daniel_algieri": {
-    "name": "Dr. Daniel Algieri"
+    "name": "Dr. Daniel Algieri",
+    "submitted_at": null
   },
   "dr_daniel_pirchi": {
     "name": "Dr. Daniel Pirchi",
-    "job_title": "Presidente de Comité Colegio - AAC",
-    "image": "dr-daniel-pirchi.jpeg"
+    "job_title": "Presidente Comité Colegio AAC",
+    "image": "dr-daniel-pirchi.jpeg",
+    "submitted_at": "2026-03-07T19:46:54-03:00"
   },
   "dr_dario_guareschi": {
-    "name": "Dr. Dario Guareschi"
+    "name": "Dr. Dario Guareschi",
+    "submitted_at": null
   },
   "dr_diego_bertani": {
-    "name": "Dr. Diego Bertani"
+    "name": "Dr. Diego Bertani",
+    "submitted_at": null
   },
   "dr_diego_fernandez": {
-    "name": "Dr. Diego Fernandez"
+    "name": "Dr. Diego Fernandez",
+    "submitted_at": null
   },
   "dr_eduardo_cassone": {
     "name": "Dr. Eduardo Cassone",
     "aliases": [
       "Dr. Cassone"
-    ]
+    ],
+    "submitted_at": null
   },
   "dr_emilio_quinonez": {
-    "name": "Dr. Emilio Quiñonez"
+    "name": "Dr. Emilio Quiñonez",
+    "submitted_at": null
   },
   "dr_enrique_ruiz": {
-    "name": "Dr. Enrique Ruiz"
+    "name": "Dr. Enrique Ruiz",
+    "submitted_at": null
   },
   "dr_erick_acosta_barros": {
-    "name": "Dr. Erick Acosta Barros"
+    "name": "Dr. Erick Acosta Barros",
+    "submitted_at": null
   },
   "dr_fabian_lerda": {
-    "name": "Dr. Fabian Lerda"
+    "name": "Dr. Fabian Lerda",
+    "submitted_at": null
   },
   "dr_facundo_nogueira": {
-    "name": "Dr. Facundo Nogueira"
+    "name": "Dr. Facundo Nogueira",
+    "submitted_at": null
   },
   "dr_federico_gorganchian": {
-    "name": "Dr. Federico Gorganchian"
+    "name": "Dr. Federico Gorganchian",
+    "submitted_at": null
   },
   "dr_fernando_iglesias": {
-    "name": "Dr. Fernando Iglesias"
+    "name": "Dr. Fernando Iglesias",
+    "submitted_at": null
   },
   "dr_franco_signorini": {
     "name": "Dr. Franco Signorini",
     "aliases": [
       "Dr. Signorini"
-    ]
+    ],
+    "submitted_at": null
   },
   "dr_gonzalo_cervelo": {
-    "name": "Dr. Gonzalo Cervelo"
+    "name": "Dr. Gonzalo Cervelo",
+    "submitted_at": null
   },
   "dr_guillermo_sanguinetti": {
-    "name": "Dr. Guillermo Sanguinetti"
+    "name": "Dr. Guillermo Sanguinetti",
+    "submitted_at": null
   },
   "dr_gustavo_bardaro": {
-    "name": "Dr. Gustavo Bardaro"
+    "name": "Dr. Gustavo Bardaro",
+    "submitted_at": null
   },
   "dr_gustavo_kohan": {
     "name": "Dr. Gustavo Kohan",
-    "institution": "Hospital Rivadavia"
+    "institution": "Hospital Rivadavia",
+    "submitted_at": null
   },
   "dr_heitor_santos": {
-    "name": "Dr. Heitor Santos"
+    "name": "Dr. Heitor Santos",
+    "submitted_at": null
   },
   "dr_hernan_bertoni": {
-    "name": "Dr. Hernan Bertoni"
+    "name": "Dr. Hernan Bertoni",
+    "submitted_at": null
   },
   "dr_hernan_cordero": {
-    "name": "Dr. Hernán Cordero"
+    "name": "Dr. Hernán Cordero",
+    "submitted_at": null
   },
   "dr_javier_crisci": {
-    "name": "Dr. Javier Crisci"
+    "name": "Dr. Javier Crisci",
+    "submitted_at": null
   },
   "dr_javier_rossi": {
     "name": "Dr. Javier Rossi",
     "aliases": [
       "Dr. Rossi"
-    ]
+    ],
+    "submitted_at": null
   },
   "dr_jeremias_goransky": {
-    "name": "Dr. Jeremías Goransky"
+    "name": "Dr. Jeremías Goransky",
+    "submitted_at": null
   },
   "dr_joaquin_tognelli": {
     "name": "Dr. Joaquin Tognelli",
     "job_title": "Coloproctólogo de staff",
     "institution": "Hospital Fernández, Sanatorio Finochietto y Sagrado Corazón",
-    "image": "dr-joaquin-tognelli.jpeg"
+    "image": "dr-joaquin-tognelli.jpeg",
+    "submitted_at": "2026-03-07T19:46:54-03:00"
   },
   "dr_jorge_ibarra": {
     "name": "Dr. Jorge Ibarra",
-    "institution": "Centro Oncológico Regional COIR"
+    "institution": "Centro Oncológico Regional COIR",
+    "submitted_at": null
   },
   "dr_jorge_nefa": {
-    "name": "Dr. Jorge Nefa"
+    "name": "Dr. Jorge Nefa",
+    "submitted_at": null
   },
   "dr_jose_varela": {
     "name": "Dr. José Varela",
-    "institution": "Hospital General de Agudos Dr. Cosme Argerich"
+    "institution": "Hospital General de Agudos Dr. Cosme Argerich",
+    "submitted_at": null
   },
   "dr_juan_pablo_cordoba": {
-    "name": "Dr. Juan Pablo Córdoba"
+    "name": "Dr. Juan Pablo Córdoba",
+    "submitted_at": null
   },
   "dr_juan_pablo_gempel": {
-    "name": "Dr. Juan Pablo Gempel"
+    "name": "Dr. Juan Pablo Gempel",
+    "submitted_at": null
   },
   "dr_juan_patron_uriburu": {
     "name": "Dr. Juan Patrón Uriburu",
     "image": "dr-juan-patron-uriburu.jpeg",
     "aliases": [
       "Dr. Patron"
-    ]
+    ],
+    "submitted_at": "2026-03-07T19:46:54-03:00"
   },
   "dr_juan_vaccaro": {
-    "name": "Dr. Juan Vaccaro"
+    "name": "Dr. Juan Vaccaro",
+    "submitted_at": null
   },
   "dr_luciano_deluca": {
-    "name": "Dr. Luciano Deluca"
+    "name": "Dr. Luciano Deluca",
+    "submitted_at": null
   },
   "dr_lucio_obeide": {
-    "name": "Dr. Lucio Obeide"
+    "name": "Dr. Lucio Obeide",
+    "submitted_at": null
   },
   "dr_lucio_uranga": {
-    "name": "Dr. Lucio Uranga"
+    "name": "Dr. Lucio Uranga",
+    "submitted_at": null
   },
   "dr_mariano_moro": {
-    "name": "Dr. Mariano Moro"
+    "name": "Dr. Mariano Moro",
+    "submitted_at": null
   },
   "dr_mario_corengia": {
-    "name": "Dr. Mario Corengia"
+    "name": "Dr. Mario Corengia",
+    "submitted_at": null
   },
   "dr_martin_de_santibanes": {
-    "name": "Dr. Martín De santibañes"
+    "name": "Dr. Martín De santibañes",
+    "submitted_at": null
   },
   "dr_martin_duhalde": {
-    "name": "Dr. Martín Duhalde"
+    "name": "Dr. Martín Duhalde",
+    "submitted_at": null
   },
   "dr_mauricio_ramirez": {
     "name": "Dr. Mauricio Ramírez",
     "aliases": [
       "Dr. Mauricio Ramirez"
-    ]
+    ],
+    "submitted_at": null
   },
   "dr_maximiliano_tittarelli": {
-    "name": "Dr. Maximiliano Tittarelli"
+    "name": "Dr. Maximiliano Tittarelli",
+    "submitted_at": null
   },
   "oscar_mazza": {
     "name": "Oscar Mazza",
     "aliases": [
       "Dr. Mazza"
-    ]
+    ],
+    "submitted_at": null
   },
   "dr_norberto_brusa": {
-    "name": "Dr. Norberto Brusa"
+    "name": "Dr. Norberto Brusa",
+    "submitted_at": null
   },
   "dr_omar_veloso": {
-    "name": "Dr. Omar Veloso"
+    "name": "Dr. Omar Veloso",
+    "submitted_at": null
   },
   "dr_omelanczuk": {
-    "name": "Dr. Omelanczuk"
+    "name": "Dr. Omelanczuk",
+    "submitted_at": null
   },
   "dr_pablo_blanco": {
-    "name": "Dr. Pablo Blanco"
+    "name": "Dr. Pablo Blanco",
+    "submitted_at": null
   },
   "dr_pablo_capitanich": {
     "name": "Dr. Pablo Capitanich",
-    "institution": "Hospital Alemán"
+    "institution": "Hospital Alemán",
+    "submitted_at": null
   },
   "dr_pablo_carmignani": {
-    "name": "Dr. Pablo Carmignani"
+    "name": "Dr. Pablo Carmignani",
+    "submitted_at": null
   },
   "dr_pablo_cingolani": {
     "name": "Dr. Pablo Cingolani",
     "aliases": [
       "Dr. Cingolani"
-    ]
+    ],
+    "submitted_at": null
   },
   "dr_pablo_medina": {
-    "name": "Dr. Pablo Medina"
+    "name": "Dr. Pablo Medina",
+    "submitted_at": null
   },
   "dr_pablo_pellegrini": {
-    "name": "Dr. Pablo Pellegrini"
+    "name": "Dr. Pablo Pellegrini",
+    "submitted_at": null
   },
   "dr_pablo_sanchez": {
-    "name": "Dr. Pablo Sanchez"
+    "name": "Dr. Pablo Sanchez",
+    "submitted_at": null
   },
   "dr_quintana_alan": {
     "name": "Dr. Quintana Alan",
-    "institution": "Hospital Cuenca"
+    "institution": "Hospital Cuenca",
+    "submitted_at": null
   },
   "dr_raffa_ignacio": {
-    "name": "Dr. Raffa Ignacio"
+    "name": "Dr. Raffa Ignacio",
+    "submitted_at": null
   },
   "dr_rodrigo_sanchez_claria": {
-    "name": "Dr. Rodrigo Sanchez Claria"
+    "name": "Dr. Rodrigo Sanchez Claria",
+    "submitted_at": null
   },
   "dr_ruben_balmaceda": {
-    "name": "Dr. Rubén Balmaceda"
+    "name": "Dr. Rubén Balmaceda",
+    "submitted_at": null
   },
   "dr_ruben_miravalle": {
-    "name": "Dr. Rubén Miravalle"
+    "name": "Dr. Rubén Miravalle",
+    "submitted_at": null
   },
   "dr_samuel_ruiz": {
     "name": "Dr. Samuel Ruiz",
     "aliases": [
       "Dr. Ruiz Samuel"
-    ]
+    ],
+    "submitted_at": null
   },
   "dr_suarez_anzorena": {
-    "name": "Dr. Suarez Anzorena"
+    "name": "Dr. Suarez Anzorena",
+    "submitted_at": null
   },
   "dr_taype_xavier": {
-    "name": "Dr. Taype Xavier"
+    "name": "Dr. Taype Xavier",
+    "submitted_at": null
   },
   "dr_walter_nardi": {
-    "name": "Dr. Walter Nardi"
+    "name": "Dr. Walter Nardi",
+    "submitted_at": null
   },
   "dr_walther_minatti": {
     "name": "Dr. Walther Minatti",
     "aliases": [
       "Dr. Minatti Walther"
-    ]
+    ],
+    "submitted_at": null
   },
   "dra_adelina_coturel": {
-    "name": "Dra. Adelina Coturel"
+    "name": "Dra. Adelina Coturel",
+    "submitted_at": null
   },
   "dra_anabella_sanchez": {
-    "name": "Dra. Anabella Sanchez"
+    "name": "Dra. Anabella Sanchez",
+    "submitted_at": null
   },
   "dra_balent_aguirre_emilie": {
     "name": "Dra. Balent Aguirre Emilie",
-    "institution": "Hospital El Cruce"
+    "institution": "Hospital El Cruce",
+    "submitted_at": null
   },
   "dra_carolina_brofman": {
-    "name": "Dra. Carolina Brofman"
+    "name": "Dra. Carolina Brofman",
+    "submitted_at": null
   },
   "dra_fernanda_bersano": {
-    "name": "Dra. Fernanda Bersano"
+    "name": "Dra. Fernanda Bersano",
+    "submitted_at": null
   },
   "dra_flavia_alexandre": {
-    "name": "Dra. Flavia Alexandre"
+    "name": "Dra. Flavia Alexandre",
+    "submitted_at": null
   },
   "dra_gisela_aquije_matta": {
-    "name": "Dra. Gisela Aquije Matta"
+    "name": "Dra. Gisela Aquije Matta",
+    "submitted_at": null
   },
   "dra_laura_fernandez": {
     "name": "Dra. Laura Fernández",
-    "institution": "Fundación Champalimaud"
+    "institution": "Fundación Champalimaud",
+    "submitted_at": null
   },
   "dra_loreley_toresan": {
-    "name": "Dra. Loreley Toresan"
+    "name": "Dra. Loreley Toresan",
+    "submitted_at": null
   },
   "dra_maria_cristina_du_plessis": {
     "name": "Dra. María Cristina du Plessis",
-    "institution": "Hospital General de Agudos Dr. Cosme Argerich"
+    "institution": "Hospital General de Agudos Dr. Cosme Argerich",
+    "submitted_at": null
   },
   "dra_m_soledad_ferrante": {
-    "name": "Dra. M. Soledad Ferrante"
+    "name": "Dra. M. Soledad Ferrante",
+    "submitted_at": null
   },
   "dra_maria_susana_bruzzi": {
     "name": "Dra. María Susana Bruzzi",
     "job_title": "Coordinadora de la Comisión de Coloproctología AAC",
-    "image": "dra-maría-susana-bruzzi.jpeg"
+    "image": "dra-maría-susana-bruzzi.jpeg",
+    "submitted_at": "2026-03-07T19:46:54-03:00"
   },
   "dra_pardal_pilar": {
     "name": "Dra. Pardal Pilar",
-    "institution": "Hospital Dr. Alejandro Korn (La Plata)"
+    "institution": "Hospital Dr. Alejandro Korn (La Plata)",
+    "submitted_at": null
   },
   "dra_victoria_ardiles": {
-    "name": "Dra. Victoria Ardiles"
+    "name": "Dra. Victoria Ardiles",
+    "submitted_at": null
   },
   "dra_viscomi_lucila": {
     "name": "Dra. Viscomi Lucila",
-    "institution": "Hospital de Ezeiza"
+    "institution": "Hospital de Ezeiza",
+    "submitted_at": null
   },
   "ezequiel_palmisano": {
-    "name": "Ezequiel Palmisano"
+    "name": "Ezequiel Palmisano",
+    "submitted_at": null
   },
   "gustavo_marcucci": {
-    "name": "Gustavo Marcucci"
+    "name": "Gustavo Marcucci",
+    "submitted_at": null
   },
   "gustavo_matus": {
-    "name": "Gustavo Matus"
+    "name": "Gustavo Matus",
+    "submitted_at": null
   },
   "jose_cooke": {
-    "name": "José Cooke"
+    "name": "José Cooke",
+    "submitted_at": null
   },
   "juan_pekolj": {
-    "name": "Juan Pekolj"
+    "name": "Juan Pekolj",
+    "submitted_at": null
   },
   "lic_daniela_pozzo": {
     "name": "Lic. Daniela Pozzo",
     "aliases": [
       "Lic. DANIELA POZZO"
-    ]
+    ],
+    "submitted_at": null
   },
   "lic_eleonora_timponil": {
     "name": "Lic. Eleonora Timponil",
     "aliases": [
       "Lic. ELEONORA TIMPONIL"
-    ]
+    ],
+    "submitted_at": null
   }
 }
