@@ -3,6 +3,8 @@ import { programaJueves, programaViernes } from "../data/programa";
 import pdf from "../assets/PROGRAMA-ACM.pdf";
 import DynamicSchedule from "./dynamicSchedule/DynamicSchedule";
 
+const SHOW_SCHEDULE_V1 = false; // Alternar entre la versión dinámica y la estática del programa
+
 function getSlotVariant(text = "") {
   const normalized = String(text).toLowerCase();
 
@@ -197,13 +199,13 @@ function AgendaTable({ titulo, fecha, filas, alwaysShowNowLine }) {
   }, [filas, shouldShowNowLine]);
 
   return (
-    <article className="space-y-3">
+    <article className="flex flex-col gap-3">
       <div className="rounded-4xl border-2 border-wave p-4">
         <h3 className="text-2xl font-semibold text-ink">{titulo}</h3>
       </div>
 
       {/* Mobile: 3 columnas (Sala A/B/C) en la misma fila */}
-      <div className="md:hidden space-y-2">
+      <div className="flex flex-col gap-2 md:hidden">
         <div className="grid grid-cols-3 gap-2 px-1">
           <div className="min-w-0 text-[10px] leading-tight font-semibold text-deep-blue break-words">
             Sala A
@@ -216,7 +218,7 @@ function AgendaTable({ titulo, fecha, filas, alwaysShowNowLine }) {
           </div>
         </div>
 
-        <div className="space-y-2">
+        <div className="flex flex-col gap-2">
           {filas.map((fila, index) => (
             <div
               key={fila.hora}
@@ -250,7 +252,7 @@ function AgendaTable({ titulo, fecha, filas, alwaysShowNowLine }) {
       {/* Desktop/Tablet: tabla tipo PDF */}
       <div
         ref={desktopWrapperRef}
-        className="hidden md:block relative overflow-x-auto rounded-2xl border border-wave bg-white"
+        className="relative hidden overflow-x-auto rounded-2xl border border-wave bg-white md:block"
       >
         {shouldShowNowLine && nowLineTop != null ? (
           <div
@@ -263,19 +265,19 @@ function AgendaTable({ titulo, fecha, filas, alwaysShowNowLine }) {
             <tr>
               <th
                 scope="col"
-                className="border-b border-wave px-4 py-3 text-left text-sm font-semibold text-deep-blue "
+                className="border-b border-wave px-4 py-3 text-left text-sm font-semibold text-deep-blue"
               >
                 Sala A
               </th>
               <th
                 scope="col"
-                className="border-b border-wave px-4 py-3 text-left text-sm font-semibold text-deep-blue "
+                className="border-b border-wave px-4 py-3 text-left text-sm font-semibold text-deep-blue"
               >
                 Sala B
               </th>
               <th
                 scope="col"
-                className="border-b border-wave px-4 py-3 text-left text-sm font-semibold text-deep-blue "
+                className="border-b border-wave px-4 py-3 text-left text-sm font-semibold text-deep-blue"
               >
                 Sala C (<span className="whitespace-nowrap">Trabajos científicos</span>)
               </th>
@@ -323,92 +325,111 @@ function AgendaTable({ titulo, fecha, filas, alwaysShowNowLine }) {
 function Agenda() {
   return (
     <section id="programa" className="py-7 scroll-mt-36">
-      <div className="space-y-6">
-        <h2 className="text-3xl text-deep-blue flex justify-center font-semibold">
+      <div className="flex flex-col gap-6">
+        <h2 className="text-center text-3xl font-semibold text-deep-blue">
           Programa
         </h2>
 
-        <div>
-          <p className="text-black  text-center font-bold text-xl">
+        <div className="flex flex-col gap-4">
+          <p className="text-center text-xl font-bold text-black">
             El programa de las Jornadas de Cirugía Otoño 2026 se desarrollará en
             tres salas en simultáneo (Hotel Sheraton, Mendoza).
           </p>
-          <div className=" bg-wave rounded-3xl p-5 my-4 ">
-            <p>
-              <span className="font-bold">Duración:</span> 2 días (jueves y
-              viernes) <br />
-              <span className="font-bold">Horario:</span> 08:00 - 19:00 <br />
-              <span className="font-bold">Aulas simultáneas:</span> 3 <br />
-              <span className="font-bold">Aulas 1 y 2:</span>Especialidades
-              quirúrgicas (HPB, Coloproctología, Pared Abdominal,
-              <br />
-              <span></span>Tórax, Oncología, Mama, Equidad) + espacios para
-              Asociación de Residentes.
-              <br />
-              <span className="font-bold">Aula 3:</span>Presentación de Trabajos
-              Científicos. Curso Intra-jornadas de PSQ a partir de las 13:00{" "}
-              <br />
-              <span className="font-bold"> Break:</span> Café AM 15min ·
-              Almuerzo 13:00–14:00 · Café PM 15min. <br />
-              <span className="font-bold"> Acto inaugural:</span> jueves al
-              cierre de la jornada (plenario). <br />
-              <br />
-              <span className="font-bold">
+          <div className="rounded-3xl bg-wave p-5">
+            <div className="flex flex-col gap-1 text-black">
+              <p>
+                <span className="font-bold">Duración:</span> 2 días (jueves y
+                viernes)
+              </p>
+              <p>
+                <span className="font-bold">Horario:</span> 08:00 - 19:00
+              </p>
+              <p>
+                <span className="font-bold">Aulas simultáneas:</span> 3
+              </p>
+              <p>
+                <span className="font-bold">Aulas 1 y 2:</span> Especialidades
+                quirúrgicas (HPB, Coloproctología, Pared Abdominal, Tórax,
+                Oncología, Mama, Equidad) + espacios para Asociación de
+                Residentes.
+              </p>
+              <p>
+                <span className="font-bold">Aula 3:</span> Presentación de
+                Trabajos Científicos. Curso Intra-jornadas de PSQ a partir de
+                las 13:00.
+              </p>
+              <p>
+                <span className="font-bold">Break:</span> Café AM 15min ·
+                Almuerzo 13:00-14:00 · Café PM 15min.
+              </p>
+              <p>
+                <span className="font-bold">Acto inaugural:</span> jueves al
+                cierre de la jornada (plenario).
+              </p>
+              <p className="font-bold">
                 CURSO PSQ: Pre-Congreso (Instructores) Intra-Jornadas
                 (Básico-Avanzado)
-              </span>
-            </p>
+              </p>
+            </div>
           </div>
         </div>
 
         <DynamicSchedule />
 
-        {/* <div className="space-y-8">
-          <AgendaTable {...programaJueves} alwaysShowNowLine />
-          <AgendaTable {...programaViernes} alwaysShowNowLine />
-        </div> */}
+        {SHOW_SCHEDULE_V1 && (
+          <div className="flex flex-col gap-8">
+            <AgendaTable {...programaJueves} alwaysShowNowLine />
+            <AgendaTable {...programaViernes} alwaysShowNowLine />
+          </div>
+        )}
 
-        <div className="p-5 text-center bg-wave rounded-3xl space-y-4 ">
-          <h2 className="font-bold text-2xl text-center  text-deep-blue ">
+        <div className="flex flex-col gap-4 rounded-3xl bg-wave p-5 text-center">
+          <h2 className="text-2xl font-bold text-deep-blue">
             ACLARACIÓN
           </h2>
-          <p className="text-black">
-            <span className="font-bold">Moderación: </span>2 moderadores por
-            bloque (A/B); 1 coordinador por bloque en C. <br />
-            <span className="font-bold">Tiempo por charla (A/B):</span> 20′ +
-            10′ discusiones.
-            <br />
-            <span className="font-bold">Trabajos (C):</span> comunicaciones por
-            bloque (15′) a partir de las 13:00 curso Intra-jornadas PSQ. <br />
-            <span className="font-bold">
-              PRE-JORNADAS PSQ- INSTRUCTORES miércoles 6 de abril.
-            </span>
-            CURSO Lugar a confirmar.
-          </p>
+          <div className="flex flex-col gap-1 text-black">
+            <p>
+              <span className="font-bold">Moderación:</span> 2 moderadores por
+              bloque (A/B); 1 coordinador por bloque en C.
+            </p>
+            <p>
+              <span className="font-bold">Tiempo por charla (A/B):</span> 20′ +
+              10′ discusiones.
+            </p>
+            <p>
+              <span className="font-bold">Trabajos (C):</span> comunicaciones
+              por bloque (15′) a partir de las 13:00 curso Intra-jornadas PSQ.
+            </p>
+            <p>
+              <span className="font-bold">
+                PRE-JORNADAS PSQ- INSTRUCTORES miércoles 6 de abril.
+              </span>{" "}
+              CURSO Lugar a confirmar.
+            </p>
+          </div>
         </div>
 
-        <div className="flex justify-center ">
-          <a href={pdf} download>
-            <button className="flex space-x-1 bg-chocolate rounded-3xl px-6 py-3 text-white font-semibold mx-2 hover:bg-lagoon-dark transition cursor-pointer">
-              <div className="">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M12 9.75v6.75m0 0-3-3m3 3 3-3m-8.25 6a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.233-2.33 3 3 0 0 1 3.758 3.848A3.752 3.752 0 0 1 18 19.5H6.75Z"
-                  />
-                </svg>
-              </div>
-
-              <h2 className=""> Ver Programa</h2>
-            </button>
+        <div className="flex justify-center">
+          <a
+            href={pdf}
+            download
+            className="inline-flex items-center gap-1 rounded-3xl bg-chocolate px-6 py-3 font-semibold text-white transition hover:bg-lagoon-dark"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="1.5"
+              stroke="currentColor"
+              className="size-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M12 9.75v6.75m0 0-3-3m3 3 3-3m-8.25 6a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.233-2.33 3 3 0 0 1 3.758 3.848A3.752 3.752 0 0 1 18 19.5H6.75Z"
+              />
+            </svg>
+            <span>Ver Programa</span>
           </a>
         </div>
       </div>
