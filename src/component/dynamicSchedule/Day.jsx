@@ -6,10 +6,9 @@ function Day({ day, date, rooms }) {
   const columnsTemplate = `repeat(${roomNames.length}, minmax(0, 1fr))`;
 
   return (
-    <article className="space-y-4 rounded-2xl border border-wave bg-cloud/20 p-4">
+    <article className="space-y-4">
       <header className="space-y-1">
         <h4 className="text-xl font-semibold text-ink">{day}</h4>
-        <p className="text-sm text-deep-blue">{date}</p>
       </header>
 
       <div className="overflow-x-auto">
