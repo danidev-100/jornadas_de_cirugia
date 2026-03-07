@@ -1,0 +1,358 @@
+{
+  "diego_sinagra": {
+    "name": "Diego Sinagra"
+  },
+  "dr_adrian_cena": {
+    "name": "Dr. Adrian Cena"
+  },
+  "dr_agustin_correa": {
+    "name": "Dr. Agustin Correa"
+  },
+  "dr_alejandro_birman": {
+    "name": "Dr. Alejandro Birman"
+  },
+  "dr_alejandro_moreira_grecco": {
+    "name": "Dr. Alejandro Moreira Grecco",
+    "institution": "Hospital de Clínicas de Bs As",
+    "aliases": [
+      "Alejandro Moreira Grecco",
+      "Dr. Moreira Grecco"
+    ]
+  },
+  "dr_alejandro_pairola": {
+    "name": "Dr. Alejandro Pairola"
+  },
+  "dr_arnoldo_castro": {
+    "name": "Dr. Arnoldo Castro"
+  },
+  "dr_axel_beskow": {
+    "name": "Dr. Axel Beskow"
+  },
+  "dr_badra_roberto": {
+    "name": "Dr. Badra Roberto"
+  },
+  "dr_bufaliza": {
+    "name": "Dr. Bufaliza"
+  },
+  "dr_carlos_valenzuela": {
+    "name": "Dr. Carlos Valenzuela"
+  },
+  "dr_christian_bertona": {
+    "name": "Dr. Christian Bertona"
+  },
+  "dr_claudio_fermani": {
+    "name": "Dr. Claudio Fermani"
+  },
+  "dr_cuenca_abente": {
+    "name": "Dr. Cuenca Abente"
+  },
+  "dr_cugat": {
+    "name": "Dr. Cugat",
+    "institution": "España",
+    "aliases": [
+      "Dr. Cugat (España)"
+    ]
+  },
+  "dr_daniel_algieri": {
+    "name": "Dr. Daniel Algieri"
+  },
+  "dr_daniel_pirchi": {
+    "name": "Dr. Daniel Pirchi",
+    "job_title": "Presidente de Comité Colegio - AAC",
+    "image": "dr-daniel-pirchi.jpeg"
+  },
+  "dr_dario_guareschi": {
+    "name": "Dr. Dario Guareschi"
+  },
+  "dr_diego_bertani": {
+    "name": "Dr. Diego Bertani"
+  },
+  "dr_diego_fernandez": {
+    "name": "Dr. Diego Fernandez"
+  },
+  "dr_eduardo_cassone": {
+    "name": "Dr. Eduardo Cassone",
+    "aliases": [
+      "Dr. Cassone"
+    ]
+  },
+  "dr_emilio_quinonez": {
+    "name": "Dr. Emilio Quiñonez"
+  },
+  "dr_enrique_ruiz": {
+    "name": "Dr. Enrique Ruiz"
+  },
+  "dr_erick_acosta_barros": {
+    "name": "Dr. Erick Acosta Barros"
+  },
+  "dr_fabian_lerda": {
+    "name": "Dr. Fabian Lerda"
+  },
+  "dr_facundo_nogueira": {
+    "name": "Dr. Facundo Nogueira"
+  },
+  "dr_federico_gorganchian": {
+    "name": "Dr. Federico Gorganchian"
+  },
+  "dr_fernando_iglesias": {
+    "name": "Dr. Fernando Iglesias"
+  },
+  "dr_franco_signorini": {
+    "name": "Dr. Franco Signorini",
+    "aliases": [
+      "Dr. Signorini"
+    ]
+  },
+  "dr_gonzalo_cervelo": {
+    "name": "Dr. Gonzalo Cervelo"
+  },
+  "dr_guillermo_sanguinetti": {
+    "name": "Dr. Guillermo Sanguinetti"
+  },
+  "dr_gustavo_bardaro": {
+    "name": "Dr. Gustavo Bardaro"
+  },
+  "dr_gustavo_kohan": {
+    "name": "Dr. Gustavo Kohan",
+    "institution": "Hospital Rivadavia"
+  },
+  "dr_heitor_santos": {
+    "name": "Dr. Heitor Santos"
+  },
+  "dr_hernan_bertoni": {
+    "name": "Dr. Hernan Bertoni"
+  },
+  "dr_hernan_cordero": {
+    "name": "Dr. Hernán Cordero"
+  },
+  "dr_javier_crisci": {
+    "name": "Dr. Javier Crisci"
+  },
+  "dr_javier_rossi": {
+    "name": "Dr. Javier Rossi",
+    "aliases": [
+      "Dr. Rossi"
+    ]
+  },
+  "dr_jeremias_goransky": {
+    "name": "Dr. Jeremías Goransky"
+  },
+  "dr_joaquin_tognelli": {
+    "name": "Dr. Joaquin Tognelli",
+    "job_title": "Coloproctólogo de staff",
+    "institution": "Hospital Fernández, Sanatorio Finochietto y Sagrado Corazón",
+    "image": "dr-joaquin-tognelli.jpeg"
+  },
+  "dr_jorge_ibarra": {
+    "name": "Dr. Jorge Ibarra",
+    "institution": "Centro Oncológico Regional COIR"
+  },
+  "dr_jorge_nefa": {
+    "name": "Dr. Jorge Nefa"
+  },
+  "dr_jose_varela": {
+    "name": "Dr. José Varela",
+    "institution": "Hospital General de Agudos Dr. Cosme Argerich"
+  },
+  "dr_juan_pablo_cordoba": {
+    "name": "Dr. Juan Pablo Córdoba"
+  },
+  "dr_juan_pablo_gempel": {
+    "name": "Dr. Juan Pablo Gempel"
+  },
+  "dr_juan_patron_uriburu": {
+    "name": "Dr. Juan Patrón Uriburu",
+    "aliases": [
+      "Dr. Patron"
+    ]
+  },
+  "dr_juan_vaccaro": {
+    "name": "Dr. Juan Vaccaro"
+  },
+  "dr_luciano_deluca": {
+    "name": "Dr. Luciano Deluca"
+  },
+  "dr_lucio_obeide": {
+    "name": "Dr. Lucio Obeide"
+  },
+  "dr_lucio_uranga": {
+    "name": "Dr. Lucio Uranga"
+  },
+  "dr_mariano_moro": {
+    "name": "Dr. Mariano Moro"
+  },
+  "dr_mario_corengia": {
+    "name": "Dr. Mario Corengia"
+  },
+  "dr_martin_de_santibanes": {
+    "name": "Dr. Martín De santibañes"
+  },
+  "dr_martin_duhalde": {
+    "name": "Dr. Martín Duhalde"
+  },
+  "dr_mauricio_ramirez": {
+    "name": "Dr. Mauricio Ramírez",
+    "aliases": [
+      "Dr. Mauricio Ramirez"
+    ]
+  },
+  "dr_maximiliano_tittarelli": {
+    "name": "Dr. Maximiliano Tittarelli"
+  },
+  "oscar_mazza": {
+    "name": "Oscar Mazza",
+    "aliases": [
+      "Dr. Mazza"
+    ]
+  },
+  "dr_norberto_brusa": {
+    "name": "Dr. Norberto Brusa"
+  },
+  "dr_omar_veloso": {
+    "name": "Dr. Omar Veloso"
+  },
+  "dr_omelanczuk": {
+    "name": "Dr. Omelanczuk"
+  },
+  "dr_pablo_blanco": {
+    "name": "Dr. Pablo Blanco"
+  },
+  "dr_pablo_capitanich": {
+    "name": "Dr. Pablo Capitanich",
+    "institution": "Hospital Alemán"
+  },
+  "dr_pablo_carmignani": {
+    "name": "Dr. Pablo Carmignani"
+  },
+  "dr_pablo_cingolani": {
+    "name": "Dr. Pablo Cingolani",
+    "aliases": [
+      "Dr. Cingolani"
+    ]
+  },
+  "dr_pablo_medina": {
+    "name": "Dr. Pablo Medina"
+  },
+  "dr_pablo_pellegrini": {
+    "name": "Dr. Pablo Pellegrini"
+  },
+  "dr_pablo_sanchez": {
+    "name": "Dr. Pablo Sanchez"
+  },
+  "dr_quintana_alan": {
+    "name": "Dr. Quintana Alan",
+    "institution": "Hospital Cuenca"
+  },
+  "dr_raffa_ignacio": {
+    "name": "Dr. Raffa Ignacio"
+  },
+  "dr_rodrigo_sanchez_claria": {
+    "name": "Dr. Rodrigo Sanchez Claria"
+  },
+  "dr_ruben_balmaceda": {
+    "name": "Dr. Rubén Balmaceda"
+  },
+  "dr_ruben_miravalle": {
+    "name": "Dr. Rubén Miravalle"
+  },
+  "dr_samuel_ruiz": {
+    "name": "Dr. Samuel Ruiz",
+    "aliases": [
+      "Dr. Ruiz Samuel"
+    ]
+  },
+  "dr_suarez_anzorena": {
+    "name": "Dr. Suarez Anzorena"
+  },
+  "dr_taype_xavier": {
+    "name": "Dr. Taype Xavier"
+  },
+  "dr_walter_nardi": {
+    "name": "Dr. Walter Nardi"
+  },
+  "dr_walther_minatti": {
+    "name": "Dr. Walther Minatti",
+    "aliases": [
+      "Dr. Minatti Walther"
+    ]
+  },
+  "dra_adelina_coturel": {
+    "name": "Dra. Adelina Coturel"
+  },
+  "dra_anabella_sanchez": {
+    "name": "Dra. Anabella Sanchez"
+  },
+  "dra_balent_aguirre_emilie": {
+    "name": "Dra. Balent Aguirre Emilie",
+    "institution": "Hospital El Cruce"
+  },
+  "dra_carolina_brofman": {
+    "name": "Dra. Carolina Brofman"
+  },
+  "dra_fernanda_bersano": {
+    "name": "Dra. Fernanda Bersano"
+  },
+  "dra_flavia_alexandre": {
+    "name": "Dra. Flavia Alexandre"
+  },
+  "dra_gisela_aquije_matta": {
+    "name": "Dra. Gisela Aquije Matta"
+  },
+  "dra_laura_fernandez": {
+    "name": "Dra. Laura Fernández",
+    "institution": "Fundación Champalimaud"
+  },
+  "dra_loreley_toresan": {
+    "name": "Dra. Loreley Toresan"
+  },
+  "dra_maria_cristina_du_plessis": {
+    "name": "Dra. María Cristina du Plessis",
+    "institution": "Hospital General de Agudos Dr. Cosme Argerich"
+  },
+  "dra_m_soledad_ferrante": {
+    "name": "Dra. M. Soledad Ferrante"
+  },
+  "dra_maria_susana_bruzzi": {
+    "name": "Dra. María Susana Bruzzi",
+    "job_title": "Coordinadora de la Comisión de Coloproctología AAC",
+    "image": "dra-maría-susana-bruzzi.jpeg"
+  },
+  "dra_pardal_pilar": {
+    "name": "Dra. Pardal Pilar",
+    "institution": "Hospital Dr. Alejandro Korn (La Plata)"
+  },
+  "dra_victoria_ardiles": {
+    "name": "Dra. Victoria Ardiles"
+  },
+  "dra_viscomi_lucila": {
+    "name": "Dra. Viscomi Lucila",
+    "institution": "Hospital de Ezeiza"
+  },
+  "ezequiel_palmisano": {
+    "name": "Ezequiel Palmisano"
+  },
+  "gustavo_marcucci": {
+    "name": "Gustavo Marcucci"
+  },
+  "gustavo_matus": {
+    "name": "Gustavo Matus"
+  },
+  "jose_cooke": {
+    "name": "José Cooke"
+  },
+  "juan_pekolj": {
+    "name": "Juan Pekolj"
+  },
+  "lic_daniela_pozzo": {
+    "name": "Lic. Daniela Pozzo",
+    "aliases": [
+      "Lic. DANIELA POZZO"
+    ]
+  },
+  "lic_eleonora_timponil": {
+    "name": "Lic. Eleonora Timponil",
+    "aliases": [
+      "Lic. ELEONORA TIMPONIL"
+    ]
+  }
+}

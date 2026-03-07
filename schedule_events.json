@@ -13,19 +13,16 @@
             "title": "Cirugía de Emergencias, Trauma y Cuidados Críticos en lugares Austeros",
             "speakers": [
               {
-                "speaker_name": "Dr. Erick Acosta Barros",
-                "institution": null
+                "person_id": "dr_erick_acosta_barros"
               },
               {
-                "speaker_name": "Dra. M. Soledad Ferrante",
-                "institution": null
+                "person_id": "dra_m_soledad_ferrante"
               }
             ],
             "lightning_talks": [],
             "moderators": [
               {
-                "name": "Dr. Norberto Brusa",
-                "job_title": null
+                "person_id": "dr_norberto_brusa"
               }
             ]
           },
@@ -36,19 +33,16 @@
             "title": "Educación en Cirugía en Emergencias, Trauma y Cuidados Críticos",
             "speakers": [
               {
-                "speaker_name": "Dra. Carolina Brofman",
-                "institution": null
+                "person_id": "dra_carolina_brofman"
               },
               {
-                "speaker_name": "Dr. Maximiliano Tittarelli",
-                "institution": null
+                "person_id": "dr_maximiliano_tittarelli"
               }
             ],
             "lightning_talks": [],
             "moderators": [
               {
-                "name": "Dr. Daniel Algieri",
-                "job_title": null
+                "person_id": "dr_daniel_algieri"
               }
             ]
           },
@@ -70,24 +64,20 @@
             "lightning_talks": [
               {
                 "title": "Indicaciones actuales de la resección hepática laparoscópica y robótica",
-                "speaker_name": "Dr. Diego Fernandez",
-                "institution": null
+                "person_id": "dr_diego_fernandez"
               },
               {
                 "title": "Tips & tricks en cirugía hepática mínimamente invasiva",
-                "speaker_name": "Dr. Rodrigo Sanchez Claria",
-                "institution": null
+                "person_id": "dr_rodrigo_sanchez_claria"
               },
               {
                 "title": "Selección de pacientes y curva de aprendizaje",
-                "speaker_name": "Dr. Mariano Moro",
-                "institution": null
+                "person_id": "dr_mariano_moro"
               }
             ],
             "moderators": [
               {
-                "name": "Dr. Eduardo Cassone",
-                "job_title": null
+                "person_id": "dr_eduardo_cassone"
               }
             ]
           },
@@ -109,24 +99,20 @@
             "lightning_talks": [
               {
                 "title": "Caso Clínico",
-                "speaker_name": "Dr. Pablo Sanchez",
-                "institution": null
+                "person_id": "dr_pablo_sanchez"
               },
               {
                 "title": "Caso Clínico",
-                "speaker_name": "Dra. Victoria Ardiles",
-                "institution": null
+                "person_id": "dra_victoria_ardiles"
               },
               {
                 "title": "Caso Clínico",
-                "speaker_name": "Dra. Fernanda Bersano",
-                "institution": null
+                "person_id": "dra_fernanda_bersano"
               }
             ],
             "moderators": [
               {
-                "name": "Dr. Carlos Valenzuela",
-                "job_title": null
+                "person_id": "dr_carlos_valenzuela"
               }
             ]
           },
@@ -146,12 +132,10 @@
             "title": "Cirugía robótica: lo que el residente necesita saber.",
             "speakers": [
               {
-                "speaker_name": "Juan Pekolj",
-                "institution": null
+                "person_id": "juan_pekolj"
               },
               {
-                "speaker_name": "Gustavo Marcucci",
-                "institution": null
+                "person_id": "gustavo_marcucci"
               }
             ],
             "lightning_talks": [],
@@ -164,23 +148,19 @@
             "title": "Conferencia: Utilidad de la Colecistostomía en la práctica quirúrgica habitual.",
             "speakers": [
               {
-                "speaker_name": "Dr. Suarez Anzorena",
-                "institution": null
+                "person_id": "dr_suarez_anzorena"
               }
             ],
             "lightning_talks": [],
             "moderators": [
               {
-                "name": "Dr. Juan Pablo Córdoba",
-                "job_title": null
+                "person_id": "dr_juan_pablo_cordoba"
               },
               {
-                "name": "Dr. Eduardo Cassone",
-                "job_title": null
+                "person_id": "dr_eduardo_cassone"
               },
               {
-                "name": "Dr. Javier Rossi",
-                "job_title": null
+                "person_id": "dr_javier_rossi"
               }
             ]
           },
@@ -191,8 +171,7 @@
             "title": "Dinámica funcional del quirófano robótico: coordinación entre cirujano en consola y equipo",
             "speakers": [
               {
-                "speaker_name": "Asociación Argentina de Instrumentadores Quirúrgicos",
-                "institution": null
+                "label": "Asociación Argentina de Instrumentadores Quirúrgicos"
               }
             ],
             "lightning_talks": [],
@@ -216,25 +195,20 @@
             "lightning_talks": [
               {
                 "title": "Estrategias para confección de anastomosis seguras",
-                "speaker_name": "Dr. Alejandro Moreira Grecco",
-                "institution": null
+                "person_id": "dr_alejandro_moreira_grecco"
               },
               {
                 "title": "Utilidad del verde de indocianina en cirugía colorrectal segura",
-                "speaker_name": "Dr. Juan Patrón Uriburu",
-                "institution": null
+                "person_id": "dr_juan_patron_uriburu"
               },
               {
                 "title": "Endometriosis intestinal, nuevas técnicas",
-                "speaker_name": "Dr. Joaquin Tognelli",
-                "job_title": "Coloproctólogo de staff",
-                "institution": "Hospital Fernández, Sanatorio Finochietto y Sagrado Corazón"
+                "person_id": "dr_joaquin_tognelli"
               }
             ],
             "moderators": [
               {
-                "name": "Dr. Agustin Correa",
-                "job_title": null
+                "person_id": "dr_agustin_correa"
               }
             ]
           },
@@ -242,49 +216,40 @@
             "start_time": "16:15",
             "end_time": "16:45",
             "activity": "Cirujanos Jóvenes",
-            "title": "Lesión de vía aérea iatrogénica en cirugía programada: Lecciones aprendidas para un diagnóstico oportuno. Hospital Cuenca",
-            "speakers": [
-              {
-                "speaker_name": "Dr. Quintana Alan",
-                "institution": "Hospital Cuenca"
-              }
-            ],
+            "title": null,
+            "speakers": [],
             "lightning_talks": [
               {
-                "title": "Todo podía malir sal",
-                "speaker_name": "Dra. Pardal Pilar",
-                "institution": "Hospital Dr"
+                "title": "Lesión de vía aérea iatrogénica en cirugía programada: Lecciones aprendidas para un diagnóstico oportuno",
+                "person_id": "dr_quintana_alan"
               },
               {
                 "title": "Todo podía malir sal",
-                "speaker_name": "Dr. Alejandro Korn",
-                "institution": "Hospital Dr"
+                "person_id": "dra_pardal_pilar"
               },
               {
                 "title": "Colecistitis y tumor de suprarrenal",
-                "speaker_name": "Dr. José Varela y Dra. María",
-                "institution": "Hospital General de Agudos Dr. Cosme Argerich"
-              },
-              {
-                "title": "Colecistitis y tumor de suprarrenal",
-                "speaker_name": "Dr. Cosme Argerich",
-                "institution": "Hospital General de Agudos Dr. Cosme Argerich"
+                "speakers": [
+                  {
+                    "person_id": "dr_jose_varela"
+                  },
+                  {
+                    "person_id": "dra_maria_cristina_du_plessis"
+                  }
+                ]
               },
               {
                 "title": "Desafíos en el diagnóstico de la patología biliar, a propósito de un caso",
-                "speaker_name": "Dra. Balent Aguirre Emilie",
-                "institution": "Hospital El Cruce"
+                "person_id": "dra_balent_aguirre_emilie"
               },
               {
                 "title": "Por las ramas no, por los dientes",
-                "speaker_name": "Dra",
-                "institution": "Hospital de Ezeiza"
+                "person_id": "dra_viscomi_lucila"
               }
             ],
             "moderators": [
               {
-                "name": "Dra. Anabella Sanchez",
-                "job_title": null
+                "person_id": "dra_anabella_sanchez"
               }
             ]
           },
@@ -295,15 +260,13 @@
             "title": "Hernias incisional complejas: del diagnóstico a la estrategia quirúrgica. Pensar antes de operar.",
             "speakers": [
               {
-                "speaker_name": "Dr. Federico Gorganchian",
-                "institution": null
+                "person_id": "dr_federico_gorganchian"
               }
             ],
             "lightning_talks": [],
             "moderators": [
               {
-                "name": "Dr. Walther Minatti",
-                "job_title": null
+                "person_id": "dr_walther_minatti"
               }
             ]
           },
@@ -330,20 +293,16 @@
             "lightning_talks": [],
             "moderators": [
               {
-                "name": "Dr. Moreira Grecco",
-                "job_title": null
+                "person_id": "dr_alejandro_moreira_grecco"
               },
               {
-                "name": "Dr. Rossi",
-                "job_title": null
+                "person_id": "dr_javier_rossi"
               },
               {
-                "name": "Dr. Patron",
-                "job_title": null
+                "person_id": "dr_juan_patron_uriburu"
               },
               {
-                "name": "Dr. Fernandez",
-                "job_title": null
+                "label": "Dr. Fernandez"
               }
             ]
           },
@@ -354,35 +313,29 @@
             "title": "Conferencia: Actualización de las estrategias terapéuticas para el manejo de los Tumores Retroperitoneales.",
             "speakers": [
               {
-                "speaker_name": "Dr. Gonzalo Cervelo",
-                "institution": null
+                "person_id": "dr_gonzalo_cervelo"
               }
             ],
             "lightning_talks": [
               {
                 "title": "Debate: Metástasis hepáticas CCR 3 cm y menores. Hay consenso en su manejo?",
-                "speaker_name": "Dr. Emilio Quiñonez",
-                "institution": null
+                "person_id": "dr_emilio_quinonez"
               },
               {
                 "title": "Caso 1: No hay duda: opero siempre",
-                "speaker_name": "Dr. Pablo Sanchez",
-                "institution": null
+                "person_id": "dr_pablo_sanchez"
               },
               {
                 "title": "Caso 2: Siempre ablación percutánea con energía",
-                "speaker_name": "Dr. Hernan Bertoni",
-                "institution": null
+                "person_id": "dr_hernan_bertoni"
               }
             ],
             "moderators": [
               {
-                "name": "Dr. Walter Nardi",
-                "job_title": null
+                "person_id": "dr_walter_nardi"
               },
               {
-                "name": "Dr. Taype Xavier",
-                "job_title": null
+                "person_id": "dr_taype_xavier"
               }
             ]
           },
@@ -404,24 +357,20 @@
             "lightning_talks": [
               {
                 "title": "Esquemas de neoadyuvancia actuales",
-                "speaker_name": "Dr. Jorge Ibarra",
-                "institution": "Centro Oncológico Regional COIR"
+                "person_id": "dr_jorge_ibarra"
               },
               {
                 "title": "Es segura actualmente la estrategia de w&w?",
-                "speaker_name": "Dra. Laura Fernández",
-                "institution": "Fundación Champalimaud"
+                "person_id": "dra_laura_fernandez"
               },
               {
                 "title": "Cuándo conviene operar a mi paciente después de TNT?",
-                "speaker_name": "Dr. Moreira Grecco",
-                "institution": "Hospital de Clínicas de Bs As"
+                "person_id": "dr_alejandro_moreira_grecco"
               }
             ],
             "moderators": [
               {
-                "name": "Dr. Guillermo Sanguinetti",
-                "job_title": null
+                "person_id": "dr_guillermo_sanguinetti"
               }
             ]
           },
@@ -432,15 +381,13 @@
             "title": "Innovación Quirúrgica con Perspectiva de Equidad: Acceso, Oportunidades y Diversidad en el Ámbito Institucional. Una vuelta más de reflexión bajo la lupa del pensamiento crítico.",
             "speakers": [
               {
-                "speaker_name": "Dra. Gisela Aquije Matta",
-                "institution": null
+                "person_id": "dra_gisela_aquije_matta"
               }
             ],
             "lightning_talks": [
               {
                 "title": "Formación en residencias quirúrgicas y posgrado con la visión de la comisión de equidad, igualdad y diversidad",
-                "speaker_name": "Dra. Loreley Toresan",
-                "institution": null
+                "person_id": "dra_loreley_toresan"
               }
             ],
             "moderators": []
@@ -454,24 +401,20 @@
             "lightning_talks": [
               {
                 "title": "Anterior vs posterior",
-                "speaker_name": "Dr. Facundo Nogueira",
-                "institution": null
+                "person_id": "dr_facundo_nogueira"
               },
               {
                 "title": "Abordaje abierto, laparoscópico y robótico",
-                "speaker_name": "Dr. Pablo Cingolani",
-                "institution": null
+                "person_id": "dr_pablo_cingolani"
               },
               {
                 "title": "Resultados y complicaciones",
-                "speaker_name": "Dr. Juan Vaccaro",
-                "institution": null
+                "person_id": "dr_juan_vaccaro"
               }
             ],
             "moderators": [
               {
-                "name": "Dr. Enrique Ruiz",
-                "job_title": null
+                "person_id": "dr_enrique_ruiz"
               }
             ]
           },
@@ -493,19 +436,16 @@
             "lightning_talks": [
               {
                 "title": "Caso 1",
-                "speaker_name": "Dr. Franco Signorini",
-                "institution": null
+                "person_id": "dr_franco_signorini"
               },
               {
                 "title": "Caso 2",
-                "speaker_name": "Dra. Adelina Coturel",
-                "institution": null
+                "person_id": "dra_adelina_coturel"
               }
             ],
             "moderators": [
               {
-                "name": "Dr. Lucio Obeide",
-                "job_title": null
+                "person_id": "dr_lucio_obeide"
               }
             ]
           },
@@ -516,12 +456,10 @@
             "title": "Fluorescencia en la residencia de cirugía.",
             "speakers": [
               {
-                "speaker_name": "Alejandro Moreira Grecco",
-                "institution": null
+                "person_id": "dr_alejandro_moreira_grecco"
               },
               {
-                "speaker_name": "Diego Sinagra",
-                "institution": null
+                "person_id": "diego_sinagra"
               }
             ],
             "lightning_talks": [],
@@ -552,15 +490,13 @@
             "title": "Conferencia: Cirugía robótica en la pared abdominal: ¿moda o verdadera evolución?",
             "speakers": [
               {
-                "speaker_name": "Dr. Heitor Santos",
-                "institution": null
+                "person_id": "dr_heitor_santos"
               }
             ],
             "lightning_talks": [],
             "moderators": [
               {
-                "name": "Dr. Gustavo Bardaro",
-                "job_title": null
+                "person_id": "dr_gustavo_bardaro"
               }
             ]
           },
@@ -573,24 +509,20 @@
             "lightning_talks": [
               {
                 "title": "Extensión de resección hepática",
-                "speaker_name": "Dr. Christian Bertona",
-                "institution": null
+                "person_id": "dr_christian_bertona"
               },
               {
                 "title": "Rol de la linfadenectomía",
-                "speaker_name": "Dr. Emilio Quiñonez",
-                "institution": null
+                "person_id": "dr_emilio_quinonez"
               },
               {
                 "title": "Integración con terapias neoadyuvantes y adyuvantes",
-                "speaker_name": "Dr. Jeremías Goransky",
-                "institution": null
+                "person_id": "dr_jeremias_goransky"
               }
             ],
             "moderators": [
               {
-                "name": "Dr. Martín Duhalde",
-                "job_title": null
+                "person_id": "dr_martin_duhalde"
               }
             ]
           },
@@ -603,8 +535,7 @@
             "lightning_talks": [],
             "moderators": [
               {
-                "name": "Dr. Cingolani",
-                "job_title": null
+                "person_id": "dr_pablo_cingolani"
               }
             ]
           },
@@ -775,25 +706,21 @@
             "title": "Qué debe saber el cirujano general de guardia de cirugía bariátrica?",
             "speakers": [
               {
-                "speaker_name": "Dr. Luciano Deluca",
-                "institution": null
+                "person_id": "dr_luciano_deluca"
               }
             ],
             "lightning_talks": [
               {
                 "title": "Manejo de la litiasis biliar en el paciente con by-pass gástrico",
-                "speaker_name": "Dr. Jorge Nefa",
-                "institution": null
+                "person_id": "dr_jorge_nefa"
               }
             ],
             "moderators": [
               {
-                "name": "Dr. Omelanczuk",
-                "job_title": null
+                "person_id": "dr_omelanczuk"
               },
               {
-                "name": "Dr. Signorini",
-                "job_title": null
+                "person_id": "dr_franco_signorini"
               }
             ]
           },
@@ -804,30 +731,24 @@
             "title": "Eventración en el paciente obeso cuándo se opera. Antes durante o después de la cirugía bariátrica.",
             "speakers": [
               {
-                "speaker_name": "Dr. Juan Pablo Gempel",
-                "institution": null
+                "person_id": "dr_juan_pablo_gempel"
               }
             ],
             "lightning_talks": [
               {
                 "title": "Abdomen agudo oclusivo postcirugía bariátrica",
-                "speaker_name": "Dr. Mario Corengia",
-                "institution": null
+                "person_id": "dr_mario_corengia"
               },
               {
-                "title": "Discusión",
-                "speaker_name": null,
-                "institution": null
+                "title": "Discusión"
               }
             ],
             "moderators": [
               {
-                "name": "Dr. Luciano Deluca",
-                "job_title": null
+                "person_id": "dr_luciano_deluca"
               },
               {
-                "name": "Dr. Alejandro Birman",
-                "job_title": null
+                "person_id": "dr_alejandro_birman"
               }
             ]
           },
@@ -849,25 +770,20 @@
             "lightning_talks": [
               {
                 "title": "HI, Tratamiento médico ambulatorio? , uso racional de Atb",
-                "speaker_name": "Dra. María Susana Bruzzi",
-                "job_title": "Coordinadora de la Comisión de Coloproctología AAC",
-                "institution": null
+                "person_id": "dra_maria_susana_bruzzi"
               },
               {
                 "title": "HII, III y IV. Algoritmo de tratamiento. Cuándo técnicas mínimamente invasivas. Cuándo realizar anastomosis? , Uso del lavado y drenaje laparoscópico, Abdomen abierto y contenido ¿todavía?",
-                "speaker_name": "Dr. Diego Bertani",
-                "institution": null
+                "person_id": "dr_diego_bertani"
               },
               {
                 "title": "Cirugía Electiva Post Evento Agudo. Selección de Paciente. Actualización",
-                "speaker_name": "Dr. Minatti Walther",
-                "institution": null
+                "person_id": "dr_walther_minatti"
               }
             ],
             "moderators": [
               {
-                "name": "Dr. Rubén Balmaceda",
-                "job_title": null
+                "person_id": "dr_ruben_balmaceda"
               }
             ]
           },
@@ -878,15 +794,13 @@
             "title": "Simposio Expositor extranjero",
             "speakers": [
               {
-                "speaker_name": "Dr. Cugat (España)",
-                "institution": null
+                "person_id": "dr_cugat"
               }
             ],
             "lightning_talks": [],
             "moderators": [
               {
-                "name": "Dr. Ruiz Samuel",
-                "job_title": null
+                "person_id": "dr_samuel_ruiz"
               }
             ]
           },
@@ -899,19 +813,16 @@
             "lightning_talks": [
               {
                 "title": "Funduplicatura de Nissen Laparoscópica.",
-                "speaker_name": "Dra. Adelina Coturel",
-                "institution": null
+                "person_id": "dra_adelina_coturel"
               },
               {
                 "title": "Funduplicatura de Toupet Robótica.",
-                "speaker_name": "Dr. Mauricio Ramírez",
-                "institution": null
+                "person_id": "dr_mauricio_ramirez"
               }
             ],
             "moderators": [
               {
-                "name": "Dr. Cuenca Abente",
-                "job_title": null
+                "person_id": "dr_cuenca_abente"
               }
             ]
           },
@@ -931,15 +842,13 @@
             "title": "Endoscopía terapéutica avanzada: redefiniendo la cirugía esofagogástrica",
             "speakers": [
               {
-                "speaker_name": "Dr. Mauricio Ramírez",
-                "institution": null
+                "person_id": "dr_mauricio_ramirez"
               }
             ],
             "lightning_talks": [],
             "moderators": [
               {
-                "name": "Dr. Adrian Cena",
-                "job_title": null
+                "person_id": "dr_adrian_cena"
               }
             ]
           },
@@ -952,24 +861,20 @@
             "lightning_talks": [
               {
                 "title": "Criterios de resecabilidad y borderline resectable",
-                "speaker_name": "Dr. Gustavo Kohan",
-                "institution": null
+                "person_id": "dr_gustavo_kohan"
               },
               {
                 "title": "Rol de la resección vascular",
-                "speaker_name": "Dr. Lucio Uranga",
-                "institution": null
+                "person_id": "dr_lucio_uranga"
               },
               {
                 "title": "Resultados oncológicos y selección de pacientes",
-                "speaker_name": "Dr. Martín De santibañes",
-                "institution": null
+                "person_id": "dr_martin_de_santibanes"
               }
             ],
             "moderators": [
               {
-                "name": "Dr. Mazza",
-                "job_title": null
+                "person_id": "oscar_mazza"
               }
             ]
           },
@@ -982,19 +887,16 @@
             "lightning_talks": [
               {
                 "title": "Caso clínico 1",
-                "speaker_name": "Dr. Pablo Capitanich",
-                "institution": "Hospital Alemán"
+                "person_id": "dr_pablo_capitanich"
               },
               {
                 "title": "Caso clínico 2",
-                "speaker_name": "Dr. Gustavo Kohan",
-                "institution": "Hospital Rivadavia"
+                "person_id": "dr_gustavo_kohan"
               }
             ],
             "moderators": [
               {
-                "name": "Dr. Javier Crisci",
-                "job_title": null
+                "person_id": "dr_javier_crisci"
               }
             ]
           },
@@ -1016,19 +918,16 @@
             "lightning_talks": [
               {
                 "title": "Neuromodulación sacra",
-                "speaker_name": "Dr. Rubén Miravalle",
-                "institution": null
+                "person_id": "dr_ruben_miravalle"
               },
               {
                 "title": "Manejo médico y quirúrgico de SOTS",
-                "speaker_name": "Dra. Flavia Alexandre",
-                "institution": null
+                "person_id": "dra_flavia_alexandre"
               }
             ],
             "moderators": [
               {
-                "name": "Dr. Arnoldo Castro",
-                "job_title": null
+                "person_id": "dr_arnoldo_castro"
               }
             ]
           },
@@ -1039,46 +938,38 @@
             "title": "Neoplasias del peritoneo, poniendo blanco sobre negro. Cuando citoreducción, Pipac, Hipec. (Conf y casos)",
             "speakers": [
               {
-                "speaker_name": "Dr. Pablo Carmignani",
-                "institution": null
+                "person_id": "dr_pablo_carmignani"
               }
             ],
             "lightning_talks": [
               {
                 "title": "Casos",
-                "speaker_name": "Dr. Raffa Ignacio",
-                "institution": null
+                "person_id": "dr_raffa_ignacio"
               },
               {
                 "title": "Casos",
-                "speaker_name": "Dr. Fernando Iglesias",
-                "institution": null
+                "person_id": "dr_fernando_iglesias"
               },
               {
                 "title": "Programas de recuperación avanzada (eras) en cirugía oncológica. Cómo alcanzar objetivos cumplibles en nuestro medio.",
-                "speaker_name": "Dr. Badra Roberto",
-                "institution": null
+                "person_id": "dr_badra_roberto"
               },
               {
                 "title": "Disertante EGD",
-                "speaker_name": "Dr. Mauricio Ramirez",
-                "institution": null
+                "person_id": "dr_mauricio_ramirez"
               },
               {
                 "title": "Disertante EGD",
-                "speaker_name": "Dr. Alejandro Pairola",
-                "institution": null
+                "person_id": "dr_alejandro_pairola"
               },
               {
                 "title": "Disertante EGD",
-                "speaker_name": "Dr. Bufaliza",
-                "institution": null
+                "person_id": "dr_bufaliza"
               }
             ],
             "moderators": [
               {
-                "name": "Dr. Cingolani",
-                "job_title": null
+                "person_id": "dr_pablo_cingolani"
               }
             ]
           },
@@ -1091,19 +982,16 @@
             "lightning_talks": [
               {
                 "title": "Malla de Polipropileno sin cobertura antiadherente",
-                "speaker_name": "Dr. Walther Minatti",
-                "institution": null
+                "person_id": "dr_walther_minatti"
               },
               {
                 "title": "Mallas con cobertura antiadherente",
-                "speaker_name": "Dr. Heitor Santos",
-                "institution": null
+                "person_id": "dr_heitor_santos"
               }
             ],
             "moderators": [
               {
-                "name": "Dr. Fabian Lerda",
-                "job_title": null
+                "person_id": "dr_fabian_lerda"
               }
             ]
           },
@@ -1114,12 +1002,10 @@
             "title": "Fluorescencia en qx. Usos en cirugía Digestiva",
             "speakers": [
               {
-                "speaker_name": "Lic. ELEONORA TIMPONIL",
-                "institution": null
+                "person_id": "lic_eleonora_timponil"
               },
               {
-                "speaker_name": "Lic. DANIELA POZZO",
-                "institution": null
+                "person_id": "lic_daniela_pozzo"
               }
             ],
             "lightning_talks": [],
@@ -1137,34 +1023,28 @@
             "title": "Update en Ca de vesícula. Mesa de MDT (cirujano, oncólogo, rt, imágenes). Watch and wait en adenocarcinoma UGE y Gástrico. Estamos en condiciones de ofrecerla? (Conf y casos)",
             "speakers": [
               {
-                "speaker_name": "Dra. Adelina Coturel",
-                "institution": null
+                "person_id": "dra_adelina_coturel"
               },
               {
-                "speaker_name": "Dr. Jorge Ibarra",
-                "institution": null
+                "person_id": "dr_jorge_ibarra"
               }
             ],
             "lightning_talks": [
               {
                 "title": "Casos",
-                "speaker_name": "Dr. Franco Signorini",
-                "institution": null
+                "person_id": "dr_franco_signorini"
               },
               {
                 "title": "Casos",
-                "speaker_name": "Dr. Mauricio Ramirez",
-                "institution": null
+                "person_id": "dr_mauricio_ramirez"
               }
             ],
             "moderators": [
               {
-                "name": "Dr. Cassone",
-                "job_title": null
+                "person_id": "dr_eduardo_cassone"
               },
               {
-                "name": "Dr. Taype Xavier",
-                "job_title": null
+                "person_id": "dr_taype_xavier"
               }
             ]
           },
@@ -1177,8 +1057,7 @@
             "lightning_talks": [],
             "moderators": [
               {
-                "name": "Dr. Daniel Pirchi",
-                "job_title": "Presidente de Comité Colegio - AAC"
+                "person_id": "dr_daniel_pirchi"
               }
             ]
           },
@@ -1207,20 +1086,16 @@
             "title": "El residente en 2026.",
             "speakers": [
               {
-                "speaker_name": "Oscar Mazza",
-                "institution": null
+                "person_id": "oscar_mazza"
               },
               {
-                "speaker_name": "José Cooke",
-                "institution": null
+                "person_id": "jose_cooke"
               },
               {
-                "speaker_name": "Gustavo Matus",
-                "institution": null
+                "person_id": "gustavo_matus"
               },
               {
-                "speaker_name": "Ezequiel Palmisano",
-                "institution": null
+                "person_id": "ezequiel_palmisano"
               }
             ],
             "lightning_talks": [],
@@ -1235,24 +1110,20 @@
             "lightning_talks": [
               {
                 "title": "Control de comorbilidades",
-                "speaker_name": "Dr. Heitor Santos",
-                "institution": null
+                "person_id": "dr_heitor_santos"
               },
               {
                 "title": "Neumoperitoneo progresivo y toxina botulínica",
-                "speaker_name": "Dr. Gustavo Bardaro",
-                "institution": null
+                "person_id": "dr_gustavo_bardaro"
               },
               {
                 "title": "Timing quirúrgico",
-                "speaker_name": "Dr. Pablo Medina",
-                "institution": null
+                "person_id": "dr_pablo_medina"
               }
             ],
             "moderators": [
               {
-                "name": "Dr. Dario Guareschi",
-                "job_title": null
+                "person_id": "dr_dario_guareschi"
               }
             ]
           },
@@ -1272,8 +1143,7 @@
             "title": "SIMPOSIO Cx Robótica",
             "speakers": [
               {
-                "speaker_name": "Dr. Samuel Ruiz",
-                "institution": null
+                "person_id": "dr_samuel_ruiz"
               }
             ],
             "lightning_talks": [],
@@ -1297,24 +1167,20 @@
             "lightning_talks": [
               {
                 "title": "Manejo de abscesos complejos",
-                "speaker_name": "Dr. Claudio Fermani",
-                "institution": null
+                "person_id": "dr_claudio_fermani"
               },
               {
                 "title": "Manejo del plastrón apendicular",
-                "speaker_name": "Dr. Pablo Pellegrini",
-                "institution": null
+                "person_id": "dr_pablo_pellegrini"
               },
               {
                 "title": "Trauma obstétrico",
-                "speaker_name": "Dra. Flavia Alexandre",
-                "institution": null
+                "person_id": "dra_flavia_alexandre"
               }
             ],
             "moderators": [
               {
-                "name": "Dr. Pablo Blanco",
-                "job_title": null
+                "person_id": "dr_pablo_blanco"
               }
             ]
           },
@@ -1343,15 +1209,13 @@
             "title": "Charla magistral: Linfadenectomías en gastrectomías y esofaguectomías.",
             "speakers": [
               {
-                "speaker_name": "Dr. Franco Signorini",
-                "institution": null
+                "person_id": "dr_franco_signorini"
               }
             ],
             "lightning_talks": [],
             "moderators": [
               {
-                "name": "Dr. Axel Beskow",
-                "job_title": null
+                "person_id": "dr_axel_beskow"
               }
             ]
           },
@@ -1362,15 +1226,13 @@
             "title": "Radiofrecuencia en vía biliar",
             "speakers": [
               {
-                "speaker_name": "Dr. Hernán Cordero",
-                "institution": null
+                "person_id": "dr_hernan_cordero"
               }
             ],
             "lightning_talks": [],
             "moderators": [
               {
-                "name": "Dr. Omar Veloso",
-                "job_title": null
+                "person_id": "dr_omar_veloso"
               }
             ]
           },

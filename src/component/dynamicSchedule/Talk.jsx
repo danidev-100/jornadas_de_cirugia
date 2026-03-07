@@ -1,17 +1,86 @@
-function formatNameWithDetail(name, detail) {
-  const cleanName = typeof name === "string" ? name.trim() : "";
-  const cleanDetail = typeof detail === "string" ? detail.trim() : "";
+import {
+  getPersonAnchorId,
+  getPersonById,
+} from "../../data/people.js";
 
-  if (!cleanName) return cleanDetail;
-  if (!cleanDetail) return cleanName;
-  return `${cleanName} (${cleanDetail})`;
+function normalizeText(value) {
+  return typeof value === "string" ? value.trim() : "";
 }
 
-function formatModerator(moderator) {
-  if (typeof moderator === "string") return moderator;
-  if (!moderator || typeof moderator !== "object") return "";
+function resolvePersonReference(reference, detailKey) {
+  if (!reference) return null;
 
-  return formatNameWithDetail(moderator.name, moderator.job_title);
+  if (reference.person_id) {
+    const person = getPersonById(reference.person_id);
+    if (!person) {
+      return {
+        name: reference.person_id,
+        detail: "",
+        href: null,
+      };
+    }
+
+    return {
+      name: person.name,
+      detail: normalizeText(person[detailKey]),
+      href: `#${getPersonAnchorId(reference.person_id)}`,
+    };
+  }
+
+  if (reference.label) {
+    return {
+      name: normalizeText(reference.label),
+      detail: "",
+      href: null,
+    };
+  }
+
+  if (typeof reference === "string") {
+    return {
+      name: normalizeText(reference),
+      detail: "",
+      href: null,
+    };
+  }
+
+  if ("speaker_name" in reference) {
+    return {
+      name: normalizeText(reference.speaker_name),
+      detail: normalizeText(reference.institution),
+      href: null,
+    };
+  }
+
+  if ("name" in reference) {
+    return {
+      name: normalizeText(reference.name),
+      detail: normalizeText(reference.job_title),
+      href: null,
+    };
+  }
+
+  return null;
+}
+
+function PersonReference({ reference, detailKey }) {
+  const personReference = resolvePersonReference(reference, detailKey);
+  if (!personReference?.name) return null;
+
+  return (
+    <>
+      {personReference.href ? (
+        <a
+          href={personReference.href}
+          className="font-medium underline decoration-wave underline-offset-2 transition hover:text-chocolate"
+        >
+          {personReference.name}
+        </a>
+      ) : (
+        personReference.name
+      )}
+      {personReference.detail ? ` (${personReference.detail})` : null}
+    </>
+  );
 }
 
 function Talk({ event }) {
@@ -44,33 +113,42 @@ function Talk({ event }) {
 
       {speakers.map((speaker, index) => (
         <p key={`speaker-${index}`} className="text-sm text-ink">
-          {formatNameWithDetail(speaker.speaker_name, speaker.institution)}
+          <PersonReference reference={speaker} detailKey="institution" />
         </p>
       ))}
 
-      {lightningTalks.map((lightningTalk, index) => (
-        <div key={`lightning-${index}`} className="space-y-1">
-          <p className="text-sm text-ink">{lightningTalk.title}</p>
-          <p className="text-sm text-ink">
-            {formatNameWithDetail(
-              lightningTalk.speaker_name,
-              lightningTalk.institution,
-            )}
-          </p>
-        </div>
-      ))}
-
-      {moderators.map((moderator, index) => {
-        const moderatorLabel = formatModerator(moderator);
-        if (!moderatorLabel) return null;
+      {lightningTalks.map((lightningTalk, index) => {
+        const speakerReferences = Array.isArray(lightningTalk?.speakers)
+          ? lightningTalk.speakers
+          : lightningTalk.person_id ||
+              lightningTalk.label ||
+              lightningTalk.speaker_name
+            ? [lightningTalk]
+            : [];
 
         return (
-          <p key={`moderator-${index}`} className="text-sm text-ink">
-            {moderatorLabel}
-          </p>
+          <div key={`lightning-${index}`} className="space-y-1">
+            <p className="text-sm text-ink">{lightningTalk.title}</p>
+            {speakerReferences.map((speakerReference, speakerIndex) => (
+              <p
+                key={`lightning-${index}-speaker-${speakerIndex}`}
+                className="text-sm text-ink"
+              >
+                <PersonReference
+                  reference={speakerReference}
+                  detailKey="institution"
+                />
+              </p>
+            ))}
+          </div>
         );
       })}
 
+      {moderators.map((moderator, index) => (
+        <p key={`moderator-${index}`} className="text-sm text-ink">
+          <PersonReference reference={moderator} detailKey="job_title" />
+        </p>
+      ))}
     </article>
   );
 }
