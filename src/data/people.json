@@ -1,18 +1,22 @@
 {
   "diego_sinagra": {
     "name": "Diego Sinagra",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_adrian_cena": {
     "name": "Dr. Adrian Cena",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_agustin_correa": {
     "name": "Dr. Agustin Correa",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_alejandro_birman": {
     "name": "Dr. Alejandro Birman",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_alejandro_moreira_grecco": {
@@ -34,72 +38,89 @@
       "Alejandro Moreira Grecco",
       "Dr. Moreira Grecco"
     ],
+    "nationality": null,
     "submitted_at": "2026-03-07T19:56:54-03:00"
   },
   "dr_alejandro_pairola": {
     "name": "Dr. Alejandro Pairola",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_arnoldo_castro": {
     "name": "Dr. Arnoldo Castro",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_axel_beskow": {
     "name": "Dr. Axel Beskow",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_badra_roberto": {
     "name": "Dr. Badra Roberto",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_bufaliza": {
     "name": "Dr. Bufaliza",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_carlos_valenzuela": {
     "name": "Dr. Carlos Valenzuela",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_christian_bertona": {
     "name": "Dr. Christian Bertona",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_claudio_fermani": {
     "name": "Dr. Claudio Fermani",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_cuenca_abente": {
     "name": "Dr. Cuenca Abente",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_cugat": {
-    "name": "Dr. Cugat",
-    "institution": "España",
+    "name": "Dr. Ramón Cugat",
+    "job_title": "Director médico, Especialista en Cirugía Ortopédica y Traumatología",
+    "image": "dr-ramon-cugat.jpg",
     "aliases": [
       "Dr. Cugat (España)"
     ],
+    "nationality": "España",
     "submitted_at": null
   },
   "dr_daniel_algieri": {
     "name": "Dr. Daniel Algieri",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_daniel_pirchi": {
     "name": "Dr. Daniel Pirchi",
     "job_title": "Presidente Comité Colegio AAC",
     "image": "dr-daniel-pirchi.jpeg",
+    "nationality": null,
     "submitted_at": "2026-03-07T19:46:54-03:00"
   },
   "dr_dario_guareschi": {
     "name": "Dr. Dario Guareschi",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_diego_bertani": {
     "name": "Dr. Diego Bertani",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_diego_fernandez": {
     "name": "Dr. Diego Fernandez",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_eduardo_cassone": {
@@ -107,34 +128,42 @@
     "aliases": [
       "Dr. Cassone"
     ],
+    "nationality": null,
     "submitted_at": null
   },
   "dr_emilio_quinonez": {
     "name": "Dr. Emilio Quiñonez",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_enrique_ruiz": {
     "name": "Dr. Enrique Ruiz",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_erick_acosta_barros": {
     "name": "Dr. Erick Acosta Barros",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_fabian_lerda": {
     "name": "Dr. Fabian Lerda",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_facundo_nogueira": {
     "name": "Dr. Facundo Nogueira",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_federico_gorganchian": {
     "name": "Dr. Federico Gorganchian",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_fernando_iglesias": {
     "name": "Dr. Fernando Iglesias",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_franco_signorini": {
@@ -142,39 +171,48 @@
     "aliases": [
       "Dr. Signorini"
     ],
+    "nationality": null,
     "submitted_at": null
   },
   "dr_gonzalo_cervelo": {
     "name": "Dr. Gonzalo Cervelo",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_guillermo_sanguinetti": {
     "name": "Dr. Guillermo Sanguinetti",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_gustavo_bardaro": {
     "name": "Dr. Gustavo Bardaro",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_gustavo_kohan": {
     "name": "Dr. Gustavo Kohan",
     "institution": "Hospital Rivadavia",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_heitor_santos": {
     "name": "Dr. Heitor Santos",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_hernan_bertoni": {
     "name": "Dr. Hernan Bertoni",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_hernan_cordero": {
     "name": "Dr. Hernán Cordero",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_javier_crisci": {
     "name": "Dr. Javier Crisci",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_javier_rossi": {
@@ -182,10 +220,12 @@
     "aliases": [
       "Dr. Rossi"
     ],
+    "nationality": null,
     "submitted_at": null
   },
   "dr_jeremias_goransky": {
     "name": "Dr. Jeremías Goransky",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_joaquin_tognelli": {
@@ -193,28 +233,34 @@
     "job_title": "Coloproctólogo de staff",
     "institution": "Hospital Fernández, Sanatorio Finochietto y Sagrado Corazón",
     "image": "dr-joaquin-tognelli.jpeg",
+    "nationality": null,
     "submitted_at": "2026-03-07T19:46:54-03:00"
   },
   "dr_jorge_ibarra": {
     "name": "Dr. Jorge Ibarra",
     "institution": "Centro Oncológico Regional COIR",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_jorge_nefa": {
     "name": "Dr. Jorge Nefa",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_jose_varela": {
     "name": "Dr. José Varela",
     "institution": "Hospital General de Agudos Dr. Cosme Argerich",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_juan_pablo_cordoba": {
     "name": "Dr. Juan Pablo Córdoba",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_juan_pablo_gempel": {
     "name": "Dr. Juan Pablo Gempel",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_juan_patron_uriburu": {
@@ -223,38 +269,47 @@
     "aliases": [
       "Dr. Patron"
     ],
+    "nationality": null,
     "submitted_at": "2026-03-07T19:46:54-03:00"
   },
   "dr_juan_vaccaro": {
     "name": "Dr. Juan Vaccaro",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_luciano_deluca": {
     "name": "Dr. Luciano Deluca",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_lucio_obeide": {
     "name": "Dr. Lucio Obeide",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_lucio_uranga": {
     "name": "Dr. Lucio Uranga",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_mariano_moro": {
     "name": "Dr. Mariano Moro",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_mario_corengia": {
     "name": "Dr. Mario Corengia",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_martin_de_santibanes": {
     "name": "Dr. Martín De santibañes",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_martin_duhalde": {
     "name": "Dr. Martín Duhalde",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_mauricio_ramirez": {
@@ -262,10 +317,12 @@
     "aliases": [
       "Dr. Mauricio Ramirez"
     ],
+    "nationality": null,
     "submitted_at": null
   },
   "dr_maximiliano_tittarelli": {
     "name": "Dr. Maximiliano Tittarelli",
+    "nationality": null,
     "submitted_at": null
   },
   "oscar_mazza": {
@@ -273,31 +330,38 @@
     "aliases": [
       "Dr. Mazza"
     ],
+    "nationality": null,
     "submitted_at": null
   },
   "dr_norberto_brusa": {
     "name": "Dr. Norberto Brusa",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_omar_veloso": {
     "name": "Dr. Omar Veloso",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_omelanczuk": {
     "name": "Dr. Omelanczuk",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_pablo_blanco": {
     "name": "Dr. Pablo Blanco",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_pablo_capitanich": {
     "name": "Dr. Pablo Capitanich",
     "institution": "Hospital Alemán",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_pablo_carmignani": {
     "name": "Dr. Pablo Carmignani",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_pablo_cingolani": {
@@ -305,39 +369,48 @@
     "aliases": [
       "Dr. Cingolani"
     ],
+    "nationality": null,
     "submitted_at": null
   },
   "dr_pablo_medina": {
     "name": "Dr. Pablo Medina",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_pablo_pellegrini": {
     "name": "Dr. Pablo Pellegrini",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_pablo_sanchez": {
     "name": "Dr. Pablo Sanchez",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_quintana_alan": {
     "name": "Dr. Quintana Alan",
     "institution": "Hospital Cuenca",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_raffa_ignacio": {
     "name": "Dr. Raffa Ignacio",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_rodrigo_sanchez_claria": {
     "name": "Dr. Rodrigo Sanchez Claria",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_ruben_balmaceda": {
     "name": "Dr. Rubén Balmaceda",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_ruben_miravalle": {
     "name": "Dr. Rubén Miravalle",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_samuel_ruiz": {
@@ -345,18 +418,22 @@
     "aliases": [
       "Dr. Ruiz Samuel"
     ],
+    "nationality": null,
     "submitted_at": null
   },
   "dr_suarez_anzorena": {
     "name": "Dr. Suarez Anzorena",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_taype_xavier": {
     "name": "Dr. Taype Xavier",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_walter_nardi": {
     "name": "Dr. Walter Nardi",
+    "nationality": null,
     "submitted_at": null
   },
   "dr_walther_minatti": {
@@ -364,93 +441,114 @@
     "aliases": [
       "Dr. Minatti Walther"
     ],
+    "nationality": null,
     "submitted_at": null
   },
   "dra_adelina_coturel": {
     "name": "Dra. Adelina Coturel",
+    "nationality": null,
     "submitted_at": null
   },
   "dra_anabella_sanchez": {
     "name": "Dra. Anabella Sanchez",
+    "nationality": null,
     "submitted_at": null
   },
   "dra_balent_aguirre_emilie": {
     "name": "Dra. Balent Aguirre Emilie",
     "institution": "Hospital El Cruce",
+    "nationality": null,
     "submitted_at": null
   },
   "dra_carolina_brofman": {
     "name": "Dra. Carolina Brofman",
+    "nationality": null,
     "submitted_at": null
   },
   "dra_fernanda_bersano": {
     "name": "Dra. Fernanda Bersano",
+    "nationality": null,
     "submitted_at": null
   },
   "dra_flavia_alexandre": {
     "name": "Dra. Flavia Alexandre",
+    "nationality": null,
     "submitted_at": null
   },
   "dra_gisela_aquije_matta": {
     "name": "Dra. Gisela Aquije Matta",
+    "nationality": null,
     "submitted_at": null
   },
   "dra_laura_fernandez": {
     "name": "Dra. Laura Fernández",
     "institution": "Fundación Champalimaud",
+    "nationality": null,
     "submitted_at": null
   },
   "dra_loreley_toresan": {
     "name": "Dra. Loreley Toresan",
+    "nationality": null,
     "submitted_at": null
   },
   "dra_maria_cristina_du_plessis": {
     "name": "Dra. María Cristina du Plessis",
     "institution": "Hospital General de Agudos Dr. Cosme Argerich",
+    "nationality": null,
     "submitted_at": null
   },
   "dra_m_soledad_ferrante": {
     "name": "Dra. M. Soledad Ferrante",
+    "nationality": null,
     "submitted_at": null
   },
   "dra_maria_susana_bruzzi": {
     "name": "Dra. María Susana Bruzzi",
     "job_title": "Coordinadora de la Comisión de Coloproctología AAC",
-    "image": "dra-maría-susana-bruzzi.jpeg",
+    "image": "dra-maria-susana-bruzzi.jpeg",
+    "nationality": null,
     "submitted_at": "2026-03-07T18:46:54-03:00"
   },
   "dra_pardal_pilar": {
     "name": "Dra. Pardal Pilar",
     "institution": "Hospital Dr. Alejandro Korn (La Plata)",
+    "nationality": null,
     "submitted_at": null
   },
   "dra_victoria_ardiles": {
     "name": "Dra. Victoria Ardiles",
+    "nationality": null,
     "submitted_at": null
   },
   "dra_viscomi_lucila": {
     "name": "Dra. Viscomi Lucila",
     "institution": "Hospital de Ezeiza",
+    "nationality": null,
     "submitted_at": null
   },
   "ezequiel_palmisano": {
     "name": "Ezequiel Palmisano",
+    "nationality": null,
     "submitted_at": null
   },
   "gustavo_marcucci": {
     "name": "Gustavo Marcucci",
+    "nationality": null,
     "submitted_at": null
   },
   "gustavo_matus": {
     "name": "Gustavo Matus",
+    "nationality": null,
     "submitted_at": null
   },
   "jose_cooke": {
     "name": "José Cooke",
+    "nationality": null,
     "submitted_at": null
   },
   "juan_pekolj": {
     "name": "Juan Pekolj",
+    "nationality": null,
     "submitted_at": null
   },
   "lic_daniela_pozzo": {
@@ -458,6 +556,7 @@
     "aliases": [
       "Lic. DANIELA POZZO"
     ],
+    "nationality": null,
     "submitted_at": null
   },
   "lic_eleonora_timponil": {
@@ -465,6 +564,7 @@
     "aliases": [
       "Lic. ELEONORA TIMPONIL"
     ],
+    "nationality": null,
     "submitted_at": null
   }
 }
