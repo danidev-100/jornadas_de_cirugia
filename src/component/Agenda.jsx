@@ -363,10 +363,10 @@ function Agenda() {
 
         <DynamicSchedule />
 
-        <div className="space-y-8">
+        {/* <div className="space-y-8">
           <AgendaTable {...programaJueves} alwaysShowNowLine />
           <AgendaTable {...programaViernes} alwaysShowNowLine />
-        </div>
+        </div> */}
 
         <div className="p-5 text-center bg-wave rounded-3xl space-y-4 ">
           <h2 className="font-bold text-2xl text-center  text-deep-blue ">
