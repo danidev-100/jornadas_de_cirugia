@@ -116,6 +116,7 @@ function Talk({
   roomIndex = null,
   roomLabel = null,
   showRoomLabel = false,
+  centerContent = false,
 }) {
   const title = event?.title ?? null;
   const speakers = Array.isArray(event?.speakers) ? event.speakers : [];
@@ -127,6 +128,10 @@ function Talk({
   const cardClassName = `flex h-full flex-col gap-4 overflow-hidden rounded-r-[2rem] rounded-l-none border-l-5 px-5 py-5 ${roomToneClasses.card}`;
   const activityClassName = `inline-flex w-fit rounded-2xl px-4 py-2 text-sm font-semibold tracking-[0.16em] uppercase ${roomToneClasses.chip}`;
   const roomLabelClassName = `text-xs font-semibold uppercase ${roomToneClasses.chip.split(" ").at(-1) ?? "text-deep-blue/60"}`;
+  const mergedCardClassName =
+    "flex h-full items-center justify-center rounded-r-[2rem] rounded-l-none border border-wave border-l-5 bg-white px-8 py-10 text-center";
+  const mergedActivityClassName =
+    "text-lg font-semibold tracking-[0.18em] text-deep-blue/50 uppercase md:text-2xl";
 
   const headerContent = (
     <div className="flex items-center justify-between gap-3">
@@ -145,8 +150,12 @@ function Talk({
 
   if (isBreak) {
     return (
-      <article className={cardClassName}>
-        {headerContent}
+      <article className={centerContent ? mergedCardClassName : cardClassName}>
+        {centerContent ? (
+          <p className={mergedActivityClassName}>{event.activity}</p>
+        ) : (
+          headerContent
+        )}
       </article>
     );
   }

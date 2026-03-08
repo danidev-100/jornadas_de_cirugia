@@ -38,7 +38,7 @@ function Time({
         </div>
 
         {isMergedBreak && mergedEvent ? (
-          <Talk event={mergedEvent} />
+          <Talk event={mergedEvent} centerContent />
         ) : (
           <div className="flex flex-col gap-3">
             {visibleRoomEntries.map(({ roomName, roomIndex, event }) => (
@@ -80,7 +80,7 @@ function Time({
 
       {isMergedBreak && mergedEvent ? (
         <div className="col-span-3 h-full p-3">
-          <Talk event={mergedEvent} />
+          <Talk event={mergedEvent} centerContent />
         </div>
       ) : (
         roomEntries.map(({ roomName, roomIndex, event }) => {
