@@ -24,12 +24,12 @@ function Footer() {
       </div>
       <hr className="border-1 border-white/50"></hr>
       <div className="flex flex-col lg:flex lg:flex-row gap-20 lg:gap-0 justify-around text-white bg-deep-blue">
-        <div className="grid grid-cols-3 flex flex-col items-center gap-10">
+        <div className="grid grid-cols-2 sm:grid-cols-3 items-center gap-10">
           {navigation.map((item) => (
             <a
               key={item.name}
               href={item.href}
-              className="text-xl text-white  hover:text-white font-medium "
+              className="text-base md:text-xl text-white  hover:text-white font-medium "
             >
               {item.name}
             </a>
