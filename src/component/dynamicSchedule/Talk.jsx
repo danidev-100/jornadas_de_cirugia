@@ -3,8 +3,36 @@ import {
   getPersonById,
 } from "../../data/people.js";
 
+const ROOM_TONE_CLASSES = [
+  {
+    card: "border-l-lagoon bg-lagoon/10",
+    chip: "bg-lagoon/10 text-lagoon",
+  },
+  {
+    card: "border-l-gold bg-gold/20",
+    chip: "bg-gold/25 text-chocolate",
+  },
+  {
+    card: "border-l-deep-blue/35 bg-deep-blue/10",
+    chip: "bg-deep-blue/10 text-deep-blue/60",
+  },
+];
+
+const DEFAULT_ROOM_TONE_CLASSES = {
+  card: "border-l-wave bg-cloud/80",
+  chip: "bg-white/80 text-deep-blue/60",
+};
+
 function normalizeText(value) {
   return typeof value === "string" ? value.trim() : "";
+}
+
+function getRoomToneClasses(roomIndex) {
+  if (!Number.isInteger(roomIndex) || roomIndex < 0) {
+    return DEFAULT_ROOM_TONE_CLASSES;
+  }
+
+  return ROOM_TONE_CLASSES[roomIndex % ROOM_TONE_CLASSES.length];
 }
 
 function resolvePersonReference(reference, detailKey) {
@@ -83,13 +111,16 @@ function PersonReference({ reference, detailKey }) {
   );
 }
 
-function Talk({ event }) {
+function Talk({ event, roomIndex = null }) {
   const title = event?.title ?? null;
   const speakers = Array.isArray(event?.speakers) ? event.speakers : [];
   const lightningTalks = Array.isArray(event?.lightning_talks)
     ? event.lightning_talks
     : [];
   const moderators = Array.isArray(event?.moderators) ? event.moderators : [];
+  const roomToneClasses = getRoomToneClasses(roomIndex);
+  const cardClassName = `flex h-full flex-col gap-4 overflow-hidden rounded-r-[2rem] rounded-l-none border-l-[0.55rem] px-5 py-5 ${roomToneClasses.card}`;
+  const activityClassName = `inline-flex w-fit rounded-2xl px-4 py-2 text-sm font-semibold tracking-[0.16em] uppercase ${roomToneClasses.chip}`;
 
   const isBreak =
     !title &&
@@ -99,15 +130,15 @@ function Talk({ event }) {
 
   if (isBreak) {
     return (
-      <article className="h-full rounded-xl border border-wave bg-cloud/30 p-3 flex flex-col gap-2">
-        <p className="font-semibold text-ink">{event.activity}</p>
+      <article className={cardClassName}>
+        <p className={activityClassName}>{event.activity}</p>
       </article>
     );
   }
 
   return (
-    <article className="h-full rounded-xl border border-wave bg-white p-3 flex flex-col gap-2">
-      <p className="font-semibold text-ink">{event.activity}</p>
+    <article className={cardClassName}>
+      <p className={activityClassName}>{event.activity}</p>
 
       {title ? <p className="text-sm text-ink">{title}</p> : null}
 
@@ -127,7 +158,7 @@ function Talk({ event }) {
             : [];
 
         return (
-          <div key={`lightning-${index}`} className="space-y-1">
+          <div key={`lightning-${index}`} className="flex flex-col gap-1">
             <p className="text-sm text-ink">{lightningTalk.title}</p>
             {speakerReferences.map((speakerReference, speakerIndex) => (
               <p

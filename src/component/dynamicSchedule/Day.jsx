@@ -27,7 +27,7 @@ function Day({ day, date, rooms }) {
 
       <div className="overflow-x-auto">
         <div className="flex min-w-[960px] flex-col gap-0">
-          <div className="overflow-hidden rounded-t-3xl rounded-b-none border border-wave bg-cloud">
+          <div className="overflow-hidden rounded-t-3xl rounded-b-none border border-cloud bg-cloud">
             <div className="grid grid-cols-[auto_repeat(3,minmax(0,1fr))] items-stretch gap-0">
               <div aria-hidden="true" className="px-3 py-4">
                 <div className="invisible flex flex-col gap-2">
@@ -65,7 +65,7 @@ function Day({ day, date, rooms }) {
             </div>
           </div>
 
-          {timeRows.map((timeRow) => (
+          {timeRows.map((timeRow, index) => (
             <Time
               key={`${date}-${timeRow.start_time}-${timeRow.end_time}`}
               start_time={timeRow.start_time}
@@ -73,6 +73,7 @@ function Day({ day, date, rooms }) {
               roomNames={roomNames}
               roomEventsByRoom={timeRow.roomEventsByRoom}
               isMergedBreak={timeRow.isMergedBreak}
+              isLastRow={index === timeRows.length - 1}
             />
           ))}
         </div>

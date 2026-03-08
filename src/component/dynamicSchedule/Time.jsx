@@ -6,13 +6,18 @@ function Time({
   roomNames,
   roomEventsByRoom,
   isMergedBreak,
+  isLastRow = false,
 }) {
   const mergedEvent = roomNames
     .map((roomName) => roomEventsByRoom[roomName])
     .find((event) => Boolean(event));
 
   return (
-    <div className="grid grid-cols-[auto_repeat(3,minmax(0,1fr))] items-stretch border-x border-b border-wave bg-white">
+    <div
+      className={`grid grid-cols-[auto_repeat(3,minmax(0,1fr))] items-stretch border-x border-b border-cloud bg-white ${
+        isLastRow ? "overflow-hidden rounded-b-3xl" : ""
+      }`}
+    >
       <div className="grid px-3 py-5">
         <div aria-hidden="true" className="invisible flex flex-col gap-2">
           <span className="text-base leading-none font-semibold">88:88</span>
@@ -34,7 +39,7 @@ function Time({
           <Talk event={mergedEvent} />
         </div>
       ) : (
-        roomNames.map((roomName) => {
+        roomNames.map((roomName, roomIndex) => {
           const event = roomEventsByRoom[roomName];
 
           return (
@@ -43,7 +48,7 @@ function Time({
               className="min-h-16 h-full p-3"
             >
               {event ? (
-                <Talk event={event} />
+                <Talk event={event} roomIndex={roomIndex} />
               ) : (
                 <div className="h-full min-h-16 rounded-xl border border-dashed border-wave bg-cloud/10" />
               )}
