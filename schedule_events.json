@@ -5,6 +5,7 @@
     "rooms": [
       {
         "room": "SALA A",
+        "venue_name": "Salón Fader",
         "events": [
           {
             "start_time": "08:00",
@@ -283,6 +284,7 @@
       },
       {
         "room": "SALA B",
+        "venue_name": "Salón Agrelo",
         "events": [
           {
             "start_time": "08:00",
@@ -552,6 +554,7 @@
       },
       {
         "room": "SALA C",
+        "venue_name": "Salón Perdriel",
         "events": [
           {
             "start_time": "08:00",
@@ -698,6 +701,7 @@
     "rooms": [
       {
         "room": "SALA A",
+        "venue_name": "Salón Fader",
         "events": [
           {
             "start_time": "08:00",
@@ -1015,6 +1019,7 @@
       },
       {
         "room": "SALA B",
+        "venue_name": "Salón Agrelo",
         "events": [
           {
             "start_time": "08:00",
@@ -1249,6 +1254,7 @@
       },
       {
         "room": "SALA C",
+        "venue_name": "Salón Perdriel",
         "events": [
           {
             "start_time": "08:00",

@@ -2,6 +2,7 @@ import Time from "./Time";
 import { buildScheduleByTime } from "./scheduleByTime";
 
 const ROOM_DOT_CLASSES = ["bg-lagoon", "bg-gold", "bg-deep-blue/35"];
+const SHOW_ROOM_VENUE_NAMES = false; // Alternar la visualización de los nombres de los recintos junto a las salas
 
 function formatRoomDisplayName(roomName) {
   return String(roomName)
@@ -40,9 +41,9 @@ function Day({ day, date, rooms }) {
                 </div>
               </div>
 
-              {roomNames.map((roomName, index) => (
+              {rooms.map((room, index) => (
                 <div
-                  key={`${date}-${roomName}`}
+                  key={`${date}-${room.room}`}
                   className="flex min-w-0 items-center gap-3 px-5 py-4"
                 >
                   <span
@@ -54,11 +55,13 @@ function Day({ day, date, rooms }) {
 
                   <div className="flex min-w-0 items-center gap-3">
                     <p className="shrink-0 text-[1.125rem] font-semibold text-ink">
-                      {formatRoomDisplayName(roomName)}
+                      {formatRoomDisplayName(room.room)}
                     </p>
-                    <span className="rounded-full bg-white/80 px-3 py-1 text-xs font-medium text-deep-blue/60">
-                      Descripción Sala
-                    </span>
+                    {SHOW_ROOM_VENUE_NAMES && room.venue_name ? (
+                      <span className="rounded-full bg-white/80 px-3 py-1 text-xs font-medium text-deep-blue/60">
+                        {room.venue_name}
+                      </span>
+                    ) : null}
                   </div>
                 </div>
               ))}
