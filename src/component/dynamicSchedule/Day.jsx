@@ -15,7 +15,7 @@ function Day({ day, date, rooms }) {
   const { roomNames, timeRows } = buildScheduleByTime({ day, date, rooms });
 
   return (
-    <article className="flex flex-col gap-4">
+    <article className="flex flex-col gap-4 mt-30">
       <div className="flex justify-end">
         <div className="max-w-full rounded-full border border-wave/50 bg-cloud p-2">
           <div className="rounded-full bg-white px-6 py-4 sm:px-8">

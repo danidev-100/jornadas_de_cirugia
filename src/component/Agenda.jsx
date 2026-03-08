@@ -3,7 +3,7 @@ import { programaJueves, programaViernes } from "../data/programa";
 import pdf from "../assets/PROGRAMA-ACM.pdf";
 import DynamicSchedule from "./dynamicSchedule/DynamicSchedule";
 
-const SHOW_SCHEDULE_V1 = false; // Alternar entre la versión dinámica y la estática del programa
+const SHOW_SCHEDULE_V1 = import.meta.env.DEV;
 
 function getSlotVariant(text = "") {
   const normalized = String(text).toLowerCase();
