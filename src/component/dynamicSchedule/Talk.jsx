@@ -111,7 +111,12 @@ function PersonReference({ reference, detailKey }) {
   );
 }
 
-function Talk({ event, roomIndex = null }) {
+function Talk({
+  event,
+  roomIndex = null,
+  roomLabel = null,
+  showRoomLabel = false,
+}) {
   const title = event?.title ?? null;
   const speakers = Array.isArray(event?.speakers) ? event.speakers : [];
   const lightningTalks = Array.isArray(event?.lightning_talks)
@@ -121,6 +126,16 @@ function Talk({ event, roomIndex = null }) {
   const roomToneClasses = getRoomToneClasses(roomIndex);
   const cardClassName = `flex h-full flex-col gap-4 overflow-hidden rounded-r-[2rem] rounded-l-none border-l-[0.55rem] px-5 py-5 ${roomToneClasses.card}`;
   const activityClassName = `inline-flex w-fit rounded-2xl px-4 py-2 text-sm font-semibold tracking-[0.16em] uppercase ${roomToneClasses.chip}`;
+  const roomLabelClassName = `text-xs font-semibold uppercase ${roomToneClasses.chip.split(" ").at(-1) ?? "text-deep-blue/60"}`;
+
+  const headerContent = (
+    <div className="flex items-center justify-between gap-3">
+      <p className={activityClassName}>{event.activity}</p>
+      {showRoomLabel && roomLabel ? (
+        <p className={roomLabelClassName}>{roomLabel}</p>
+      ) : null}
+    </div>
+  );
 
   const isBreak =
     !title &&
@@ -131,14 +146,14 @@ function Talk({ event, roomIndex = null }) {
   if (isBreak) {
     return (
       <article className={cardClassName}>
-        <p className={activityClassName}>{event.activity}</p>
+        {headerContent}
       </article>
     );
   }
 
   return (
     <article className={cardClassName}>
-      <p className={activityClassName}>{event.activity}</p>
+      {headerContent}
 
       {title ? <p className="text-sm text-ink">{title}</p> : null}
 

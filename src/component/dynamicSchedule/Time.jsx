@@ -6,11 +6,55 @@ function Time({
   roomNames,
   roomEventsByRoom,
   isMergedBreak,
+  mobileLayout = false,
   isLastRow = false,
 }) {
+  const roomEntries = roomNames.map((roomName, roomIndex) => ({
+    roomName,
+    roomIndex,
+    event: roomEventsByRoom[roomName] ?? null,
+  }));
   const mergedEvent = roomNames
     .map((roomName) => roomEventsByRoom[roomName])
     .find((event) => Boolean(event));
+
+  if (mobileLayout) {
+    const visibleRoomEntries = roomEntries.filter(({ event }) => Boolean(event));
+
+    return (
+      <div
+        className={`flex flex-col gap-4 bg-white p-4 ${
+          isLastRow ? "" : "border-b border-cloud"
+        }`}
+      >
+        <div className="flex items-center gap-3">
+          <p className="text-base leading-none font-semibold text-deep-blue/70">
+            {start_time}
+          </p>
+          <div className="h-px flex-1 bg-cloud" />
+          <p className="text-sm leading-none font-medium text-deep-blue/35">
+            {end_time}
+          </p>
+        </div>
+
+        {isMergedBreak && mergedEvent ? (
+          <Talk event={mergedEvent} />
+        ) : (
+          <div className="flex flex-col gap-3">
+            {visibleRoomEntries.map(({ roomName, roomIndex, event }) => (
+              <Talk
+                key={`${start_time}-${end_time}-${roomName}`}
+                event={event}
+                roomIndex={roomIndex}
+                roomLabel={roomName}
+                showRoomLabel
+              />
+            ))}
+          </div>
+        )}
+      </div>
+    );
+  }
 
   return (
     <div
@@ -39,8 +83,7 @@ function Time({
           <Talk event={mergedEvent} />
         </div>
       ) : (
-        roomNames.map((roomName, roomIndex) => {
-          const event = roomEventsByRoom[roomName];
+        roomEntries.map(({ roomName, roomIndex, event }) => {
 
           return (
             <div

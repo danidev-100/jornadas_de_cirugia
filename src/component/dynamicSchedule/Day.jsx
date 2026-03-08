@@ -26,7 +26,24 @@ function Day({ day, date, rooms }) {
         </div>
       </div>
 
-      <div className="overflow-x-auto">
+      <div className="md:hidden">
+        <div className="overflow-hidden rounded-3xl border border-cloud bg-white">
+          {timeRows.map((timeRow, index) => (
+            <Time
+              key={`${date}-${timeRow.start_time}-${timeRow.end_time}-mobile`}
+              start_time={timeRow.start_time}
+              end_time={timeRow.end_time}
+              roomNames={roomNames}
+              roomEventsByRoom={timeRow.roomEventsByRoom}
+              isMergedBreak={timeRow.isMergedBreak}
+              mobileLayout
+              isLastRow={index === timeRows.length - 1}
+            />
+          ))}
+        </div>
+      </div>
+
+      <div className="hidden overflow-x-auto md:block">
         <div className="flex min-w-[960px] flex-col gap-0">
           <div className="overflow-hidden rounded-t-3xl rounded-b-none border border-cloud bg-cloud">
             <div className="grid grid-cols-[auto_repeat(3,minmax(0,1fr))] items-stretch gap-0">
