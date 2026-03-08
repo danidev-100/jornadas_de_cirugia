@@ -23,7 +23,7 @@ function Time({
 
     return (
       <div
-        className={`flex flex-col gap-4 bg-white p-4 ${
+        className={`flex flex-col gap-4 bg-white py-4 ${
           isLastRow ? "" : "border-b border-cloud"
         }`}
       >

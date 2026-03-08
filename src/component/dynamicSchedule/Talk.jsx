@@ -124,7 +124,7 @@ function Talk({
     : [];
   const moderators = Array.isArray(event?.moderators) ? event.moderators : [];
   const roomToneClasses = getRoomToneClasses(roomIndex);
-  const cardClassName = `flex h-full flex-col gap-4 overflow-hidden rounded-r-[2rem] rounded-l-none border-l-[0.55rem] px-5 py-5 ${roomToneClasses.card}`;
+  const cardClassName = `flex h-full flex-col gap-4 overflow-hidden rounded-r-[2rem] rounded-l-none border-l-5 px-5 py-5 ${roomToneClasses.card}`;
   const activityClassName = `inline-flex w-fit rounded-2xl px-4 py-2 text-sm font-semibold tracking-[0.16em] uppercase ${roomToneClasses.chip}`;
   const roomLabelClassName = `text-xs font-semibold uppercase ${roomToneClasses.chip.split(" ").at(-1) ?? "text-deep-blue/60"}`;
 
