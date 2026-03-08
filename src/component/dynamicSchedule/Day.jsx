@@ -12,7 +12,6 @@ function formatRoomDisplayName(roomName) {
 
 function Day({ day, date, rooms }) {
   const { roomNames, timeRows } = buildScheduleByTime({ day, date, rooms });
-  const columnsTemplate = `repeat(${roomNames.length}, minmax(0, 1fr))`;
 
   return (
     <article className="flex flex-col gap-4">
@@ -27,12 +26,20 @@ function Day({ day, date, rooms }) {
       </div>
 
       <div className="overflow-x-auto">
-        <div className="flex min-w-[800px] flex-col gap-2">
+        <div className="flex min-w-[960px] flex-col gap-0">
           <div className="overflow-hidden rounded-t-3xl rounded-b-none border border-wave bg-cloud">
-            <div
-              className="grid items-stretch gap-0"
-              style={{ gridTemplateColumns: columnsTemplate }}
-            >
+            <div className="grid grid-cols-[auto_repeat(3,minmax(0,1fr))] items-stretch gap-0">
+              <div aria-hidden="true" className="px-3 py-4">
+                <div className="invisible flex flex-col gap-2">
+                  <span className="text-base leading-none font-semibold">
+                    88:88
+                  </span>
+                  <span className="text-sm leading-none font-medium">
+                    88:88
+                  </span>
+                </div>
+              </div>
+
               {roomNames.map((roomName, index) => (
                 <div
                   key={`${date}-${roomName}`}
