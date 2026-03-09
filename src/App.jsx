@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Container } from "./component/Container";
 import Nav from "./component/Nav";
 import Hero from "./component/Hero";
@@ -12,7 +13,52 @@ import RegistrationCost from "./component/RegistrationCost";
 import Organization from "./component/Organization";
 import FixedCode from "./component/Whatsapp";
 
+function scrollToHashTarget() {
+  if (!window.location.hash) {
+    return;
+  }
+
+  const targetId = decodeURIComponent(window.location.hash.slice(1));
+  const target = document.getElementById(targetId);
+
+  if (!target) {
+    return;
+  }
+
+  target.scrollIntoView({ block: "start" });
+}
+
 const App = () => {
+  useEffect(() => {
+    let animationFrameId = 0;
+    let fallbackTimeoutId = 0;
+
+    const scheduleHashScroll = () => {
+      cancelAnimationFrame(animationFrameId);
+      clearTimeout(fallbackTimeoutId);
+
+      animationFrameId = window.requestAnimationFrame(() => {
+        scrollToHashTarget();
+      });
+
+      // Re-run once after layout settles so deep links work on first load.
+      fallbackTimeoutId = window.setTimeout(() => {
+        scrollToHashTarget();
+      }, 250);
+    };
+
+    scheduleHashScroll();
+    window.addEventListener("load", scheduleHashScroll);
+    window.addEventListener("hashchange", scheduleHashScroll);
+
+    return () => {
+      cancelAnimationFrame(animationFrameId);
+      clearTimeout(fallbackTimeoutId);
+      window.removeEventListener("load", scheduleHashScroll);
+      window.removeEventListener("hashchange", scheduleHashScroll);
+    };
+  }, []);
+
   return (
     <div>
       <FixedCode className=""/>
