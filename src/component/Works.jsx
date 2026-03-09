@@ -1,10 +1,14 @@
 import pdf from "../assets/REGLAMENTO-ACM.pdf";
 
 function Works() {
+  const scientificWorkMailto = `mailto:jornadasmza2026.trabajos@gmail.com?subject=${encodeURIComponent(
+    "Trabajo científico"
+  )}`;
+
   return (
     <section
       id="trabajos"
-      className="text-center px-4 md:px-16 lg:px-50 space-y-6 scroll-mt-36"
+      className="flex scroll-mt-36 flex-col gap-6 px-4 text-center md:px-16 lg:px-50"
     >
       <h2 className="text-3xl font-semibold text-deep-blue">
         Trabajos Científicos
@@ -25,10 +29,14 @@ function Works() {
         Nos vemos en la jornadas para continuar con los vínculos académicos que
         marcan el gran compromiso con la salud.
       </p>
-      <div className="flex justify-center  gap-4 md:flex-row flex-col items-center">
-        <a href={pdf} download>
-          <button className="flex space-x-1 bg-chocolate rounded-3xl px-6 py-3 text-white font-semibold mx-2 hover:bg-lagoon-dark transition cursor-pointer">
-            <div className="">
+      <div className="flex flex-col items-center gap-4">
+        <div className="flex flex-col items-center justify-center gap-4 md:flex-row">
+          <a
+            href={pdf}
+            download
+            className="flex items-center gap-1 rounded-3xl bg-chocolate px-6 py-3 font-semibold text-white transition hover:bg-lagoon-dark"
+          >
+            <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -44,12 +52,14 @@ function Works() {
                 />
               </svg>
             </div>
-
             <h2>Reglamento</h2>
-          </button>
-        </a>
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jornadasmza2026.trabajos@gmail.com">
-          <button className=" flex space-x-1  bg-chocolate rounded-3xl px-6 py-3 text-white font-semibold mx-2 hover:bg-lagoon-dark transition cursor-pointer">
+          </a>
+          <a
+            href={scientificWorkMailto}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1 rounded-3xl bg-chocolate px-6 py-3 font-semibold text-white transition hover:bg-lagoon-dark"
+          >
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -67,8 +77,18 @@ function Works() {
               </svg>
             </div>
             <h2>Enviar trabajo científico</h2>
-          </button>
-        </a>
+          </a>
+        </div>
+        <p className="max-w-2xl text-base text-ink md:text-lg">
+          Si tu correo no se abre automáticamente, enviá tu trabajo a{" "}
+          <a
+            href={scientificWorkMailto}
+            className="font-semibold text-deep-blue underline underline-offset-4"
+          >
+            jornadasmza2026.trabajos@gmail.com
+          </a>{" "}
+          con el asunto &quot;Trabajo científico&quot;.
+        </p>
       </div>
     </section>
   );
