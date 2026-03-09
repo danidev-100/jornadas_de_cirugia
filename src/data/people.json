@@ -1,6 +1,8 @@
 {
   "diego_sinagra": {
     "name": "Dr. Diego Sinagra",
+    "job_title": "Jefe del Departamento de Cirugía Oncológica",
+    "institution": "Hospital de Clínicas José de San Martín",
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "unverified/dr-diego-sinagra.jpeg"
@@ -51,6 +53,8 @@
   },
   "dr_axel_beskow": {
     "name": "Dr. Axel Beskow",
+    "job_title": "Jefe de la Sección de Cirugía Esofagogastroduodenal y Bariátrica",
+    "institution": "Hospital Italiano de Buenos Aires",
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "unverified/dr-axel-beskow.jpeg"
@@ -83,7 +87,9 @@
     "submitted_at": null
   },
   "dr_cuenca_abente": {
-    "name": "Dr. Cuenca Abente",
+    "name": "Dr. Federico Cuenca Abente",
+    "job_title": "Director médico y especialista en cirugía digestiva y bariátrica",
+    "institution": "Clínic Integral",
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "unverified/dr-cuenca-abente.jpeg"
@@ -91,6 +97,7 @@
   "dr_cugat": {
     "name": "Dr. Ramón Cugat",
     "job_title": "Director médico, Especialista en Cirugía Ortopédica y Traumatología",
+    "institution": "Instituto Cugat",
     "image": "dr-ramon-cugat.jpg",
     "nationality": "España",
     "submitted_at": "2026-03-07T20:45:54-03:00"
@@ -102,7 +109,8 @@
   },
   "dr_daniel_pirchi": {
     "name": "Dr. Daniel Pirchi",
-    "job_title": "Presidente Comité Colegio AAC",
+    "job_title": "Jefe del Servicio de Cirugía General",
+    "institution": "Hospital Británico de Buenos Aires",
     "image": "dr-daniel-pirchi.jpeg",
     "nationality": null,
     "submitted_at": "2026-03-07T19:46:54-03:00"
@@ -114,6 +122,8 @@
   },
   "dr_diego_bertani": {
     "name": "Dr. Diego Bertani",
+    "job_title": "Coloproctólogo",
+    "institution": "ARCO, Centro Integral de Coloproctología",
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "unverified/dr-diego-bertani.jpeg"
@@ -158,6 +168,8 @@
   },
   "dr_federico_gorganchian": {
     "name": "Dr. Federico Gorganchian",
+    "job_title": "Jefe de Cirugía General",
+    "institution": "Sanatorio Finochietto",
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "unverified/dr-federico-gorganchian.jpeg"
@@ -170,6 +182,8 @@
   },
   "dr_franco_signorini": {
     "name": "Dr. Franco Signorini",
+    "job_title": "Cirujano staff del Servicio de Esófago-Gastro y Cirugía Bariátrica y Metabólica",
+    "institution": "Hospital Privado Universitario de Córdoba",
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "unverified/dr-franco-signorini.jpeg"
@@ -191,6 +205,7 @@
   },
   "dr_gustavo_kohan": {
     "name": "Dr. Gustavo Kohan",
+    "job_title": "Encargado del sector de cirugía pancreática",
     "institution": "Hospital Rivadavia",
     "nationality": null,
     "submitted_at": "2026-03-09T00:48:26-03:00",
@@ -254,6 +269,8 @@
   },
   "dr_juan_pablo_cordoba": {
     "name": "Dr. Juan Pablo Córdoba",
+    "job_title": "Director de la carrera de Médico Especialista en Intervencionismo Percutáneo y Cirugía Mínimamente Invasiva",
+    "institution": "Hospital General de Agudos Donación Francisco Santojanni",
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "unverified/dr-juan-pablo-cordoba.png"
@@ -265,6 +282,8 @@
   },
   "dr_juan_patron_uriburu": {
     "name": "Dr. Juan Patrón Uriburu",
+    "job_title": "Jefe del Departamento de Cirugía Colorrectal",
+    "institution": "Hospital Británico de Buenos Aires",
     "image": "dr-juan-patron-uriburu.jpeg",
     "nationality": null,
     "submitted_at": "2026-03-07T19:46:54-03:00"
@@ -276,18 +295,24 @@
   },
   "dr_luciano_deluca": {
     "name": "Dr. Luciano Deluca",
+    "job_title": "Director médico y cirujano bariátrico y metabólico",
+    "institution": "Salud sin Fronteras",
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "unverified/dr-luciano-deluca.jpeg"
   },
   "dr_lucio_obeide": {
     "name": "Dr. Lucio Obeide",
+    "job_title": "Jefe del Servicio de Cirugía General",
+    "institution": "Hospital Privado Universitario de Córdoba",
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "unverified/dr-lucio-obeide.jpeg"
   },
   "dr_lucio_uranga": {
     "name": "Dr. Lucio Uranga",
+    "job_title": "Jefe (a cargo) de la Sección de Cirugía Hepatobiliopancreática",
+    "institution": "Hospital de Gastroenterología Dr. Carlos Bonorino Udaondo",
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "unverified/dr-lucio-uranga.png"
@@ -314,6 +339,8 @@
   },
   "dr_mauricio_ramirez": {
     "name": "Dr. Mauricio Ramírez",
+    "job_title": "Staff de la Unidad de Esófago y Estómago",
+    "institution": "Hospital Universitario Fundación Favaloro",
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "unverified/dr-mauricio-ramirez.jpeg"
@@ -325,6 +352,8 @@
   },
   "oscar_mazza": {
     "name": "Dr. Oscar Mazza",
+    "job_title": "Jefe de la Sección de Cirugía HPB",
+    "institution": "Hospital Italiano de Buenos Aires",
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "unverified/oscar-mazza.png"
@@ -336,11 +365,16 @@
   },
   "dr_omar_veloso": {
     "name": "Dr. Omar Veloso",
+    "job_title": "Especialista en cirugía digestiva",
+    "institution": "Sanatorio Polivalente Cardiocentro y Hospital José Ramón Vidal",
     "nationality": null,
-    "submitted_at": null
+    "submitted_at": "2026-03-09T08:08:41-03:00",
+    "image": "unverified/dr-omar-veloso.png"
   },
   "dr_omelanczuk": {
     "name": "Dr. Pablo Omelanczuk",
+    "job_title": "Director médico",
+    "institution": "Batric",
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "unverified/dr-pablo-omelanczuk.png"
@@ -353,6 +387,7 @@
   },
   "dr_pablo_capitanich": {
     "name": "Dr. Pablo Capitanich",
+    "job_title": "Jefe del sector de Cirugía de Vías Biliares y Páncreas",
     "institution": "Hospital Alemán",
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
@@ -370,6 +405,8 @@
   },
   "dr_pablo_medina": {
     "name": "Dr. Pablo Medina",
+    "job_title": "Jefe de Sector de Pared Abdominal",
+    "institution": "Hospital Británico de Buenos Aires",
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "unverified/dr-pablo-medina.png"
@@ -392,6 +429,8 @@
   },
   "dr_raffa_ignacio": {
     "name": "Dr. Raffa Ignacio",
+    "job_title": "Médico de staff del Departamento de Cirugía Abdominal y Proctología",
+    "institution": "Instituto de Oncología Ángel H. Roffo",
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "unverified/dr-raffa-ignacio.jpeg"
@@ -408,6 +447,8 @@
   },
   "dr_ruben_miravalle": {
     "name": "Dr. Rubén Miravalle",
+    "job_title": "Médico especialista en Coloproctología",
+    "institution": "CEMIC e Instituto Argentino de Diagnóstico y Tratamiento",
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "unverified/dr-ruben-miravalle.jpeg"
@@ -419,6 +460,8 @@
   },
   "dr_suarez_anzorena": {
     "name": "Dr. Suarez Anzorena",
+    "job_title": "Jefe de Radiología Intervencionista",
+    "institution": "Hospital de Clínicas José de San Martín",
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "unverified/dr-suarez-anzorena.png"
@@ -440,6 +483,8 @@
   },
   "dra_adelina_coturel": {
     "name": "Dra. Adelina Coturel",
+    "job_title": "Cirujana general",
+    "institution": "Hospital de Alta Complejidad del Bicentenario Esteban Echeverría",
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "unverified/dra-adelina-coturel.jpeg"
@@ -457,12 +502,16 @@
   },
   "dra_carolina_brofman": {
     "name": "Dra. Carolina Brofman",
+    "job_title": "Cirujana general y de emergencias",
+    "institution": "Hospital de Morón",
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "unverified/dra-carolina-brofman.jpeg"
   },
   "dra_fernanda_bersano": {
     "name": "Dra. Fernanda Bersano",
+    "job_title": "Integrante del Servicio de Cirugía General",
+    "institution": "Hospital Privado de Comunidad",
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "unverified/dra-fernanda-bersano.jpeg"
@@ -479,6 +528,7 @@
   },
   "dra_laura_fernandez": {
     "name": "Dra. Laura Fernández",
+    "job_title": "Cirujana colorrectal",
     "institution": "Fundación Champalimaud",
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
@@ -502,7 +552,8 @@
   },
   "dra_maria_susana_bruzzi": {
     "name": "Dra. María Susana Bruzzi",
-    "job_title": "Coordinadora de la Comisión de Coloproctología AAC",
+    "job_title": "Staff de la Unidad de Coloproctología",
+    "institution": "Hospital Centro de Salud (Tucumán)",
     "image": "dra-maria-susana-bruzzi.jpeg",
     "nationality": null,
     "submitted_at": "2026-03-07T18:46:54-03:00"
@@ -526,12 +577,16 @@
   },
   "ezequiel_palmisano": {
     "name": "Dr. Ezequiel Palmisano",
+    "job_title": "Jefe de la Unidad de Hernias y Diástasis Abdominal",
+    "institution": "Instituto Metropolitano de Rosario",
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "unverified/dr-ezequiel-palmisano.jpeg"
   },
   "gustavo_marcucci": {
     "name": "Dr. Gustavo Marcucci",
+    "job_title": "Jefe del Servicio de Cirugía General",
+    "institution": "Sanatorio de la Mujer",
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "unverified/dr-gustavo-marcucci.jpeg"
@@ -543,12 +598,16 @@
   },
   "jose_cooke": {
     "name": "Dr. José Cooke",
+    "job_title": "Jefe del Servicio de Cirugía Bariátrica y Metabólica",
+    "institution": "Sanatorio Mayo",
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "unverified/dr-jose-cooke.jpeg"
   },
   "juan_pekolj": {
     "name": "Dr. Juan Pekolj",
+    "job_title": "Jefe del Servicio de Cirugía General",
+    "institution": "Hospital Italiano de Buenos Aires",
     "nationality": null,
     "submitted_at": "2026-03-09T00:51:27-03:00",
     "image": "unverified/dr-juan-pekolj.jpg"
