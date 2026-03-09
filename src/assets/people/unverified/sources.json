@@ -1,0 +1,1930 @@
+{
+  "dr_gustavo_kohan": {
+    "status": "downloaded",
+    "file": "unverified/dr-gustavo-kohan.png",
+    "bytes": 409577,
+    "query": "\"Dr. Gustavo Kohan\" argentina cirujano",
+    "score": 63,
+    "source_page": "https://www.topdoctors.com.ar/articulos-medicos/cirugia-pancreas-laparoscopica-que-es-en-que-casos-este-indicada/",
+    "image_url": "https://staticnew-prod.topdoctors.com.ar/provider/274169/image/profile/medium/gustavo-kohan-1712958728?width=648/format=jpeg",
+    "title": "Cirugía del Páncreas Laparoscópica: Qué es y en qué casos está indicada ..."
+  },
+  "dra_pardal_pilar": {
+    "status": "not_found",
+    "personId": "dra_pardal_pilar",
+    "attemptedQueries": [
+      "\"Dra. Pilar Pardal\" \"Hospital Dr. Alejandro Korn (La Plata)\" argentina cirujana",
+      "\"Dra. Pilar Pardal\" argentina cirujana",
+      "\"Dra. Pilar Pardal\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://centromedicoprada.es/wp-content/uploads/2023/11/dra-pilar-prada-cirujana-plastica.jpg",
+        "query": "\"Dra. Pilar Pardal\" argentina cirujana",
+        "score": -6,
+        "sourcePage": "https://centromedicoprada.es/nueva-incorporacion-a-nuestra-clinica-la-doctora-mercedes-flores-cortes-medico-estetico/",
+        "title": "Nueva incorporación a nuestra clínica: la Doctora Mercedes Flores ..."
+      },
+      {
+        "imageUrl": "https://centromedicoprada.es/wp-content/uploads/2024/08/DRA-PILAR-PRADA-CIRUJANA-PLASTICA.jpg",
+        "query": "\"Dra. Pilar Pardal\" argentina cirujana",
+        "score": -11,
+        "sourcePage": "https://centromedicoprada.es/los-6-mejores-tratamientos-medico-esteticos-para-verano/",
+        "title": "Los 6 mejores tratamientos médico-estéticos para verano - Cirugía ..."
+      },
+      {
+        "imageUrl": "https://centromedicoprada.es/wp-content/uploads/2023/01/dra-pilar-prada.webp",
+        "query": "\"Dra. Pilar Pardal\" argentina cirujana",
+        "score": -13,
+        "sourcePage": "https://centromedicoprada.es/operacion-de-reduccion-de-papada-en-sevilla/",
+        "title": "Operación de reducción de papada en Sevilla - 2024"
+      }
+    ]
+  },
+  "juan_pekolj": {
+    "status": "downloaded",
+    "file": "unverified/dr-juan-pekolj.png",
+    "bytes": 166212,
+    "query": "\"Dr. Juan Pekolj\" argentina cirujano",
+    "score": 122,
+    "source_page": "https://www.topdoctors.com.ar/doctor/juan-pekolj/",
+    "image_url": "https://staticnew-prod.topdoctors.com.ar/provider/105737/image/profile/large/juan-pekolj",
+    "title": "Dr. Juan Pekolj: especialista en Cirugía General en Ciudad Autónoma de ...",
+    "verified_source_title": "Dr. Juan Pekolj: especialista en Cirugía General en Ciudad Autónoma de Buenos Aires (CABA)"
+  },
+  "diego_sinagra": {
+    "status": "downloaded",
+    "file": "unverified/dr-diego-sinagra.jpeg",
+    "bytes": 55596,
+    "query": "\"Dr. Diego Sinagra\" argentina cirujano",
+    "score": 64,
+    "source_page": "https://www.perfil.com/noticias/guia-de-salud-pnt/diego-sinagra.phtml",
+    "image_url": "https://fotos.perfil.com/2019/05/07/trim/950/534/dr-diego-sinagra-689591.jpg",
+    "title": "Cáncer de tiroides | Perfil",
+    "verified_source_title": "Cáncer de tiroides"
+  },
+  "dr_adrian_cena": {
+    "status": "not_found",
+    "personId": "dr_adrian_cena",
+    "attemptedQueries": [
+      "\"Dr. Adrián Cena\" argentina cirujano",
+      "\"Dr. Adrián Cena\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://clinicaandre.com/wp-content/uploads/2023/04/IMG_83822.jpg",
+        "query": "\"Dr. Adrián Cena\" argentina cirujano",
+        "score": -15,
+        "sourcePage": "https://clinicaandre.com/nosotros/",
+        "title": "Nosotros - Clínica André"
+      },
+      {
+        "imageUrl": "https://notify.com.ar/wp-content/uploads/2025/12/notify.com_.ar-un-hospital-argentino-realizo-la-primera-cirugia-con-realidad-aumentada.jpg",
+        "query": "\"Dr. Adrián Cena\" argentina cirugia",
+        "score": -15,
+        "sourcePage": "https://notify.com.ar/un-hospital-argentino-realizo-la-primera-cirugia-con-realidad-aumentada/",
+        "title": "Un hospital argentino realizó la primera cirugía con realidad aumentada ..."
+      },
+      {
+        "imageUrl": "https://elonce-media.elonce.com/fotos/2024/12/04/m_1733297530_69670.webp",
+        "query": "\"Dr. Adrián Cena\" argentina cirujano",
+        "score": -16,
+        "sourcePage": "https://www.elonce.com/sociedad/cirugia-de-corazon-inedita-en-argentina-extirparon-un-tumor-por-la-axila.htm",
+        "title": "Cirugía de corazón inédita en Argentina: extirpan tumor por axila ..."
+      }
+    ]
+  },
+  "dr_agustin_correa": {
+    "status": "not_found",
+    "personId": "dr_agustin_correa",
+    "attemptedQueries": [
+      "\"Dr. Agustín Correa\" argentina cirujano",
+      "\"Dr. Agustín Correa\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://acquirofanos.com/wp-content/uploads/2023/04/drcorrea.png",
+        "query": "\"Dr. Agustín Correa\" argentina cirujano",
+        "score": 47,
+        "sourcePage": "https://acquirofanos.com/",
+        "title": "AC Quirófanos – Modernas Salas de Cirugía y Salas de Recuperación"
+      },
+      {
+        "imageUrl": "https://eldebate.com.ar/wp-content/uploads/2024/06/Sin-titulo-68.webp",
+        "query": "\"Dr. Agustín Correa\" argentina cirujano",
+        "score": -11,
+        "sourcePage": "https://eldebate.com.ar/la-historia-detras-del-medico-argentino-distinguido-como-uno-de-los-7-sabios-de-la-humanidad-en-cirugia-cardiovascular/",
+        "title": "La historia detrás del médico argentino distinguido como uno de los 7 ..."
+      },
+      {
+        "imageUrl": "https://diariopampero.com/wp-content/uploads/2024/12/axila.webp",
+        "query": "\"Dr. Agustín Correa\" argentina cirujano",
+        "score": -12,
+        "sourcePage": "https://diariopampero.com/historico-avance-en-la-cirugia-cardiaca-argentina-realiza-la-primera-operacion-a-traves-de-la-axila/",
+        "title": "Histórico avance en la cirugía cardíaca: Argentina realiza la primera ..."
+      }
+    ]
+  },
+  "dr_alejandro_birman": {
+    "status": "not_found",
+    "personId": "dr_alejandro_birman",
+    "attemptedQueries": [
+      "\"Dr. Alejandro Birman\" argentina cirujano",
+      "\"Dr. Alejandro Birman\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://www.mendoza.gov.ar/wp-content/uploads/sites/5/2021/02/dr-birman.jpg",
+        "query": "\"Dr. Alejandro Birman\" argentina cirujano",
+        "score": 60,
+        "sourcePage": "https://www.mendoza.gov.ar/prensa/el-servicio-de-cirugia-bariatrica-del-central-retomo-sus-actividades/",
+        "title": "El servicio de cirugía bariátrica del Central retomó sus actividades ..."
+      },
+      {
+        "imageUrl": "https://www.mendoza.gov.ar/wp-content/uploads/sites/5/2021/02/dr-birman.jpg",
+        "query": "\"Dr. Alejandro Birman\" argentina cirugia",
+        "score": 50,
+        "sourcePage": "https://www.mendoza.gov.ar/prensa/el-servicio-de-cirugia-bariatrica-del-central-retomo-sus-actividades/",
+        "title": "El servicio de cirugía bariátrica del Central retomó sus actividades ..."
+      },
+      {
+        "imageUrl": "https://tn.com.ar/resizer/9EPEgIDN-7Qr41viFJ9kJTRJd2I=/767x0/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/artear/IFKQI2YI2NGVHNELTASFPKMUZU.jpg",
+        "query": "\"Dr. Alejandro Birman\" argentina cirujano",
+        "score": -14,
+        "sourcePage": "https://tn.com.ar/sociedad/2023/04/13/es-medico-trabaja-como-mozo-en-eeuu-y-decidio-volver-no-todo-es-tan-malo-en-la-argentina-como-creemos/",
+        "title": "La historia del médico argentino que lava copas en Estados Unidos y se ..."
+      }
+    ]
+  },
+  "dr_alejandro_pairola": {
+    "status": "not_found",
+    "personId": "dr_alejandro_pairola",
+    "attemptedQueries": [
+      "\"Dr. Alejandro Pairola\" argentina cirujano",
+      "\"Dr. Alejandro Pairola\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://i1.rgstatic.net/ii/profile.image/666944369881088-1536023337728_Q512/Alejandro-Pairola-2.jpg",
+        "query": "\"Dr. Alejandro Pairola\" argentina cirujano",
+        "score": 96,
+        "sourcePage": "https://www.researchgate.net/profile/Alejandro-Pairola-2",
+        "title": "Alejandro PAIROLA | Surgeon | Instituto Alexander Fleming, Buenos Aires ..."
+      },
+      {
+        "imageUrl": "https://tn.com.ar/resizer/9EPEgIDN-7Qr41viFJ9kJTRJd2I=/767x0/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/artear/IFKQI2YI2NGVHNELTASFPKMUZU.jpg",
+        "query": "\"Dr. Alejandro Pairola\" argentina cirujano",
+        "score": -15,
+        "sourcePage": "https://tn.com.ar/sociedad/2023/04/13/es-medico-trabaja-como-mozo-en-eeuu-y-decidio-volver-no-todo-es-tan-malo-en-la-argentina-como-creemos/",
+        "title": "La historia del médico argentino que lava copas en Estados Unidos y se ..."
+      },
+      {
+        "imageUrl": "https://diariopampero.com/wp-content/uploads/2024/12/axila-1024x700.webp",
+        "query": "\"Dr. Alejandro Pairola\" argentina cirujano",
+        "score": -17,
+        "sourcePage": "https://diariopampero.com/historico-avance-en-la-cirugia-cardiaca-argentina-realiza-la-primera-operacion-a-traves-de-la-axila/",
+        "title": "Histórico avance en la cirugía cardíaca: Argentina realiza la primera ..."
+      }
+    ]
+  },
+  "dr_arnoldo_castro": {
+    "status": "downloaded",
+    "file": "unverified/dr-arnoldo-castro.jpeg",
+    "bytes": 9232,
+    "query": "\"Dr. Arnoldo Castro\" argentina cirugia",
+    "score": 50,
+    "source_page": "https://cl.linkedin.com/in/arnoldocastrogeuna",
+    "image_url": "https://media.licdn.com/dms/image/v2/D4E03AQG3Y-NvLjLtkg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1727244261327?e=2147483647&v=beta&t=yf-9-0IE0vpeim0jdsiKIX2HezSkxRKNPEn9kvSCMLM",
+    "title": "Arnoldo Miguel Castro Geuna - Cirugía General | Coloproctología ...",
+    "verified_source_title": ""
+  },
+  "dr_axel_beskow": {
+    "status": "downloaded",
+    "file": "unverified/dr-axel-beskow.jpeg",
+    "bytes": 8799,
+    "query": "\"Dr. Axel Beskow\" argentina cirujano",
+    "score": 60,
+    "source_page": "https://ar.linkedin.com/in/axel-beskow-82060682",
+    "image_url": "https://media.licdn.com/dms/image/v2/D4D03AQHj-grAJpTBdA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1697680230733?e=2147483647&v=beta&t=B1f4K8o0c_8qBJUYY_5VnVEuGtL_oCTMRPSYqpfz4Z8",
+    "title": "Axel Beskow - Jefe de Sector de cirugía esofagogástrica y bariátrica en ...",
+    "verified_source_title": ""
+  },
+  "dr_badra_roberto": {
+    "status": "not_found",
+    "personId": "dr_badra_roberto",
+    "attemptedQueries": [
+      "\"Dr. Badra Roberto\" argentina cirujano",
+      "\"Dr. Badra Roberto\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://hospitalcastro.gov.cl/images/IMG_6234_redim.jpg",
+        "query": "\"Dr. Badra Roberto\" argentina cirujano",
+        "score": -5,
+        "sourcePage": "https://hospitalcastro.gov.cl/396-destacado-medico-gastroenterologo-argentino-lidero-tres-cirugias-endoscopicas-de-vias-biliares-en-hospital-de-castro",
+        "title": "Destacado médico gastroenterólogo argentino lideró tres cirugías ..."
+      },
+      {
+        "imageUrl": "https://cirugiaroboticatoracica.com.ar/wp-content/uploads/2023/10/cirugia-robotica-toracica-argentina-1024x1024.jpg",
+        "query": "\"Dr. Badra Roberto\" argentina cirugia",
+        "score": -17,
+        "sourcePage": "https://cirugiaroboticatoracica.com.ar/por-primera-vez-medicos-argentinos-usaron-cirugia-robotica-para-tratar-un-cancer-de-pulmon/",
+        "title": "Por primera vez, médicos argentinos usaron cirugía robótica para tratar ..."
+      },
+      {
+        "imageUrl": "https://www.clarin.com/img/2023/09/08/LwiBe5N5b_2000x1500__1.jpg",
+        "query": "\"Dr. Badra Roberto\" argentina cirugia",
+        "score": -18,
+        "sourcePage": "https://www.clarin.com/zonales/cirugia-inedita-hospital-argentino-intervencion-extirpar-tumor-craneo_0_H1QtCXQvuv.html",
+        "title": "Cirugía inédita en un hospital argentino: cómo fue la intervención para ..."
+      }
+    ]
+  },
+  "dr_bufaliza": {
+    "status": "downloaded",
+    "file": "unverified/dr-bufaliza.jpeg",
+    "bytes": 8932,
+    "query": "\"Dr. Bufaliza\" argentina cirujano",
+    "score": 33,
+    "source_page": "https://ar.linkedin.com/in/jorge-bufaliza-88670094",
+    "image_url": "https://media.licdn.com/dms/image/v2/C4D03AQE2QcCOjD5vjQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1646524372099?e=2147483647&v=beta&t=EcWWhEBbKAUgMrfTomY_osD1OvMMWDHgyHq9XbktDQ8",
+    "title": "Jorge Bufaliza - Médico Cirujano | LinkedIn",
+    "verified_source_title": ""
+  },
+  "dr_carlos_valenzuela": {
+    "status": "downloaded",
+    "file": "unverified/dr-carlos-valenzuela.jpeg",
+    "bytes": 24768,
+    "query": "\"Dr. Carlos Valenzuela\" argentina cirujano",
+    "score": 79,
+    "source_page": "https://centromedicoabc.com/medico/carlos-valenzuela-salazar/",
+    "image_url": "https://centromedicoabc.com/nuevas_fotos/20247.jpg",
+    "title": "Carlos Valenzuela Salazar | Centro Médico ABC",
+    "verified_source_title": "Detalle | Centro Médico ABC"
+  },
+  "dr_christian_bertona": {
+    "status": "not_found",
+    "personId": "dr_christian_bertona",
+    "attemptedQueries": [
+      "\"Dr. Christian Bertona\" argentina cirujano",
+      "\"Dr. Christian Bertona\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=4315358768513811",
+        "query": "\"Dr. Christian Bertona\" argentina cirujano",
+        "score": 16,
+        "sourcePage": "https://www.facebook.com/hospitalespanoldemendoza/posts/el-dr-christian-bertona-trabaja-en-el-área-de-cirugía-de-nuestro-hospital-sector/4315358858513802/",
+        "title": "🙌El Dr. Christian Bertona... - Hospital Español de Mendoza"
+      },
+      {
+        "imageUrl": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=4315358768513811",
+        "query": "\"Dr. Christian Bertona\" argentina cirugia",
+        "score": 6,
+        "sourcePage": "https://www.facebook.com/hospitalespanoldemendoza/posts/el-dr-christian-bertona-trabaja-en-el-área-de-cirugía-de-nuestro-hospital-sector/4315358858513802/",
+        "title": "🙌El Dr. Christian Bertona... - Hospital Español de Mendoza"
+      },
+      {
+        "imageUrl": "https://notify.com.ar/wp-content/uploads/2025/12/notify.com_.ar-un-hospital-argentino-realizo-la-primera-cirugia-con-realidad-aumentada.jpg",
+        "query": "\"Dr. Christian Bertona\" argentina cirugia",
+        "score": -18,
+        "sourcePage": "https://notify.com.ar/un-hospital-argentino-realizo-la-primera-cirugia-con-realidad-aumentada/",
+        "title": "Un hospital argentino realizó la primera cirugía con realidad aumentada ..."
+      }
+    ]
+  },
+  "dr_claudio_fermani": {
+    "status": "downloaded",
+    "file": "unverified/dr-claudio-fermani.jpeg",
+    "bytes": 13956,
+    "query": "\"Dr. Claudio Fermani\" argentina cirugia",
+    "score": 41,
+    "source_page": "https://ar.linkedin.com/in/claudio-fermani-b36360185",
+    "image_url": "https://media.licdn.com/dms/image/v2/C4D03AQEAJhaz698_2g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1604747781932?e=2147483647&v=beta&t=flkqbT_oEoo7X_tzeGes9pCwihEdFOIPVdS3my_fT4g",
+    "title": "Claudio Fermani - Médico Cirujano General y Colorrectal. Proctólogo ...",
+    "verified_source_title": ""
+  },
+  "dr_cuenca_abente": {
+    "status": "downloaded",
+    "file": "unverified/dr-cuenca-abente.jpeg",
+    "bytes": 8443,
+    "query": "\"Dr. Cuenca Abente\" argentina cirujano",
+    "score": 64,
+    "source_page": "https://ar.linkedin.com/in/dr-federico-cuenca-abente-b554aa160",
+    "image_url": "https://media.licdn.com/dms/image/v2/C4E03AQEHmvV5xPRMVA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1640059638851?e=2147483647&v=beta&t=pMM2qUEOrauX_oIXb-nFDV1ZXWs2KgXxUUT8AWvdinQ",
+    "title": "Dr. Federico Cuenca Abente - Jefe del Servicio de Cirugia. Hospital de ...",
+    "verified_source_title": ""
+  },
+  "dr_daniel_algieri": {
+    "status": "not_found",
+    "personId": "dr_daniel_algieri",
+    "attemptedQueries": [
+      "\"Dr. Daniel Algieri\" argentina cirujano",
+      "\"Dr. Daniel Algieri\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://aac.org.ar/imagenes/trauma/algieri.jpg",
+        "query": "\"Dr. Daniel Algieri\" argentina cirujano",
+        "score": 64,
+        "sourcePage": "https://aac.org.ar/comision-cirugia-trauma.htm",
+        "title": "Asociación Argentina de Cirugía"
+      },
+      {
+        "imageUrl": "https://aac.org.ar/imagenes/trauma/algieri.jpg",
+        "query": "\"Dr. Daniel Algieri\" argentina cirugia",
+        "score": 56,
+        "sourcePage": "https://aac.org.ar/comision-cirugia-trauma.htm",
+        "title": "Asociación Argentina de Cirugía"
+      },
+      {
+        "imageUrl": "https://clinicaespecialistasdelpoblado.com/wp-content/uploads/2020/01/1-600x700.png",
+        "query": "\"Dr. Daniel Algieri\" argentina cirujano",
+        "score": -7,
+        "sourcePage": "https://clinicaespecialistasdelpoblado.com/service/preparate-para-tu-cirugia/",
+        "title": "Prepárate para tu Cirugía - Clínica Especialistas del Poblado - Cirugía ..."
+      }
+    ]
+  },
+  "dr_dario_guareschi": {
+    "status": "not_found",
+    "personId": "dr_dario_guareschi",
+    "attemptedQueries": [
+      "\"Dr. Dario Guareschi\" argentina cirujano",
+      "\"Dr. Dario Guareschi\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://um.edu.ar/wp-content/uploads/DOrazio-Grupo-Sur.jpg",
+        "query": "\"Dr. Dario Guareschi\" argentina cirujano",
+        "score": -13,
+        "sourcePage": "https://um.edu.ar/noticias/medicina-y-robotica-al-servicio-de-las-intervenciones-quirurgicas-en-manos-de-un-cirujano-egresado-de-la-facultad-de-ciencias-medicas-de-la-um/",
+        "title": "Medicina y Robótica al servicio de las intervenciones quirúrgicas, en ..."
+      },
+      {
+        "imageUrl": "https://tn.com.ar/resizer/9EPEgIDN-7Qr41viFJ9kJTRJd2I=/767x0/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/artear/IFKQI2YI2NGVHNELTASFPKMUZU.jpg",
+        "query": "\"Dr. Dario Guareschi\" argentina cirujano",
+        "score": -15,
+        "sourcePage": "https://tn.com.ar/sociedad/2023/04/13/es-medico-trabaja-como-mozo-en-eeuu-y-decidio-volver-no-todo-es-tan-malo-en-la-argentina-como-creemos/",
+        "title": "La historia del médico argentino que lava copas en Estados Unidos y se ..."
+      },
+      {
+        "imageUrl": "https://www.clarin.com/img/2023/09/08/LwiBe5N5b_2000x1500__1.jpg",
+        "query": "\"Dr. Dario Guareschi\" argentina cirugia",
+        "score": -16,
+        "sourcePage": "https://www.clarin.com/zonales/cirugia-inedita-hospital-argentino-intervencion-extirpar-tumor-craneo_0_H1QtCXQvuv.html",
+        "title": "Cirugía inédita en un hospital argentino: cómo fue la intervención para ..."
+      }
+    ]
+  },
+  "dr_diego_bertani": {
+    "status": "downloaded",
+    "file": "unverified/dr-diego-bertani.jpeg",
+    "bytes": 60727,
+    "query": "\"Dr. Diego Bertani\" argentina cirujano",
+    "score": 99,
+    "source_page": "https://www.xing.com/profile/diego_bertani",
+    "image_url": "https://profile-images.xing.com/images/95dcc3b59a65ca5159cf423685e0f61e-1/diego-bertani.1024x1024.jpg",
+    "title": "Dr. diego bertani - medico - Arco Centro Integral de Coloproctología | XING",
+    "verified_source_title": "Dr. diego bertani - medico - Arco Centro Integral de Coloproctología"
+  },
+  "dr_diego_fernandez": {
+    "status": "downloaded",
+    "file": "unverified/dr-diego-fernandez.jpeg",
+    "bytes": 103277,
+    "query": "\"Dr. Diego Fernández\" argentina cirujano",
+    "score": 63,
+    "source_page": "https://institutoulton.com.ar/dr-fernandez-diego/",
+    "image_url": "https://institutoulton.com.ar/wp-content/uploads/2018/12/Dr.-Fernandez-Diego-1024x1024.jpg",
+    "title": "Dr. Fernandez Diego – Instituto Oulton | Diagnóstico y Tratamiento ...",
+    "verified_source_title": "Dr. Fernandez Diego – Instituto Oulton | Diagnóstico y Tratamiento ambulatorio"
+  },
+  "dr_eduardo_cassone": {
+    "status": "not_found",
+    "personId": "dr_eduardo_cassone",
+    "attemptedQueries": [
+      "\"Dr. Eduardo Cassone\" argentina cirujano",
+      "\"Dr. Eduardo Cassone\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://aac.org.ar/imagenes/ex_pres/64_cassone.jpg",
+        "query": "\"Dr. Eduardo Cassone\" argentina cirujano",
+        "score": 56,
+        "sourcePage": "https://aac.org.ar/ex-presidentes.htm",
+        "title": "Asociación Argentina de Cirugía"
+      },
+      {
+        "imageUrl": "https://aac.org.ar/imagenes/ex_pres/64_cassone.jpg",
+        "query": "\"Dr. Eduardo Cassone\" argentina cirugia",
+        "score": 46,
+        "sourcePage": "https://aac.org.ar/ex-presidentes.htm",
+        "title": "Asociación Argentina de Cirugía"
+      },
+      {
+        "imageUrl": "https://ca-ihpba.org.ar/wp-content/uploads/2023/10/Dr.-Cassone.jpeg",
+        "query": "\"Dr. Eduardo Cassone\" argentina cirujano",
+        "score": 43,
+        "sourcePage": "https://ca-ihpba.org.ar/patologia-biliar-compleja/",
+        "title": "Patología biliar compleja | CA-IHPBA"
+      }
+    ]
+  },
+  "dr_emilio_quinonez": {
+    "status": "not_found",
+    "personId": "dr_emilio_quinonez",
+    "attemptedQueries": [
+      "\"Dr. Emilio Quiñonez\" argentina cirujano",
+      "\"Dr. Emilio Quiñonez\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://aac.org.ar/92congreso/images/comite/quinonez.jpg",
+        "query": "\"Dr. Emilio Quiñonez\" argentina cirujano",
+        "score": 30,
+        "sourcePage": "https://aac.org.ar/92congreso/comite-congreso.htm",
+        "title": "92° Congreso Argentino de Cirugía - Próximamente"
+      },
+      {
+        "imageUrl": "https://aac.org.ar/92congreso/images/comite/quinonez.jpg",
+        "query": "\"Dr. Emilio Quiñonez\" argentina cirugia",
+        "score": 20,
+        "sourcePage": "https://aac.org.ar/92congreso/comite-congreso.htm",
+        "title": "92° Congreso Argentino de Cirugía - Próximamente"
+      },
+      {
+        "imageUrl": "https://media.licdn.com/dms/image/v2/C5622AQFRVVaen4PLfg/feedshare-shrink_800/feedshare-shrink_800/0/1580528140896?e=2147483647&v=beta&t=8Ai_V05WJrEIv0SjKvwtoqXXCzrxU-p0kfPN1lgh_s8",
+        "query": "\"Dr. Emilio Quiñonez\" argentina cirugia",
+        "score": -5,
+        "sourcePage": "https://www.linkedin.com/posts/emilio-gaston-quiñonez-03b23728_comenzó-con-gran-éxito-el-primer-curso-de-activity-6434203375725789184-mdGt",
+        "title": "Comenzó con gran éxito el primer curso de cirugía HPB organizado por el ..."
+      }
+    ]
+  },
+  "dr_enrique_ruiz": {
+    "status": "downloaded",
+    "file": "unverified/dr-enrique-ruiz.jpeg",
+    "bytes": 334520,
+    "query": "\"Dr. Enrique Ruiz\" argentina cirujano",
+    "score": 70,
+    "source_page": "https://www.elsuplemento.es/premiado/dr.-enrique-ruiz-veguilla-premio-nacional-de-medicina-2024-en-otorrinolaringologia",
+    "image_url": "https://www.elsuplemento.es/fileuploads/premios/018.1_17121840221.jpg",
+    "title": "Dr. Enrique Ruiz Veguilla, Premio Nacional de Medicina 2024 en ...",
+    "verified_source_title": "Dr. Enrique Ruiz Veguilla, Premio Nacional de Medicina 2024 en Otorrinolaringolog&iacute;a"
+  },
+  "dr_erick_acosta_barros": {
+    "status": "downloaded",
+    "file": "unverified/dr-erick-acosta-barros.webp",
+    "bytes": 512988,
+    "query": "\"Dr. Erick Acosta Barros\" argentina cirujano",
+    "score": 63,
+    "source_page": "https://citrushealth.org/biographies",
+    "image_url": "https://images.squarespace-cdn.com/content/v1/6053743a461663048acd0973/0e55d736-13c0-41b4-90cc-7605404819ce/Erick+Acosta+with+background+for+web.jpg?format=2500w",
+    "title": "Biographies | Learn More Today — Citrus Health Network",
+    "verified_source_title": "Biographies | Learn More Today &mdash; Citrus Health Network"
+  },
+  "dr_fabian_lerda": {
+    "status": "not_found",
+    "personId": "dr_fabian_lerda",
+    "attemptedQueries": [
+      "\"Dr. Fabián Lerda\" argentina cirujano",
+      "\"Dr. Fabián Lerda\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://tn.com.ar/resizer/9EPEgIDN-7Qr41viFJ9kJTRJd2I=/767x0/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/artear/IFKQI2YI2NGVHNELTASFPKMUZU.jpg",
+        "query": "\"Dr. Fabián Lerda\" argentina cirujano",
+        "score": -16,
+        "sourcePage": "https://tn.com.ar/sociedad/2023/04/13/es-medico-trabaja-como-mozo-en-eeuu-y-decidio-volver-no-todo-es-tan-malo-en-la-argentina-como-creemos/",
+        "title": "La historia del médico argentino que lava copas en Estados Unidos y se ..."
+      },
+      {
+        "imageUrl": "https://elonce-media.elonce.com/fotos/2024/12/04/m_1733297530_69670.webp",
+        "query": "\"Dr. Fabián Lerda\" argentina cirujano",
+        "score": -17,
+        "sourcePage": "https://www.elonce.com/sociedad/cirugia-de-corazon-inedita-en-argentina-extirparon-un-tumor-por-la-axila.htm",
+        "title": "Cirugía de corazón inédita en Argentina: extirpan tumor por axila ..."
+      },
+      {
+        "imageUrl": "https://diariocronica-s3.cdn.net.ar/s3i233/2024/06/diariocronica/images/82/91/829188_d47604150aca0b6a023a80020e7c574111d0f51d9aced381efa5ce3214d9228e/sm.jpg",
+        "query": "\"Dr. Fabián Lerda\" argentina cirujano",
+        "score": -19,
+        "sourcePage": "https://www.diariocronica.com.ar/noticias/2024/06/10/97401-un-cirujano-argentino-elegido-entre-los-siete-sabios-de-la-humanidad",
+        "title": "Un cirujano argentino elegido entre los siete sabios de la humanidad ..."
+      }
+    ]
+  },
+  "dr_facundo_nogueira": {
+    "status": "downloaded",
+    "file": "unverified/dr-facundo-nogueira.png",
+    "bytes": 663868,
+    "query": "\"Dr. Facundo Nogueira\" argentina cirujano",
+    "score": 110,
+    "source_page": "https://www.topdoctors.com.ar/doctor/juan-facundo-nogueira/",
+    "image_url": "https://staticnew-prod.topdoctors.com.ar/provider/106051/image/profile/large/juan-facundo-nogueira-1621452352?width=648/format=jpeg",
+    "title": "Dr. Juan Facundo Nogueira: especialista en Neumonología en Ciudad ...",
+    "verified_source_title": "Dr. Juan Facundo Nogueira: especialista en Neumonología en Ciudad Autónoma de Buenos Aires (CABA)"
+  },
+  "dr_federico_gorganchian": {
+    "status": "downloaded",
+    "file": "unverified/dr-federico-gorganchian.jpeg",
+    "bytes": 9508,
+    "query": "\"Dr. Federico Gorganchian\" argentina cirujano",
+    "score": 58,
+    "source_page": "https://ar.linkedin.com/in/federico-gorganchian-9156901a",
+    "image_url": "https://media.licdn.com/dms/image/v2/C4E03AQH-fb239FACPQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1569161392676?e=2147483647&v=beta&t=83EC5rAyNRuDUYnAcCWrqVs6MjvLtOVghDKN8k0AGZc",
+    "title": "Federico Gorganchian - Jefe de Cirugia y Jefe de Quirófanos del ...",
+    "verified_source_title": ""
+  },
+  "dr_fernando_iglesias": {
+    "status": "downloaded",
+    "file": "unverified/dr-fernando-iglesias.jpeg",
+    "bytes": 135967,
+    "query": "\"Dr. Fernando Iglesias\" argentina cirujano",
+    "score": 61,
+    "source_page": "https://docdental.es/dentista/fernando-iglesias-martin/",
+    "image_url": "https://static.dev.docdental.es/dentistas/fernando-iglesias-martin/image",
+    "title": "Dr. Fernando Iglesias Martín | Opiniones y Especialidades",
+    "verified_source_title": "Dr. Fernando Iglesias Martín | Opiniones y Especialidades"
+  },
+  "dr_franco_signorini": {
+    "status": "downloaded",
+    "file": "unverified/dr-franco-signorini.jpeg",
+    "bytes": 8206,
+    "query": "\"Dr. Franco Signorini\" argentina cirujano",
+    "score": 56,
+    "source_page": "https://ar.linkedin.com/in/dr-franco-signorini",
+    "image_url": "https://media.licdn.com/dms/image/v2/C4E03AQEfYCqk5fn3pw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1569280933611?e=2147483647&v=beta&t=c-2Fq-f-iPT7VUjEWdsJtwj-BglyZH0t0R_ZJu_mFyQ",
+    "title": "Franco Signorini - Cirugía Bariátrica. Cirugía Esófagogastrica. Paredes ...",
+    "verified_source_title": ""
+  },
+  "dr_gonzalo_cervelo": {
+    "status": "not_found",
+    "personId": "dr_gonzalo_cervelo",
+    "attemptedQueries": [
+      "\"Dr. Gonzalo Cervelo\" argentina cirujano",
+      "\"Dr. Gonzalo Cervelo\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://media.licdn.com/dms/image/C4D03AQEK6L5nH3XK2A/profile-displayphoto-shrink_800_800/0/1663204926356?e=2147483647&v=beta&t=xsb-gl5QleoPdeJXxjJkkQVGLG0ImYWuKAAZpkiudpU",
+        "query": "\"Dr. Gonzalo Cervelo\" argentina cirujano",
+        "score": 61,
+        "sourcePage": "https://ar.linkedin.com/in/gonzalo-cervelo-05786292",
+        "title": "Gonzalo Cervelo - Cirugia General y Oncologica - Grupo OSDE | LinkedIn"
+      },
+      {
+        "imageUrl": "https://media.licdn.com/dms/image/C4D03AQEK6L5nH3XK2A/profile-displayphoto-shrink_800_800/0/1663204926356?e=2147483647&v=beta&t=xsb-gl5QleoPdeJXxjJkkQVGLG0ImYWuKAAZpkiudpU",
+        "query": "\"Dr. Gonzalo Cervelo\" argentina cirugia",
+        "score": 51,
+        "sourcePage": "https://ar.linkedin.com/in/gonzalo-cervelo-05786292",
+        "title": "Gonzalo Cervelo - Cirugia General y Oncologica - Grupo OSDE | LinkedIn"
+      },
+      {
+        "imageUrl": "https://clinicaisamedica.cl/wp-content/uploads/2024/01/Dr.-Gonzalo-Gonzalez-768x1024.jpg",
+        "query": "\"Dr. Gonzalo Cervelo\" argentina cirujano",
+        "score": -10,
+        "sourcePage": "https://clinicaisamedica.cl/team-member/dr-gonzalo-gonzalez/",
+        "title": "Dr. Gonzalo González - Clínica Isamédica"
+      }
+    ]
+  },
+  "dr_guillermo_sanguinetti": {
+    "status": "not_found",
+    "personId": "dr_guillermo_sanguinetti",
+    "attemptedQueries": [
+      "\"Dr. Guillermo Sanguinetti\" argentina cirujano",
+      "\"Dr. Guillermo Sanguinetti\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_570,h_696/https://centroargentinodeurologia.com.ar/wp-content/uploads/2023/11/Sanguinetti-570x696v-1.jpg",
+        "query": "\"Dr. Guillermo Sanguinetti\" argentina cirujano",
+        "score": 49,
+        "sourcePage": "https://centroargentinodeurologia.com.ar/",
+        "title": "Cirugía mínimamente invasiva - Centro Argentino de Urología"
+      },
+      {
+        "imageUrl": "https://media.pilaradiario.com/p/fced629314016758b49472e987e43222/adjuntos/352/imagenes/100/011/0100011428/1200x675/smart/f800x450-19501_70947_5050jpg.jpg",
+        "query": "\"Dr. Guillermo Sanguinetti\" argentina cirujano",
+        "score": 42,
+        "sourcePage": "https://www.pilaradiario.com/informacion-general/2013/9/16/inauguran-equipamiento-para-hospital-sanguinetti-39013.html",
+        "title": "Inauguran equipamiento para el hospital Sanguinetti"
+      },
+      {
+        "imageUrl": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_570,h_696/https://centroargentinodeurologia.com.ar/wp-content/uploads/2023/11/Sanguinetti-570x696v-1.jpg",
+        "query": "\"Dr. Guillermo Sanguinetti\" argentina cirugia",
+        "score": 40,
+        "sourcePage": "https://centroargentinodeurologia.com.ar/",
+        "title": "Cirugía mínimamente invasiva - Centro Argentino de Urología"
+      }
+    ]
+  },
+  "dr_gustavo_bardaro": {
+    "status": "not_found",
+    "personId": "dr_gustavo_bardaro",
+    "attemptedQueries": [
+      "\"Dr. Gustavo Bardaro\" argentina cirujano",
+      "\"Dr. Gustavo Bardaro\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://clinicarmonic.com/wp-content/uploads/2025/01/gustavobravo-1024x1024.png",
+        "query": "\"Dr. Gustavo Bardaro\" argentina cirujano",
+        "score": -10,
+        "sourcePage": "https://clinicarmonic.com/tratamientos/radiesse/",
+        "title": "radiesse - Clínica Armonic"
+      },
+      {
+        "imageUrl": "https://tn.com.ar/resizer/9EPEgIDN-7Qr41viFJ9kJTRJd2I=/767x0/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/artear/IFKQI2YI2NGVHNELTASFPKMUZU.jpg",
+        "query": "\"Dr. Gustavo Bardaro\" argentina cirujano",
+        "score": -15,
+        "sourcePage": "https://tn.com.ar/sociedad/2023/04/13/es-medico-trabaja-como-mozo-en-eeuu-y-decidio-volver-no-todo-es-tan-malo-en-la-argentina-como-creemos/",
+        "title": "La historia del médico argentino que lava copas en Estados Unidos y se ..."
+      },
+      {
+        "imageUrl": "https://clinicarmonic.com/wp-content/uploads/2025/02/drgutsvo-829x1024.png",
+        "query": "\"Dr. Gustavo Bardaro\" argentina cirugia",
+        "score": -16,
+        "sourcePage": "https://clinicarmonic.com/dr-gustavo-bravo/",
+        "title": "Dr. Gustavo Bravo | Cirugía Plástica Facial en Santiago"
+      }
+    ]
+  },
+  "dr_heitor_santos": {
+    "status": "not_found",
+    "personId": "dr_heitor_santos",
+    "attemptedQueries": [
+      "\"Dr. Heitor Santos\" argentina cirujano",
+      "\"Dr. Heitor Santos\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://static.wixstatic.com/media/254810_24e14580d1eb423ab4842e71bf8553c5~mv2.jpeg/v1/fill/w_1035,h_540,al_c/254810_24e14580d1eb423ab4842e71bf8553c5~mv2.jpeg",
+        "query": "\"Dr. Heitor Santos\" argentina cirujano",
+        "score": 63,
+        "sourcePage": "https://www.comunicore.com.br/dr-heitor-santos",
+        "title": "Links úteis Dr. Heitor Santos"
+      },
+      {
+        "imageUrl": "https://static.wixstatic.com/media/254810_24e14580d1eb423ab4842e71bf8553c5~mv2.jpeg/v1/fill/w_1035,h_540,al_c/254810_24e14580d1eb423ab4842e71bf8553c5~mv2.jpeg",
+        "query": "\"Dr. Heitor Santos\" argentina cirugia",
+        "score": 52,
+        "sourcePage": "https://www.comunicore.com.br/dr-heitor-santos",
+        "title": "Links úteis Dr. Heitor Santos"
+      },
+      {
+        "imageUrl": "https://www.cardiocaresa.com/img/kcfinder/images/Dr._Hector_Santos.jpeg",
+        "query": "\"Dr. Heitor Santos\" argentina cirujano",
+        "score": 44,
+        "sourcePage": "https://www.cardiocaresa.com/dr-hector-santos-carranza.html",
+        "title": "Dr. Héctor Santos Carranza"
+      }
+    ]
+  },
+  "dr_hernan_bertoni": {
+    "status": "downloaded",
+    "file": "unverified/dr-hernan-bertoni.jpeg",
+    "bytes": 75058,
+    "query": "\"Dr. Hernán Bertoni\" argentina cirujano",
+    "score": 71,
+    "source_page": "https://alexanderfleming.org/entrevista-al-dr-hernan-bertoni-avances-en-cirugia-robotica/",
+    "image_url": "https://alexanderfleming.org/wp-content/uploads/2023/04/Sin-titulo-4.jpg",
+    "title": "Entrevista al Dr. Hernán Bertoni: Avances en cirugía robótica ...",
+    "verified_source_title": "Entrevista al Dr. Hernán Bertoni: Avances en cirugía robótica - Alexander Fleming"
+  },
+  "dr_hernan_cordero": {
+    "status": "not_found",
+    "personId": "dr_hernan_cordero",
+    "attemptedQueries": [
+      "\"Dr. Hernán Cordero\" argentina cirujano",
+      "\"Dr. Hernán Cordero\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://drcorderocirujanoplastico.com/wp-content/uploads/2022/02/P1300798.jpg",
+        "query": "\"Dr. Hernán Cordero\" argentina cirujano",
+        "score": 53,
+        "sourcePage": "https://drcorderocirujanoplastico.com/dr-cordero/",
+        "title": "Dr. Cordero - Dr. Cordero Cirujano Plástico Certificado"
+      },
+      {
+        "imageUrl": "https://drcorderocirujanoplastico.com/wp-content/uploads/2020/04/final-1024x1024.jpg",
+        "query": "\"Dr. Hernán Cordero\" argentina cirujano",
+        "score": 52,
+        "sourcePage": "https://drcorderocirujanoplastico.com/dr-cordero/",
+        "title": "Dr. Cordero - Dr. Cordero Cirujano Plástico Certificado"
+      },
+      {
+        "imageUrl": "https://drcorderocirujanoplastico.com/wp-content/uploads/2022/02/P1300772-600x600.jpg",
+        "query": "\"Dr. Hernán Cordero\" argentina cirujano",
+        "score": 51,
+        "sourcePage": "https://drcorderocirujanoplastico.com/dr-cordero/",
+        "title": "Dr. Cordero - Dr. Cordero Cirujano Plástico Certificado"
+      }
+    ]
+  },
+  "dr_javier_crisci": {
+    "status": "not_found",
+    "personId": "dr_javier_crisci",
+    "attemptedQueries": [
+      "\"Dr. Javier Crisci\" argentina cirujano",
+      "\"Dr. Javier Crisci\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://hospitalprivado.com.ar/uploads/cache/section_equipo-de-cirugia-cardiovascular-3534.jpg",
+        "query": "\"Dr. Javier Crisci\" argentina cirujano",
+        "score": -11,
+        "sourcePage": "https://hospitalprivado.com.ar/publicaciones-y-casos/cirugia-cardiovascular/avances-en-cirugias-cardiacas-minimamente-invasivas-y-videoasistidas.html",
+        "title": "Avances en cirugías cardíacas mínimamente invasivas y videoasistidas"
+      },
+      {
+        "imageUrl": "https://elonce-media.elonce.com/fotos/2024/12/04/m_1733297530_69670.webp",
+        "query": "\"Dr. Javier Crisci\" argentina cirujano",
+        "score": -15,
+        "sourcePage": "https://www.elonce.com/sociedad/cirugia-de-corazon-inedita-en-argentina-extirparon-un-tumor-por-la-axila.htm",
+        "title": "Cirugía de corazón inédita en Argentina: extirpan tumor por axila ..."
+      },
+      {
+        "imageUrl": "https://tn.com.ar/resizer/9EPEgIDN-7Qr41viFJ9kJTRJd2I=/767x0/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/artear/IFKQI2YI2NGVHNELTASFPKMUZU.jpg",
+        "query": "\"Dr. Javier Crisci\" argentina cirujano",
+        "score": -16,
+        "sourcePage": "https://tn.com.ar/sociedad/2023/04/13/es-medico-trabaja-como-mozo-en-eeuu-y-decidio-volver-no-todo-es-tan-malo-en-la-argentina-como-creemos/",
+        "title": "La historia del médico argentino que lava copas en Estados Unidos y se ..."
+      }
+    ]
+  },
+  "dr_javier_rossi": {
+    "status": "downloaded",
+    "file": "unverified/dr-javier-rossi.jpeg",
+    "bytes": 40433,
+    "query": "\"Dr. Javier Rossi\" argentina cirujano",
+    "score": 69,
+    "source_page": "https://www.perfil.com/noticias/guia-de-salud-pnt/dr-javier-rossi.phtml",
+    "image_url": "https://fotos.perfil.com/2019/03/19/840/0/dr-javier-rossi-650981.jpg",
+    "title": "Cirugía integral del rostro | Perfil",
+    "verified_source_title": "Cirugía integral del rostro"
+  },
+  "dr_jeremias_goransky": {
+    "status": "not_found",
+    "personId": "dr_jeremias_goransky",
+    "attemptedQueries": [
+      "\"Dr. Jeremías Goransky\" argentina cirujano",
+      "\"Dr. Jeremías Goransky\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://cimacsanjuan.com.ar/wp-content/uploads/2024/06/Dra.-Goransky.png",
+        "query": "\"Dr. Jeremías Goransky\" argentina cirujano",
+        "score": 45,
+        "sourcePage": "https://cimacsanjuan.com.ar/ateneo-clinico-pancreas-y-via-biliar-por-dra-goransky/",
+        "title": "Ateneo Clínico “Páncreas y Vía Biliar” por Dra. Goransky - CIMAC"
+      },
+      {
+        "imageUrl": "https://media.eldiariosur.com/adjuntos/291/migration/u/fotografias/m/2019/10/4/f768x0-33173_33191_15.jpg",
+        "query": "\"Dr. Jeremías Goransky\" argentina cirujano",
+        "score": -14,
+        "sourcePage": "https://www.eldiariosur.com/nacionales/2019/10/4/argentina-logro-un-consenso-inedito-que-busca-cambiar-el-futuro-de-las-cirugias-bariatricas-metabolicas-27095.html",
+        "title": "Argentina logró un consenso inédito que busca cambiar el futuro de las ..."
+      },
+      {
+        "imageUrl": "https://um.edu.ar/wp-content/uploads/DOrazio-Grupo-Sur.jpg",
+        "query": "\"Dr. Jeremías Goransky\" argentina cirujano",
+        "score": -14,
+        "sourcePage": "https://um.edu.ar/noticias/medicina-y-robotica-al-servicio-de-las-intervenciones-quirurgicas-en-manos-de-un-cirujano-egresado-de-la-facultad-de-ciencias-medicas-de-la-um/",
+        "title": "Medicina y Robótica al servicio de las intervenciones quirúrgicas, en ..."
+      }
+    ]
+  },
+  "dr_jorge_ibarra": {
+    "status": "downloaded",
+    "file": "unverified/dr-jorge-ibarra.webp",
+    "bytes": 1415958,
+    "query": "\"Dr. Jorge Ibarra\" \"Centro Oncológico Regional COIR\" argentina cirujano",
+    "score": 64,
+    "source_page": "https://www.drjorgeibarra.com/",
+    "image_url": "https://drjorgeibarra.com/resources/Images/DrJorge.webp",
+    "title": "CIGBA - Dr Jorge Ibarra",
+    "verified_source_title": "CIGBA - Dr Jorge Ibarra"
+  },
+  "dr_jorge_nefa": {
+    "status": "not_found",
+    "personId": "dr_jorge_nefa",
+    "attemptedQueries": [
+      "\"Dr. Jorge Nefa\" argentina cirujano",
+      "\"Dr. Jorge Nefa\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://hitalianomza.com/wp-content/uploads/2024/08/DrNefa.jpg",
+        "query": "\"Dr. Jorge Nefa\" argentina cirujano",
+        "score": 50,
+        "sourcePage": "https://hitalianomza.com/",
+        "title": "Hospital Italiano Mendoza – Hospital Italiano Mendoza"
+      },
+      {
+        "imageUrl": "https://hitalianomza.com/wp-content/uploads/2024/08/DrNefa.jpg",
+        "query": "\"Dr. Jorge Nefa\" argentina cirugia",
+        "score": 40,
+        "sourcePage": "https://hitalianomza.com/",
+        "title": "Hospital Italiano Mendoza – Hospital Italiano Mendoza"
+      },
+      {
+        "imageUrl": "https://www.clinicacardiovascular.com.pa/Imagenes/cv/garcia.jpg",
+        "query": "\"Dr. Jorge Nefa\" argentina cirujano",
+        "score": -18,
+        "sourcePage": "https://www.clinicacardiovascular.com.pa/home",
+        "title": "Clínica Cardiovascular"
+      }
+    ]
+  },
+  "dr_jose_varela": {
+    "status": "not_found",
+    "personId": "dr_jose_varela",
+    "attemptedQueries": [
+      "\"Dr. José Varela\" \"Hospital General de Agudos Dr. Cosme Argerich\" argentina cirujano",
+      "\"Dr. José Varela\" argentina cirujano",
+      "\"Dr. José Varela\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://www.cirugiatoracicarobotica.es/uploads/1/1/2/8/11284071/6960359.jpg",
+        "query": "\"Dr. José Varela\" argentina cirugia",
+        "score": 48,
+        "sourcePage": "https://www.cirugiatoracicarobotica.es/dr-varela---cirugiacutea-toraacutecica-roboacutetica.html",
+        "title": "Dr. Varela. Cirujano torácico especializado en cirugía robótica ..."
+      },
+      {
+        "imageUrl": "https://media.licdn.com/dms/image/v2/D4E03AQHsl9Qgn1A3ug/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1696597755430?e=2147483647&v=beta&t=eMuXzbpEbCVSSSYSrx78u8J0QEpBJx7khtYYleJYEa4",
+        "query": "\"Dr. José Varela\" argentina cirujano",
+        "score": 38,
+        "sourcePage": "https://cl.linkedin.com/in/joseinunezv",
+        "title": "Jose Ignacio Núñez Varela - Médico Cirujano | LinkedIn"
+      },
+      {
+        "imageUrl": "https://corebio.org.ar/wp-content/uploads/2018/09/argerich-881x575.jpg",
+        "query": "\"Dr. José Varela\" \"Hospital General de Agudos Dr. Cosme Argerich\" argentina cirujano",
+        "score": -16,
+        "sourcePage": "https://corebio.org.ar/planilla-residencia/bioquimica-clinica-hospital-general-de-agudos-dr-cosme-argerich/",
+        "title": "Bioquímica clínica - Hospital General de Agudos “Dr. Cosme Argerich ..."
+      }
+    ]
+  },
+  "dr_juan_pablo_cordoba": {
+    "status": "downloaded",
+    "file": "unverified/dr-juan-pablo-cordoba.png",
+    "bytes": 74437,
+    "query": "\"Dr. Juan Pablo Córdoba\" argentina cirujano",
+    "score": 107,
+    "source_page": "https://www.directoriomedico.net/proctologos/juan-pablo-cordoba",
+    "image_url": "https://www.directoriomedico.net/pictures/social_media/pimage-8796-57-photo.png",
+    "title": "Juan pablo cordoba - Proctólogos - Medico",
+    "verified_source_title": "Juan pablo cordoba on Directorio M&eacute;dico"
+  },
+  "dr_juan_pablo_gempel": {
+    "status": "downloaded",
+    "file": "unverified/dr-juan-pablo-gempel.jpeg",
+    "bytes": 116417,
+    "query": "\"Dr. Juan Pablo Gempel\" argentina cirujano",
+    "score": 104,
+    "source_page": "https://www.sanjuan8.com/san-juan/juan-pablo-gempel-es-el-nuevo-director-del-hospital-rawson-n1262130",
+    "image_url": "https://media.sanjuan8.com/p/838f6bc505ac22f484beaf08481339cf/adjuntos/303/imagenes/009/269/0009269344/1200x675/smart/autoridades-hospital-rawsonjpg.jpg",
+    "title": "Juan Pablo Gempel es el nuevo director del hospital Rawson",
+    "verified_source_title": "Juan Pablo Gempel es el nuevo director del hospital Rawson"
+  },
+  "dr_juan_vaccaro": {
+    "status": "not_found",
+    "personId": "dr_juan_vaccaro",
+    "attemptedQueries": [
+      "\"Dr. Juan Vaccaro\" argentina cirujano",
+      "\"Dr. Juan Vaccaro\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://media.licdn.com/dms/image/v2/C4E03AQHv00Tbw6dGkQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1582307243163?e=2147483647&v=beta&t=VelMn0w-vaLayM5VXYIzWtYljz-SRBFdtZc9H_UYxt0",
+        "query": "\"Dr. Juan Vaccaro\" argentina cirujano",
+        "score": 57,
+        "sourcePage": "https://ar.linkedin.com/in/dr-juan-f-vaccaro-9676441a2",
+        "title": "Dr. Juan F. Vaccaro - Cirujano general en Sanatorio Argentino. Paredes ..."
+      },
+      {
+        "imageUrl": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1124394345961052",
+        "query": "\"Dr. Juan Vaccaro\" argentina cirujano",
+        "score": -6,
+        "sourcePage": "https://www.facebook.com/dr.juanfvaccaro/",
+        "title": "Dr. Juan F. Vaccaro | La Plata"
+      },
+      {
+        "imageUrl": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1123971679336652",
+        "query": "\"Dr. Juan Vaccaro\" argentina cirujano",
+        "score": -7,
+        "sourcePage": "https://www.facebook.com/dr.juanfvaccaro/",
+        "title": "Dr. Juan F. Vaccaro | La Plata"
+      }
+    ]
+  },
+  "dr_luciano_deluca": {
+    "status": "downloaded",
+    "file": "unverified/dr-luciano-deluca.jpeg",
+    "bytes": 9183,
+    "query": "\"Dr. Luciano Deluca\" argentina cirujano",
+    "score": 53,
+    "source_page": "https://ar.linkedin.com/in/drlucianodeluca",
+    "image_url": "https://media.licdn.com/dms/image/v2/C4D03AQH8Vjrm43I5fA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1650722292115?e=2147483647&v=beta&t=aHsI7d0SBwD9jNcWfFPEPjj7D8w7MTd1PzrRKzkhBk4",
+    "title": "Luciano Deluca - Cirujano Bariatrico y Metabolico Turismo Médico ...",
+    "verified_source_title": ""
+  },
+  "dr_lucio_obeide": {
+    "status": "downloaded",
+    "file": "unverified/dr-lucio-obeide.jpeg",
+    "bytes": 23275,
+    "query": "\"Dr. Lucio Obeide\" argentina cirugia",
+    "score": 95,
+    "source_page": "https://hospitalprivado.com.ar/especialidades-medicas/cirugia-general.html",
+    "image_url": "https://hospitalprivado.com.ar/uploads/cache/profile_s_lucio-obeide-1225.jpg",
+    "title": "Servicio de Cirugía General",
+    "verified_source_title": "Servicio de Cirugía General"
+  },
+  "dr_lucio_uranga": {
+    "status": "downloaded",
+    "file": "unverified/dr-lucio-uranga.png",
+    "bytes": 95629,
+    "query": "\"Dr. Lucio Uranga\" argentina cirujano",
+    "score": 94,
+    "source_page": "https://olivosmedical.consultoriomovil.net/24051/uranga-lucio",
+    "image_url": "https://s3-sa-east-1.amazonaws.com/consultoriomovil/assets-v2/img/profile/staff/medium_profile_1649000156_350658b145a929731c7f880f0909c1d7.png",
+    "title": "Uranga Lucio - Olivos Medical - ConsultorioMOVIL.net",
+    "verified_source_title": "Agende un turno con Uranga Lucio"
+  },
+  "dr_mariano_moro": {
+    "status": "not_found",
+    "personId": "dr_mariano_moro",
+    "attemptedQueries": [
+      "\"Dr. Mariano Moro\" argentina cirujano",
+      "\"Dr. Mariano Moro\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://redsantaclara.com.ar/wp-content/uploads/sites/3/2024/12/PORTADA-ARTICULO-WEB-11.webp",
+        "query": "\"Dr. Mariano Moro\" argentina cirugia",
+        "score": 44,
+        "sourcePage": "https://redsantaclara.com.ar/especialidades-medicas-de-excelencia-en-clinica-santa-clara-moron/",
+        "title": "Especialidades Médicas de Excelencia en Clínica Santa Clara Morón ..."
+      },
+      {
+        "imageUrl": "https://statics.forbesargentina.com/2022/06/crop/62b32b92c1bf7__822x822.webp",
+        "query": "\"Dr. Mariano Moro\" argentina cirujano",
+        "score": -12,
+        "sourcePage": "https://www.forbesargentina.com/innovacion/asi-medicina-del-futuro-cirujano-argentino-ya-aplica-francia-n17633",
+        "title": "Así es la medicina \"del futuro\" que un cirujano argentino ya aplica en ..."
+      },
+      {
+        "imageUrl": "https://www.pampeanodigital.com.ar/06-2024/resize_1717543938.jpg",
+        "query": "\"Dr. Mariano Moro\" argentina cirujano",
+        "score": -12,
+        "sourcePage": "https://www.pampeanodigital.com.ar/nota/494/la-historia-detras-del-medico-argentino-distinguido-como-uno-de-los-7-sabios-de-la-humanidad-en-cirugia-cardiovascular",
+        "title": "La historia detrás del médico argentino distinguido como uno de los 7 ..."
+      }
+    ]
+  },
+  "dr_mario_corengia": {
+    "status": "not_found",
+    "personId": "dr_mario_corengia",
+    "attemptedQueries": [
+      "\"Dr. Mario Corengia\" argentina cirujano",
+      "\"Dr. Mario Corengia\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://static.wixstatic.com/media/1488a7_e6f6b271f3f8427ab80709762d90b79d~mv2.jpeg/v1/crop/x_0,y_47,w_960,h_1185/fill/w_291,h_359,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Mario Corengia.jpeg",
+        "query": "\"Dr. Mario Corengia\" argentina cirujano",
+        "score": 70,
+        "sourcePage": "https://www.corengia.com/",
+        "title": "Cirugía Obesidad | CO - Mario Corengia | Mendoza, Argentina"
+      },
+      {
+        "imageUrl": "https://static.wixstatic.com/media/0bff55_c92f47f462f2480289263acf5b0743ab~mv2.png/v1/fit/w_2500,h_1330,al_c/0bff55_c92f47f462f2480289263acf5b0743ab~mv2.png",
+        "query": "\"Dr. Mario Corengia\" argentina cirujano",
+        "score": 69,
+        "sourcePage": "https://www.corengia.com/",
+        "title": "Cirugía Obesidad | CO - Mario Corengia | Mendoza, Argentina"
+      },
+      {
+        "imageUrl": "https://static.wixstatic.com/media/1488a7_e6f6b271f3f8427ab80709762d90b79d~mv2.jpeg/v1/crop/x_0,y_47,w_960,h_1185/fill/w_291,h_359,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Mario Corengia.jpeg",
+        "query": "\"Dr. Mario Corengia\" argentina cirugia",
+        "score": 60,
+        "sourcePage": "https://www.corengia.com/",
+        "title": "Cirugía Obesidad | CO - Mario Corengia | Mendoza, Argentina"
+      }
+    ]
+  },
+  "dr_martin_de_santibanes": {
+    "status": "not_found",
+    "personId": "dr_martin_de_santibanes",
+    "attemptedQueries": [
+      "\"Dr. Martín De santibañes\" argentina cirujano",
+      "\"Dr. Martín De santibañes\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://media.licdn.com/dms/image/sync/v2/D4D27AQE87FiNRjIv-A/articleshare-shrink_800/articleshare-shrink_800/0/1740514918014?e=2147483647&v=beta&t=bNCFBkGDorBTGJjkOeCmBh1PuJnJNTowWnw39ARpLG0",
+        "query": "\"Dr. Martín De santibañes\" argentina cirujano",
+        "score": 10,
+        "sourcePage": "https://www.linkedin.com/posts/martin-de-santibañes-b70980276_servicio-de-cirugia-general-on-instagram-activity-7300248724797112321-aZXk",
+        "title": "Servicio de Cirugía General on Instagram: \"El Dr. Martin de Santibáñez ..."
+      },
+      {
+        "imageUrl": "https://media.licdn.com/dms/image/sync/v2/D4D27AQE87FiNRjIv-A/articleshare-shrink_800/articleshare-shrink_800/0/1740514918014?e=2147483647&v=beta&t=bNCFBkGDorBTGJjkOeCmBh1PuJnJNTowWnw39ARpLG0",
+        "query": "\"Dr. Martín De santibañes\" argentina cirugia",
+        "score": 0,
+        "sourcePage": "https://www.linkedin.com/posts/martin-de-santibañes-b70980276_servicio-de-cirugia-general-on-instagram-activity-7300248724797112321-aZXk",
+        "title": "Servicio de Cirugía General on Instagram: \"El Dr. Martin de Santibáñez ..."
+      },
+      {
+        "imageUrl": "http://martinalonsocirugiadigestiva.com.ar/wp-content/uploads/2023/05/14-scaled.jpg",
+        "query": "\"Dr. Martín De santibañes\" argentina cirujano",
+        "score": -4,
+        "sourcePage": "http://martinalonsocirugiadigestiva.com.ar/",
+        "title": "Dr. Martín Alonso Cirugía Digestiva"
+      }
+    ]
+  },
+  "dr_martin_duhalde": {
+    "status": "downloaded",
+    "file": "unverified/dr-martin-duhalde.jpeg",
+    "bytes": 125450,
+    "query": "\"Dr. Martín Duhalde\" argentina cirujano",
+    "score": 78,
+    "source_page": "https://www.noticiasdesalud.com.ar/salud-publica-entrevista-a-los-medicos-miguel-pereyra-y-martin-duhalde/",
+    "image_url": "https://www.noticiasdesalud.com.ar/wp-content/uploads/2023/01/Duhalde-y-Pereyra.jpg",
+    "title": "Salud Pública: entrevista a los médicos Miguel Pereyra y Martín Duhalde ...",
+    "verified_source_title": "Salud Pública: entrevista a los médicos Miguel Pereyra y Martín Duhalde - Noticias de Salud"
+  },
+  "dr_mauricio_ramirez": {
+    "status": "downloaded",
+    "file": "unverified/dr-mauricio-ramirez.jpeg",
+    "bytes": 236348,
+    "query": "\"Dr. Mauricio Ramírez\" argentina cirujano",
+    "score": 73,
+    "source_page": "https://drmauricioramirez.com/",
+    "image_url": "https://drmauricioramirez.com/wp-content/uploads/2023/12/Dr-Mauricio-Ramirez-Cirujano-Plastico-Estetico-y-Reconstructivo.jpg",
+    "title": "Dr. Mauricio Ramírez - Cirujano Plástico, Estético Y Reconstructivo",
+    "verified_source_title": "Dr. Mauricio Ramírez - Cirujano Plástico, Estético Y Reconstructivo"
+  },
+  "dr_maximiliano_tittarelli": {
+    "status": "not_found",
+    "personId": "dr_maximiliano_tittarelli",
+    "attemptedQueries": [
+      "\"Dr. Maximiliano Tittarelli\" argentina cirujano",
+      "\"Dr. Maximiliano Tittarelli\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://diariopampero.com/wp-content/uploads/2024/12/axila-1024x700.webp",
+        "query": "\"Dr. Maximiliano Tittarelli\" argentina cirujano",
+        "score": -12,
+        "sourcePage": "https://diariopampero.com/historico-avance-en-la-cirugia-cardiaca-argentina-realiza-la-primera-operacion-a-traves-de-la-axila/",
+        "title": "Histórico avance en la cirugía cardíaca: Argentina realiza la primera ..."
+      },
+      {
+        "imageUrl": "https://tn.com.ar/resizer/9EPEgIDN-7Qr41viFJ9kJTRJd2I=/767x0/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/artear/IFKQI2YI2NGVHNELTASFPKMUZU.jpg",
+        "query": "\"Dr. Maximiliano Tittarelli\" argentina cirujano",
+        "score": -14,
+        "sourcePage": "https://tn.com.ar/sociedad/2023/04/13/es-medico-trabaja-como-mozo-en-eeuu-y-decidio-volver-no-todo-es-tan-malo-en-la-argentina-como-creemos/",
+        "title": "La historia del médico argentino que lava copas en Estados Unidos y se ..."
+      },
+      {
+        "imageUrl": "https://elonce-media.elonce.com/fotos/2024/12/04/m_1733297530_69670.webp",
+        "query": "\"Dr. Maximiliano Tittarelli\" argentina cirujano",
+        "score": -15,
+        "sourcePage": "https://www.elonce.com/sociedad/cirugia-de-corazon-inedita-en-argentina-extirparon-un-tumor-por-la-axila.htm",
+        "title": "Cirugía de corazón inédita en Argentina: extirpan tumor por axila ..."
+      }
+    ]
+  },
+  "oscar_mazza": {
+    "status": "downloaded",
+    "file": "unverified/oscar-mazza.png",
+    "bytes": 344230,
+    "query": "\"Oscar Mazza\" argentina cirujano",
+    "score": 122,
+    "source_page": "https://www.topdoctors.com.ar/doctor/oscar-mazza/",
+    "image_url": "https://staticnew-prod.topdoctors.com.ar/provider/105834/image/profile/medium/oscar-mazza-1582925155",
+    "title": "Dr. Óscar Mazza: especialista en Cirugía General en Ciudad Autónoma de ...",
+    "verified_source_title": "Dr. Óscar Mazza: especialista en Cirugía General en Ciudad Autónoma de Buenos Aires (CABA)"
+  },
+  "dr_norberto_brusa": {
+    "status": "not_found",
+    "personId": "dr_norberto_brusa",
+    "attemptedQueries": [
+      "\"Dr. Norberto Brusa\" argentina cirujano",
+      "\"Dr. Norberto Brusa\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://tn.com.ar/resizer/v2/por-primera-vez-medicos-argentinos-usaron-cirugia-robotica-para-tratar-un-cancer-de-pulmon-CI5HKM6VLRFXNJ7NIAO7WZXRSY.png?auth=3f664af4951c4e4e987523746f0027d640e573eb9dd58d38bbb84e993489cd03&width=767",
+        "query": "\"Dr. Norberto Brusa\" argentina cirujano",
+        "score": -11,
+        "sourcePage": "https://tn.com.ar/salud/noticias/2022/11/15/por-primera-vez-cirujanos-argentinos-usaron-cirugia-robotica-para-tratar-un-cancer-de-pulmon/",
+        "title": "Primera cirugía robótica de cáncer de pulmón en un hospital público de ..."
+      },
+      {
+        "imageUrl": "https://tn.com.ar/resizer/9EPEgIDN-7Qr41viFJ9kJTRJd2I=/767x0/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/artear/IFKQI2YI2NGVHNELTASFPKMUZU.jpg",
+        "query": "\"Dr. Norberto Brusa\" argentina cirujano",
+        "score": -20,
+        "sourcePage": "https://tn.com.ar/sociedad/2023/04/13/es-medico-trabaja-como-mozo-en-eeuu-y-decidio-volver-no-todo-es-tan-malo-en-la-argentina-como-creemos/",
+        "title": "La historia del médico argentino que lava copas en Estados Unidos y se ..."
+      },
+      {
+        "imageUrl": "https://viapais.com.ar/resizer/V11rasXsv1YS1TLHBzMZfU7AAxg=/980x640/smart/filters:quality(75):format(webp)/cloudfront-us-east-1.images.arcpublishing.com/grupoclarin/HA4DENRVGY4TANDDMRRDONZWGY.jpg",
+        "query": "\"Dr. Norberto Brusa\" argentina cirujano",
+        "score": -22,
+        "sourcePage": "https://viapais.com.ar/cordoba/222043-laburos-dificiles-la-vida-en-la-guardia-del-hospital-de-urgencias-de-cordoba/",
+        "title": "Laburos difíciles: la vida en la guardia del Hospital de Urgencias de ..."
+      }
+    ]
+  },
+  "dr_omar_veloso": {
+    "status": "not_found",
+    "personId": "dr_omar_veloso",
+    "attemptedQueries": [
+      "\"Dr. Omar Veloso\" argentina cirujano",
+      "\"Dr. Omar Veloso\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://www.hospitalcuencaalta.org.ar/images/noticias/2024/10/HEMODINAMIA/Dr_Veloso_Neuro.jpg",
+        "query": "\"Dr. Omar Veloso\" argentina cirujano",
+        "score": 47,
+        "sourcePage": "https://www.hospitalcuencaalta.org.ar/index.php/nuestro-hospital/noticias/618-el-hcank-supero-los-700-procedimientos-cardiologicos-y-neurologicos",
+        "title": "El HCANK superó los 700 procedimientos cardiológicos y neurológicos"
+      },
+      {
+        "imageUrl": "https://hospitalciba.com/wp-content/uploads/2022/06/Omar-A.-Paipilla-MD-scaled.jpg",
+        "query": "\"Dr. Omar Veloso\" argentina cirujano",
+        "score": -8,
+        "sourcePage": "https://hospitalciba.com/cirujanos-bariatras/",
+        "title": "CIRUJANOS BARIATRAS - Hospital CIBA"
+      },
+      {
+        "imageUrl": "https://eldebate.com.ar/wp-content/uploads/2024/06/Sin-titulo-68.webp",
+        "query": "\"Dr. Omar Veloso\" argentina cirujano",
+        "score": -9,
+        "sourcePage": "https://eldebate.com.ar/la-historia-detras-del-medico-argentino-distinguido-como-uno-de-los-7-sabios-de-la-humanidad-en-cirugia-cardiovascular/",
+        "title": "La historia detrás del médico argentino distinguido como uno de los 7 ..."
+      }
+    ]
+  },
+  "dr_omelanczuk": {
+    "status": "downloaded",
+    "file": "unverified/dr-pablo-omelanczuk.png",
+    "bytes": 84958,
+    "query": "\"Dr. Pablo Omelanczuk\" argentina cirujano",
+    "score": 64,
+    "source_page": "https://batric.com.ar/team-item/dr-pablo-omelanczuk/",
+    "image_url": "https://batric.com.ar/wp-content/uploads/2020/02/omelanczuk.png",
+    "title": "Dr. Pablo Omelanczuk – Batric",
+    "verified_source_title": "Dr. Pablo Omelanczuk – Batric"
+  },
+  "dr_pablo_blanco": {
+    "status": "downloaded",
+    "file": "unverified/dr-pablo-blanco.jpeg",
+    "bytes": 89121,
+    "query": "\"Dr. Pablo Blanco\" argentina cirujano",
+    "score": 65,
+    "source_page": "https://rhsaludintegral.com/doctor/dr-pablo-pacheco-blanco/",
+    "image_url": "https://rhsaludintegral.com/wp-content/uploads/2023/01/Guia-Integral-de-la-Salud-Dr-Pablo-Pacheco-Blanco-1.jpg",
+    "title": "Dr. Pablo Pacheco Blanco – Guía Integral de la Salud",
+    "verified_source_title": "Dr. Pablo Pacheco Blanco – Guía Integral de la Salud"
+  },
+  "dr_pablo_capitanich": {
+    "status": "downloaded",
+    "file": "unverified/dr-pablo-capitanich.png",
+    "bytes": 257906,
+    "query": "\"Dr. Pablo Capitanich\" \"Hospital Alemán\" argentina cirujano",
+    "score": 121,
+    "source_page": "https://www.topdoctors.com.ar/doctor/pablo-capitanich/",
+    "image_url": "https://staticnew-prod.topdoctors.com.ar/provider/459093/image/profile/large/pablo-capitanich-1718046546",
+    "title": "Dr. Pablo Capitanich: especialista en Cirugía General en Ciudad ...",
+    "verified_source_title": "Dr. Pablo Capitanich: especialista en Cirugía General en Ciudad Autónoma de Buenos Aires (CABA)"
+  },
+  "dr_pablo_carmignani": {
+    "status": "downloaded",
+    "file": "unverified/dr-pablo-carmignani.jpeg",
+    "bytes": 22022,
+    "query": "\"Dr. Pablo Carmignani\" argentina cirujano",
+    "score": 76,
+    "source_page": "https://slidetodoc.com/principios-de-ciruga-oncolgica-dr-pablo-carmignani-sanatorio/",
+    "image_url": "http://slidetodoc.com/presentation_image/4b038ac560b99018aa1a96f3e5893798/image-2.jpg",
+    "title": "Principios de Ciruga Oncolgica Dr Pablo Carmignani Sanatorio",
+    "verified_source_title": "Principios de Ciruga Oncolgica Dr Pablo Carmignani Sanatorio"
+  },
+  "dr_pablo_cingolani": {
+    "status": "not_found",
+    "personId": "dr_pablo_cingolani",
+    "attemptedQueries": [
+      "\"Dr. Pablo Cingolani\" argentina cirujano",
+      "\"Dr. Pablo Cingolani\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://staticnew-prod.topdoctors.com.ar/provider/105740/image/profile/small/pablo-medina.png?width=648/format=png",
+        "query": "\"Dr. Pablo Cingolani\" argentina cirujano",
+        "score": 36,
+        "sourcePage": "https://www.topdoctors.com.ar/cirugia-general/",
+        "title": "Los mejores Cirujanos Generales en Argentina del 2026 | Top Doctors ..."
+      },
+      {
+        "imageUrl": "https://aac.org.ar/92congreso/images/comite/cingolani.jpg",
+        "query": "\"Dr. Pablo Cingolani\" argentina cirujano",
+        "score": 30,
+        "sourcePage": "https://aac.org.ar/92congreso/comite-congreso.htm",
+        "title": "92° Congreso Argentino de Cirugía - Próximamente"
+      },
+      {
+        "imageUrl": "https://aac.org.ar/92congreso/images/comite/cingolani.jpg",
+        "query": "\"Dr. Pablo Cingolani\" argentina cirugia",
+        "score": 20,
+        "sourcePage": "https://aac.org.ar/92congreso/comite-congreso.htm",
+        "title": "92° Congreso Argentino de Cirugía - Próximamente"
+      }
+    ]
+  },
+  "dr_pablo_medina": {
+    "status": "downloaded",
+    "file": "unverified/dr-pablo-medina.png",
+    "bytes": 115376,
+    "query": "\"Dr. Pablo Medina\" argentina cirujano",
+    "score": 122,
+    "source_page": "https://www.topdoctors.com.ar/doctor/pablo-medina/",
+    "image_url": "https://staticnew-prod.topdoctors.com.ar/provider/105740/image/profile/large/pablo-medina.png",
+    "title": "Dr. Pablo Medina: especialista en Cirugía General en Ciudad Autónoma de ...",
+    "verified_source_title": "Dr. Pablo Medina: especialista en Cirugía General en Ciudad Autónoma de Buenos Aires (CABA)"
+  },
+  "dr_pablo_pellegrini": {
+    "status": "not_found",
+    "personId": "dr_pablo_pellegrini",
+    "attemptedQueries": [
+      "\"Dr. Pablo Pellegrini\" argentina cirujano",
+      "\"Dr. Pablo Pellegrini\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://i1.rgstatic.net/ii/profile.image/456578966003715-1485868316696_Q128/Pablo-Pellegrini-2.jpg",
+        "query": "\"Dr. Pablo Pellegrini\" argentina cirujano",
+        "score": 96,
+        "sourcePage": "https://www.researchgate.net/profile/Pablo-Pellegrini-2",
+        "title": "Pablo PELLEGRINI | Becario Perfeccionamiento 2do año Seccion De ..."
+      },
+      {
+        "imageUrl": "https://i1.rgstatic.net/ii/profile.image/456578966003715-1485868316696_Q512/Pablo-Pellegrini-2.jpg",
+        "query": "\"Dr. Pablo Pellegrini\" argentina cirujano",
+        "score": 93,
+        "sourcePage": "https://www.researchgate.net/profile/Pablo-Pellegrini-2",
+        "title": "Pablo PELLEGRINI | Becario Perfeccionamiento 2do año Seccion De ..."
+      },
+      {
+        "imageUrl": "https://i1.rgstatic.net/ii/profile.image/456578966003715-1485868316696_Q128/Pablo-Pellegrini-2.jpg",
+        "query": "\"Dr. Pablo Pellegrini\" argentina cirugia",
+        "score": 86,
+        "sourcePage": "https://www.researchgate.net/profile/Pablo-Pellegrini-2",
+        "title": "Pablo PELLEGRINI | Becario Perfeccionamiento 2do año Seccion De ..."
+      }
+    ]
+  },
+  "dr_pablo_sanchez": {
+    "status": "downloaded",
+    "file": "unverified/dr-pablo-sanchez.jpeg",
+    "bytes": 139233,
+    "query": "\"Dr. Pablo Sánchez\" argentina cirujano",
+    "score": 80,
+    "source_page": "https://drpablosanchez.com/",
+    "image_url": "https://drpablosanchez.com/wp-content/uploads/2024/08/Equipo_de_cirugia-1024x916.jpg",
+    "title": "Cirugía plástica y Estética en Buenos Aires | Dr Pablo Sánchez MD - Dr ...",
+    "verified_source_title": "Cirugía plástica y Estética en Buenos Aires | Dr Pablo Sánchez MD - Dr. Pablo Sánchez MD Cirugía Plástica y Estética en Buenos Aires | Dr. Pablo Sanchez MD"
+  },
+  "dr_quintana_alan": {
+    "status": "not_found",
+    "personId": "dr_quintana_alan",
+    "attemptedQueries": [
+      "\"Dr. Alan Quintana\" \"Hospital Cuenca\" argentina cirujano",
+      "\"Dr. Alan Quintana\" argentina cirujano",
+      "\"Dr. Alan Quintana\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://img.europapress.es/fotoweb/fotonoticia_20130319112310_1200.jpg",
+        "query": "\"Dr. Alan Quintana\" \"Hospital Cuenca\" argentina cirujano",
+        "score": -9,
+        "sourcePage": "https://www.europapress.es/castilla-lamancha/noticia-paciente-consigue-reconstruccion-parte-frente-gracias-cirugia-realizada-hospital-cuenca-20130319112310.html",
+        "title": "Un paciente consigue la reconstrucción de parte de su frente gracias a ..."
+      },
+      {
+        "imageUrl": "https://img.europapress.es/fotoweb/fotonoticia_20190409094757_1200.jpg",
+        "query": "\"Dr. Alan Quintana\" \"Hospital Cuenca\" argentina cirujano",
+        "score": -12,
+        "sourcePage": "https://www.europapress.es/castilla-lamancha/noticia-hospital-cuenca-incorpora-cirugia-bariatrica-pacientes-obesidad-morbida-20190409094757.html",
+        "title": "El Hospital de Cuenca incorpora la cirugía bariátrica para pacientes ..."
+      },
+      {
+        "imageUrl": "https://img2-b4d4.kxcdn.com/wp-content/uploads/2022/06/hospital-cuenca-retoma-trabajo-red-cirugia-pediatrica.jpg",
+        "query": "\"Dr. Alan Quintana\" \"Hospital Cuenca\" argentina cirujano",
+        "score": -16,
+        "sourcePage": "https://diariosanitario.com/cirugia-pediatrica-cuenca-albacete-2/",
+        "title": "Albacete cede cirujanos pediátricos a Cuenca - Diario Sanitario"
+      }
+    ]
+  },
+  "dr_raffa_ignacio": {
+    "status": "downloaded",
+    "file": "unverified/dr-raffa-ignacio.jpeg",
+    "bytes": 8563,
+    "query": "\"Dr. Raffa Ignacio\" argentina cirujano",
+    "score": 61,
+    "source_page": "https://ar.linkedin.com/in/carlos-ignacio-raffa-a02b47a3",
+    "image_url": "https://media.licdn.com/dms/image/v2/C4E03AQGYyfkvm6xV0A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517268343193?e=2147483647&v=beta&t=_Iq8WyBRX9M3pW3Eiv-6DuEhrOA3eMoPQ-TKJ9V7Ipo",
+    "title": "Carlos Ignacio Raffa - Médico Cirujano. Departamento de Cirugía ...",
+    "verified_source_title": ""
+  },
+  "dr_rodrigo_sanchez_claria": {
+    "status": "not_found",
+    "personId": "dr_rodrigo_sanchez_claria",
+    "attemptedQueries": [
+      "\"Dr. Rodrigo Sánchez Claria\" argentina cirujano",
+      "\"Dr. Rodrigo Sánchez Claria\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://i1.rgstatic.net/ii/profile.image/278635480141856-1443443283772_Q512/Rodrigo-Claria.jpg",
+        "query": "\"Dr. Rodrigo Sánchez Claria\" argentina cirujano",
+        "score": 102,
+        "sourcePage": "https://www.researchgate.net/profile/Rodrigo-Claria",
+        "title": "Rodrigo CLARIÁ | Hospital Italiano de Buenos Aires, Buenos Aires ..."
+      },
+      {
+        "imageUrl": "https://i1.rgstatic.net/ii/profile.image/278635480141856-1443443283772_Q512/Rodrigo-Claria.jpg",
+        "query": "\"Dr. Rodrigo Sánchez Claria\" argentina cirugia",
+        "score": 92,
+        "sourcePage": "https://www.researchgate.net/profile/Rodrigo-Claria",
+        "title": "Rodrigo CLARIÁ | Hospital Italiano de Buenos Aires, Buenos Aires ..."
+      },
+      {
+        "imageUrl": "https://i0.wp.com/vascular.ec/wp-content/uploads/DrSanchez.jpg?resize=480%2C480&ssl=1",
+        "query": "\"Dr. Rodrigo Sánchez Claria\" argentina cirugia",
+        "score": 44,
+        "sourcePage": "https://vascular.ec/que-es-la-cirugia-vascular/",
+        "title": "¿Qué es la cirugía vascular? – Dr. Sánchez"
+      }
+    ]
+  },
+  "dr_ruben_balmaceda": {
+    "status": "not_found",
+    "personId": "dr_ruben_balmaceda",
+    "attemptedQueries": [
+      "\"Dr. Rubén Balmaceda\" argentina cirujano",
+      "\"Dr. Rubén Balmaceda\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://media-exp1.licdn.com/dms/image/C4E03AQFw20-2NMlHAQ/profile-displayphoto-shrink_800_800/0/1589899008930?e=2147483647&v=beta&t=xbKs5PTZ2x0_dgTWZIBLifWsO9TmGKlddIoXm3YiHmA",
+        "query": "\"Dr. Rubén Balmaceda\" argentina cirujano",
+        "score": 61,
+        "sourcePage": "https://ar.linkedin.com/in/rubén-balmaceda-b4850a128",
+        "title": "Rubén Balmaceda - Cirujano de planta. - Sanatorio Argentino | LinkedIn"
+      },
+      {
+        "imageUrl": "https://media-exp1.licdn.com/dms/image/C4E03AQFw20-2NMlHAQ/profile-displayphoto-shrink_800_800/0/1589899008930?e=2147483647&v=beta&t=xbKs5PTZ2x0_dgTWZIBLifWsO9TmGKlddIoXm3YiHmA",
+        "query": "\"Dr. Rubén Balmaceda\" argentina cirugia",
+        "score": 51,
+        "sourcePage": "https://ar.linkedin.com/in/rubén-balmaceda-b4850a128",
+        "title": "Rubén Balmaceda - Cirujano de planta. - Sanatorio Argentino | LinkedIn"
+      },
+      {
+        "imageUrl": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3357813880141655032",
+        "query": "\"Dr. Rubén Balmaceda\" argentina cirujano",
+        "score": 25,
+        "sourcePage": "https://www.instagram.com/dr.balmaceda.procto/",
+        "title": "Dr. Ruben Balmaceda (@dr.balmaceda.procto) • Instagram photos and videos"
+      }
+    ]
+  },
+  "dr_ruben_miravalle": {
+    "status": "downloaded",
+    "file": "unverified/dr-ruben-miravalle.jpeg",
+    "bytes": 114148,
+    "query": "\"Dr. Rubén Miravalle\" argentina cirujano",
+    "score": 92,
+    "source_page": "https://coloproctologia.com.ar/equipo-medico/dr-ruben-miravalle",
+    "image_url": "https://coloproctologia.com.ar/wp-content/uploads/2020/01/Dr.-Ruben-Miravalle-cpcc-124-copia-1-1024x1024.jpg",
+    "title": "Dr. Rubén Miravalle – Centro Privado de Cirugía y Coloproctología",
+    "verified_source_title": "Dr. Rubén Miravalle – Centro Privado de Cirugía y Coloproctología"
+  },
+  "dr_samuel_ruiz": {
+    "status": "downloaded",
+    "file": "unverified/dr-samuel-ruiz.jpeg",
+    "bytes": 25361,
+    "query": "\"Dr. Samuel Ruiz\" argentina cirujano",
+    "score": 35,
+    "source_page": "https://www.urologopachuca.com/",
+    "image_url": "https://www.urologopachuca.com/images/cuadro.jpg",
+    "title": "Dr. Samuel Ruiz Cruz :: Cirujano Urólogo",
+    "verified_source_title": "Dr. Samuel Ruiz Cruz :: Cirujano Urólogo"
+  },
+  "dr_suarez_anzorena": {
+    "status": "downloaded",
+    "file": "unverified/dr-suarez-anzorena.png",
+    "bytes": 69476,
+    "query": "\"Dr. Suarez Anzorena\" argentina cirujano",
+    "score": 122,
+    "source_page": "https://www.topdoctors.com.ar/cirugia-general/",
+    "image_url": "https://staticnew-prod.topdoctors.com.ar/provider/112556/image/profile/small/francisco-jose-suarez-anzorena-rosa-1583515569?width=648/format=jpeg",
+    "title": "Los mejores Cirujanos Generales en Argentina del 2025",
+    "verified_source_title": "Los mejores Cirujanos Generales en Argentina del 2026 | Top Doctors"
+  },
+  "dr_taype_xavier": {
+    "status": "downloaded",
+    "file": "unverified/dr-taype-xavier.webp",
+    "bytes": 41826,
+    "query": "\"Dr. Taype Xavier\" argentina cirujano",
+    "score": 63,
+    "source_page": "https://www.aischannel.com/coffee-with/xavier-taype",
+    "image_url": "https://aischannel-images.s3-eu-west-1.amazonaws.com/image/2025-3-11_15-28-42_Miniature_ACW_Dr-Taype.webp",
+    "title": "AIS Channel · Gastric Cancer Management",
+    "verified_source_title": "Gastric Cancer Management"
+  },
+  "dr_walter_nardi": {
+    "status": "downloaded",
+    "file": "unverified/dr-walter-nardi.jpeg",
+    "bytes": 48849,
+    "query": "\"Dr. Walter Nardi\" argentina cirujano",
+    "score": 82,
+    "source_page": "https://cirugiahb.com.ar/rotacion-del-dr-walter-nardi-r4-en-el-ucla-medical-center-california-usa/",
+    "image_url": "https://cirugiahb.com.ar/site/wp-content/uploads/2017/03/UCLA.jpg",
+    "title": "Rotación del Dr Walter Nardi (R4) en el UCLA Medical Center (California ...",
+    "verified_source_title": "Rotación del Dr Walter Nardi (R4) en el UCLA Medical Center (California – USA). – Servicio de Cirugía General del Hospital Británico de Buenos Aires"
+  },
+  "dr_walther_minatti": {
+    "status": "not_found",
+    "personId": "dr_walther_minatti",
+    "attemptedQueries": [
+      "\"Dr. Walther Minatti\" argentina cirujano",
+      "\"Dr. Walther Minatti\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://www.pampeanodigital.com.ar/06-2024/resize_1717543938.jpg",
+        "query": "\"Dr. Walther Minatti\" argentina cirujano",
+        "score": -13,
+        "sourcePage": "https://www.pampeanodigital.com.ar/nota/494/la-historia-detras-del-medico-argentino-distinguido-como-uno-de-los-7-sabios-de-la-humanidad-en-cirugia-cardiovascular",
+        "title": "La historia detrás del médico argentino distinguido como uno de los 7 ..."
+      },
+      {
+        "imageUrl": "https://www.mendoza.gov.ar/wp-content/uploads/sites/5/2023/08/WhatsApp-Image-2023-08-29-at-07.42.46.jpeg",
+        "query": "\"Dr. Walther Minatti\" argentina cirujano",
+        "score": -14,
+        "sourcePage": "https://www.mendoza.gov.ar/prensa/exitosa-cirugia-de-columna-realizada-por-primera-vez-en-mendoza/",
+        "title": "Exitosa cirugía de columna realizada por primera vez en Mendoza ..."
+      },
+      {
+        "imageUrl": "https://diariocronica-s3.cdn.net.ar/s3i233/2024/06/diariocronica/images/82/91/829188_d47604150aca0b6a023a80020e7c574111d0f51d9aced381efa5ce3214d9228e/sm.jpg",
+        "query": "\"Dr. Walther Minatti\" argentina cirujano",
+        "score": -19,
+        "sourcePage": "https://www.diariocronica.com.ar/noticias/2024/06/10/97401-un-cirujano-argentino-elegido-entre-los-siete-sabios-de-la-humanidad",
+        "title": "Un cirujano argentino elegido entre los siete sabios de la humanidad ..."
+      }
+    ]
+  },
+  "dra_adelina_coturel": {
+    "status": "downloaded",
+    "file": "unverified/dra-adelina-coturel.jpeg",
+    "bytes": 9619,
+    "query": "\"Dra. Adelina Coturel\" argentina cirujana",
+    "score": 61,
+    "source_page": "https://ar.linkedin.com/in/adelinacoturel",
+    "image_url": "https://media.licdn.com/dms/image/v2/D4D03AQHcatkmxTOdrw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1680890166299?e=2147483647&v=beta&t=jy36qABeMqUetsN6MMz4-rRP1hRafW3cRvJZqjKss2E",
+    "title": "Adelina Coturel - Cirugía Esófago Gástrica y Bariátrica | LinkedIn",
+    "verified_source_title": ""
+  },
+  "dra_anabella_sanchez": {
+    "status": "not_found",
+    "personId": "dra_anabella_sanchez",
+    "attemptedQueries": [
+      "\"Dra. Anabella Sánchez\" argentina cirujana",
+      "\"Dra. Anabella Sánchez\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://i1.rgstatic.net/ii/profile.image/903435645878274-1592407251860_Q512/Anabella-Smulever.jpg",
+        "query": "\"Dra. Anabella Sánchez\" argentina cirujana",
+        "score": 24,
+        "sourcePage": "https://www.researchgate.net/profile/Anabella-Smulever",
+        "title": "Anabella SMULEVER | Endocrinologist - Clinician | Hospital de Clínicas ..."
+      },
+      {
+        "imageUrl": "https://i0.wp.com/froilanpaez.com/wp-content/uploads/2020/03/M4-PRUEBA.jpg?resize=350%2C350",
+        "query": "\"Dra. Anabella Sánchez\" argentina cirujana",
+        "score": 1,
+        "sourcePage": "https://froilanpaez.com/equipo-medico-de-especialistas/",
+        "title": "Equipo Médico de Especialistas en Cirugía Facial | Dr. Froilán Páez"
+      },
+      {
+        "imageUrl": "https://i0.wp.com/froilanpaez.com/wp-content/uploads/2020/03/M4-PRUEBA.jpg?resize=350%2C350",
+        "query": "\"Dra. Anabella Sánchez\" argentina cirugia",
+        "score": -9,
+        "sourcePage": "https://froilanpaez.com/equipo-medico-de-especialistas/",
+        "title": "Equipo Médico de Especialistas en Cirugía Facial | Dr. Froilán Páez"
+      }
+    ]
+  },
+  "dra_balent_aguirre_emilie": {
+    "status": "not_found",
+    "personId": "dra_balent_aguirre_emilie",
+    "attemptedQueries": [
+      "\"Dra. Emilie Balent Aguirre\" \"Hospital El Cruce\" argentina cirujana",
+      "\"Dra. Emilie Balent Aguirre\" argentina cirujana",
+      "\"Dra. Emilie Balent Aguirre\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://lacolmenaenred.com.ar/wp-content/uploads/2021/06/paciente-de-nahin.jpeg",
+        "query": "\"Dra. Emilie Balent Aguirre\" \"Hospital El Cruce\" argentina cirujana",
+        "score": -5,
+        "sourcePage": "https://lacolmenaenred.com.ar/2021/06/11/la-excelencia-medica-en-el-hospital-del-cruce-tras-una-cirugia-de-altisima-complejidad-de-una-tromboendarterectomia-pulmonar-a-una-mujer-le-cambiaron-la-vida/",
+        "title": "La excelencia médica en el hospital del Cruce: Tras una cirugía de ..."
+      },
+      {
+        "imageUrl": "https://www.mejorsalud.com.ar/wp-content/uploads/2023/03/cruce-1024x779.jpg",
+        "query": "\"Dra. Emilie Balent Aguirre\" \"Hospital El Cruce\" argentina cirujana",
+        "score": -7,
+        "sourcePage": "https://www.mejorsalud.com.ar/realizan-la-30-cirugia-pulmonar-de-alta-complejidad-en-hospital-el-cruce/",
+        "title": "Realizan la 30° cirugía pulmonar de alta complejidad en Hospital El Cruce"
+      },
+      {
+        "imageUrl": "https://eldiariovarelense.com.ar/wp-content/uploads/2025/10/559609714_811341294615075_7168861063625444345_n-e1759933688995.jpg",
+        "query": "\"Dra. Emilie Balent Aguirre\" \"Hospital El Cruce\" argentina cirujana",
+        "score": -18,
+        "sourcePage": "https://eldiariovarelense.com.ar/un-caso-unico-una-paciente-valiente-y-un-equipo-de-excelencia-del-hospital-el-cruce/",
+        "title": "Un caso único, una paciente valiente y un equipo de excelencia del ..."
+      }
+    ]
+  },
+  "dra_carolina_brofman": {
+    "status": "downloaded",
+    "file": "unverified/dra-carolina-brofman.jpeg",
+    "bytes": 10224,
+    "query": "\"Dra. Carolina Brofman\" argentina cirujana",
+    "score": 55,
+    "source_page": "https://ar.linkedin.com/in/carolina-brofman-5272a4181",
+    "image_url": "https://media.licdn.com/dms/image/v2/D4D03AQHcTuwDFvWN6w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1685398132927?e=2147483647&v=beta&t=6BqI3_krvyodYqdI5ZrtTgCFqHm85IqYE4p6okwVDL4",
+    "title": "Carolina Brofman - Cirujana General y de Emergencias | LinkedIn",
+    "verified_source_title": ""
+  },
+  "dra_fernanda_bersano": {
+    "status": "downloaded",
+    "file": "unverified/dra-fernanda-bersano.jpeg",
+    "bytes": 11679,
+    "query": "\"Dra. Fernanda Bersano\" argentina cirujana",
+    "score": 51,
+    "source_page": "https://ar.linkedin.com/in/fernanda-valentina-bersano-5352a81bb",
+    "image_url": "https://media.licdn.com/dms/image/v2/C4E03AQGDq-iZJXEDBg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1614169537225?e=2147483647&v=beta&t=5dEDNH6Nj8IDT10EOepRM0GusbD7iPto9UwDwJ3JCqI",
+    "title": "Fernanda Valentina Bersano - Cirujana General especialista en HPB y ...",
+    "verified_source_title": ""
+  },
+  "dra_flavia_alexandre": {
+    "status": "not_found",
+    "personId": "dra_flavia_alexandre",
+    "attemptedQueries": [
+      "\"Dra. Flavia Alexandre\" argentina cirujana",
+      "\"Dra. Flavia Alexandre\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://www.asistenciacardiologica.es/wp-content/uploads/2024/02/DRA.-FLAVIA-MARTINEZ.png",
+        "query": "\"Dra. Flavia Alexandre\" argentina cirujana",
+        "score": 3,
+        "sourcePage": "https://www.asistenciacardiologica.es/equipo-medico/",
+        "title": "EQUIPO MÉDICO - ASISTENCIA CARDIOLÓGICA DR. CASTRO"
+      },
+      {
+        "imageUrl": "https://www.asistenciacardiologica.es/wp-content/uploads/2024/02/DRA.-FLAVIA-MARTINEZ.png",
+        "query": "\"Dra. Flavia Alexandre\" argentina cirugia",
+        "score": -10,
+        "sourcePage": "https://www.asistenciacardiologica.es/equipo-medico/",
+        "title": "EQUIPO MÉDICO - ASISTENCIA CARDIOLÓGICA DR. CASTRO"
+      },
+      {
+        "imageUrl": "https://www.clarin.com/img/2023/09/08/LwiBe5N5b_2000x1500__1.jpg",
+        "query": "\"Dra. Flavia Alexandre\" argentina cirugia",
+        "score": -15,
+        "sourcePage": "https://www.clarin.com/zonales/cirugia-inedita-hospital-argentino-intervencion-extirpar-tumor-craneo_0_H1QtCXQvuv.html",
+        "title": "Cirugía inédita en un hospital argentino: cómo fue la intervención para ..."
+      }
+    ]
+  },
+  "dra_gisela_aquije_matta": {
+    "status": "not_found",
+    "personId": "dra_gisela_aquije_matta",
+    "attemptedQueries": [
+      "\"Dra. Gisela Aquije Matta\" argentina cirujana",
+      "\"Dra. Gisela Aquije Matta\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://noticiasnet-s3.cdn.net.ar/s3i233/2023/08/noticiasnet/images/19/00/190034_37de585dc98426dd14c732de8be02e57d124dcdca0cc476d3505179b57dad09c/lg.webp",
+        "query": "\"Dra. Gisela Aquije Matta\" argentina cirujana",
+        "score": -18,
+        "sourcePage": "https://www.elcordillerano.com.ar/noticias/2023/08/24/168915-innovadora-cirugia-en-argentina-reconstruyen-la-mano-de-un-joven-con-dedos-de-sus-pies",
+        "title": "Innovadora cirugía en Argentina: reconstruyen la mano de un joven con ..."
+      },
+      {
+        "imageUrl": "https://redbasa.com.ar/wp-content/uploads/2024/12/PORTADA-ARTICULO-WEB-11.webp",
+        "query": "\"Dra. Gisela Aquije Matta\" argentina cirugia",
+        "score": -27,
+        "sourcePage": "https://redbasa.com.ar/blog/2024/12/05/after-office-de-valvulopatias-en-fundacion-favaloro/",
+        "title": "After Office de Valvulopatías en Fundación Favaloro - RED BASA"
+      },
+      {
+        "imageUrl": "https://aac.org.ar/img/comites/cd.jpg",
+        "query": "\"Dra. Gisela Aquije Matta\" argentina cirugia",
+        "score": -33,
+        "sourcePage": "https://aac.org.ar/",
+        "title": "Asociación Argentina de Cirugía"
+      }
+    ]
+  },
+  "dra_laura_fernandez": {
+    "status": "downloaded",
+    "file": "unverified/dra-laura-fernandez.jpeg",
+    "bytes": 53840,
+    "query": "\"Dra. Laura Fernández\" argentina cirujana",
+    "score": 46,
+    "source_page": "https://icua.es/especialista/dra-laura-fernandez-hernandez/",
+    "image_url": "https://icua.es/wp-content/uploads/2024/10/Dra.-Laura-Hernandez-scaled-e1730305893316-525x525.jpg",
+    "title": "Dra. Laura Fernández Hernández - Médico Especialista de iCUA - Urología ...",
+    "verified_source_title": "Dra. Laura Fernández Hernández - Médico Especialista de iCUA - Urología Avanzada"
+  },
+  "dra_loreley_toresan": {
+    "status": "downloaded",
+    "file": "unverified/dra-loreley-toresan.jpeg",
+    "bytes": 189173,
+    "query": "\"Dra. Loreley Toresan\" argentina cirujana",
+    "score": 26,
+    "source_page": "https://es.linkedin.com/posts/loreley-toresan-8452a619a_8m-activity-7304272339221803008-1REw",
+    "image_url": "https://media.licdn.com/dms/image/v2/D4D22AQGkSd2rzJIHeQ/feedshare-shrink_2048_1536/B4DZV38.3UHwAo-/0/1741474231415?e=2147483647&v=beta&t=SW9KQRu9cjcJyuqCD4eD3Mn1sQZeBONwSZ635KSS9UA",
+    "title": "#8m | Loreley Toresan",
+    "verified_source_title": "#8m | Loreley Toresan"
+  },
+  "dra_maria_cristina_du_plessis": {
+    "status": "not_found",
+    "personId": "dra_maria_cristina_du_plessis",
+    "attemptedQueries": [
+      "\"Dra. María Cristina du Plessis\" \"Hospital General de Agudos Dr. Cosme Argerich\" argentina cirujana",
+      "\"Dra. María Cristina du Plessis\" argentina cirujana",
+      "\"Dra. María Cristina du Plessis\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://i1.rgstatic.net/ii/profile.image/908159069745153-1593533403476_Q512/Maria-Cristina-Du-Plessis.jpg",
+        "query": "\"Dra. María Cristina du Plessis\" \"Hospital General de Agudos Dr. Cosme Argerich\" argentina cirujana",
+        "score": 142,
+        "sourcePage": "https://www.researchgate.net/profile/Maria-Cristina-Du-Plessis",
+        "title": "Maria Cristina DU PLESSIS | Residente | Bachelor of Medicine | Hospital ..."
+      },
+      {
+        "imageUrl": "https://i1.rgstatic.net/ii/profile.image/908159069745153-1593533403476_Q512/Maria-Cristina-Du-Plessis.jpg",
+        "query": "\"Dra. María Cristina du Plessis\" argentina cirujana",
+        "score": 132,
+        "sourcePage": "https://www.researchgate.net/profile/Maria-Cristina-Du-Plessis",
+        "title": "Maria Cristina DU PLESSIS | Residente | Bachelor of Medicine | Hospital ..."
+      },
+      {
+        "imageUrl": "https://i1.rgstatic.net/ii/profile.image/908159069745153-1593533403476_Q64/Maria-Cristina-Du-Plessis.jpg",
+        "query": "\"Dra. María Cristina du Plessis\" argentina cirujana",
+        "score": 131,
+        "sourcePage": "https://www.researchgate.net/profile/Maria-Cristina-Du-Plessis",
+        "title": "Maria Cristina DU PLESSIS | Residente | Bachelor of Medicine | Hospital ..."
+      }
+    ]
+  },
+  "dra_m_soledad_ferrante": {
+    "status": "not_found",
+    "personId": "dra_m_soledad_ferrante",
+    "attemptedQueries": [
+      "\"Dra. M. Soledad Ferrante\" argentina cirujana",
+      "\"Dra. M. Soledad Ferrante\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://www.cirugiaplasticaolivos.com.ar/wp-content/uploads/SoledadRosenfel.jpg",
+        "query": "\"Dra. M. Soledad Ferrante\" argentina cirujana",
+        "score": -3,
+        "sourcePage": "https://www.cirugiaplasticaolivos.com.ar/institucional/",
+        "title": "Institucional – Cirugía Plástica Olivos"
+      },
+      {
+        "imageUrl": "https://www.cirugiaplasticaolivos.com.ar/wp-content/uploads/SoledadRosenfel.jpg",
+        "query": "\"Dra. M. Soledad Ferrante\" argentina cirugia",
+        "score": -13,
+        "sourcePage": "https://www.cirugiaplasticaolivos.com.ar/institucional/",
+        "title": "Institucional – Cirugía Plástica Olivos"
+      },
+      {
+        "imageUrl": "https://noticiasnet-s3.cdn.net.ar/s3i233/2023/08/noticiasnet/images/19/00/190034_37de585dc98426dd14c732de8be02e57d124dcdca0cc476d3505179b57dad09c/lg.webp",
+        "query": "\"Dra. M. Soledad Ferrante\" argentina cirujana",
+        "score": -17,
+        "sourcePage": "https://www.elcordillerano.com.ar/noticias/2023/08/24/168915-innovadora-cirugia-en-argentina-reconstruyen-la-mano-de-un-joven-con-dedos-de-sus-pies",
+        "title": "Innovadora cirugía en Argentina: reconstruyen la mano de un joven con ..."
+      }
+    ]
+  },
+  "dra_victoria_ardiles": {
+    "status": "not_found",
+    "personId": "dra_victoria_ardiles",
+    "attemptedQueries": [
+      "\"Dra. Victoria Ardiles\" argentina cirujana",
+      "\"Dra. Victoria Ardiles\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://i1.rgstatic.net/ii/profile.image/272749654442002-1442039993350_Q512/Victoria-Ardiles.jpg",
+        "query": "\"Dra. Victoria Ardiles\" argentina cirujana",
+        "score": 100,
+        "sourcePage": "https://www.researchgate.net/profile/Victoria-Ardiles",
+        "title": "Victoria ARDILES | Hospital Italiano de Buenos Aires, Buenos Aires ..."
+      },
+      {
+        "imageUrl": "https://i1.rgstatic.net/ii/profile.image/272749654442002-1442039993350_Q512/Victoria-Ardiles.jpg",
+        "query": "\"Dra. Victoria Ardiles\" argentina cirugia",
+        "score": 90,
+        "sourcePage": "https://www.researchgate.net/profile/Victoria-Ardiles",
+        "title": "Victoria ARDILES | Hospital Italiano de Buenos Aires, Buenos Aires ..."
+      },
+      {
+        "imageUrl": "https://anestesia.org.ar/assets/img/dp2025/ardiles.jpg",
+        "query": "\"Dra. Victoria Ardiles\" argentina cirujana",
+        "score": 43,
+        "sourcePage": "https://diplomatura.anestesia.org.ar/",
+        "title": "Diplomatura FAAAAR"
+      }
+    ]
+  },
+  "dra_viscomi_lucila": {
+    "status": "not_found",
+    "personId": "dra_viscomi_lucila",
+    "attemptedQueries": [
+      "\"Dra. Viscomi Lucila\" \"Hospital de Ezeiza\" argentina cirujana",
+      "\"Dra. Viscomi Lucila\" argentina cirujana",
+      "\"Dra. Viscomi Lucila\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://www.quironsalud.com/es/comunicacion/contenidos-salud/artroscopia-tecnica-quirurgica-obtiene-mejores-resultados-l.ficheros/3315731-lucila-keil-cirugia-ortopedica-traumatologia-hospital-quironsalud-marbella-web.jpg?width=3783&height=3390",
+        "query": "\"Dra. Viscomi Lucila\" argentina cirugia",
+        "score": 36,
+        "sourcePage": "https://www.quironsalud.com/es/comunicacion/contenidos-salud/artroscopia-tecnica-quirurgica-obtiene-mejores-resultados-l",
+        "title": "La artroscopia es una técnica quirúrgica que obtiene los mejores ..."
+      },
+      {
+        "imageUrl": "https://elcuatrotv.com.ar/10-2023/resize_1696350272.jpg",
+        "query": "\"Dra. Viscomi Lucila\" \"Hospital de Ezeiza\" argentina cirujana",
+        "score": -5,
+        "sourcePage": "https://elcuatrotv.com.ar/nota/716/cirugias-bariatricas-el-hospital-de-ezeiza-y-otro-salto-de-calidad-que-perdura-en-el-tiempo",
+        "title": "Cirugías bariátricas : el hospital de Ezeiza y otro salto de calidad ..."
+      },
+      {
+        "imageUrl": "https://laurbedigital.com.ar/noticias/wp-content/uploads/2020/11/20201101-Ezeiza-cirugias-de-alta-complegidad-1.jpg",
+        "query": "\"Dra. Viscomi Lucila\" \"Hospital de Ezeiza\" argentina cirujana",
+        "score": -6,
+        "sourcePage": "https://laurbedigital.com.ar/noticias/2020/11/02/cirugias-de-alta-complejidad-ineditas-en-el-hospital-alberto-eurnekian-de-ezeiza/",
+        "title": "Cirugías de alta complejidad inéditas en el Hospital Alberto Eurnekian ..."
+      }
+    ]
+  },
+  "ezequiel_palmisano": {
+    "status": "downloaded",
+    "file": "unverified/dr-ezequiel-palmisano.jpeg",
+    "bytes": 28581,
+    "query": "\"Dr. Ezequiel Palmisano\" argentina cirujano",
+    "score": 80,
+    "source_page": "https://www.sohah.org/manual-practico-de-cirugia-endoscopica-de-la-pared-abdominal-por-el-dr-ezequiel-palmisano-prestigioso-cirujano-argentino-miembro-de-la-junta-directiva-de-la-sohah-es-el-libro-que-junto-a-varios/",
+    "image_url": "https://www.sohah.org/wp-content/uploads/2020/11/Palmisano-2.jpg",
+    "title": "Manual Práctico de Cirugía Endoscópica de la Pared Abdominal, por el Dr ...",
+    "verified_source_title": "Manual Práctico de Cirugía Endoscópica de la Pared Abdominal, por el Dr. Ezequiel Palmisano, prestigioso cirujano argentino, miembro de la Junta Directiva de la SoHaH, es el libro, que junto a varios especialistas de primer nivel en la misma patología que han colaborado en varios capítulos, acaba de publicarse | Sociedad Hispanoamericana de Hernia"
+  },
+  "gustavo_marcucci": {
+    "status": "downloaded",
+    "file": "unverified/dr-gustavo-marcucci.jpeg",
+    "bytes": 29223,
+    "query": "\"Dr. Gustavo Marcucci\" argentina cirujano",
+    "score": 78,
+    "source_page": "https://soundcloud.com/user-324946618/entrevista-a-dr-gustavo-marcucci-los-avances-de-la-cirugia-laparoscopica",
+    "image_url": "https://i1.sndcdn.com/artworks-000233555281-b6y8dx-t500x500.jpg",
+    "title": "Stream ENTREVISTA A DR. GUSTAVO MARCUCCI - LOS AVANCES DE LA CIRUGÍA ...",
+    "verified_source_title": "ENTREVISTA A DR. GUSTAVO MARCUCCI - LOS AVANCES DE LA CIRUGÍA LAPAROSCOPICA"
+  },
+  "gustavo_matus": {
+    "status": "not_found",
+    "personId": "gustavo_matus",
+    "attemptedQueries": [
+      "\"Dr. Gustavo Matus\" argentina cirujano",
+      "\"Dr. Gustavo Matus\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://institutoulton.com.ar/wp-content/uploads/2025/01/Dr-Matus.jpg",
+        "query": "\"Dr. Gustavo Matus\" argentina cirujano",
+        "score": 60,
+        "sourcePage": "https://institutoulton.com.ar/cirugia-bariatrica/",
+        "title": "Cirugía bariátrica – Instituto Oulton | Diagnóstico y Tratamiento ..."
+      },
+      {
+        "imageUrl": "https://pasteur.cl/wp-content/uploads/2024/09/Dr-Gonzalo-Matus-Matus-515x800.webp",
+        "query": "\"Dr. Gustavo Matus\" argentina cirujano",
+        "score": 55,
+        "sourcePage": "https://pasteur.cl/equipo/dr-gonzalo-matus-matus-2/",
+        "title": "Dr. Gonzalo Matus Matus - Clinica Pasteur"
+      },
+      {
+        "imageUrl": "https://www.ccdm.cl/wp-content/uploads/2024/02/Dr.-Victor-Matus-edit.png",
+        "query": "\"Dr. Gustavo Matus\" argentina cirujano",
+        "score": 52,
+        "sourcePage": "https://www.ccdm.cl/medico/victor-matus/",
+        "title": "Víctor Matus : Clínica Ciudad del Mar"
+      }
+    ]
+  },
+  "jose_cooke": {
+    "status": "downloaded",
+    "file": "unverified/dr-jose-cooke.jpeg",
+    "bytes": 8780,
+    "query": "\"Dr. José Cooke\" argentina cirugia",
+    "score": 50,
+    "source_page": "https://ar.linkedin.com/in/jose-cooke-850b44185",
+    "image_url": "https://media.licdn.com/dms/image/v2/C4D03AQHi0bOzmNl7Fg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1651837144319?e=2147483647&v=beta&t=9bFgBFLhjG61yTsmFB2yJ_idZQ4L4UpZv5u3QmYrRvM",
+    "title": "Jose Cooke - Profesor Titular de Cirugía. Facultad de Ciencias Médicas ...",
+    "verified_source_title": ""
+  },
+  "lic_daniela_pozzo": {
+    "status": "not_found",
+    "personId": "lic_daniela_pozzo",
+    "attemptedQueries": [
+      "\"Lic. Daniela Pozzo\" argentina cirujano",
+      "\"Lic. Daniela Pozzo\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://institutodeojosprimavera.com/wp-content/uploads/elementor/thumbs/DRA-DANIELA-1-scaled-pxtbpq641a8s0qymcanpwc04q28z4dfculxzjfeu7k.jpg",
+        "query": "\"Lic. Daniela Pozzo\" argentina cirujano",
+        "score": 3,
+        "sourcePage": "https://institutodeojosprimavera.com/staff-medico/",
+        "title": "Staff Médico – Instituto de Ojos Primavera"
+      },
+      {
+        "imageUrl": "https://c.superprof.com/i/a/31583425/13818138/600/20240613184126/cirujano-dentista-universidad-los-andes-clases-ciencias-biologia-anatomia-histologia.jpg",
+        "query": "\"Lic. Daniela Pozzo\" argentina cirujano",
+        "score": -5,
+        "sourcePage": "https://www.superprof.cl/cirujano-dentista-universidad-los-andes-clases-ciencias-biologia-anatomia-histologia.html",
+        "title": "Daniela - Profesor de biología en Santiago - $13000/h"
+      },
+      {
+        "imageUrl": "https://danielacorreacirujana.com/wp-content/uploads/2023/02/316982178_1196961834192768_8508362912278125478_n-819x1024.jpg",
+        "query": "\"Lic. Daniela Pozzo\" argentina cirujano",
+        "score": -6,
+        "sourcePage": "https://danielacorreacirujana.com/rinoplastia-ultrasonica-medellin-cirugia-de-nariz/",
+        "title": "Rinoplastia ultrasónica: Nueva técnica para cirugía de nariz"
+      }
+    ]
+  },
+  "lic_eleonora_timponil": {
+    "status": "not_found",
+    "personId": "lic_eleonora_timponil",
+    "attemptedQueries": [
+      "\"Lic. Eleonora Timponil\" argentina cirujano",
+      "\"Lic. Eleonora Timponil\" argentina cirugia"
+    ],
+    "bestCandidates": [
+      {
+        "imageUrl": "https://msptucuman.gov.ar/wordpress/wp-content/uploads/2023/05/IMG_4729-scaled.jpg",
+        "query": "\"Lic. Eleonora Timponil\" argentina cirujano",
+        "score": -8,
+        "sourcePage": "https://msptucuman.gov.ar/por-medio-de-una-cirugia-de-neuromodulacion-sacra-que-realizaron-cirujanos-del-hospital-centro-de-salud-elsi-mejora-su-calidad-de-vida/",
+        "title": "Una cirugía inédita en el sistema público mejoró la calidad de vida de ..."
+      },
+      {
+        "imageUrl": "https://argentinaonline.com.ar/uploads/noticias/2/2025/02/20250223142953_whatsapp_image_2025_02_23_at_14_27_16.jpeg",
+        "query": "\"Lic. Eleonora Timponil\" argentina cirujano",
+        "score": -10,
+        "sourcePage": "https://argentinaonline.com.ar/nota/25589/dos-equipos-de-cirujanos-argentinos-lograron-concretar-cirugias-pioneras-en-la-region/",
+        "title": "Dos equipos de cirujanos argentinos lograron concretar cirugías ..."
+      },
+      {
+        "imageUrl": "https://tn.com.ar/resizer/v2/por-primera-vez-medicos-argentinos-usaron-cirugia-robotica-para-tratar-un-cancer-de-pulmon-CI5HKM6VLRFXNJ7NIAO7WZXRSY.png?auth=3f664af4951c4e4e987523746f0027d640e573eb9dd58d38bbb84e993489cd03&width=767",
+        "query": "\"Lic. Eleonora Timponil\" argentina cirujano",
+        "score": -12,
+        "sourcePage": "https://tn.com.ar/salud/noticias/2022/11/15/por-primera-vez-cirujanos-argentinos-usaron-cirugia-robotica-para-tratar-un-cancer-de-pulmon/",
+        "title": "Primera cirugía robótica de cáncer de pulmón en un hospital público de ..."
+      }
+    ]
+  }
+}

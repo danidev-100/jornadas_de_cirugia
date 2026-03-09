@@ -1,18 +1,26 @@
 import peopleData from "./people.json";
 
-const peopleImages = import.meta.glob(
-  "../assets/people/*.{png,jpg,jpeg,webp,avif,svg}",
-  {
+const peopleImages = {
+  ...import.meta.glob("../assets/people/*.{png,jpg,jpeg,webp,avif,svg}", {
     eager: true,
     import: "default",
-  },
-);
+  }),
+  ...import.meta.glob("../assets/people/unverified/*.{png,jpg,jpeg,webp,avif,svg}", {
+    eager: true,
+    import: "default",
+  }),
+};
 
 const imageByFileName = Object.fromEntries(
-  Object.entries(peopleImages).map(([filePath, assetUrl]) => [
-    filePath.split("/").pop(),
-    assetUrl,
-  ]),
+  Object.entries(peopleImages).flatMap(([filePath, assetUrl]) => {
+    const relativePath = filePath.replace("../assets/people/", "");
+    const fileName = relativePath.split("/").pop();
+
+    return [
+      [relativePath, assetUrl],
+      [fileName, assetUrl],
+    ];
+  }),
 );
 
 function getRankingScore(person) {
