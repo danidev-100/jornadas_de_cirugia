@@ -11,7 +11,7 @@
             "start_time": "08:00",
             "end_time": "08:30",
             "activity": "Trauma",
-            "title": "Cirugía de Emergencias, Trauma y Cuidados Críticos en lugares Austeros",
+            "title": "Cirugía de emergencia, trauma y cuidados críticos en entornos austeros",
             "speakers": [
               {
                 "person_id": "dr_erick_acosta_barros"
@@ -31,7 +31,7 @@
             "start_time": "08:45",
             "end_time": "09:15",
             "activity": "Trauma",
-            "title": "Educación en Cirugía en Emergencias, Trauma y Cuidados Críticos",
+            "title": "Educación en cirugía de emergencia, trauma y cuidados críticos",
             "speakers": [
               {
                 "person_id": "dra_carolina_brofman"
@@ -60,7 +60,7 @@
             "start_time": "09:45",
             "end_time": "10:15",
             "activity": "HPB",
-            "title": "Conferencia magistral: Avances actuales en cirugía hepática mínimamente invasiva.",
+            "title": "Avances actuales en cirugía hepática mínimamente invasiva",
             "speakers": [],
             "lightning_talks": [
               {
@@ -95,19 +95,19 @@
             "start_time": "11:15",
             "end_time": "11:45",
             "activity": "HPB",
-            "title": "Sesión interactiva de casos clínicos: Decisiones complejas en metástasis hepáticas de cáncer de colon.",
+            "title": "Decisiones complejas en metástasis hepáticas de cáncer colorrectal",
             "speakers": [],
             "lightning_talks": [
               {
-                "title": "Caso Clínico",
+                "title": "Caso 1",
                 "person_id": "dr_pablo_sanchez"
               },
               {
-                "title": "Caso Clínico",
+                "title": "Caso 2",
                 "person_id": "dra_victoria_ardiles"
               },
               {
-                "title": "Caso Clínico",
+                "title": "Caso 3",
                 "person_id": "dra_fernanda_bersano"
               }
             ],
@@ -130,7 +130,7 @@
             "start_time": "13:00",
             "end_time": "13:30",
             "activity": "AAMRCG",
-            "title": "Cirugía robótica: lo que el residente necesita saber.",
+            "title": "Cirugía robótica: lo que el residente necesita saber",
             "speakers": [
               {
                 "person_id": "juan_pekolj"
@@ -146,7 +146,7 @@
             "start_time": "13:45",
             "end_time": "14:15",
             "activity": "Cirugía Percutánea",
-            "title": "Conferencia: Utilidad de la Colecistostomía en la práctica quirúrgica habitual.",
+            "title": "Utilidad de la colecistostomía en la práctica quirúrgica habitual",
             "speakers": [
               {
                 "person_id": "dr_suarez_anzorena"
@@ -169,7 +169,7 @@
             "start_time": "14:30",
             "end_time": "15:00",
             "activity": "Instrumentadores",
-            "title": "Dinámica funcional del quirófano robótico: coordinación entre cirujano en consola y equipo",
+            "title": "Dinámica funcional del quirófano robótico: coordinación entre el cirujano en la consola y el equipo",
             "speakers": [
               {
                 "label": "Asociación Argentina de Instrumentadores Quirúrgicos"
@@ -191,19 +191,19 @@
             "start_time": "15:30",
             "end_time": "16:00",
             "activity": "Coloproctología",
-            "title": "Cirugía colorrectal ¿cambió todo?",
+            "title": "Cirugía colorrectal: ¿cambió todo?",
             "speakers": [],
             "lightning_talks": [
               {
-                "title": "Estrategias para confección de anastomosis seguras",
+                "title": "Estrategias para la confección de anastomosis seguras",
                 "person_id": "dr_alejandro_moreira_grecco"
               },
               {
-                "title": "Utilidad del verde de indocianina en cirugía colorrectal segura",
+                "title": "Utilidad del verde de indocianina para una cirugía colorrectal más segura",
                 "person_id": "dr_juan_patron_uriburu"
               },
               {
-                "title": "Endometriosis intestinal, nuevas técnicas",
+                "title": "Endometriosis intestinal: nuevas técnicas",
                 "person_id": "dr_joaquin_tognelli"
               }
             ],
@@ -221,7 +221,7 @@
             "speakers": [],
             "lightning_talks": [
               {
-                "title": "Lesión de vía aérea iatrogénica en cirugía programada: Lecciones aprendidas para un diagnóstico oportuno",
+                "title": "Lesión iatrogénica de la vía biliar en cirugía programada: lecciones para un diagnóstico oportuno",
                 "person_id": "dr_quintana_alan"
               },
               {
@@ -229,7 +229,7 @@
                 "person_id": "dra_pardal_pilar"
               },
               {
-                "title": "Colecistitis y tumor de suprarrenal",
+                "title": "Colecistitis y tumor suprarrenal",
                 "speakers": [
                   {
                     "person_id": "dr_jose_varela"
@@ -240,7 +240,7 @@
                 ]
               },
               {
-                "title": "Desafíos en el diagnóstico de la patología biliar, a propósito de un caso",
+                "title": "Desafíos en el diagnóstico de la patología biliar: a propósito de un caso",
                 "person_id": "dra_balent_aguirre_emilie"
               },
               {
@@ -258,7 +258,7 @@
             "start_time": "17:00",
             "end_time": "17:30",
             "activity": "Pared Abdominal",
-            "title": "Hernias incisional complejas: del diagnóstico a la estrategia quirúrgica. Pensar antes de operar.",
+            "title": "Hernias incisionales complejas: del diagnóstico a la estrategia quirúrgica. Pensar antes de operar",
             "speakers": [
               {
                 "person_id": "dr_federico_gorganchian"
@@ -290,8 +290,10 @@
             "start_time": "08:00",
             "end_time": "08:30",
             "activity": "Coloproctología",
-            "title": "Casos Desafiantes en coloproctología: presentados por la comisión de coloproctología: mesa panel de expertos locales",
-            "speakers": [],
+            "title": "Casos desafiantes en coloproctología",
+            "speakers": [
+              { "label": "Comisión de coloproctología: panel de expertos locales" }
+            ],
             "lightning_talks": [],
             "moderators": [
               {
@@ -304,7 +306,7 @@
                 "person_id": "dr_juan_patron_uriburu"
               },
               {
-                "label": "Dr. Fernandez"
+                "person_id": "dr_diego_fernandez"
               }
             ]
           },
@@ -312,7 +314,7 @@
             "start_time": "08:45",
             "end_time": "09:15",
             "activity": "Oncología",
-            "title": "Conferencia: Actualización de las estrategias terapéuticas para el manejo de los Tumores Retroperitoneales.",
+            "title": "Actualización de las estrategias terapéuticas en tumores retroperitoneales",
             "speakers": [
               {
                 "person_id": "dr_gonzalo_cervelo"
@@ -320,11 +322,11 @@
             ],
             "lightning_talks": [
               {
-                "title": "Debate: Metástasis hepáticas CCR 3 cm y menores. Hay consenso en su manejo?",
+                "title": "Metástasis hepáticas de cáncer colorrectal ≤3 cm: ¿hay consenso en su manejo?",
                 "person_id": "dr_emilio_quinonez"
               },
               {
-                "title": "Caso 1: No hay duda: opero siempre",
+                "title": "Caso 1: No hay duda, opero siempre",
                 "person_id": "dr_pablo_sanchez"
               },
               {
@@ -354,7 +356,7 @@
             "start_time": "09:45",
             "end_time": "10:15",
             "activity": "Coloproctología",
-            "title": "Nuevas estrategias en el Tratamiento del cáncer de Recto",
+            "title": "Nuevas estrategias en el tratamiento del cáncer de recto",
             "speakers": [],
             "lightning_talks": [
               {
@@ -362,11 +364,11 @@
                 "person_id": "dr_jorge_ibarra"
               },
               {
-                "title": "Es segura actualmente la estrategia de w&w?",
+                "title": "¿Es segura actualmente la estrategia de watch and wait?",
                 "person_id": "dra_laura_fernandez"
               },
               {
-                "title": "Cuándo conviene operar a mi paciente después de TNT?",
+                "title": "¿Cuándo conviene operar al paciente después de TNT?",
                 "person_id": "dr_alejandro_moreira_grecco"
               }
             ],
@@ -380,7 +382,7 @@
             "start_time": "10:15",
             "end_time": "11:00",
             "activity": "Equidad-Igualdad",
-            "title": "Innovación Quirúrgica con Perspectiva de Equidad: Acceso, Oportunidades y Diversidad en el Ámbito Institucional. Una vuelta más de reflexión bajo la lupa del pensamiento crítico.",
+            "title": "Innovación quirúrgica con perspectiva de equidad: acceso, oportunidades y diversidad en el ámbito institucional",
             "speakers": [
               {
                 "person_id": "dra_gisela_aquije_matta"
@@ -388,7 +390,7 @@
             ],
             "lightning_talks": [
               {
-                "title": "Formación en residencias quirúrgicas y posgrado con la visión de la comisión de equidad, igualdad y diversidad",
+                "title": "Formación en residencias y posgrados quirúrgicos desde la perspectiva de equidad y diversidad",
                 "person_id": "dra_loreley_toresan"
               }
             ],
@@ -398,11 +400,11 @@
             "start_time": "11:15",
             "end_time": "11:45",
             "activity": "Pared Abdominal",
-            "title": "Simposio Separación de componentes: indicaciones reales y elección técnica",
+            "title": "Separación de componentes: indicaciones reales y elección técnica",
             "speakers": [],
             "lightning_talks": [
               {
-                "title": "Anterior vs posterior",
+                "title": "Abordaje anterior vs posterior",
                 "person_id": "dr_facundo_nogueira"
               },
               {
@@ -433,7 +435,7 @@
             "start_time": "13:00",
             "end_time": "13:30",
             "activity": "Esófago Gastro",
-            "title": "Simposio de discusión de casos oncológicos.",
+            "title": "Discusión de casos oncológicos esófago-gástricos",
             "speakers": [],
             "lightning_talks": [
               {
@@ -455,7 +457,7 @@
             "start_time": "13:45",
             "end_time": "14:15",
             "activity": "AAMRCG",
-            "title": "Fluorescencia en la residencia de cirugía.",
+            "title": "Fluorescencia en la residencia de cirugía",
             "speakers": [
               {
                 "person_id": "dr_alejandro_moreira_grecco"
@@ -489,7 +491,7 @@
             "start_time": "15:30",
             "end_time": "16:00",
             "activity": "Pared Abdominal",
-            "title": "Conferencia: Cirugía robótica en la pared abdominal: ¿moda o verdadera evolución?",
+            "title": "Cirugía robótica en la pared abdominal: ¿moda o verdadera evolución?",
             "speakers": [
               {
                 "person_id": "dr_heitor_santos"
@@ -506,11 +508,11 @@
             "start_time": "16:15",
             "end_time": "16:45",
             "activity": "HPB",
-            "title": "Simposio temático: Manejo quirúrgico del cáncer de vesícula biliar y vías biliares",
+            "title": "Manejo quirúrgico del cáncer de vesícula biliar y vías biliares",
             "speakers": [],
             "lightning_talks": [
               {
-                "title": "Extensión de resección hepática",
+                "title": "Extensión de la resección hepática",
                 "person_id": "dr_christian_bertona"
               },
               {
@@ -532,7 +534,7 @@
             "start_time": "17:00",
             "end_time": "17:30",
             "activity": "Gremiales Capítulos",
-            "title": "ENCUENTRO FEDERAL DE CAPÍTULOS DE LA AAC",
+            "title": "Encuentro federal de capítulos de la AAC",
             "speakers": [],
             "lightning_talks": [],
             "moderators": [
@@ -707,7 +709,7 @@
             "start_time": "08:00",
             "end_time": "08:30",
             "activity": "Bariátrica",
-            "title": "Qué debe saber el cirujano general de guardia de cirugía bariátrica?",
+            "title": "¿Qué debe saber el cirujano general de guardia sobre cirugía bariátrica?",
             "speakers": [
               {
                 "person_id": "dr_luciano_deluca"
@@ -715,7 +717,7 @@
             ],
             "lightning_talks": [
               {
-                "title": "Manejo de la litiasis biliar en el paciente con by-pass gástrico",
+                "title": "Manejo de la litiasis biliar en el paciente con bypass gástrico",
                 "person_id": "dr_jorge_nefa"
               }
             ],
@@ -732,7 +734,7 @@
             "start_time": "08:45",
             "end_time": "09:15",
             "activity": "Bariátrica",
-            "title": "Eventración en el paciente obeso cuándo se opera. Antes durante o después de la cirugía bariátrica.",
+            "title": "Eventración en el paciente obeso: ¿cuándo operarla? Antes, durante o después de la cirugía bariátrica",
             "speakers": [
               {
                 "person_id": "dr_juan_pablo_gempel"
@@ -740,7 +742,7 @@
             ],
             "lightning_talks": [
               {
-                "title": "Abdomen agudo oclusivo postcirugía bariátrica",
+                "title": "Abdomen agudo oclusivo poscirugía bariátrica",
                 "person_id": "dr_mario_corengia"
               },
               {
@@ -769,19 +771,19 @@
             "start_time": "09:45",
             "end_time": "10:15",
             "activity": "Coloproctología",
-            "title": "Tratamiento actual de la Diverticulitis – HI al HIV",
+            "title": "Tratamiento actual de la diverticulitis: Hinchey I a IV",
             "speakers": [],
             "lightning_talks": [
               {
-                "title": "HI, Tratamiento médico ambulatorio? , uso racional de Atb",
+                "title": "HI: tratamiento médico ambulatorio y uso racional de antibióticos",
                 "person_id": "dra_maria_susana_bruzzi"
               },
               {
-                "title": "HII, III y IV. Algoritmo de tratamiento. Cuándo técnicas mínimamente invasivas. Cuándo realizar anastomosis? , Uso del lavado y drenaje laparoscópico, Abdomen abierto y contenido ¿todavía?",
+                "title": "HII-HIV: algoritmo de tratamiento. Técnicas mínimamente invasivas, anastomosis primaria, lavado laparoscópico y abdomen abierto",
                 "person_id": "dr_diego_bertani"
               },
               {
-                "title": "Cirugía Electiva Post Evento Agudo. Selección de Paciente. Actualización",
+                "title": "Cirugía electiva tras evento agudo: selección del paciente y actualización",
                 "person_id": "dr_walther_minatti"
               }
             ],
@@ -795,7 +797,7 @@
             "start_time": "10:15",
             "end_time": "11:00",
             "activity": "Cx Robótica",
-            "title": "Simposio Expositor extranjero",
+            "title": "Expositor invitado internacional",
             "speakers": [
               {
                 "person_id": "dr_cugat"
@@ -816,11 +818,11 @@
             "speakers": [],
             "lightning_talks": [
               {
-                "title": "Funduplicatura de Nissen Laparoscópica.",
+                "title": "Funduplicatura de Nissen Laparoscópica",
                 "person_id": "dra_adelina_coturel"
               },
               {
-                "title": "Funduplicatura de Toupet Robótica.",
+                "title": "Funduplicatura de Toupet Robótica",
                 "person_id": "dr_mauricio_ramirez"
               }
             ],
@@ -860,11 +862,11 @@
             "start_time": "13:45",
             "end_time": "14:15",
             "activity": "HPB",
-            "title": "Debate experto: Estrategias quirúrgicas en cáncer de páncreas cefálico: ¿abordaje clásico vs. técnicas extendidas?",
+            "title": "Estrategias quirúrgicas en cáncer de páncreas cefálico: abordaje clásico vs. técnicas extendidas",
             "speakers": [],
             "lightning_talks": [
               {
-                "title": "Criterios de resecabilidad y borderline resectable",
+                "title": "Criterios de resecabilidad y enfermedad borderline resecable",
                 "person_id": "dr_gustavo_kohan"
               },
               {
@@ -890,11 +892,11 @@
             "speakers": [],
             "lightning_talks": [
               {
-                "title": "Caso clínico 1",
+                "title": "Caso 1",
                 "person_id": "dr_pablo_capitanich"
               },
               {
-                "title": "Caso clínico 2",
+                "title": "Caso 2",
                 "person_id": "dr_gustavo_kohan"
               }
             ],
@@ -939,7 +941,7 @@
             "start_time": "16:15",
             "end_time": "16:45",
             "activity": "Oncología",
-            "title": "Neoplasias del peritoneo, poniendo blanco sobre negro. Cuando citoreducción, Pipac, Hipec. (Conf y casos)",
+            "title": "Neoplasias peritoneales: cuándo citoreducción, PIPAC y HIPEC. Puesta al día y discusión de casos",
             "speakers": [
               {
                 "person_id": "dr_pablo_carmignani"
@@ -947,28 +949,30 @@
             ],
             "lightning_talks": [
               {
-                "title": "Casos",
+                "title": "Caso 1",
                 "person_id": "dr_raffa_ignacio"
               },
               {
-                "title": "Casos",
+                "title": "Caso 2",
                 "person_id": "dr_fernando_iglesias"
               },
               {
-                "title": "Programas de recuperación avanzada (eras) en cirugía oncológica. Cómo alcanzar objetivos cumplibles en nuestro medio.",
+                "title": "Programas ERAS en cirugía oncológica: implementación en nuestro medio",
                 "person_id": "dr_badra_roberto"
               },
               {
-                "title": "Disertante EGD",
-                "person_id": "dr_mauricio_ramirez"
-              },
-              {
-                "title": "Disertante EGD",
-                "person_id": "dr_alejandro_pairola"
-              },
-              {
-                "title": "Disertante EGD",
-                "person_id": "dr_bufaliza"
+                "title": "Comentarios de expertos (EGD)",
+                "speakers": [
+                  {
+                    "person_id": "dr_mauricio_ramirez"
+                  },
+                  {
+                    "person_id": "dr_alejandro_pairola"
+                  },
+                  {
+                    "person_id": "dr_bufaliza"
+                  }
+                ]
               }
             ],
             "moderators": [
@@ -981,11 +985,11 @@
             "start_time": "17:00",
             "end_time": "17:30",
             "activity": "Pared Abdominal",
-            "title": "Prótesis en cirugía de pared – Tipo de Malla Intraperitoneal: Evidencia o Dogma. Está todo dicho? Debate Dirigido",
+            "title": "Prótesis intraperitoneales en cirugía de pared: evidencia o dogma",
             "speakers": [],
             "lightning_talks": [
               {
-                "title": "Malla de Polipropileno sin cobertura antiadherente",
+                "title": "Malla de polipropileno sin cobertura antiadherente",
                 "person_id": "dr_walther_minatti"
               },
               {
@@ -1003,7 +1007,7 @@
             "start_time": "17:45",
             "end_time": "18:15",
             "activity": "Instrumentadores",
-            "title": "Fluorescencia en qx. Usos en cirugía Digestiva",
+            "title": "Fluorescencia en cirugía digestiva: aplicaciones actuales",
             "speakers": [
               {
                 "person_id": "lic_eleonora_timponil"
@@ -1025,7 +1029,7 @@
             "start_time": "08:00",
             "end_time": "08:30",
             "activity": "Oncología",
-            "title": "Update en Ca de vesícula. Mesa de MDT (cirujano, oncólogo, rt, imágenes). Watch and wait en adenocarcinoma UGE y Gástrico. Estamos en condiciones de ofrecerla? (Conf y casos)",
+            "title": "Actualización en cáncer de vesícula: discusión multidisciplinaria",
             "speakers": [
               {
                 "person_id": "dra_adelina_coturel"
@@ -1036,11 +1040,14 @@
             ],
             "lightning_talks": [
               {
-                "title": "Casos",
+                "title": "Watch and wait en adenocarcinoma de UGE y gástrico: ¿estamos en condiciones de ofrecerla?"
+              },
+              {
+                "title": "Caso 1",
                 "person_id": "dr_franco_signorini"
               },
               {
-                "title": "Casos",
+                "title": "Caso 2",
                 "person_id": "dr_mauricio_ramirez"
               }
             ],
@@ -1088,7 +1095,7 @@
             "start_time": "10:15",
             "end_time": "11:00",
             "activity": "AAMRCG Olimpiadas",
-            "title": "El residente en 2026.",
+            "title": "El residente en 2026",
             "speakers": [
               {
                 "person_id": "oscar_mazza"
@@ -1110,7 +1117,7 @@
             "start_time": "11:15",
             "end_time": "11:45",
             "activity": "Pared Abdominal",
-            "title": "Simposio Optimización y prehabilitación del paciente herniado. Optimización y prehabilitación del paciente herniado. El éxito empieza antes del quirófano.",
+            "title": "Optimización y prehabilitación del paciente herniado. El éxito empieza antes del quirófano",
             "speakers": [],
             "lightning_talks": [
               {
@@ -1167,7 +1174,7 @@
             "start_time": "14:30",
             "end_time": "15:00",
             "activity": "Coloproctología",
-            "title": "Urgencias en coloproctología. ¿Qué hacer en la guardia? Casos clínicos motivadores a la participación de los asistentes y cerrando cada tema con 6 claves concluyentes en el tratamiento de cada caso",
+            "title": "Urgencias en coloproctología: ¿qué hacer en la guardia? Discusión de casos clínicos con claves prácticas de manejo",
             "speakers": [],
             "lightning_talks": [
               {
@@ -1211,7 +1218,7 @@
             "start_time": "16:15",
             "end_time": "16:45",
             "activity": "Esófago Gastro",
-            "title": "Charla magistral: Linfadenectomías en gastrectomías y esofaguectomías.",
+            "title": "Charla magistral: Linfadenectomías en gastrectomías y esofaguectomías",
             "speakers": [
               {
                 "person_id": "dr_franco_signorini"
@@ -1245,7 +1252,7 @@
             "start_time": "17:45",
             "end_time": "18:15",
             "activity": "AAMRCG",
-            "title": "Inteligencia Artificial en la formación quirúrgica.",
+            "title": "Inteligencia Artificial en la formación quirúrgica",
             "speakers": [],
             "lightning_talks": [],
             "moderators": []

@@ -1,16 +1,16 @@
 {
   "diego_sinagra": {
-    "name": "Diego Sinagra",
+    "name": "Dr. Diego Sinagra",
     "nationality": null,
     "submitted_at": null
   },
   "dr_adrian_cena": {
-    "name": "Dr. Adrian Cena",
+    "name": "Dr. Adrián Cena",
     "nationality": null,
     "submitted_at": null
   },
   "dr_agustin_correa": {
-    "name": "Dr. Agustin Correa",
+    "name": "Dr. Agustín Correa",
     "nationality": null,
     "submitted_at": null
   },
@@ -33,10 +33,6 @@
       "AAC",
       "SACP",
       "SBCP"
-    ],
-    "aliases": [
-      "Alejandro Moreira Grecco",
-      "Dr. Moreira Grecco"
     ],
     "nationality": null,
     "submitted_at": "2026-03-07T19:56:54-03:00"
@@ -90,9 +86,6 @@
     "name": "Dr. Ramón Cugat",
     "job_title": "Director médico, Especialista en Cirugía Ortopédica y Traumatología",
     "image": "dr-ramon-cugat.jpg",
-    "aliases": [
-      "Dr. Cugat (España)"
-    ],
     "nationality": "España",
     "submitted_at": "2026-03-07T20:45:54-03:00"
   },
@@ -119,15 +112,12 @@
     "submitted_at": null
   },
   "dr_diego_fernandez": {
-    "name": "Dr. Diego Fernandez",
+    "name": "Dr. Diego Fernández",
     "nationality": null,
     "submitted_at": null
   },
   "dr_eduardo_cassone": {
     "name": "Dr. Eduardo Cassone",
-    "aliases": [
-      "Dr. Cassone"
-    ],
     "nationality": null,
     "submitted_at": null
   },
@@ -147,7 +137,7 @@
     "submitted_at": null
   },
   "dr_fabian_lerda": {
-    "name": "Dr. Fabian Lerda",
+    "name": "Dr. Fabián Lerda",
     "nationality": null,
     "submitted_at": null
   },
@@ -168,9 +158,6 @@
   },
   "dr_franco_signorini": {
     "name": "Dr. Franco Signorini",
-    "aliases": [
-      "Dr. Signorini"
-    ],
     "nationality": null,
     "submitted_at": null
   },
@@ -201,7 +188,7 @@
     "submitted_at": null
   },
   "dr_hernan_bertoni": {
-    "name": "Dr. Hernan Bertoni",
+    "name": "Dr. Hernán Bertoni",
     "nationality": null,
     "submitted_at": null
   },
@@ -217,9 +204,6 @@
   },
   "dr_javier_rossi": {
     "name": "Dr. Javier Rossi",
-    "aliases": [
-      "Dr. Rossi"
-    ],
     "nationality": null,
     "submitted_at": null
   },
@@ -266,9 +250,6 @@
   "dr_juan_patron_uriburu": {
     "name": "Dr. Juan Patrón Uriburu",
     "image": "dr-juan-patron-uriburu.jpeg",
-    "aliases": [
-      "Dr. Patron"
-    ],
     "nationality": null,
     "submitted_at": "2026-03-07T19:46:54-03:00"
   },
@@ -314,9 +295,6 @@
   },
   "dr_mauricio_ramirez": {
     "name": "Dr. Mauricio Ramírez",
-    "aliases": [
-      "Dr. Mauricio Ramirez"
-    ],
     "nationality": null,
     "submitted_at": null
   },
@@ -327,9 +305,6 @@
   },
   "oscar_mazza": {
     "name": "Oscar Mazza",
-    "aliases": [
-      "Dr. Mazza"
-    ],
     "nationality": null,
     "submitted_at": null
   },
@@ -344,7 +319,7 @@
     "submitted_at": null
   },
   "dr_omelanczuk": {
-    "name": "Dr. Omelanczuk",
+    "name": "Dr. Pablo Omelanczuk",
     "nationality": null,
     "submitted_at": null
   },
@@ -366,9 +341,6 @@
   },
   "dr_pablo_cingolani": {
     "name": "Dr. Pablo Cingolani",
-    "aliases": [
-      "Dr. Cingolani"
-    ],
     "nationality": null,
     "submitted_at": null
   },
@@ -383,12 +355,12 @@
     "submitted_at": null
   },
   "dr_pablo_sanchez": {
-    "name": "Dr. Pablo Sanchez",
+    "name": "Dr. Pablo Sánchez",
     "nationality": null,
     "submitted_at": null
   },
   "dr_quintana_alan": {
-    "name": "Dr. Quintana Alan",
+    "name": "Dr. Alan Quintana",
     "institution": "Hospital Cuenca",
     "nationality": null,
     "submitted_at": null
@@ -399,7 +371,7 @@
     "submitted_at": null
   },
   "dr_rodrigo_sanchez_claria": {
-    "name": "Dr. Rodrigo Sanchez Claria",
+    "name": "Dr. Rodrigo Sánchez Claria",
     "nationality": null,
     "submitted_at": null
   },
@@ -415,9 +387,6 @@
   },
   "dr_samuel_ruiz": {
     "name": "Dr. Samuel Ruiz",
-    "aliases": [
-      "Dr. Ruiz Samuel"
-    ],
     "nationality": null,
     "submitted_at": null
   },
@@ -438,9 +407,6 @@
   },
   "dr_walther_minatti": {
     "name": "Dr. Walther Minatti",
-    "aliases": [
-      "Dr. Minatti Walther"
-    ],
     "nationality": null,
     "submitted_at": null
   },
@@ -450,12 +416,12 @@
     "submitted_at": null
   },
   "dra_anabella_sanchez": {
-    "name": "Dra. Anabella Sanchez",
+    "name": "Dra. Anabella Sánchez",
     "nationality": null,
     "submitted_at": null
   },
   "dra_balent_aguirre_emilie": {
-    "name": "Dra. Balent Aguirre Emilie",
+    "name": "Dra. Emilie Balent Aguirre",
     "institution": "Hospital El Cruce",
     "nationality": null,
     "submitted_at": null
@@ -510,7 +476,7 @@
     "submitted_at": "2026-03-07T18:46:54-03:00"
   },
   "dra_pardal_pilar": {
-    "name": "Dra. Pardal Pilar",
+    "name": "Dra. Pilar Pardal",
     "institution": "Hospital Dr. Alejandro Korn (La Plata)",
     "nationality": null,
     "submitted_at": null
@@ -527,43 +493,37 @@
     "submitted_at": null
   },
   "ezequiel_palmisano": {
-    "name": "Ezequiel Palmisano",
+    "name": "Dr. Ezequiel Palmisano",
     "nationality": null,
     "submitted_at": null
   },
   "gustavo_marcucci": {
-    "name": "Gustavo Marcucci",
+    "name": "Dr. Gustavo Marcucci",
     "nationality": null,
     "submitted_at": null
   },
   "gustavo_matus": {
-    "name": "Gustavo Matus",
+    "name": "Dr. Gustavo Matus",
     "nationality": null,
     "submitted_at": null
   },
   "jose_cooke": {
-    "name": "José Cooke",
+    "name": "Dr. José Cooke",
     "nationality": null,
     "submitted_at": null
   },
   "juan_pekolj": {
-    "name": "Juan Pekolj",
+    "name": "Dr. Juan Pekolj",
     "nationality": null,
     "submitted_at": null
   },
   "lic_daniela_pozzo": {
     "name": "Lic. Daniela Pozzo",
-    "aliases": [
-      "Lic. DANIELA POZZO"
-    ],
     "nationality": null,
     "submitted_at": null
   },
   "lic_eleonora_timponil": {
     "name": "Lic. Eleonora Timponil",
-    "aliases": [
-      "Lic. ELEONORA TIMPONIL"
-    ],
     "nationality": null,
     "submitted_at": null
   }

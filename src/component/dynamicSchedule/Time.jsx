@@ -22,11 +22,7 @@ function Time({
     const visibleRoomEntries = roomEntries.filter(({ event }) => Boolean(event));
 
     return (
-      <div
-        className={`flex flex-col gap-4 bg-white py-4 ${
-          isLastRow ? "" : "border-b border-cloud"
-        }`}
-      >
+      <div className="flex flex-col gap-4 bg-white py-4">
         <div className="flex items-center gap-3">
           <p className="text-base leading-none font-semibold text-deep-blue/70">
             {start_time}
@@ -58,8 +54,8 @@ function Time({
 
   return (
     <div
-      className={`grid grid-cols-[auto_repeat(3,minmax(0,1fr))] items-stretch border-x border-b border-cloud bg-white ${
-        isLastRow ? "overflow-hidden rounded-b-3xl" : ""
+      className={`grid grid-cols-[auto_repeat(3,minmax(0,1fr))] items-stretch border-x border-cloud bg-white ${
+        isLastRow ? "overflow-hidden rounded-b-3xl border-b" : ""
       }`}
     >
       <div className="grid px-3 py-5">

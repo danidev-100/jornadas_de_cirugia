@@ -1,8 +1,5 @@
+import NationalityFlag from "./NationalityFlag";
 import { getAllPeople, getPersonAnchorId } from "../data/people.js";
-
-const FLAG_BY_NATIONALITY = {
-  España: "🇪🇸",
-};
 
 function PersonFallbackIcon() {
   return (
@@ -21,22 +18,6 @@ function PersonFallbackIcon() {
         d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
       />
     </svg>
-  );
-}
-
-function NationalityFlag({ nationality }) {
-  const flag = FLAG_BY_NATIONALITY[nationality];
-
-  if (!flag) return null;
-
-  return (
-    <span
-      aria-label={`Nacionalidad: ${nationality}`}
-      title={nationality}
-      className="shrink-0 text-sm leading-none"
-    >
-      {flag}
-    </span>
   );
 }
 
@@ -77,7 +58,10 @@ function Speakers() {
                 <h3 className="min-w-0 shrink text-base leading-tight font-semibold">
                   {person.name}
                 </h3>
-                <NationalityFlag nationality={person.nationality} />
+                <NationalityFlag
+                  nationality={person.nationality}
+                  className="shrink-0 text-sm leading-none"
+                />
               </div>
               <div className="flex min-h-0 flex-col gap-1 overflow-hidden">
                 {person.job_title ? (

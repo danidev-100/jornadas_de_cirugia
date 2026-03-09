@@ -15,11 +15,11 @@ function Day({ day, date, rooms }) {
   const { roomNames, timeRows } = buildScheduleByTime({ day, date, rooms });
 
   return (
-    <article className="flex flex-col gap-4 mt-30">
+    <article className="flex flex-col gap-4 mt-16 md:mt-20">
       <div className="flex w-full md:justify-end">
         <div className="w-full rounded-full border border-wave/50 bg-cloud p-2 md:w-auto md:max-w-full">
           <div className="rounded-full bg-white px-6 py-4 text-center sm:px-8 md:text-left">
-            <h3 className="text-3xl font-semibold text-lagoon">
+            <h3 className="text-2xl font-semibold text-lagoon">
               {day}
             </h3>
           </div>
