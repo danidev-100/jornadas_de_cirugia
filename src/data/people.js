@@ -31,6 +31,10 @@ function getRankingScore(person) {
   );
 }
 
+function shouldShowInSpeakers(person) {
+  return Boolean(person.image || person.job_title || person.institution);
+}
+
 function compareSubmittedAt(leftSubmittedAt, rightSubmittedAt) {
   if (!leftSubmittedAt && !rightSubmittedAt) return 0;
   if (!leftSubmittedAt) return 1;
@@ -51,9 +55,10 @@ const basePeopleEntries = Object.entries(peopleData).map(([id, person]) => ({
   ...person,
   imageSrc: person.image ? imageByFileName[person.image] ?? null : null,
   ranking_score: getRankingScore(person),
+  showInSpeakers: shouldShowInSpeakers(person),
 }));
 
-const peopleEntries = [...basePeopleEntries]
+const sortedPeopleEntries = [...basePeopleEntries]
   .sort((leftPerson, rightPerson) => {
     if (rightPerson.ranking_score !== leftPerson.ranking_score) {
       return rightPerson.ranking_score - leftPerson.ranking_score;
@@ -66,13 +71,18 @@ const peopleEntries = [...basePeopleEntries]
     if (submittedAtComparison !== 0) return submittedAtComparison;
 
     return leftPerson.name.localeCompare(rightPerson.name, "es");
-  })
+  });
+
+const peopleEntries = sortedPeopleEntries
+  .filter((person) => person.showInSpeakers)
   .map((person, index) => ({
     ...person,
     rank: index + 1,
   }));
 
-const peopleById = new Map(peopleEntries.map((person) => [person.id, person]));
+const peopleById = new Map(
+  sortedPeopleEntries.map((person) => [person.id, person]),
+);
 
 export function getAllPeople() {
   return peopleEntries;

@@ -51,7 +51,9 @@ function resolvePersonReference(reference) {
 
     return {
       name: person.name,
-      href: `#${getPersonAnchorId(reference.person_id)}`,
+      href: person.showInSpeakers
+        ? `#${getPersonAnchorId(reference.person_id)}`
+        : null,
       nationality: person.nationality ?? null,
     };
   }
