@@ -1,6 +1,6 @@
 import { CalendarIcon, MapPinIcon } from "@heroicons/react/24/outline";
 import heroBackground from "../assets/bg.png";
-import jornadasOverlay from "../assets/Logo.svg";
+import JornadasLogo from "./JornadasLogo";
 
 function Hero() {
   return (
@@ -15,11 +15,9 @@ function Hero() {
           />
         </div>
         <div className="flex justify-center items-center">
-          <img
-            src={jornadasOverlay}
-            alt="XXVII Jornadas de Cirugia Otoño 2026"
-            className="max-w-full h-auto"
-            loading="lazy"
+          <JornadasLogo
+            className="block max-w-full h-auto"
+            style={{ filter: "drop-shadow(0 6px 8px rgba(0, 0, 0, 0.28))" }}
           />
         </div>
         <div className="bg-ink opacity-75 py-5 px-4 rounded-4xl text-white flex flex-col md:flex-row items-center gap-2 md:gap-6 mb-18 mx-6">

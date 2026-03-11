@@ -1,0 +1,119 @@
+#!/bin/bash
+set -euo pipefail
+
+app="/Applications/Google Chrome.app"
+binary="$app/Contents/MacOS/Google Chrome"
+
+if [[ ! -x "$binary" ]]; then
+  echo "Google Chrome binary not found at $binary" >&2
+  exit 1
+fi
+
+if [[ $# -eq 0 ]]; then
+  exec open -a "$app"
+fi
+
+is_headless=false
+has_user_data_dir=false
+output_file=""
+args=()
+
+index=1
+while (( index <= $# )); do
+  arg="${!index}"
+  case "$arg" in
+    --headless|--headless=*)
+      is_headless=true
+      args+=("$arg")
+      ;;
+    --screenshot)
+      output_file="$PWD/screenshot.png"
+      args+=("--screenshot=$output_file")
+      ;;
+    --screenshot=*)
+      output_file="${arg#*=}"
+      if [[ "$output_file" != /* ]]; then
+        output_file="$PWD/$output_file"
+      fi
+      args+=("--screenshot=$output_file")
+      ;;
+    --print-to-pdf)
+      output_file="$PWD/output.pdf"
+      args+=("--print-to-pdf=$output_file")
+      ;;
+    --print-to-pdf=*)
+      output_file="${arg#*=}"
+      if [[ "$output_file" != /* ]]; then
+        output_file="$PWD/$output_file"
+      fi
+      args+=("--print-to-pdf=$output_file")
+      ;;
+    --user-data-dir)
+      has_user_data_dir=true
+      args+=("$arg")
+      ((index++))
+      if (( index > $# )); then
+        echo "--user-data-dir requires a value" >&2
+        exit 2
+      fi
+      value="${!index}"
+      if [[ "$value" != /* ]]; then
+        value="$PWD/$value"
+      fi
+      args+=("$value")
+      ;;
+    --user-data-dir=*)
+      has_user_data_dir=true
+      value="${arg#*=}"
+      if [[ "$value" != /* ]]; then
+        value="$PWD/$value"
+      fi
+      args+=("--user-data-dir=$value")
+      ;;
+    *)
+      args+=("$arg")
+      ;;
+  esac
+  ((index++))
+done
+
+if ! $is_headless; then
+  if [[ "$1" == "--version" || "$1" == "--product-version" ]]; then
+    exec "$binary" "${args[@]}"
+  fi
+  exec open -a "$app" --args "${args[@]}"
+fi
+
+if [[ -z "$output_file" ]]; then
+  echo "Headless Chrome from Codex supports --screenshot or --print-to-pdf outputs." >&2
+  exit 2
+fi
+
+temp_profile=""
+if ! $has_user_data_dir; then
+  temp_profile=$(mktemp -d /tmp/codex-chrome-profile.XXXXXX)
+  args+=("--user-data-dir=$temp_profile")
+fi
+
+rm -f "$output_file"
+open -n -a "$app" --args "${args[@]}"
+
+for ((i = 0; i < 80; i++)); do
+  if [[ -s "$output_file" ]]; then
+    break
+  fi
+  sleep 0.5
+done
+
+if [[ -n "$temp_profile" ]]; then
+  pkill -f "$temp_profile" >/dev/null 2>&1 || true
+  sleep 1
+  rm -rf "$temp_profile" >/dev/null 2>&1 || true
+fi
+
+if [[ ! -s "$output_file" ]]; then
+  echo "Chrome did not produce $output_file within the timeout." >&2
+  exit 1
+fi
+
+printf '%s\n' "$output_file"

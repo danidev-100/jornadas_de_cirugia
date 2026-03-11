@@ -1,0 +1,32 @@
+#!/bin/bash
+set -euo pipefail
+
+app="/opt/homebrew/Caskroom/inkscape/1.4.3/Inkscape.app"
+binary="$app/Contents/MacOS/inkscape"
+
+shell_quote() {
+  local value=${1//\'/\'\"\'\"\'}
+  printf "'%s'" "$value"
+}
+
+applescript_quote() {
+  local value=${1//\\/\\\\}
+  value=${value//\"/\\\"}
+  printf '"%s"' "$value"
+}
+
+if [[ ! -x "$binary" ]]; then
+  echo "Inkscape binary not found at $binary" >&2
+  exit 1
+fi
+
+if [[ $# -eq 0 ]]; then
+  exec open -a "$app"
+fi
+
+cmd="cd $(shell_quote "$PWD") && exec $(shell_quote "$binary")"
+for arg in "$@"; do
+  cmd+=" $(shell_quote "$arg")"
+done
+
+exec osascript -e "do shell script $(applescript_quote "$cmd")"
