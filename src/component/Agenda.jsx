@@ -383,32 +383,6 @@ function Agenda() {
           </div>
         )}
 
-        <div className="flex flex-col gap-4 rounded-3xl bg-wave p-5 text-center">
-          <h2 className="text-2xl font-bold text-deep-blue">
-            ACLARACIÓN
-          </h2>
-          <div className="flex flex-col gap-1 text-black">
-            <p>
-              <span className="font-bold">Moderación:</span> 2 moderadores por
-              bloque (A/B); 1 coordinador por bloque en C.
-            </p>
-            <p>
-              <span className="font-bold">Tiempo por charla (A/B):</span> 20′ +
-              10′ discusiones.
-            </p>
-            <p>
-              <span className="font-bold">Trabajos (C):</span> comunicaciones
-              por bloque (15′) a partir de las 13:00 curso Intra-jornadas PSQ.
-            </p>
-            <p>
-              <span className="font-bold">
-                PRE-JORNADAS PSQ- INSTRUCTORES miércoles 6 de abril.
-              </span>{" "}
-              CURSO Lugar a confirmar.
-            </p>
-          </div>
-        </div>
-
         <div className="flex justify-center">
           <a
             href={pdf}
