@@ -13,10 +13,12 @@ function formatPrice(price) {
 
 function PriceTier({ label, price }) {
   return (
-    <div className="rounded-3xl border border-slate-300 bg-white px-6 py-5 min-h-[120px] flex flex-col justify-between items-start text-left">
-      <p className="text-slate-700 text-2xl font-semibold leading-tight">{label}</p>
+    <div className="flex min-h-[132px] flex-col justify-between gap-4 rounded-3xl border border-slate-300 bg-white px-5 py-5 text-left shadow-sm sm:min-h-[148px] sm:px-6">
+      <p className="text-2xl font-semibold leading-tight text-slate-700 sm:text-3xl">
+        {label}
+      </p>
       <div className="flex items-end gap-2">
-        <span className="text-4xl font-black text-orange-500 leading-none">
+        <span className="text-4xl font-black leading-none text-orange-500 sm:text-5xl">
           {formatPrice(price)}
         </span>
         <span className="text-slate-500 text-base font-semibold">ARS</span>
