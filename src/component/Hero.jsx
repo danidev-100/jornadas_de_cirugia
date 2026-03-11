@@ -17,7 +17,7 @@ function Hero() {
         <div className="flex justify-center items-center">
           <img
             src={jornadasOverlay}
-            alt="XXVI Jornadas de Cirugia Otoño 2026"
+            alt="XXVII Jornadas de Cirugia Otoño 2026"
             className="max-w-full h-auto"
             loading="lazy"
           />
