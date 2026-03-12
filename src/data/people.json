@@ -265,7 +265,8 @@
     "name": "Dr. José Varela",
     "institution": "Hospital General de Agudos Dr. Cosme Argerich",
     "nationality": null,
-    "submitted_at": null
+    "submitted_at": "2026-03-12T08:15:00-03:00",
+    "image": "dr-jose-varela.jpeg"
   },
   "dr_juan_pablo_cordoba": {
     "name": "Dr. Juan Pablo Córdoba",
