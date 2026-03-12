@@ -1,16 +1,58 @@
-# React + Vite
+# Jornadas de Cirugia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Desarrollo local
 
-Currently, two official plugins are available:
+```bash
+npm install
+npm run dev
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Vite queda disponible en `http://localhost:5173`.
 
-## React Compiler
+## Preview publico con Cloudflare Tunnel
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Para exponer este frontend con un hostname publico propio, configurá Cloudflare Tunnel para que enrute ese dominio a `http://localhost:5173`.
 
-## Expanding the ESLint configuration
+### 1. Agregá el hostname al archivo `~/.cloudflared/config.yml`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Agregá una regla como esta antes del fallback `http_status:404`:
+
+```yml
+ingress:
+  - hostname: preview.example.com
+    service: http://localhost:5173
+  - service: http_status:404
+```
+
+Si tu archivo ya tiene otras reglas `hostname`, simplemente insertá la nueva entrada antes del fallback final.
+
+### 2. Registrá el DNS si todavía no existe
+
+```bash
+cloudflared tunnel route dns <tunnel-name> <preview-hostname>
+```
+
+### 3. Levantá Vite con la configuración para túnel
+
+```bash
+VITE_PUBLIC_HOST=<preview-hostname> npm run dev:tunnel
+```
+
+Ese comando hace dos cosas:
+
+- permite explícitamente el host que pongas en `VITE_PUBLIC_HOST`
+- fuerza HMR a usar `wss` por el puerto `443`, que es lo esperado detrás de Cloudflare
+
+### 4. Corré el túnel
+
+```bash
+cloudflared tunnel run <tunnel-name>
+```
+
+## Validación rápida
+
+Si querés validar la configuración antes de abrirla al navegador:
+
+```bash
+cloudflared tunnel ingress validate
+```

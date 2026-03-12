@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:tunnel": "VITE_PUBLIC_HOST=${VITE_PUBLIC_HOST:?Missing VITE_PUBLIC_HOST} vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
