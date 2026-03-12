@@ -13,7 +13,26 @@ import RegistrationCost from "./component/RegistrationCost";
 import Organization from "./component/Organization";
 import FixedCode from "./component/Whatsapp";
 
+function normalizeEncodedHashPath() {
+  if (window.location.hash) {
+    return;
+  }
+
+  const decodedPathname = decodeURIComponent(window.location.pathname);
+
+  if (!decodedPathname.startsWith("/#")) {
+    return;
+  }
+
+  const normalizedHash = decodedPathname.slice(1);
+  const nextUrl = `${import.meta.env.BASE_URL}${window.location.search}${normalizedHash}`;
+
+  window.history.replaceState(null, "", nextUrl);
+}
+
 function scrollToHashTarget() {
+  normalizeEncodedHashPath();
+
   if (!window.location.hash) {
     return;
   }
