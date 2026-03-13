@@ -36,6 +36,10 @@ export function getEventNotes(event) {
   return event.notes.map(normalizeText).filter(Boolean);
 }
 
+export function isFeaturedEvent(event) {
+  return normalizeText(event?.emphasis).toLowerCase() === "featured";
+}
+
 export function isBreakLikeEvent(event) {
   if (!event) return false;
 
