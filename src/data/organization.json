@@ -1,0 +1,25 @@
+{
+  "commission_directiva": {
+    "title": "Comisión Directiva",
+    "members": [
+      { "name": "Dr. Humberto Tagarelli", "role": "Presidente" },
+      { "name": "Dr. Rafael Cenci", "role": "Secretario General" },
+      { "name": "Dr. Antonio Bianchi", "role": "Tesorero" },
+      { "name": "Dr. Javier Rossi", "role": "Vocal" },
+      { "name": "Dr. Walter Minatti", "role": "Vocal" },
+      { "name": "Dr. Guillermo Sanguinetti", "role": "Vocal" },
+      { "name": "Dr. Jorge Chaine", "role": "Vocal" },
+      { "name": "Dr. Francisco Boato", "role": "Vocal" },
+      { "name": "Dr. Mario Gutiérrez", "role": "Vocal" }
+    ]
+  },
+  "comite_jornadas_2026": {
+    "title": "Comité Jornadas de Otoño 2026",
+    "members": [
+      { "name": "Dr. Francisco Boato" },
+      { "name": "Dra. Gisela López" },
+      { "name": "Dr. Juan Pablo Huentelen" },
+      { "name": "Dr. Rafael Cenci" }
+    ]
+  }
+}
