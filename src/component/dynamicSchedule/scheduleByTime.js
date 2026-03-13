@@ -1,3 +1,5 @@
+import { isBreakLikeEvent } from "./eventContent.js";
+
 function parseTimeToMinutes(value) {
   const match = String(value)
     .trim()
@@ -8,23 +10,6 @@ function parseTimeToMinutes(value) {
   const hours = Number(match[1]);
   const minutes = Number(match[2]);
   return hours * 60 + minutes;
-}
-
-function isBreakLikeEvent(event) {
-  if (!event) return false;
-
-  const speakers = Array.isArray(event.speakers) ? event.speakers : [];
-  const lightningTalks = Array.isArray(event.lightning_talks)
-    ? event.lightning_talks
-    : [];
-  const moderators = Array.isArray(event.moderators) ? event.moderators : [];
-
-  return (
-    !event.title &&
-    speakers.length === 0 &&
-    lightningTalks.length === 0 &&
-    moderators.length === 0
-  );
 }
 
 export function buildScheduleByTime(dayEntry) {
@@ -74,4 +59,3 @@ export function buildScheduleByTime(dayEntry) {
 
   return { roomNames, timeRows };
 }
-

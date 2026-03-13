@@ -3,6 +3,11 @@ import {
   getPersonAnchorId,
   getPersonById,
 } from "../../data/people.js";
+import {
+  getEventNotes,
+  getMainTalks,
+  isBreakLikeEvent,
+} from "./eventContent.js";
 
 const ROOM_TONE_CLASSES = [
   {
@@ -101,7 +106,8 @@ function getSpeakerReferences(lightningTalk) {
   if (
     lightningTalk?.person_id ||
     lightningTalk?.label ||
-    lightningTalk?.speaker_name
+    lightningTalk?.speaker_name ||
+    lightningTalk?.name
   ) {
     return [lightningTalk];
   }
@@ -158,12 +164,12 @@ function Talk({
   showRoomLabel = false,
   centerContent = false,
 }) {
-  const title = event?.title ?? null;
-  const speakers = Array.isArray(event?.speakers) ? event.speakers : [];
+  const mainTalks = getMainTalks(event);
   const lightningTalks = Array.isArray(event?.lightning_talks)
     ? event.lightning_talks
     : [];
   const moderators = Array.isArray(event?.moderators) ? event.moderators : [];
+  const notes = getEventNotes(event);
   const roomToneClasses = getRoomToneClasses(roomIndex);
   const cardClassName = `flex h-full flex-col gap-4 overflow-hidden rounded-r-[2rem] rounded-l-none border-l-5 px-5 py-5 ${roomToneClasses.card}`;
   const activityClassName = `inline-flex w-fit rounded-2xl px-4 py-2 text-sm font-semibold tracking-[0.16em] uppercase ${roomToneClasses.chip}`;
@@ -172,9 +178,10 @@ function Talk({
     "flex h-full items-center justify-center rounded-r-[2rem] rounded-l-none border border-wave border-l-5 bg-white px-8 py-10 text-center";
   const mergedActivityClassName =
     "text-lg font-semibold tracking-[0.18em] text-deep-blue/50 uppercase md:text-2xl";
-  const hasMainTalk = Boolean(title || speakers.length > 0);
+  const hasMainTalks = mainTalks.length > 0;
   const hasLightningTalks = lightningTalks.length > 0;
   const hasModerators = moderators.length > 0;
+  const hasNotes = notes.length > 0;
 
   const headerContent = (
     <div className="flex items-center justify-between gap-3">
@@ -185,11 +192,7 @@ function Talk({
     </div>
   );
 
-  const isBreak =
-    !title &&
-    speakers.length === 0 &&
-    lightningTalks.length === 0 &&
-    moderators.length === 0;
+  const isBreak = isBreakLikeEvent(event);
 
   if (isBreak) {
     return (
@@ -209,22 +212,32 @@ function Talk({
 
       <div className="flex flex-1 flex-col gap-4">
         <div className="flex flex-1 flex-col gap-4">
-          {hasMainTalk ? (
-            <div className="flex flex-col gap-2">
-              {title ? (
-                <h3 className="text-lg leading-tight font-bold text-ink md:text-xl">
-                  {title}
-                </h3>
-              ) : null}
-              {speakers.length > 0 ? (
-                <p className="text-sm leading-snug text-ink">
-                  <PersonReferenceList references={speakers} />
-                </p>
-              ) : null}
+          {hasMainTalks ? (
+            <div className="flex flex-col gap-4">
+              {mainTalks.map((mainTalk, index) => (
+                <div key={`main-talk-${index}`} className="flex flex-col gap-4">
+                  <div className="flex flex-col gap-2">
+                    {mainTalk.title ? (
+                      <h3 className="text-lg leading-tight font-bold text-ink md:text-xl">
+                        {mainTalk.title}
+                      </h3>
+                    ) : null}
+                    {mainTalk.speakers.length > 0 ? (
+                      <p className="text-sm leading-snug text-ink">
+                        <PersonReferenceList references={mainTalk.speakers} />
+                      </p>
+                    ) : null}
+                  </div>
+
+                  {index < mainTalks.length - 1 ? (
+                    <div aria-hidden="true" className="h-px bg-ink/8" />
+                  ) : null}
+                </div>
+              ))}
             </div>
           ) : null}
 
-          {hasMainTalk && hasLightningTalks ? (
+          {hasMainTalks && hasLightningTalks ? (
             <div aria-hidden="true" className="h-px bg-ink/8" />
           ) : null}
 
@@ -258,6 +271,19 @@ function Talk({
             <p className="text-sm leading-snug text-ink/80">
               <PersonReferenceList references={moderators} />
             </p>
+          </div>
+        ) : null}
+
+        {hasNotes ? (
+          <div className="flex flex-col gap-1">
+            <p className="text-xs font-semibold uppercase text-deep-blue/45">
+              Notas
+            </p>
+            <div className="flex flex-col gap-1 text-sm leading-snug text-ink/80">
+              {notes.map((note, index) => (
+                <p key={`${note}-${index}`}>{note}</p>
+              ))}
+            </div>
           </div>
         ) : null}
       </div>

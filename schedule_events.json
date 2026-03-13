@@ -211,6 +211,9 @@
               {
                 "person_id": "dr_agustin_correa"
               }
+            ],
+            "notes": [
+              "Secretario Dr. Juan Manuel Gago"
             ]
           },
           {
@@ -269,6 +272,9 @@
               {
                 "person_id": "dr_walther_minatti"
               }
+            ],
+            "notes": [
+              "Secretaria Dra. Ruiz Agustina"
             ]
           },
           {
@@ -314,33 +320,37 @@
             "start_time": "08:45",
             "end_time": "09:15",
             "activity": "Oncología",
-            "title": "Actualización de las estrategias terapéuticas en tumores retroperitoneales",
-            "speakers": [
+            "title": null,
+            "speakers": [],
+            "main_talks": [
               {
-                "person_id": "dr_gonzalo_cervelo"
-              }
-            ],
-            "lightning_talks": [
-              {
-                "title": "Metástasis hepáticas de cáncer colorrectal ≤3 cm: ¿hay consenso en su manejo?",
-                "person_id": "dr_emilio_quinonez"
+                "title": "Actualización de las estrategias terapéuticas para el manejo de los tumores retroperitoneales",
+                "speakers": [
+                  {
+                    "person_id": "dr_gonzalo_cervelo"
+                  }
+                ]
               },
               {
-                "title": "Caso 1: No hay duda, opero siempre",
-                "person_id": "dr_pablo_sanchez"
-              },
-              {
-                "title": "Caso 2: Siempre ablación percutánea con energía",
-                "person_id": "dr_hernan_bertoni"
+                "title": "Watch and wait en adenocarcinoma UGE y Gástrico. ¿Estamos en condiciones de ofrecerla?",
+                "speakers": [
+                  {
+                    "person_id": "dra_adelina_coturel"
+                  }
+                ]
               }
             ],
+            "lightning_talks": [],
             "moderators": [
               {
                 "person_id": "dr_walter_nardi"
               },
               {
-                "person_id": "dr_taype_xavier"
+                "person_id": "dr_fernando_wright"
               }
+            ],
+            "notes": [
+              "Mesa de expertos federal"
             ]
           },
           {
@@ -376,6 +386,9 @@
               {
                 "person_id": "dr_guillermo_sanguinetti"
               }
+            ],
+            "notes": [
+              "Secretaria Dra. Yamila Altamirano"
             ]
           },
           {
@@ -420,6 +433,9 @@
               {
                 "person_id": "dr_enrique_ruiz"
               }
+            ],
+            "notes": [
+              "Secretaria Dra. Selene Diaz"
             ]
           },
           {
@@ -473,9 +489,52 @@
             "start_time": "14:30",
             "end_time": "15:00",
             "activity": "Tórax",
-            "title": "TORAX",
+            "title": null,
             "speakers": [],
-            "lightning_talks": [],
+            "lightning_talks": [
+              {
+                "title": "Ni-VATS en pacientes de alto riesgo: experiencia inicial",
+                "speakers": [
+                  {
+                    "label": "Dr. José Alisinet"
+                  },
+                  {
+                    "label": "Dr. Isuani"
+                  },
+                  {
+                    "label": "Dra. Porta"
+                  }
+                ]
+              },
+              {
+                "title": "Cirugía en la miastenia gravis: indicaciones y elección del abordaje (convencional o mínimamente invasivo)",
+                "speakers": [
+                  {
+                    "person_id": "dr_dardo_e_pena"
+                  },
+                  {
+                    "label": "Dr. Barboza"
+                  },
+                  {
+                    "label": "Dr. Sosa"
+                  },
+                  {
+                    "label": "Dr. Rolando Pronotto"
+                  }
+                ]
+              },
+              {
+                "title": "Síndrome de opérculo torácico: ¿abordaje axilar o transpleural uniportal?",
+                "speakers": [
+                  {
+                    "label": "Dr. Mutt"
+                  },
+                  {
+                    "person_id": "dr_ruben_balmaceda"
+                  }
+                ]
+              }
+            ],
             "moderators": []
           },
           {
@@ -502,6 +561,10 @@
               {
                 "person_id": "dr_gustavo_bardaro"
               }
+            ],
+            "notes": [
+              "Secretaria Dra. Selene Díaz",
+              "Comentadores: Dr. Federico Gorganchian, Dr. Facundo Nogueira, Dr. Pablo Cingolani"
             ]
           },
           {
@@ -791,6 +854,10 @@
               {
                 "person_id": "dr_ruben_balmaceda"
               }
+            ],
+            "notes": [
+              "Secretaria Dra. Camila Rodríguez",
+              "Comentadores: Dr. Alejandro Moreira Grecco, Dr. Martín Calet Bois, Dr. Javier Martín Hernández, Dr. Bruno Rosotto"
             ]
           },
           {
@@ -935,6 +1002,9 @@
               {
                 "person_id": "dr_arnoldo_castro"
               }
+            ],
+            "notes": [
+              "Secretario Dr. Maximiliano Cichitti"
             ]
           },
           {
@@ -985,22 +1055,16 @@
             "start_time": "17:00",
             "end_time": "17:30",
             "activity": "Pared Abdominal",
-            "title": "Prótesis intraperitoneales en cirugía de pared: evidencia o dogma",
+            "title": "Prótesis intraperitoneales en cirugía de pared: evidencia o dogma. ¿Está todo dicho?",
             "speakers": [],
-            "lightning_talks": [
-              {
-                "title": "Malla de polipropileno sin cobertura antiadherente",
-                "person_id": "dr_walther_minatti"
-              },
-              {
-                "title": "Mallas con cobertura antiadherente",
-                "person_id": "dr_heitor_santos"
-              }
-            ],
+            "lightning_talks": [],
             "moderators": [
               {
                 "person_id": "dr_fabian_lerda"
               }
+            ],
+            "notes": [
+              "Secretaria Dra. Mercado Catalina"
             ]
           },
           {
@@ -1029,35 +1093,37 @@
             "start_time": "08:00",
             "end_time": "08:30",
             "activity": "Oncología",
-            "title": "Actualización en cáncer de vesícula: discusión multidisciplinaria",
-            "speakers": [
-              {
-                "person_id": "dra_adelina_coturel"
-              },
-              {
-                "person_id": "dr_jorge_ibarra"
-              }
-            ],
+            "title": "Metástasis hepáticas de cáncer colorrectal ≤3 cm: ¿hay consenso en su manejo?",
+            "speakers": [],
             "lightning_talks": [
               {
-                "title": "Watch and wait en adenocarcinoma de UGE y gástrico: ¿estamos en condiciones de ofrecerla?"
+                "title": "No hay duda, opero siempre",
+                "speakers": [
+                  {
+                    "person_id": "dr_pablo_sanchez"
+                  }
+                ]
               },
               {
-                "title": "Caso 1",
-                "person_id": "dr_franco_signorini"
-              },
-              {
-                "title": "Caso 2",
-                "person_id": "dr_mauricio_ramirez"
+                "title": "Siempre ablación percutánea",
+                "speakers": [
+                  {
+                    "person_id": "dr_hernan_bertoni"
+                  },
+                  {
+                    "person_id": "dr_taype_xavier"
+                  }
+                ]
               }
             ],
             "moderators": [
               {
-                "person_id": "dr_eduardo_cassone"
-              },
-              {
-                "person_id": "dr_taype_xavier"
+                "person_id": "dr_emilio_quinonez"
               }
+            ],
+            "notes": [
+              "Mesa de expertos federal",
+              "Se propone votación antes y después del debate"
             ]
           },
           {
@@ -1086,9 +1152,35 @@
             "start_time": "09:45",
             "end_time": "10:15",
             "activity": "Tórax",
-            "title": "TORAX",
+            "title": null,
             "speakers": [],
-            "lightning_talks": [],
+            "lightning_talks": [
+              {
+                "title": "Resecciones pulmonares sublobares: segmentectomías anatómicas poco habituales por vía toracoscópica. Técnica y utilidad",
+                "speakers": [
+                  {
+                    "label": "Dr. David Smith"
+                  },
+                  {
+                    "label": "Dr. Basualdo"
+                  }
+                ]
+              },
+              {
+                "title": "Implementación de un programa de cirugía robótica",
+                "speakers": [
+                  {
+                    "label": "Dr. David Smith"
+                  },
+                  {
+                    "label": "Dr. Buero"
+                  },
+                  {
+                    "label": "Dr. Núñez"
+                  }
+                ]
+              }
+            ],
             "moderators": []
           },
           {
@@ -1137,6 +1229,9 @@
               {
                 "person_id": "dr_dario_guareschi"
               }
+            ],
+            "notes": [
+              "Secretaria Dra. Morillas Candela"
             ]
           },
           {
@@ -1165,9 +1260,13 @@
             "start_time": "13:45",
             "end_time": "14:15",
             "activity": "Tórax",
-            "title": "TORAX",
+            "title": "Resecciones pulmonares anatómicas asistidas por robot: aspectos técnicos",
             "speakers": [],
-            "lightning_talks": [],
+            "lightning_talks": [
+              {
+                "title": "Neumonectomías, lobectomías y segmentectomías"
+              }
+            ],
             "moderators": []
           },
           {
@@ -1194,6 +1293,10 @@
               {
                 "person_id": "dr_pablo_blanco"
               }
+            ],
+            "notes": [
+              "Secretaria Dra. Sofía Corsino",
+              "Comentadores: Dr. Federico Riste, Dr. Joaquín Tognetti, Dr. Arnoldo Castro"
             ]
           },
           {
@@ -1209,7 +1312,7 @@
             "start_time": "15:30",
             "end_time": "16:00",
             "activity": "Tórax",
-            "title": "TORAX",
+            "title": "Temas libres: presentación de 5 videos",
             "speakers": [],
             "lightning_talks": [],
             "moderators": []
