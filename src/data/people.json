@@ -142,11 +142,13 @@
   },
   "dr_eduardo_cassone": {
     "name": "Dr. Eduardo Cassone",
+    "institution": "Hospital Central de Mendoza",
     "nationality": null,
     "submitted_at": null
   },
   "dr_emilio_quinonez": {
     "name": "Dr. Emilio Quiñonez",
+    "institution": "Hospital El Cruce",
     "nationality": null,
     "submitted_at": null
   },
@@ -339,6 +341,7 @@
   },
   "dr_mario_corengia": {
     "name": "Dr. Mario Corengia",
+    "institution": "Hospital Español de Mendoza",
     "nationality": null,
     "submitted_at": null
   },
@@ -415,6 +418,7 @@
   },
   "dr_pablo_cingolani": {
     "name": "Dr. Pablo Cingolani",
+    "institution": "Hospital Universitario Austral",
     "nationality": null,
     "submitted_at": null
   },
@@ -581,6 +585,7 @@
   },
   "dra_victoria_ardiles": {
     "name": "Dra. Victoria Ardiles",
+    "institution": "Hospital Italiano de Buenos Aires",
     "nationality": null,
     "submitted_at": null
   },
