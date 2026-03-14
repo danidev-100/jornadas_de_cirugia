@@ -797,17 +797,6 @@
       }
     ]
   },
-  "dr_jorge_ibarra": {
-    "status": "downloaded",
-    "file": "unverified/dr-jorge-ibarra.webp",
-    "bytes": 1415958,
-    "query": "\"Dr. Jorge Ibarra\" \"Centro Oncológico Regional COIR\" argentina cirujano",
-    "score": 64,
-    "source_page": "https://www.drjorgeibarra.com/",
-    "image_url": "https://drjorgeibarra.com/resources/Images/DrJorge.webp",
-    "title": "CIGBA - Dr Jorge Ibarra",
-    "verified_source_title": "CIGBA - Dr Jorge Ibarra"
-  },
   "dr_jorge_nefa": {
     "status": "not_found",
     "personId": "dr_jorge_nefa",
@@ -1186,17 +1175,6 @@
     "image_url": "https://batric.com.ar/wp-content/uploads/2020/02/omelanczuk.png",
     "title": "Dr. Pablo Omelanczuk – Batric",
     "verified_source_title": "Dr. Pablo Omelanczuk – Batric"
-  },
-  "dr_pablo_blanco": {
-    "status": "downloaded",
-    "file": "unverified/dr-pablo-blanco.jpeg",
-    "bytes": 89121,
-    "query": "\"Dr. Pablo Blanco\" argentina cirujano",
-    "score": 65,
-    "source_page": "https://rhsaludintegral.com/doctor/dr-pablo-pacheco-blanco/",
-    "image_url": "https://rhsaludintegral.com/wp-content/uploads/2023/01/Guia-Integral-de-la-Salud-Dr-Pablo-Pacheco-Blanco-1.jpg",
-    "title": "Dr. Pablo Pacheco Blanco – Guía Integral de la Salud",
-    "verified_source_title": "Dr. Pablo Pacheco Blanco – Guía Integral de la Salud"
   },
   "dr_pablo_capitanich": {
     "status": "downloaded",
