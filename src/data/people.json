@@ -115,6 +115,12 @@
     "nationality": null,
     "submitted_at": "2026-03-07T19:46:54-03:00"
   },
+  "dr_dardo_e_pena": {
+    "name": "Dr. Dardo E. Peña",
+    "institution": "Hospital Central de Mendoza",
+    "nationality": null,
+    "submitted_at": "2026-03-12T16:12:08-03:00"
+  },
   "dr_dario_guareschi": {
     "name": "Dr. Dario Guareschi",
     "nationality": null,
@@ -180,6 +186,14 @@
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "unverified/dr-fernando-iglesias.jpeg"
   },
+  "dr_fernando_wright": {
+    "name": "Dr. Fernando Wright",
+    "job_title": "Médico staff de Cirugía General",
+    "institution": "Cirugía Esofagogástrica y Bariátrica, Hospital Italiano de Buenos Aires",
+    "image": "unverified/dr-fernando-wright.png",
+    "nationality": null,
+    "submitted_at": "2026-03-12T16:12:08-03:00"
+  },
   "dr_franco_signorini": {
     "name": "Dr. Franco Signorini",
     "job_title": "Cirujano staff del Servicio de Esófago-Gastro y Cirugía Bariátrica y Metabólica",
@@ -198,8 +212,8 @@
     "nationality": null,
     "submitted_at": null
   },
-  "dr_gustavo_bardaro": {
-    "name": "Dr. Gustavo Bardaro",
+  "dr_gustavo_vardaro": {
+    "name": "Dr. Gustavo Vardaro",
     "nationality": null,
     "submitted_at": null
   },

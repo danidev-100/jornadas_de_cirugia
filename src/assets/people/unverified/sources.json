@@ -620,31 +620,31 @@
       }
     ]
   },
-  "dr_gustavo_bardaro": {
+  "dr_gustavo_vardaro": {
     "status": "not_found",
-    "personId": "dr_gustavo_bardaro",
+    "personId": "dr_gustavo_vardaro",
     "attemptedQueries": [
-      "\"Dr. Gustavo Bardaro\" argentina cirujano",
-      "\"Dr. Gustavo Bardaro\" argentina cirugia"
+      "\"Dr. Gustavo Vardaro\" argentina cirujano",
+      "\"Dr. Gustavo Vardaro\" argentina cirugia"
     ],
     "bestCandidates": [
       {
         "imageUrl": "https://clinicarmonic.com/wp-content/uploads/2025/01/gustavobravo-1024x1024.png",
-        "query": "\"Dr. Gustavo Bardaro\" argentina cirujano",
+        "query": "\"Dr. Gustavo Vardaro\" argentina cirujano",
         "score": -10,
         "sourcePage": "https://clinicarmonic.com/tratamientos/radiesse/",
         "title": "radiesse - Clínica Armonic"
       },
       {
         "imageUrl": "https://tn.com.ar/resizer/9EPEgIDN-7Qr41viFJ9kJTRJd2I=/767x0/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/artear/IFKQI2YI2NGVHNELTASFPKMUZU.jpg",
-        "query": "\"Dr. Gustavo Bardaro\" argentina cirujano",
+        "query": "\"Dr. Gustavo Vardaro\" argentina cirujano",
         "score": -15,
         "sourcePage": "https://tn.com.ar/sociedad/2023/04/13/es-medico-trabaja-como-mozo-en-eeuu-y-decidio-volver-no-todo-es-tan-malo-en-la-argentina-como-creemos/",
         "title": "La historia del médico argentino que lava copas en Estados Unidos y se ..."
       },
       {
         "imageUrl": "https://clinicarmonic.com/wp-content/uploads/2025/02/drgutsvo-829x1024.png",
-        "query": "\"Dr. Gustavo Bardaro\" argentina cirugia",
+        "query": "\"Dr. Gustavo Vardaro\" argentina cirugia",
         "score": -16,
         "sourcePage": "https://clinicarmonic.com/dr-gustavo-bravo/",
         "title": "Dr. Gustavo Bravo | Cirugía Plástica Facial en Santiago"
