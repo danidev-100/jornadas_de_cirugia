@@ -16,10 +16,11 @@
   "comite_jornadas_2026": {
     "title": "Comité Jornadas de Otoño 2026",
     "members": [
+      { "name": "Dr. Humberto Tagarelli" },
+      { "name": "Dr. Rafael Cenci" },
       { "name": "Dr. Francisco Boato" },
       { "name": "Dra. Gisela López" },
-      { "name": "Dr. Juan Pablo Huentelen" },
-      { "name": "Dr. Rafael Cenci" }
+      { "name": "Dr. Juan Pablo Huentelen" }
     ]
   }
 }
