@@ -37,7 +37,7 @@ function Sponsors() {
         <p className="text-xl text-ink">
           Las Jornadas de Cirugía Otoño 2026 son posibles gracias al apoyo de
           las siguientes <br />
-          empresas y entidades.
+          empresas y entidades
         </p>
         <div className="grid w-full max-w-6xl grid-cols-1 items-center justify-items-center gap-9 sm:grid-cols-2 xl:grid-cols-4">
           {sponsors.map(({ name, logo, className }) => (
