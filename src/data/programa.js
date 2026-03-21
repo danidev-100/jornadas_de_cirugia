@@ -126,7 +126,7 @@ export const programaViernes = {
     {
       hora: "10:15–11:00",
       salaA: "Oncología",
-      salaB: "AAMRCG Olimpiadas",
+      salaB: "AAMRCG",
       salaC: "Almuerzo",
     },
     {

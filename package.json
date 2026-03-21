@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "dev:tunnel": "VITE_PUBLIC_HOST=${VITE_PUBLIC_HOST:?Missing VITE_PUBLIC_HOST} vite",
+    "generate:content-team-exports": "node scripts/generate-content-team-exports.mjs",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -22,6 +23,7 @@
   "devDependencies": {
     "@eslint/js": "^9.36.0",
     "@tailwindcss/vite": "^4.1.14",
+    "@types/node": "^25.5.0",
     "@types/react": "^19.1.16",
     "@types/react-dom": "^19.1.9",
     "@vitejs/plugin-react": "^5.0.4",

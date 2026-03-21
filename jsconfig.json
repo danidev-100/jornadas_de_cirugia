@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "types": ["node"],
+    "checkJs": false
+  },
+  "include": ["vite.config.js", "eslint.config.js", "scripts/**/*.mjs"]
+}
