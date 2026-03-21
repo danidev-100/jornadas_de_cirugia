@@ -24,9 +24,6 @@ function RegistrationCost() {
     <>
       <section id="inscripciones" className="scroll-mt-36 px-4 py-6">
         <div className="mx-auto flex max-w-5xl flex-col items-center gap-4 py-6 text-center sm:py-10">
-          <p className="inline-flex rounded-full bg-cloud px-4 py-1.5 text-xs font-bold text-lagoon md:text-sm">
-            Inscripciones abiertas
-          </p>
           <h2 className="text-3xl font-bold leading-tight text-deep-blue md:text-4xl">
             Asegurá tu lugar en el evento médico más esperado del año
           </h2>
