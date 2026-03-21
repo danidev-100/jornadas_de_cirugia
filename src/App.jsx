@@ -4,7 +4,7 @@ import Nav from "./component/Nav";
 import Hero from "./component/Hero";
 import Footer from "./component/Footer";
 import Sponsors from "./component/Sponsors";
-import Registration from "./component/Registration";
+import Contact from "./component/Contact";
 import Agenda from "./component/Agenda";
 import Audience from "./component/Audience";
 import Speakers from "./component/Speakers";
@@ -109,7 +109,7 @@ const App = () => {
         <Organization />
       </Container>
       <Container className="bg-ocean-blue">
-        <Registration />
+        <Contact />
       </Container>
       <Container className="bg-deep-blue">
         <Footer />

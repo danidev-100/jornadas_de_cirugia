@@ -1,4 +1,4 @@
-function Registration() {
+function Contact() {
   return (
     <section
       id="contacto"
@@ -40,4 +40,4 @@ function Registration() {
     </section>
   );
 }
-export default Registration;
+export default Contact;
