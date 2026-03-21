@@ -12,6 +12,7 @@ import Works from "./component/Works";
 import RegistrationCost from "./component/RegistrationCost";
 import Organization from "./component/Organization";
 import FixedCode from "./component/Whatsapp";
+import Accommodation from "./component/Accommodation";
 
 function normalizeEncodedHashPath() {
   if (window.location.hash) {
@@ -97,6 +98,9 @@ const App = () => {
       </Container>
       <Container className="bg-white">
         <Sponsors />
+      </Container>
+      <Container className="bg-cloud">
+        <Accommodation />
       </Container>
       <Container className="bg-sand">
         <RegistrationCost />
