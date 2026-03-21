@@ -96,16 +96,16 @@ const App = () => {
       <Container className="bg-cloud">
         <Works />
       </Container>
+      <Container className="bg-sand">
+        <RegistrationCost />
+      </Container>
       <Container className="bg-white">
         <Sponsors />
       </Container>
       <Container className="bg-cloud">
         <Accommodation />
       </Container>
-      <Container className="bg-sand">
-        <RegistrationCost />
-      </Container>
-      <Container>
+      <Container className="bg-white">
         <Organization />
       </Container>
       <Container className="bg-ocean-blue">
