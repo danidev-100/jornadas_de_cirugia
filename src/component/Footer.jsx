@@ -37,38 +37,41 @@ function Footer() {
         </div>
         <div className="flex flex-row flex-wrap gap-10 text-xl text-white lg:flex-col lg:justify-start">
           <div className="flex items-center gap-2">
-            <a className="flex items-center gap-2"
+            <a
+              className="flex items-center gap-0 sm:gap-2"
               href={SOCIAL_LINKS.whatsapp}
               target="_blank"
               rel="noopener noreferrer"
               aria-label="WhatsApp"
             >
               <FaWhatsapp className="text-lagoon  text-4xl" />
-              <div>Whatsapp</div>
+              <div className="hidden sm:block">Whatsapp</div>
             </a>
           </div>
 
           <div className="flex items-center gap-2">
-            <a className="flex items-center gap-2"
+            <a
+              className="flex items-center gap-0 sm:gap-2"
               href={SOCIAL_LINKS.instagram}
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
             >
               <CiInstagram className="text-lagoon text-4xl " />
-              <div>Instagram</div>
+              <div className="hidden sm:block">Instagram</div>
             </a>
           </div>
 
           <div className="flex items-center gap-2">
-            <a className="flex items-center gap-2"
+            <a
+              className="flex items-center gap-0 sm:gap-2"
               href={SOCIAL_LINKS.facebook}
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
             >
               <LuFacebook className="text-lagoon text-4xl" />
-              <div>Facebook</div>
+              <div className="hidden sm:block">Facebook</div>
             </a>
           </div>
         </div>
