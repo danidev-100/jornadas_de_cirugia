@@ -40,6 +40,9 @@ function Nav() {
                     href={item.href}
                     aria-current={item.current ? "page" : undefined}
                     className={clsx(
+                      (item.name === "Público" ||
+                        item.name === "Organización") &&
+                        "hidden 2xl:inline-block",
                       item.current
                         ? "bg-lagoon"
                         : "hover:bg-white/5 hover:text-white",
