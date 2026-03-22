@@ -8,7 +8,7 @@ import Contact from "./component/Contact";
 import Agenda from "./component/Agenda";
 import Audience from "./component/Audience";
 import Speakers from "./component/Speakers";
-import Works from "./component/Works";
+import SubmissionGuidelines from "./component/SubmissionGuidelines";
 import RegistrationCost from "./component/RegistrationCost";
 import Organization from "./component/Organization";
 import FixedCode from "./component/Whatsapp";
@@ -94,7 +94,7 @@ const App = () => {
         <Speakers />
       </Container>
       <Container className="bg-cloud">
-        <Works />
+        <SubmissionGuidelines />
       </Container>
       <Container className="bg-sand">
         <RegistrationCost />
