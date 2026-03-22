@@ -52,15 +52,6 @@ function Audience() {
           </p>
         </article>
       </div>
-      {/* <p className="text-ink text-xl">
-        Las Jornadas de Cirugía Otoño 2026 tienen como objetivo acercar al
-        sector médico de nuestro país lo más moderno de la actividad a nivel
-        internacional. Tanto en contenidos científicos, en desarrollos
-        tecnológicos y en lo que a nuevos procedimientos se refiere. Estas
-        Jornadas están dirigidas a Médicos, Médicos Residentes, Estudiantes de
-        Medicina, Enfermeros, Instrumentistas y a todo el personal de salud
-        vinculado a esta actividad en particular.
-      </p> */}
     </section>
   );
 }
