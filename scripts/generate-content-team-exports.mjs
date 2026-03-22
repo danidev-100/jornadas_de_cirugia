@@ -360,7 +360,7 @@ function buildCellLayout(event, width, merged = false) {
 
         return [
           ...buildWrappedLines({
-            text: "Charlas",
+            text: "Presentaciones",
             size: 7.2,
             font: "F2",
             color: PDF_COLORS.muted,
@@ -415,8 +415,39 @@ function buildCellLayout(event, width, merged = false) {
         ];
       });
 
+      const commentators = resolveReferenceList(
+        Array.isArray(mainTalk.commentators) ? mainTalk.commentators : [],
+      );
       pushSection((gapBefore) => {
-        if (mainTalk.notes.length === 0) return [];
+        if (commentators.length === 0) return [];
+
+        return [
+          ...buildWrappedLines({
+            text: "Comentadores",
+            size: 7.2,
+            font: "F2",
+            color: PDF_COLORS.muted,
+            maxWidth: contentWidth,
+            gapBefore,
+          }),
+          ...commentators.flatMap((commentator, index) =>
+            buildWrappedLines({
+              text: `- ${commentator}`,
+              size: 7,
+              font: "F1",
+              color: PDF_COLORS.text,
+              maxWidth: contentWidth,
+              gapBefore: index === 0 ? 2 : 1,
+            }),
+          ),
+        ];
+      });
+
+      pushSection((gapBefore) => {
+        const secretaries = resolveReferenceList(
+          Array.isArray(mainTalk.secretaries) ? mainTalk.secretaries : [],
+        );
+        if (secretaries.length === 0) return [];
 
         return [
           ...buildWrappedLines({
@@ -427,9 +458,9 @@ function buildCellLayout(event, width, merged = false) {
             maxWidth: contentWidth,
             gapBefore,
           }),
-          ...mainTalk.notes.flatMap((note, index) =>
+          ...secretaries.flatMap((secretary, index) =>
             buildWrappedLines({
-              text: `- ${note}`,
+              text: `- ${secretary}`,
               size: 7,
               font: "F1",
               color: PDF_COLORS.text,

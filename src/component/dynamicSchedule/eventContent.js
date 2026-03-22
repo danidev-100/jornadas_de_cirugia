@@ -2,38 +2,82 @@ function normalizeText(value) {
   return typeof value === "string" ? value.trim() : "";
 }
 
+function normalizeReferenceEntry(reference) {
+  if (typeof reference === "string") {
+    const value = normalizeText(reference);
+    return value || null;
+  }
+
+  if (!reference || typeof reference !== "object") {
+    return null;
+  }
+
+  if (reference.person_id) {
+    return reference;
+  }
+
+  if (reference.label) {
+    const label = normalizeText(reference.label);
+    return label ? { ...reference, label } : null;
+  }
+
+  if (reference.speaker_name) {
+    const speaker_name = normalizeText(reference.speaker_name);
+    return speaker_name ? { ...reference, speaker_name } : null;
+  }
+
+  if (reference.name) {
+    const name = normalizeText(reference.name);
+    return name ? { ...reference, name } : null;
+  }
+
+  return null;
+}
+
+function normalizeReferenceList(references) {
+  if (!Array.isArray(references)) {
+    return [];
+  }
+
+  return references.map(normalizeReferenceEntry).filter(Boolean);
+}
+
 function normalizeMainTalk(mainTalk) {
   const title = normalizeText(mainTalk?.title) || null;
-  const speakers = Array.isArray(mainTalk?.speakers) ? mainTalk.speakers : [];
+  const speakers = normalizeReferenceList(mainTalk?.speakers);
+  const lightning_talks = Array.isArray(mainTalk?.lightning_talks)
+    ? mainTalk.lightning_talks
+    : [];
+  const moderators = normalizeReferenceList(mainTalk?.moderators);
+  const commentators = normalizeReferenceList(mainTalk?.commentators);
+  const secretaries = normalizeReferenceList(mainTalk?.secretaries);
 
-  return { title, speakers };
+  return {
+    title,
+    speakers,
+    lightning_talks,
+    moderators,
+    commentators,
+    secretaries,
+  };
 }
 
 export function getMainTalks(event) {
-  if (!event) return [];
-
-  if (Array.isArray(event.main_talks) && event.main_talks.length > 0) {
-    return event.main_talks
-      .map(normalizeMainTalk)
-      .filter((mainTalk) => mainTalk.title || mainTalk.speakers.length > 0);
-  }
-
-  const title = normalizeText(event.title) || null;
-  const speakers = Array.isArray(event.speakers) ? event.speakers : [];
-
-  if (!title && speakers.length === 0) {
+  if (!event || !Array.isArray(event.main_talks)) {
     return [];
   }
 
-  return [{ title, speakers }];
-}
-
-export function getEventNotes(event) {
-  if (!event || !Array.isArray(event.notes)) {
-    return [];
-  }
-
-  return event.notes.map(normalizeText).filter(Boolean);
+  return event.main_talks
+    .map(normalizeMainTalk)
+    .filter(
+      (mainTalk) =>
+        mainTalk.title ||
+        mainTalk.speakers.length > 0 ||
+        mainTalk.lightning_talks.length > 0 ||
+        mainTalk.moderators.length > 0 ||
+        mainTalk.commentators.length > 0 ||
+        mainTalk.secretaries.length > 0,
+    );
 }
 
 export function isFeaturedEvent(event) {
@@ -41,18 +85,5 @@ export function isFeaturedEvent(event) {
 }
 
 export function isBreakLikeEvent(event) {
-  if (!event) return false;
-
-  const lightningTalks = Array.isArray(event.lightning_talks)
-    ? event.lightning_talks
-    : [];
-  const moderators = Array.isArray(event.moderators) ? event.moderators : [];
-  const notes = getEventNotes(event);
-
-  return (
-    getMainTalks(event).length === 0 &&
-    lightningTalks.length === 0 &&
-    moderators.length === 0 &&
-    notes.length === 0
-  );
+  return Boolean(event) && getMainTalks(event).length === 0;
 }
