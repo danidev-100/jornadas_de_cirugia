@@ -198,7 +198,7 @@
                   }
                 ],
                 "lightning_talks": [],
-                "moderators": [
+                "commentators": [
                   {
                     "person_id": "dr_juan_pablo_cordoba"
                   },
@@ -209,7 +209,7 @@
                     "person_id": "dr_javier_rossi"
                   }
                 ],
-                "commentators": [],
+                "moderators": [],
                 "secretaries": []
               }
             ]
@@ -578,7 +578,7 @@
             "activity": "Esófago Gastro",
             "main_talks": [
               {
-                "title": "Discusión de casos oncológicos esófago-gástricos",
+                "title": "Discusión de casos oncológicos esofagogástricos",
                 "speakers": [],
                 "lightning_talks": [
                   {
@@ -595,7 +595,14 @@
                     "person_id": "dr_lucio_obeide"
                   }
                 ],
-                "commentators": [],
+                "commentators": [
+                  {
+                    "person_id": "dr_axel_beskow"
+                  },
+                  {
+                    "person_id": "dr_cuenca_abente"
+                  }
+                ],
                 "secretaries": []
               }
             ]
@@ -659,7 +666,7 @@
                         "person_id": "dr_dardo_e_pena"
                       },
                       {
-                        "label": "Dr. Barboza"
+                        "label": "Dr. Jorge Barboza"
                       },
                       {
                         "label": "Dr. Sosa"
@@ -1002,13 +1009,13 @@
             "activity": "Bariátrica",
             "main_talks": [
               {
-                "title": "¿Qué debe saber el cirujano general de guardia sobre cirugía bariátrica?",
-                "speakers": [
-                  {
-                    "person_id": "dr_luciano_deluca"
-                  }
-                ],
+                "title": "Cirugía bariátrica para el cirujano general",
+                "speakers": [],
                 "lightning_talks": [
+                  {
+                    "title": "¿Qué debe saber el cirujano general de guardia sobre cirugía bariátrica?",
+                    "person_id": "dr_luciano_deluca"
+                  },
                   {
                     "title": "Manejo de la litiasis biliar en el paciente con bypass gástrico",
                     "person_id": "dr_jorge_nefa"
@@ -1022,7 +1029,11 @@
                     "person_id": "dr_franco_signorini"
                   }
                 ],
-                "commentators": [],
+                "commentators": [
+                  {
+                    "label": "Gulle y Sirabo"
+                  }
+                ],
                 "secretaries": []
               }
             ]
@@ -1033,13 +1044,13 @@
             "activity": "Bariátrica",
             "main_talks": [
               {
-                "title": "Eventración en el paciente obeso: ¿cuándo operarla? Antes, durante o después de la cirugía bariátrica",
-                "speakers": [
-                  {
-                    "person_id": "dr_juan_pablo_gempel"
-                  }
-                ],
+                "title": "Cirugía bariátrica para el cirujano general",
+                "speakers": [],
                 "lightning_talks": [
+                  {
+                    "title": "Eventración en el paciente obeso: ¿cuándo operarla? Antes, durante o después de la cirugía bariátrica",
+                    "person_id": "dr_juan_pablo_gempel"
+                  },
                   {
                     "title": "Abdomen agudo oclusivo poscirugía bariátrica",
                     "person_id": "dr_mario_corengia"
@@ -1056,7 +1067,11 @@
                     "person_id": "dr_alejandro_birman"
                   }
                 ],
-                "commentators": [],
+                "commentators": [
+                  {
+                    "person_id": "dr_gabriel_carrizo"
+                  }
+                ],
                 "secretaries": []
               }
             ]
@@ -1073,7 +1088,7 @@
             "activity": "Coloproctología",
             "main_talks": [
               {
-                "title": "Tratamiento actual de la diverticulitis: Hinchey I a IV",
+                "title": "Tratamiento actual de la diverticulitis: HI al HIV",
                 "speakers": [],
                 "lightning_talks": [
                   {
@@ -1081,11 +1096,11 @@
                     "person_id": "dra_maria_susana_bruzzi"
                   },
                   {
-                    "title": "HII-HIV: algoritmo de tratamiento. Técnicas mínimamente invasivas, anastomosis primaria, lavado laparoscópico y abdomen abierto",
+                    "title": "HII, III y IV: algoritmo de tratamiento. Técnicas mínimamente invasivas, anastomosis primaria, lavado laparoscópico y abdomen abierto",
                     "person_id": "dr_diego_bertani"
                   },
                   {
-                    "title": "Cirugía electiva tras evento agudo: selección del paciente y actualización",
+                    "title": "Cirugía electiva post evento agudo: selección del paciente y actualización",
                     "person_id": "dr_walther_minatti"
                   }
                 ],
@@ -1099,7 +1114,7 @@
                     "person_id": "dr_alejandro_moreira_grecco"
                   },
                   {
-                    "person_id": "dr_martin_calet_bois"
+                    "person_id": "dr_martin_caillet_bois"
                   },
                   {
                     "person_id": "dr_javier_martin_hernandez"
@@ -1162,7 +1177,11 @@
                     "person_id": "dr_cuenca_abente"
                   }
                 ],
-                "commentators": [],
+                "commentators": [
+                  {
+                    "person_id": "dr_daniel_pirchi"
+                  }
+                ],
                 "secretaries": []
               }
             ]
@@ -1191,7 +1210,11 @@
                     "person_id": "dr_adrian_cena"
                   }
                 ],
-                "commentators": [],
+                "commentators": [
+                  {
+                    "person_id": "dr_hernan_cordero"
+                  }
+                ],
                 "secretaries": []
               }
             ]
@@ -1300,7 +1323,7 @@
             "activity": "Oncología",
             "main_talks": [
               {
-                "title": "Neoplasias peritoneales: cuándo citoreducción, PIPAC y HIPEC. Puesta al día y discusión de casos",
+                "title": "Neoplasias del peritoneo, poniendo blanco sobre negro: cuándo citoreducción, PIPAC y HIPEC. Puesta al día y discusión de casos",
                 "speakers": [
                   {
                     "person_id": "dr_pablo_carmignani"
@@ -1314,24 +1337,6 @@
                   {
                     "title": "Caso 2",
                     "person_id": "dr_fernando_iglesias"
-                  },
-                  {
-                    "title": "Programas ERAS en cirugía oncológica: implementación en nuestro medio",
-                    "person_id": "dr_badra_roberto"
-                  },
-                  {
-                    "title": "Comentarios de expertos (EGD)",
-                    "speakers": [
-                      {
-                        "person_id": "dr_mauricio_ramirez"
-                      },
-                      {
-                        "person_id": "dr_alejandro_pairola"
-                      },
-                      {
-                        "person_id": "dr_bufaliza"
-                      }
-                    ]
                   }
                 ],
                 "moderators": [
@@ -1352,13 +1357,35 @@
               {
                 "title": "Prótesis intraperitoneales en cirugía de pared: evidencia o dogma. ¿Está todo dicho?",
                 "speakers": [],
-                "lightning_talks": [],
+                "lightning_talks": [
+                  {
+                    "title": "Malla de polipropileno sin cobertura antiadherente",
+                    "person_id": "dr_walther_minatti"
+                  },
+                  {
+                    "title": "Mallas con cobertura antiadherente",
+                    "person_id": "dr_heitor_santos"
+                  }
+                ],
                 "moderators": [
                   {
                     "person_id": "dr_fabian_lerda"
                   }
                 ],
-                "commentators": [],
+                "commentators": [
+                  {
+                    "person_id": "dr_pablo_cingolani"
+                  },
+                  {
+                    "label": "Dr. Guillermo Saez"
+                  },
+                  {
+                    "person_id": "dr_dario_guareschi"
+                  },
+                  {
+                    "person_id": "dr_gonzalo_crosbie"
+                  }
+                ],
                 "secretaries": [
                   {
                     "person_id": "dra_mercado_catalina"
@@ -1429,12 +1456,7 @@
                     "person_id": "dr_emilio_quinonez"
                   }
                 ],
-                "commentators": [],
-                "secretaries": [
-                  {
-                    "label": "Mesa de expertos. Se propone votación antes y después del debate"
-                  }
-                ]
+                "commentators": []
               }
             ]
           },
@@ -1692,7 +1714,7 @@
             "activity": "Esófago Gastro",
             "main_talks": [
               {
-                "title": "Charla magistral: Linfadenectomías en gastrectomías y esofaguectomías",
+                "title": "Linfadenectomías en gastrectomías y esofaguectomías",
                 "speakers": [
                   {
                     "person_id": "dr_franco_signorini"
@@ -1704,7 +1726,14 @@
                     "person_id": "dr_axel_beskow"
                   }
                 ],
-                "commentators": [],
+                "commentators": [
+                  {
+                    "person_id": "dr_emmanuel_munoz"
+                  },
+                  {
+                    "person_id": "dr_mauricio_ramirez"
+                  }
+                ],
                 "secretaries": []
               }
             ]
@@ -1727,7 +1756,11 @@
                     "person_id": "dr_omar_veloso"
                   }
                 ],
-                "commentators": [],
+                "commentators": [
+                  {
+                    "person_id": "dra_eliana_cilla"
+                  }
+                ],
                 "secretaries": []
               }
             ]

@@ -196,7 +196,7 @@
   "dr_franco_signorini": {
     "name": "Dr. Franco Signorini",
     "job_title": "Cirujano staff del Servicio de Esófago-Gastro y Cirugía Bariátrica y Metabólica",
-    "institution": "Hospital Privado Universitario de Córdoba",
+    "institution": null,
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "unverified/dr-franco-signorini.jpeg"
@@ -325,7 +325,7 @@
   },
   "dr_lucio_uranga": {
     "name": "Dr. Lucio Uranga",
-    "job_title": "Jefe (a cargo) de la Sección de Cirugía Hepatobiliopancreática",
+    "job_title": "Jefe de la Sección de Cirugía Hepatobiliopancreática",
     "institution": "Hospital de Gastroenterología Dr. Carlos Bonorino Udaondo",
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
@@ -343,9 +343,13 @@
     "submitted_at": null
   },
   "dr_martin_de_santibanes": {
-    "name": "Dr. Martín De santibañes",
+    "name": "Dr. Martin de Santibáñez",
+    "credentials": "MD, PhD, FACS",
+    "job_title": "Médico de planta del Servicio de Cirugía General y Sub-jefe de la Unidad de Trasplante Hepático",
+    "institution": "Hospital Italiano de Buenos Aires",
     "nationality": null,
-    "submitted_at": null
+    "submitted_at": "2026-03-21T23:29:07-03:00",
+    "image": "dr-martin-de-santibanez.jpeg"
   },
   "dr_martin_duhalde": {
     "name": "Dr. Martín Duhalde",
@@ -483,7 +487,7 @@
     "image": "unverified/dr-suarez-anzorena.png"
   },
   "dr_taype_xavier": {
-    "name": "Dr. Taype Xavier",
+    "name": "Dr. Xavier Taype",
     "nationality": null,
     "submitted_at": null
   },
@@ -669,8 +673,9 @@
     "nationality": null,
     "submitted_at": "2026-03-21T21:03:16-03:00"
   },
-  "dr_martin_calet_bois": {
-    "name": "Dr. Martín Calet Bois",
+  "dr_martin_caillet_bois": {
+    "name": "Dr. Martin Caillet Bois",
+    "job_title": "Cirugía General y Cirugía Laparoscópica",
     "nationality": null,
     "submitted_at": "2026-03-21T21:03:16-03:00"
   },
@@ -730,12 +735,12 @@
     "submitted_at": "2026-03-21T21:03:16-03:00"
   },
   "dra_mercado_catalina": {
-    "name": "Dra. Mercado Catalina",
+    "name": "Dra. Catalina Mercado",
     "nationality": null,
     "submitted_at": "2026-03-21T21:03:16-03:00"
   },
   "dra_morillas_candela": {
-    "name": "Dra. Morillas Candela",
+    "name": "Dra. Candela Morillas",
     "nationality": null,
     "submitted_at": "2026-03-21T21:03:16-03:00"
   },
@@ -758,5 +763,26 @@
     "image": "dr-gonzalo-crosbie.jpg",
     "nationality": null,
     "submitted_at": "2026-03-21T22:13:21-03:00"
+  },
+  "dr_gabriel_carrizo": {
+    "name": "Dr. Gabriel Carrizo",
+    "job_title": "Cirugía General, Bariátrica y Esofagogástrica",
+    "institution": "Clínica de Cuyo, Hospital Italiano y Hospital Santa Isabel de Hungría",
+    "image": "dr-gabriel-carrizo.png",
+    "nationality": null,
+    "submitted_at": "2026-03-21T23:42:17-03:00"
+  },
+  "dra_eliana_cilla": {
+    "name": "Dra. Eliana Gisela Cilla",
+    "institution": "Hospital Militar Central",
+    "nationality": null,
+    "submitted_at": "2026-03-22T00:08:13-03:00"
+  },
+  "dr_emmanuel_munoz": {
+    "name": "Dr. Emmanuel Muñoz",
+    "job_title": "Cirujano de Tórax",
+    "image": "dr-emmanuel-munoz.jpg",
+    "nationality": null,
+    "submitted_at": "2026-03-22T00:20:57-03:00"
   }
 }
