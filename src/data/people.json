@@ -1,5 +1,5 @@
 {
-  "diego_sinagra": {
+  "dr_diego_sinagra": {
     "name": "Dr. Diego Sinagra",
     "job_title": "Jefe del Departamento de Cirugía Oncológica",
     "institution": "Hospital de Clínicas José de San Martín",
@@ -784,5 +784,11 @@
     "image": "dr-emmanuel-munoz.jpg",
     "nationality": null,
     "submitted_at": "2026-03-22T00:20:57-03:00"
+  },
+  "dr_martin_drago": {
+    "name": "Dr. Martín Drago"
+  },
+  "dr_federico_brahin": {
+    "name": "Dr. Federico Brahin"
   }
 }

@@ -439,6 +439,9 @@
                 "moderators": [
                   {
                     "person_id": "dr_walter_nardi"
+                  },
+                  {
+                    "person_id": "dr_diego_sinagra"
                   }
                 ],
                 "commentators": [],
@@ -619,7 +622,7 @@
                     "person_id": "dr_alejandro_moreira_grecco"
                   },
                   {
-                    "person_id": "diego_sinagra"
+                    "person_id": "dr_diego_sinagra"
                   }
                 ],
                 "lightning_talks": [],
@@ -727,6 +730,9 @@
                   },
                   {
                     "person_id": "dr_pablo_cingolani"
+                  },
+                  {
+                    "person_id": "dr_martin_drago"
                   }
                 ],
                 "secretaries": [
@@ -762,6 +768,9 @@
                 "moderators": [
                   {
                     "person_id": "dr_martin_duhalde"
+                  },
+                  {
+                    "person_id": "dr_federico_brahin"
                   }
                 ],
                 "commentators": [],
