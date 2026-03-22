@@ -28,7 +28,8 @@
                     "person_id": "dr_norberto_brusa"
                   }
                 ],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -53,7 +54,8 @@
                     "person_id": "dr_daniel_algieri"
                   }
                 ],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -90,7 +92,8 @@
                     "person_id": "dr_eduardo_cassone"
                   }
                 ],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -104,7 +107,8 @@
                 "speakers": [],
                 "lightning_talks": [],
                 "moderators": [],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -135,7 +139,8 @@
                     "person_id": "dr_carlos_valenzuela"
                   }
                 ],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -163,19 +168,20 @@
                 "lightning_talks": [],
                 "moderators": [
                   {
-                    "label": "Dr Marcos Sánchez"
+                    "person_id": "dr_marcos_sanchez"
                   },
                   {
-                    "label": "Dr Sergio Mainero"
+                    "person_id": "dr_sergio_mainero"
                   },
                   {
-                    "label": "Dr Frank Deroi"
+                    "person_id": "dr_frank_deroi"
                   },
                   {
-                    "label": "Dr Xaris Merino Rosas"
+                    "person_id": "dr_xaris_merino_rosas"
                   }
                 ],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -203,7 +209,8 @@
                     "person_id": "dr_javier_rossi"
                   }
                 ],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -221,7 +228,8 @@
                 ],
                 "lightning_talks": [],
                 "moderators": [],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -258,7 +266,8 @@
                     "person_id": "dr_agustin_correa"
                   }
                 ],
-                "notes": [
+                "commentators": [],
+                "secretaries": [
                   "Secretario Dr. Juan Manuel Gago"
                 ]
               }
@@ -306,7 +315,8 @@
                     "person_id": "dra_anabella_sanchez"
                   }
                 ],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -328,7 +338,8 @@
                     "person_id": "dr_walther_minatti"
                   }
                 ],
-                "notes": [
+                "commentators": [],
+                "secretaries": [
                   "Secretaria Dra. Ruiz Agustina"
                 ]
               }
@@ -374,7 +385,8 @@
                     "person_id": "dr_diego_fernandez"
                   }
                 ],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -392,7 +404,8 @@
                 ],
                 "lightning_talks": [],
                 "moderators": [],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               },
               {
                 "title": "Watch and wait en adenocarcinoma UGE y Gástrico. ¿Estamos en condiciones de ofrecerla?",
@@ -413,8 +426,9 @@
                     "person_id": "dr_fernando_wright"
                   }
                 ],
-                "notes": [
-                  "Mesa de expertos federal"
+                "commentators": [],
+                "secretaries": [
+                  "Mesa de expertos"
                 ]
               }
             ]
@@ -452,8 +466,9 @@
                     "person_id": "dr_guillermo_sanguinetti"
                   }
                 ],
-                "notes": [
-                  "Secretaria Dra. Yamila Altamirano"
+                "commentators": [],
+                "secretaries": [
+                  "Dra. Yamila Altamirano"
                 ]
               }
             ]
@@ -464,20 +479,20 @@
             "activity": "Equidad-Igualdad",
             "main_talks": [
               {
-                "title": " Estas dos son principales Innovación quirúrgica con perspectiva de equidad: acceso, oportunidades y diversidad en el ámbito institucional",
+                "title": " Innovación quirúrgica con perspectiva de equidad: acceso, oportunidades y diversidad en el ámbito institucional",
                 "speakers": [
                   {
                     "person_id": "dra_gisela_aquije_matta"
                   }
-                ],
-                "lightning_talks": [
+                ]
+              },
+              {
+                "title": "Formación en residencias y posgrados quirúrgicos desde la perspectiva de equidad, igualdad y diversidad",
+                "speakers": [
                   {
-                    "title": "Estas dos son principales  Formación en residencias y posgrados quirúrgicos desde la perspectiva de equidad, igualdad y diversidad",
                     "person_id": "dra_loreley_toresan"
                   }
-                ],
-                "moderators": [],
-                "notes": []
+                ]
               }
             ]
           },
@@ -508,8 +523,11 @@
                     "person_id": "dr_enrique_ruiz"
                   }
                 ],
-                "notes": [
-                  "Dra Selene Diaz"
+                "commentators": [],
+                "secretaries": [
+                  {
+                    "person_id": "dra_selene_diaz"
+                  }
                 ]
               }
             ]
@@ -543,7 +561,8 @@
                     "person_id": "dr_lucio_obeide"
                   }
                 ],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -565,13 +584,14 @@
                 "lightning_talks": [],
                 "moderators": [
                   {
-                    "label": "Dr Nicolás Laborato"
+                    "person_id": "dr_nicolas_laborato"
                   },
                   {
-                    "label": "Dr Xaris Merino Rosas"
+                    "person_id": "dr_xaris_merino_rosas"
                   }
                 ],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -628,7 +648,8 @@
                   }
                 ],
                 "moderators": [],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -656,9 +677,21 @@
                     "person_id": "dr_gustavo_vardaro"
                   }
                 ],
-                "notes": [
-                  "Dra Selene Díaz",
-                  "Comentadores: Dr. Federico Gorganchian, Dr. Facundo Nogueira, Dr. Pablo Cingolani"
+                "commentators": [
+                  {
+                    "person_id": "dr_federico_gorganchian"
+                  },
+                  {
+                    "person_id": "dr_facundo_nogueira"
+                  },
+                  {
+                    "person_id": "dr_pablo_cingolani"
+                  }
+                ],
+                "secretaries": [
+                  {
+                    "person_id": "dra_selene_diaz"
+                  }
                 ]
               }
             ]
@@ -690,7 +723,8 @@
                     "person_id": "dr_martin_duhalde"
                   }
                 ],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -708,7 +742,8 @@
                     "person_id": "dr_pablo_cingolani"
                   }
                 ],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -735,7 +770,8 @@
                 "speakers": [],
                 "lightning_talks": [],
                 "moderators": [],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -749,7 +785,8 @@
                 "speakers": [],
                 "lightning_talks": [],
                 "moderators": [],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -769,7 +806,8 @@
                 "speakers": [],
                 "lightning_talks": [],
                 "moderators": [],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -783,7 +821,8 @@
                 "speakers": [],
                 "lightning_talks": [],
                 "moderators": [],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -797,7 +836,8 @@
                 "speakers": [],
                 "lightning_talks": [],
                 "moderators": [],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -817,7 +857,8 @@
                 "speakers": [],
                 "lightning_talks": [],
                 "moderators": [],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -831,7 +872,8 @@
                 "speakers": [],
                 "lightning_talks": [],
                 "moderators": [],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -845,7 +887,8 @@
                 "speakers": [],
                 "lightning_talks": [],
                 "moderators": [],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -865,7 +908,8 @@
                 "speakers": [],
                 "lightning_talks": [],
                 "moderators": [],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -879,7 +923,8 @@
                 "speakers": [],
                 "lightning_talks": [],
                 "moderators": [],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -893,7 +938,8 @@
                 "speakers": [],
                 "lightning_talks": [],
                 "moderators": [],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -942,7 +988,8 @@
                     "person_id": "dr_franco_signorini"
                   }
                 ],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -975,7 +1022,8 @@
                     "person_id": "dr_alejandro_birman"
                   }
                 ],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -1012,9 +1060,22 @@
                     "person_id": "dr_ruben_balmaceda"
                   }
                 ],
-                "notes": [
-                  "Secretaria Dra. Camila Rodríguez",
-                  "Comentadores: Dr. Alejandro Moreira Grecco, Dr. Martín Calet Bois, Dr. Javier Martín Hernández, Dr. Bruno Rosotto"
+                "commentators": [
+                  {
+                    "person_id": "dr_alejandro_moreira_grecco"
+                  },
+                  {
+                    "person_id": "dr_martin_calet_bois"
+                  },
+                  {
+                    "person_id": "dr_javier_martin_hernandez"
+                  },
+                  {
+                    "person_id": "dr_bruno_rosotto"
+                  }
+                ],
+                "secretaries": [
+                  "Secretaria Dra. Camila Rodríguez"
                 ]
               }
             ]
@@ -1037,7 +1098,8 @@
                     "person_id": "dr_samuel_ruiz"
                   }
                 ],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -1064,7 +1126,8 @@
                     "person_id": "dr_cuenca_abente"
                   }
                 ],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -1092,7 +1155,8 @@
                     "person_id": "dr_adrian_cena"
                   }
                 ],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -1123,7 +1187,8 @@
                     "person_id": "oscar_mazza"
                   }
                 ],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -1150,7 +1215,8 @@
                     "person_id": "dr_javier_crisci"
                   }
                 ],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -1183,7 +1249,8 @@
                     "person_id": "dr_arnoldo_castro"
                   }
                 ],
-                "notes": [
+                "commentators": [],
+                "secretaries": [
                   "Secretario Dr. Maximiliano Cichitti"
                 ]
               }
@@ -1234,7 +1301,8 @@
                     "person_id": "dr_pablo_cingolani"
                   }
                 ],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -1252,7 +1320,8 @@
                     "person_id": "dr_fabian_lerda"
                   }
                 ],
-                "notes": [
+                "commentators": [],
+                "secretaries": [
                   "Secretaria Dra. Mercado Catalina"
                 ]
               }
@@ -1275,7 +1344,8 @@
                 ],
                 "lightning_talks": [],
                 "moderators": [],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           }
@@ -1319,8 +1389,9 @@
                     "person_id": "dr_emilio_quinonez"
                   }
                 ],
-                "notes": [
-                  "Mesa de expertos federal",
+                "commentators": [],
+                "secretaries": [
+                  "Mesa de expertos",
                   "Se propone votación antes y después del debate"
                 ]
               }
@@ -1340,7 +1411,8 @@
                     "person_id": "dr_daniel_pirchi"
                   }
                 ],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -1386,7 +1458,8 @@
                   }
                 ],
                 "moderators": [],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -1414,13 +1487,14 @@
                 "lightning_talks": [],
                 "moderators": [
                   {
-                    "label": "Dra Laura Martín Cunietti"
+                    "person_id": "dra_laura_martin_cunietti"
                   },
                   {
-                    "label": "Dr Xaris Merino Rosas"
+                    "person_id": "dr_xaris_merino_rosas"
                   }
                 ],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -1451,7 +1525,8 @@
                     "person_id": "dr_dario_guareschi"
                   }
                 ],
-                "notes": [
+                "commentators": [],
+                "secretaries": [
                   "Secretaria Dra. Morillas Candela"
                 ]
               }
@@ -1477,7 +1552,8 @@
                 ],
                 "lightning_talks": [],
                 "moderators": [],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -1495,7 +1571,8 @@
                   }
                 ],
                 "moderators": [],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -1526,9 +1603,19 @@
                     "person_id": "dr_pablo_blanco"
                   }
                 ],
-                "notes": [
-                  "Secretaria Dra. Sofía Corsino",
-                  "Comentadores: Dr. Federico Riste, Dr. Joaquín Tognetti, Dr. Arnoldo Castro"
+                "commentators": [
+                  {
+                    "person_id": "dr_federico_riste"
+                  },
+                  {
+                    "person_id": "dr_joaquin_tognelli"
+                  },
+                  {
+                    "person_id": "dr_arnoldo_castro"
+                  }
+                ],
+                "secretaries": [
+                  "Secretaria Dra. Sofía Corsino"
                 ]
               }
             ]
@@ -1549,7 +1636,8 @@
                 "speakers": [],
                 "lightning_talks": [],
                 "moderators": [],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -1571,7 +1659,8 @@
                     "person_id": "dr_axel_beskow"
                   }
                 ],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -1593,7 +1682,8 @@
                     "person_id": "dr_omar_veloso"
                   }
                 ],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           },
@@ -1606,25 +1696,26 @@
                 "title": "LQVB para residentes",
                 "speakers": [
                   {
-                    "label": "Dr Gustavo Kohan"
+                    "person_id": "dr_gustavo_kohan"
                   },
                   {
-                    "label": "Dr Rodrigo Vergara Sandoval"
+                    "person_id": "dr_rodrigo_vergara_sandoval"
                   },
                   {
-                    "label": "Dra Gisela Cardoso"
+                    "person_id": "dra_gisela_cardoso"
                   }
                 ],
                 "lightning_talks": [],
                 "moderators": [
                   {
-                    "label": "Dr Frank Deroi"
+                    "person_id": "dr_frank_deroi"
                   },
                   {
-                    "label": "Dr Xaris Merino Rosas"
+                    "person_id": "dr_xaris_merino_rosas"
                   }
                 ],
-                "notes": []
+                "commentators": [],
+                "secretaries": []
               }
             ]
           }

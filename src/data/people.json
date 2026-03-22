@@ -580,6 +580,11 @@
     "nationality": null,
     "submitted_at": null
   },
+  "dra_selene_diaz": {
+    "name": "Dra. Selene Díaz",
+    "nationality": null,
+    "submitted_at": "2026-03-21T20:47:13-03:00"
+  },
   "dra_victoria_ardiles": {
     "name": "Dra. Victoria Ardiles",
     "institution": "Hospital Italiano de Buenos Aires",
@@ -638,5 +643,65 @@
     "name": "Lic. Eleonora Timponil",
     "nationality": null,
     "submitted_at": null
+  },
+  "dr_marcos_sanchez": {
+    "name": "Dr. Marcos Sánchez",
+    "nationality": null,
+    "submitted_at": "2026-03-21T21:03:16-03:00"
+  },
+  "dr_sergio_mainero": {
+    "name": "Dr. Sergio Mainero",
+    "nationality": null,
+    "submitted_at": "2026-03-21T21:03:16-03:00"
+  },
+  "dr_frank_deroi": {
+    "name": "Dr. Frank Deroi",
+    "nationality": null,
+    "submitted_at": "2026-03-21T21:03:16-03:00"
+  },
+  "dr_xaris_merino_rosas": {
+    "name": "Dr. Xaris Merino Rosas",
+    "nationality": null,
+    "submitted_at": "2026-03-21T21:03:16-03:00"
+  },
+  "dr_nicolas_laborato": {
+    "name": "Dr. Nicolás Laborato",
+    "nationality": null,
+    "submitted_at": "2026-03-21T21:03:16-03:00"
+  },
+  "dr_martin_calet_bois": {
+    "name": "Dr. Martín Calet Bois",
+    "nationality": null,
+    "submitted_at": "2026-03-21T21:03:16-03:00"
+  },
+  "dr_javier_martin_hernandez": {
+    "name": "Dr. Javier Martín Hernández",
+    "nationality": null,
+    "submitted_at": "2026-03-21T21:03:16-03:00"
+  },
+  "dr_bruno_rosotto": {
+    "name": "Dr. Bruno Rosotto",
+    "nationality": null,
+    "submitted_at": "2026-03-21T21:03:16-03:00"
+  },
+  "dra_laura_martin_cunietti": {
+    "name": "Dra. Laura Martín Cunietti",
+    "nationality": null,
+    "submitted_at": "2026-03-21T21:03:16-03:00"
+  },
+  "dr_federico_riste": {
+    "name": "Dr. Federico Riste",
+    "nationality": null,
+    "submitted_at": "2026-03-21T21:03:16-03:00"
+  },
+  "dr_rodrigo_vergara_sandoval": {
+    "name": "Dr. Rodrigo Vergara Sandoval",
+    "nationality": null,
+    "submitted_at": "2026-03-21T21:03:16-03:00"
+  },
+  "dra_gisela_cardoso": {
+    "name": "Dra. Gisela Cardoso",
+    "nationality": null,
+    "submitted_at": "2026-03-21T21:03:16-03:00"
   }
 }
