@@ -23,51 +23,82 @@ function RegistrationCost() {
   return (
     <>
       <section id="inscripciones" className="scroll-mt-36 py-6">
-        <div className="mx-auto flex max-w-5xl flex-col items-center gap-4 py-6 text-center sm:py-10">
-          <h2 className="text-3xl font-bold leading-tight text-deep-blue md:text-4xl">
-            Asegurá tu lugar en el evento médico más esperado del año
-          </h2>
-          <p className="text-lg text-slate-600 md:text-xl">
-            Seleccioná la categoría que mejor se adapte a tu perfil profesional
-            <br />
-            Precios expresados en Pesos{" "}
-            <span className="whitespace-nowrap">Argentinos (ARS)</span>
-          </p>
-        </div>
+        <div className="mx-auto grid max-w-5xl gap-10 py-6 sm:py-10">
+          <header className="grid gap-4 text-center">
+            <h2 className="text-base font-semibold tracking-wide text-deep-blue md:text-lg">
+              Inscripciones
+            </h2>
+            <div className="grid gap-3">
+              <p className="mx-auto max-w-4xl text-3xl font-semibold leading-tight tracking-tight text-balance text-deep-blue md:text-5xl">
+                Elegí tu categoría y completá tu inscripción
+              </p>
+              <p className="mx-auto max-w-3xl text-lg leading-8 text-chocolate text-pretty md:text-xl md:leading-9">
+                Consultá los aranceles 2026 y seleccioná la categoría que
+                corresponda a tu perfil profesional. Todos los valores están
+                expresados en pesos argentinos (ARS).
+              </p>
+            </div>
+          </header>
 
-        <article className="mx-auto flex flex-col gap-6 rounded-2xl bg-chocolate p-4">
-          <h3 className="px-5 pt-5 text-center text-3xl font-bold text-white">
-            Costos
-          </h3>
-          <div className="grid grid-cols-1 gap-4 px-3 md:grid-cols-2 lg:grid-cols-3">
-            {registrationPrices.map(({ label, price }) => (
-              <PriceTier key={label} label={label} price={price} />
-            ))}
-          </div>
-          <div className="flex justify-center px-4 pb-4">
-            <button
-              type="button"
-              onClick={() => setIsModalOpen(true)}
-              className="inline-flex cursor-pointer items-center justify-center gap-3 rounded-full bg-ink px-5 py-3 text-base font-semibold text-white transition hover:bg-lagoon-dark"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="currentColor"
-                className="size-6 text-gold"
+          <article className="mx-auto grid max-w-4xl gap-6 md:gap-8">
+            <div className="grid gap-4 text-left">
+              <div className="grid gap-2">
+                <p className="text-sm font-semibold uppercase tracking-widest text-deep-blue/60">
+                  Aranceles 2026
+                </p>
+                <p className="text-base leading-7 text-chocolate md:text-lg md:leading-8">
+                  Si tu categoría requiere acreditación, te indicaremos los
+                  pasos antes de completar el formulario.
+                </p>
+              </div>
+              <div className="flex flex-wrap items-center gap-3">
+                <button
+                  type="button"
+                  onClick={() => setIsModalOpen(true)}
+                  className="inline-flex cursor-pointer items-center justify-center gap-3 rounded-full bg-chocolate px-6 py-3 text-base font-semibold text-white transition hover:bg-deep-blue"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="currentColor"
+                    className="size-5"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
+                    />
+                  </svg>
+                  <span>Inscribirme</span>
+                </button>
+              </div>
+            </div>
+
+            <div className="overflow-hidden rounded-3xl border border-chocolate/10 bg-chocolate/10">
+              <ul className="grid grid-cols-2 gap-px">
+                {registrationPrices.map(({ label, price }) => (
+                  <PriceTier key={label} label={label} price={price} />
+                ))}
+              </ul>
+            </div>
+
+            <p className="max-w-3xl text-sm leading-7 text-chocolate text-pretty md:text-base md:leading-8">
+              Las categorías con arancel diferencial pueden requerir certificado
+              respaldatorio. Vas a poder enviarlo antes o después de completar
+              la inscripción.{" "}
+              <button
+                type="button"
+                onClick={() => setIsModalOpen(true)}
+                className="cursor-pointer font-semibold text-deep-blue underline underline-offset-4"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
-                />
-              </svg>
-              <span>Inscribirme</span>
-            </button>
-          </div>
-        </article>
+                Ver acreditación de categoría
+              </button>
+              .
+            </p>
+          </article>
+        </div>
       </section>
 
       <Dialog
@@ -78,20 +109,20 @@ function RegistrationCost() {
         <div className="fixed inset-0 bg-ink/70" aria-hidden="true" />
         <div className="fixed inset-0 overflow-y-auto px-4 py-6 sm:px-6">
           <div className="flex min-h-full items-center justify-center">
-            <DialogPanel className="flex w-full max-w-xl flex-col gap-5 rounded-[2rem] bg-white p-4 shadow-2xl sm:p-6">
+            <DialogPanel className="flex w-full max-w-xl flex-col gap-6 rounded-4xl bg-white p-5 shadow-2xl sm:p-6">
               <div className="flex items-start justify-between gap-4">
-                <div className="flex flex-col gap-2">
-                  <span className="inline-flex w-fit rounded-full bg-cloud px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-lagoon">
+                <div className="grid gap-2">
+                  <span className="text-xs font-semibold uppercase tracking-widest text-lagoon">
                     Antes de completar el formulario
                   </span>
-                  <DialogTitle className="text-2xl font-bold text-deep-blue sm:text-3xl">
+                  <DialogTitle className="text-2xl font-semibold text-deep-blue sm:text-3xl">
                     Acreditación de categoría
                   </DialogTitle>
                 </div>
                 <button
                   type="button"
                   onClick={() => setIsModalOpen(false)}
-                  className="inline-flex size-11 items-center justify-center rounded-full border border-slate-200 text-slate-500 transition hover:border-slate-300 hover:text-slate-700"
+                  className="inline-flex size-11 cursor-pointer items-center justify-center rounded-full border border-slate-200 text-slate-500 transition hover:border-slate-300 hover:text-slate-700"
                   aria-label="Cerrar información de inscripción"
                 >
                   <svg
@@ -111,33 +142,30 @@ function RegistrationCost() {
                 </button>
               </div>
 
-              <div className="flex flex-col gap-4 rounded-3xl bg-cloud px-5 py-6 text-left">
-                <div className="flex flex-col gap-3 rounded-3xl bg-white px-4 py-4 shadow-sm">
-                  <p className="text-base leading-relaxed text-slate-700 sm:text-lg">
-                    Para conservar el arancel correspondiente a tu categoría de
-                    participante, no te olvides de enviar el certificado que lo
-                    acredite a{" "}
-                    <span className="font-semibold text-deep-blue">
-                      secretaria.acmza@gmail.com
-                    </span>
-                    .
-                  </p>
-                  <p className="text-sm leading-relaxed text-slate-500">
+              <div className="grid gap-5 text-left">
+                <p className="text-base leading-7 text-slate-700 sm:text-lg sm:leading-8">
+                  Para conservar el arancel correspondiente a tu categoría de
+                  participante, enviá el certificado que lo acredite a{" "}
+                  <span className="font-semibold text-deep-blue">
+                    secretaria.acmza@gmail.com
+                  </span>
+                  .
+                </p>
+
+                <div className="grid gap-2 border-t border-slate-200 pt-4">
+                  <p className="text-sm leading-6 text-slate-500">
                     Ejemplos: certificado de alumno regular, constancia de
                     residencia, credencial societaria u otra documentación
                     equivalente.
                   </p>
-                </div>
-
-                <div className="rounded-3xl border border-dashed border-lagoon/40 bg-white px-4 py-4">
-                  <p className="text-sm leading-relaxed text-slate-600">
+                  <p className="text-sm leading-6 text-slate-500">
                     Podés enviar el certificado antes o después de completar el
                     formulario, pero hacelo el mismo día para evitar demoras en
                     la validación.
                   </p>
                 </div>
 
-                <div className="flex flex-col gap-3">
+                <div className="grid gap-3 pt-2">
                   <a
                     href={certificateMailTo}
                     className="inline-flex w-full items-center justify-center gap-3 rounded-full bg-deep-blue px-5 py-3 text-center font-semibold text-white transition hover:opacity-90"
@@ -183,7 +211,7 @@ function RegistrationCost() {
                   <button
                     type="button"
                     onClick={() => setIsModalOpen(false)}
-                    className="inline-flex w-full items-center justify-center rounded-full border border-slate-300 px-5 py-3 text-center font-semibold text-slate-700 transition hover:border-slate-400 hover:bg-white"
+                    className="inline-flex w-full cursor-pointer items-center justify-center rounded-full border border-slate-300 px-5 py-3 text-center font-semibold text-slate-700 transition hover:border-slate-400 hover:bg-slate-50"
                   >
                     Cerrar
                   </button>
