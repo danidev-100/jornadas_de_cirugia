@@ -108,9 +108,9 @@ function ContactCard({ href, icon, title, detail, variant = "default" }) {
 
 function HotelRow({ hotel }) {
   return (
-    <article className="grid gap-5 border-b border-slate-200 pb-8 last:border-b-0 last:pb-0 md:grid-cols-3 md:items-center">
+    <article className="grid gap-5 border-b border-slate-200 pb-8 last:border-b-0 last:pb-0 md:grid-cols-4 md:items-center">
       <div className="flex items-center gap-4 md:hidden">
-        <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-full bg-white p-4">
+        <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-white p-1">
           <img
             src={hotel.logo}
             alt={`Logo de ${hotel.name}`}
@@ -126,16 +126,16 @@ function HotelRow({ hotel }) {
         </div>
       </div>
 
-      <div className="hidden items-center justify-center rounded-3xl border border-slate-200 bg-white p-4 aspect-square md:flex">
+      <div className="hidden items-center justify-center rounded-full border border-slate-200 bg-white p-4 aspect-square md:flex">
         <img
           src={hotel.logo}
           alt={`Logo de ${hotel.name}`}
-          className="h-32 w-full object-contain"
+          className="w-full object-contain"
           loading="lazy"
         />
       </div>
 
-      <div className="flex flex-col gap-4 md:col-span-2">
+      <div className="flex flex-col gap-4 md:col-span-3">
         <div className="hidden flex-col gap-1 md:flex">
           <h3 className="text-2xl font-semibold text-ink">{hotel.name}</h3>
           <p className="text-sm font-medium uppercase tracking-wide text-lagoon">
@@ -240,14 +240,14 @@ function Accommodation() {
           </div>
         </div>
 
-        <div className="grid gap-10 xl:grid-cols-3">
-          <div className="flex flex-col gap-8 xl:col-span-2">
+        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-5">
+          <div className="flex flex-col gap-8 lg:col-span-3">
             {hotels.map((hotel) => (
               <HotelRow key={hotel.name} hotel={hotel} />
             ))}
           </div>
 
-          <aside className="flex flex-col gap-8 xl:border-l xl:border-slate-200 xl:pl-8">
+          <aside className="flex flex-col gap-8 md:border-l md:border-slate-200 md:pl-8 lg:col-span-2">
             <div className="flex flex-col gap-4">
               <span className="text-sm font-semibold uppercase tracking-wide text-lagoon">
                 Más información
@@ -292,19 +292,21 @@ function Accommodation() {
                 </p>
               </div>
 
-              <ContactCard
-                href={infoLinks.email}
-                icon={EnvelopeIcon}
-                title="Consultas por email"
-                detail="Secretaría ACM"
-              />
-              <ContactCard
-                href={infoLinks.whatsapp}
-                icon={FaWhatsapp}
-                title="Consultas por WhatsApp"
-                detail={infoLinks.whatsappLabel}
-                variant="whatsapp"
-              />
+              <div className="flex flex-col sm:flex-row md:flex-col gap-4">
+                <ContactCard
+                  href={infoLinks.email}
+                  icon={EnvelopeIcon}
+                  title="Consultas por email"
+                  detail="Secretaría ACM"
+                />
+                <ContactCard
+                  href={infoLinks.whatsapp}
+                  icon={FaWhatsapp}
+                  title="Consultas por WhatsApp"
+                  detail={infoLinks.whatsappLabel}
+                  variant="whatsapp"
+                />
+              </div>
             </div>
           </aside>
         </div>
