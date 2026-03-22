@@ -317,7 +317,23 @@
                     "person_id": "dra_anabella_sanchez"
                   }
                 ],
-                "commentators": [],
+                "commentators": [
+                  {
+                    "label": "Dra. Karina de la Rosa"
+                  },
+                  {
+                    "label": "Dra. Paulina Aguirre"
+                  },
+                  {
+                    "label": "Dra. María Laura De Bueno"
+                  },
+                  {
+                    "label": "Dra. Lourdes Mollare"
+                  },
+                  {
+                    "person_id": "dr_francisco_barragan"
+                  }
+                ],
                 "secretaries": []
               }
             ]
@@ -340,7 +356,20 @@
                     "person_id": "dr_walther_minatti"
                   }
                 ],
-                "commentators": [],
+                "commentators": [
+                  {
+                    "person_id": "dr_heitor_santos"
+                  },
+                  {
+                    "person_id": "dr_gonzalo_crosbie"
+                  },
+                  {
+                    "label": "Dr. Abel José"
+                  },
+                  {
+                    "person_id": "dr_fabian_lerda"
+                  }
+                ],
                 "secretaries": [
                   {
                     "person_id": "dra_ruiz_agustina"
@@ -375,7 +404,7 @@
                   }
                 ],
                 "lightning_talks": [],
-                "moderators": [
+                "commentators": [
                   {
                     "person_id": "dr_alejandro_moreira_grecco"
                   },
@@ -389,7 +418,7 @@
                     "person_id": "dr_diego_fernandez"
                   }
                 ],
-                "commentators": [],
+                "moderators": [],
                 "secretaries": []
               }
             ]
@@ -407,7 +436,11 @@
                   }
                 ],
                 "lightning_talks": [],
-                "moderators": [],
+                "moderators": [
+                  {
+                    "person_id": "dr_walter_nardi"
+                  }
+                ],
                 "commentators": [],
                 "secretaries": []
               },
@@ -424,18 +457,11 @@
                 "lightning_talks": [],
                 "moderators": [
                   {
-                    "person_id": "dr_walter_nardi"
-                  },
-                  {
                     "person_id": "dr_fernando_wright"
                   }
                 ],
                 "commentators": [],
-                "secretaries": [
-                  {
-                    "label": "Mesa de expertos"
-                  }
-                ]
+                "secretaries": []
               }
             ]
           },
@@ -673,7 +699,7 @@
             "activity": "Pared Abdominal",
             "main_talks": [
               {
-                "title": "Cirugía robótica en la pared abdominal: ¿moda o verdadera evolución?",
+                "title": "Cirugía robótica en la pared abdominal: ¿moda o verdadera evolución? Tecnología al servicio de la estrategia",
                 "speakers": [
                   {
                     "person_id": "dr_heitor_santos"

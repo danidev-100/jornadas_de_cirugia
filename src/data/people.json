@@ -189,7 +189,7 @@
     "name": "Dr. Fernando Wright",
     "job_title": "Médico staff de Cirugía General",
     "institution": "Cirugía Esofagogástrica y Bariátrica, Hospital Italiano de Buenos Aires",
-    "image": "unverified/dr-fernando-wright.png",
+    "image": "dr-fernando-wright.jpg",
     "nationality": null,
     "submitted_at": "2026-03-12T16:12:08-03:00"
   },
@@ -743,5 +743,20 @@
     "name": "Dra. Sofía Corsino",
     "nationality": null,
     "submitted_at": "2026-03-21T21:03:16-03:00"
+  },
+  "dr_francisco_barragan": {
+    "name": "Dr. Francisco Barragán",
+    "job_title": "Especialista en Cirugía de Pared Abdominal",
+    "image": "dr-francisco-barragan.jpg",
+    "nationality": null,
+    "submitted_at": "2026-03-21T21:55:42-03:00"
+  },
+  "dr_gonzalo_crosbie": {
+    "name": "Dr. Gonzalo Crosbie",
+    "job_title": "Coordinador del Programa de Simulación Quirúrgica",
+    "institution": "Asociación Argentina de Cirugía",
+    "image": "dr-gonzalo-crosbie.jpg",
+    "nationality": null,
+    "submitted_at": "2026-03-21T22:13:21-03:00"
   }
 }
