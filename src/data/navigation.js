@@ -1,14 +1,14 @@
 const navigation = [
-  { name: "Inicio", href: "#inicio", current: true },
-  { name: "Público", href: "#publico", current: false },
-  { name: "Programa", href: "#programa", current: false },
-  { name: "Disertantes", href: "#disertantes", current: false },
-  { name: "Trabajos científicos", href: "#trabajos", current: false },
-  { name: "Inscripciones", href: "#inscripciones", current: false },
-  { name: "Patrocinadores", href: "#patrocinadores", current: false },
-  { name: "Hospedaje", href: "#hospedaje", current: false },
-  { name: "Organización", href: "#organizacion", current: false },
-  { name: "Contacto", href: "#contacto", current: false },
+  { name: "Inicio", href: "#inicio" },
+  { name: "Público", href: "#publico" },
+  { name: "Programa", href: "#programa" },
+  { name: "Disertantes", href: "#disertantes" },
+  { name: "Trabajos científicos", href: "#trabajos" },
+  { name: "Inscripciones", href: "#inscripciones" },
+  { name: "Patrocinadores", href: "#patrocinadores" },
+  { name: "Hospedaje", href: "#hospedaje" },
+  { name: "Organización", href: "#organizacion" },
+  { name: "Contacto", href: "#contacto" },
 ];
 
 export default navigation;
