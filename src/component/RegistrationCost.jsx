@@ -22,7 +22,7 @@ function RegistrationCost() {
 
   return (
     <>
-      <section id="inscripciones" className="scroll-mt-36 px-4 py-6">
+      <section id="inscripciones" className="scroll-mt-36 py-6">
         <div className="mx-auto flex max-w-5xl flex-col items-center gap-4 py-6 text-center sm:py-10">
           <h2 className="text-3xl font-bold leading-tight text-deep-blue md:text-4xl">
             Asegurá tu lugar en el evento médico más esperado del año
@@ -35,7 +35,7 @@ function RegistrationCost() {
           </p>
         </div>
 
-        <article className="mx-auto flex max-w-6xl flex-col gap-6 rounded-2xl bg-chocolate p-4">
+        <article className="mx-auto flex flex-col gap-6 rounded-2xl bg-chocolate p-4">
           <h3 className="px-5 pt-5 text-center text-3xl font-bold text-white">
             Costos
           </h3>

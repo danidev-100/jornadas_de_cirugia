@@ -35,9 +35,9 @@ function RoleList({ members }) {
       {members.map((member) => (
         <li
           key={member.id}
-          className="flex flex-col gap-2 border-b border-slate-200 py-3 last:border-b-0 sm:flex-row sm:items-center sm:justify-between sm:gap-4"
+          className="flex flex-col gap-2 border-b border-slate-200 py-3 last:border-b-0 sm:flex-row sm:items-center sm:gap-6"
         >
-          <span className="text-xs font-semibold uppercase tracking-wide text-lagoon">
+          <span className="text-xs font-semibold uppercase tracking-wide text-lagoon sm:w-56 sm:shrink-0">
             {member.role}
           </span>
           <span className="text-lg font-semibold text-ink">
@@ -134,7 +134,7 @@ function Organization() {
 
   return (
     <section id="organizacion" className="scroll-mt-36 px-4 py-6 sm:px-6">
-      <div className="mx-auto flex max-w-6xl flex-col gap-8">
+      <div className="mx-auto flex flex-col gap-8">
         <div className="flex flex-col items-center gap-4 text-center">
           <div className="flex max-w-4xl flex-col gap-4">
             <h2 className="text-3xl font-bold text-deep-blue sm:text-4xl">

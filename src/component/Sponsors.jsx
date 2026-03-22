@@ -84,9 +84,9 @@ function Sponsors() {
   return (
     <section
       id="patrocinadores"
-      className="scroll-mt-36 px-4 text-center md:px-16 lg:px-24"
+      className="scroll-mt-36 text-center"
     >
-      <div className="mx-auto flex w-full max-w-6xl flex-col items-center gap-10">
+      <div className="mx-auto flex w-full flex-col items-center gap-10">
         <div className="flex max-w-3xl flex-col items-center gap-4">
           <h2 className="text-3xl font-semibold text-deep-blue">Patrocinadores</h2>
           <p className="text-xl text-ink">

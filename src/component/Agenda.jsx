@@ -5,6 +5,46 @@ import DynamicSchedule from "./dynamicSchedule/DynamicSchedule";
 
 const SHOW_SCHEDULE_V1 = import.meta.env.DEV;
 
+const PROGRAM_OVERVIEW_STATS = [
+  {
+    label: "Duracion",
+    value: "2 dias",
+    description: "Jueves y viernes con actividad continua durante toda la jornada.",
+  },
+  {
+    label: "Horario",
+    value: "08:00 - 19:00",
+    description: "Bloques por la manana y la tarde, con pausas integradas.",
+  },
+  {
+    label: "Salas",
+    value: "3 simultaneas",
+    description: "Dos enfocadas en especialidades quirurgicas y una dedicada a PSQ y trabajos cientificos.",
+  },
+];
+
+const PROGRAM_OVERVIEW_SECTIONS = [
+  {
+    title: "Aulas 1 y 2",
+    content:
+      "Especialidades quirurgicas como HPB, coloproctologia, pared abdominal, torax, oncologia, mama y equidad, mas espacios para la Asociacion de Residentes.",
+  },
+  {
+    title: "Aula 3",
+    content:
+      "Presentacion de Trabajos Cientificos y Curso Intra-Jornadas de PSQ a partir de las 13:00.",
+  },
+  {
+    title: "Pausas",
+    content:
+      "Cafe AM de 15 minutos, almuerzo de 13:00 a 14:00 y Cafe PM de 15 minutos.",
+  },
+  {
+    title: "Acto inaugural",
+    content: "Se realiza el jueves al cierre de la jornada, en formato plenario.",
+  },
+];
+
 function getSlotVariant(text = "") {
   const normalized = String(text).toLowerCase();
 
@@ -325,51 +365,64 @@ function AgendaTable({ titulo, fecha, filas, alwaysShowNowLine }) {
 function Agenda() {
   return (
     <section id="programa" className="py-7 scroll-mt-36">
-      <div className="flex flex-col gap-6">
-        <h2 className="text-center text-3xl font-semibold text-deep-blue">
-          Programa
-        </h2>
+      <div className="flex flex-col gap-8">
+        <div className="flex w-full flex-col gap-5">
+          <div className="flex flex-col items-center gap-3 text-center">
+            <h2 className="text-center text-3xl font-semibold text-deep-blue">
+              Programa
+            </h2>
+            <p className="max-w-4xl text-lg font-semibold text-ink md:text-xl">
+              El programa de las Jornadas de Cirugia Otono 2026 se desarrollara
+              en tres salas en simultaneo en el Hotel Sheraton de Mendoza.
+            </p>
+          </div>
 
-        <div className="flex flex-col gap-4">
-          <p className="text-center text-xl font-bold text-black">
-            El programa de las Jornadas de Cirugía Otoño 2026 se desarrollará en
-            tres salas en simultáneo (Hotel Sheraton, Mendoza).
-          </p>
-          <div className="rounded-3xl bg-wave p-5">
-            <div className="flex flex-col gap-1 text-black">
-              <p>
-                <span className="font-bold">Duración:</span> 2 días (jueves y
-                viernes)
-              </p>
-              <p>
-                <span className="font-bold">Horario:</span> 08:00 - 19:00
-              </p>
-              <p>
-                <span className="font-bold">Aulas simultáneas:</span> 3
-              </p>
-              <p>
-                <span className="font-bold">Aulas 1 y 2:</span> Especialidades
-                quirúrgicas (HPB, Coloproctología, Pared Abdominal, Tórax,
-                Oncología, Mama, Equidad) + espacios para Asociación de
-                Residentes.
-              </p>
-              <p>
-                <span className="font-bold">Aula 3:</span> Presentación de
-                Trabajos Científicos. Curso Intra-jornadas de PSQ a partir de
-                las 13:00.
-              </p>
-              <p>
-                <span className="font-bold">Break:</span> Café AM 15min ·
-                Almuerzo 13:00-14:00 · Café PM 15min.
-              </p>
-              <p>
-                <span className="font-bold">Acto inaugural:</span> jueves al
-                cierre de la jornada (plenario).
-              </p>
-              <p className="font-bold">
-                CURSO PSQ: Pre-Congreso (Instructores) Intra-Jornadas
-                (Básico-Avanzado)
-              </p>
+          <div className="grid grid-cols-1 gap-4 lg:grid-cols-3">
+            <div className="flex flex-col gap-4 rounded-3xl border border-wave/25 bg-wave p-6 shadow-sm lg:col-span-2">
+              <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+                {PROGRAM_OVERVIEW_SECTIONS.map((section) => (
+                  <div
+                    key={section.title}
+                    className="flex h-full flex-col gap-2 rounded-2xl border border-wave/15 bg-cloud p-4"
+                  >
+                    <p className="text-xs font-semibold uppercase tracking-widest text-lagoon">
+                      {section.title}
+                    </p>
+                    <p className="text-base leading-relaxed text-ink/80">
+                      {section.content}
+                    </p>
+                  </div>
+                ))}
+              </div>
+
+              <div className="flex flex-col gap-3 rounded-2xl border border-lagoon/20 bg-cloud p-4">
+                <span className="inline-flex w-fit rounded-full text-white px-3 py-1 text-xs font-semibold uppercase tracking-widest bg-lagoon/70">
+                  Curso PSQ
+                </span>
+                <p className="text-lg font-semibold text-deep-blue">
+                  Pre-Congreso (Instructores) e Intra-Jornadas
+                  (Basico-Avanzado)
+                </p>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 lg:grid-cols-1">
+              {PROGRAM_OVERVIEW_STATS.map((item) => (
+                <div
+                  key={item.label}
+                  className="flex h-full flex-col gap-2 rounded-3xl border border-wave/25 bg-cloud p-5 shadow-sm"
+                >
+                  <p className="text-sm font-semibold uppercase tracking-widest text-deep-blue/45">
+                    {item.label}
+                  </p>
+                  <p className="text-3xl font-semibold text-deep-blue">
+                    {item.value}
+                  </p>
+                  <p className="text-sm leading-relaxed text-ink/70">
+                    {item.description}
+                  </p>
+                </div>
+              ))}
             </div>
           </div>
         </div>

@@ -98,7 +98,7 @@ function ContactCard({ href, icon, title, detail, variant = "default" }) {
       >
         <Icon className="size-5" />
       </div>
-      <div className="flex min-w-0 flex-col gap-2">
+      <div className="flex min-w-0 flex-col">
         <span className="text-base font-semibold">{title}</span>
         <span className="text-sm text-slate-500">{detail}</span>
       </div>
@@ -109,7 +109,24 @@ function ContactCard({ href, icon, title, detail, variant = "default" }) {
 function HotelRow({ hotel }) {
   return (
     <article className="grid gap-5 border-b border-slate-200 pb-8 last:border-b-0 last:pb-0 md:grid-cols-3 md:items-center">
-      <div className="flex items-center justify-center rounded-3xl border border-slate-200 bg-white p-4 aspect-square">
+      <div className="flex items-center gap-4 md:hidden">
+        <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-full bg-white p-4">
+          <img
+            src={hotel.logo}
+            alt={`Logo de ${hotel.name}`}
+            className="h-full w-full object-contain"
+            loading="lazy"
+          />
+        </div>
+        <div className="flex flex-col gap-1">
+          <h3 className="text-2xl font-semibold text-ink">{hotel.name}</h3>
+          <p className="text-sm font-medium uppercase tracking-wide text-lagoon">
+            {hotel.subtitle}
+          </p>
+        </div>
+      </div>
+
+      <div className="hidden items-center justify-center rounded-3xl border border-slate-200 bg-white p-4 aspect-square md:flex">
         <img
           src={hotel.logo}
           alt={`Logo de ${hotel.name}`}
@@ -119,7 +136,7 @@ function HotelRow({ hotel }) {
       </div>
 
       <div className="flex flex-col gap-4 md:col-span-2">
-        <div className="flex flex-col gap-1">
+        <div className="hidden flex-col gap-1 md:flex">
           <h3 className="text-2xl font-semibold text-ink">{hotel.name}</h3>
           <p className="text-sm font-medium uppercase tracking-wide text-lagoon">
             {hotel.subtitle}
@@ -205,8 +222,8 @@ function Accommodation() {
         : "Mencioná este código al reservar.";
 
   return (
-    <section id="hospedaje" className="scroll-mt-36 px-4 py-6 sm:px-6">
-      <div className="mx-auto flex max-w-7xl flex-col gap-10">
+    <section id="hospedaje" className="scroll-mt-36 py-6">
+      <div className="mx-auto flex flex-col gap-10">
         <div className="flex flex-col items-center gap-4 text-center">
           <div className="flex max-w-4xl flex-col gap-4">
             <h2 className="text-3xl font-bold text-deep-blue sm:text-4xl">
