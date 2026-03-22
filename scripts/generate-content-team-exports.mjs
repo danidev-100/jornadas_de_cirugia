@@ -590,29 +590,13 @@ function startSchedulePage(dayLabel, roomNames, pageIndex) {
 
   pushFilledRect(commands, 0, 0, PAGE.width, PAGE.height, PDF_COLORS.white);
 
-  pushText(commands, "Raw Schedule Grid", PAGE.marginX, PAGE.marginTop, {
-    size: 18,
-    font: "F2",
-    color: PDF_COLORS.text,
-  });
-  pushText(commands, dayTitle, PAGE.marginX, PAGE.marginTop + 24, {
+  pushText(commands, dayTitle, PAGE.marginX, PAGE.marginTop, {
     size: 12,
     font: "F2",
     color: PDF_COLORS.text,
   });
-  pushText(
-    commands,
-    "Exportado desde la grilla publica actual con estilos minimos de lectura.",
-    PAGE.marginX,
-    PAGE.marginTop + 42,
-    {
-      size: 8.2,
-      font: "F1",
-      color: PDF_COLORS.muted,
-    },
-  );
 
-  const headerTop = PAGE.marginTop + 62;
+  const headerTop = PAGE.marginTop + 28;
   drawHeaderCell(
     commands,
     "Hora",

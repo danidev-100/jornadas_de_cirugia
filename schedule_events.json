@@ -268,7 +268,9 @@
                 ],
                 "commentators": [],
                 "secretaries": [
-                  "Secretario Dr. Juan Manuel Gago"
+                  {
+                    "person_id": "dr_juan_manuel_gago"
+                  }
                 ]
               }
             ]
@@ -340,7 +342,9 @@
                 ],
                 "commentators": [],
                 "secretaries": [
-                  "Secretaria Dra. Ruiz Agustina"
+                  {
+                    "person_id": "dra_ruiz_agustina"
+                  }
                 ]
               }
             ]
@@ -428,7 +432,9 @@
                 ],
                 "commentators": [],
                 "secretaries": [
-                  "Mesa de expertos"
+                  {
+                    "label": "Mesa de expertos"
+                  }
                 ]
               }
             ]
@@ -468,7 +474,9 @@
                 ],
                 "commentators": [],
                 "secretaries": [
-                  "Dra. Yamila Altamirano"
+                  {
+                    "person_id": "dra_yamila_altamirano"
+                  }
                 ]
               }
             ]
@@ -1075,7 +1083,9 @@
                   }
                 ],
                 "secretaries": [
-                  "Secretaria Dra. Camila Rodríguez"
+                  {
+                    "person_id": "dra_camila_rodriguez"
+                  }
                 ]
               }
             ]
@@ -1251,7 +1261,9 @@
                 ],
                 "commentators": [],
                 "secretaries": [
-                  "Secretario Dr. Maximiliano Cichitti"
+                  {
+                    "person_id": "dr_maximiliano_cichitti"
+                  }
                 ]
               }
             ]
@@ -1322,7 +1334,9 @@
                 ],
                 "commentators": [],
                 "secretaries": [
-                  "Secretaria Dra. Mercado Catalina"
+                  {
+                    "person_id": "dra_mercado_catalina"
+                  }
                 ]
               }
             ]
@@ -1391,8 +1405,9 @@
                 ],
                 "commentators": [],
                 "secretaries": [
-                  "Mesa de expertos",
-                  "Se propone votación antes y después del debate"
+                  {
+                    "label": "Mesa de expertos. Se propone votación antes y después del debate"
+                  }
                 ]
               }
             ]
@@ -1527,7 +1542,9 @@
                 ],
                 "commentators": [],
                 "secretaries": [
-                  "Secretaria Dra. Morillas Candela"
+                  {
+                    "person_id": "dra_morillas_candela"
+                  }
                 ]
               }
             ]
@@ -1615,7 +1632,9 @@
                   }
                 ],
                 "secretaries": [
-                  "Secretaria Dra. Sofía Corsino"
+                  {
+                    "person_id": "dra_sofia_corsino"
+                  }
                 ]
               }
             ]

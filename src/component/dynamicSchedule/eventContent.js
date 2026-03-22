@@ -3,11 +3,6 @@ function normalizeText(value) {
 }
 
 function normalizeReferenceEntry(reference) {
-  if (typeof reference === "string") {
-    const value = normalizeText(reference);
-    return value || null;
-  }
-
   if (!reference || typeof reference !== "object") {
     return null;
   }
