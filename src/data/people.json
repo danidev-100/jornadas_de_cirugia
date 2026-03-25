@@ -644,9 +644,9 @@
     "submitted_at": null
   },
   "lic_eleonora_timponil": {
-    "name": "Lic. Eleonora Timponil",
+    "name": "Lic. Eleonora A. Timponi",
     "nationality": null,
-    "submitted_at": null
+    "submitted_at": "2026-03-25T10:34:19-03:00"
   },
   "dr_marcos_sanchez": {
     "name": "Dr. Marcos Sánchez",
@@ -790,5 +790,20 @@
   },
   "dr_federico_brahin": {
     "name": "Dr. Federico Brahin"
+  },
+  "hernan_javier_toloza": {
+    "name": "Dr. Hernán Javier Toloza",
+    "nationality": null,
+    "submitted_at": "2026-03-25T10:47:42-03:00"
+  },
+  "ammiel_martinez_canil": {
+    "name": "Dr. Ammiel Martínez Canil",
+    "nationality": null,
+    "submitted_at": "2026-03-25T10:47:42-03:00"
+  },
+  "gonzalo_brizuela_del_moral": {
+    "name": "Dr. Gonzalo Brizuela Del Moral",
+    "nationality": null,
+    "submitted_at": "2026-03-25T10:47:42-03:00"
   }
 }

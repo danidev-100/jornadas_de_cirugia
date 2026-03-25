@@ -28,7 +28,11 @@
                     "person_id": "dr_norberto_brusa"
                   }
                 ],
-                "commentators": [],
+                "commentators": [
+                  {
+                    "person_id": "hernan_javier_toloza"
+                  }
+                ],
                 "secretaries": []
               }
             ]
@@ -54,7 +58,14 @@
                     "person_id": "dr_daniel_algieri"
                   }
                 ],
-                "commentators": [],
+                "commentators": [
+                  {
+                    "person_id": "ammiel_martinez_canil"
+                  },
+                  {
+                    "person_id": "gonzalo_brizuela_del_moral"
+                  }
+                ],
                 "secretaries": []
               }
             ]
