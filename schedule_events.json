@@ -231,10 +231,10 @@
             "activity": "Instrumentadores",
             "main_talks": [
               {
-                "title": "Dinámica funcional del quirófano robótico: coordinación entre el cirujano en la consola y el equipo",
+                "title": "Dinámica funcional del quirófano robótico: coordinación entre el cirujano en la consola y el equipo (AADI Filial Mendoza)",
                 "speakers": [
                   {
-                    "label": "Asociación Argentina de Instrumentadores Quirúrgicos"
+                    "person_id": "lic_daniela_pozzo"
                   }
                 ],
                 "lightning_talks": [],
@@ -1420,7 +1420,7 @@
             "activity": "Instrumentadores",
             "main_talks": [
               {
-                "title": "Fluorescencia en cirugía digestiva: aplicaciones actuales",
+                "title": "Fluorescencia en cirugía digestiva: aplicaciones actuales (AADI Filial Mendoza)",
                 "speakers": [
                   {
                     "person_id": "lic_eleonora_timponil"

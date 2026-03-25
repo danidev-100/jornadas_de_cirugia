@@ -168,8 +168,7 @@
   "dr_facundo_nogueira": {
     "name": "Dr. Facundo Nogueira",
     "nationality": null,
-    "submitted_at": "2026-03-09T00:52:08-03:00",
-    "image": "unverified/dr-facundo-nogueira.png"
+    "submitted_at": "2026-03-09T00:52:08-03:00"
   },
   "dr_federico_gorganchian": {
     "name": "Dr. Federico Gorganchian",
@@ -640,11 +639,13 @@
   },
   "lic_daniela_pozzo": {
     "name": "Lic. Daniela Pozzo",
+    "institution": "Hospital de Clínicas de Buenos Aires",
     "nationality": null,
-    "submitted_at": null
+    "submitted_at": "2026-03-25T11:46:01-03:00"
   },
   "lic_eleonora_timponil": {
     "name": "Lic. Eleonora A. Timponi",
+    "institution": "Hospital de Clínicas de Buenos Aires",
     "nationality": null,
     "submitted_at": "2026-03-25T10:34:19-03:00"
   },

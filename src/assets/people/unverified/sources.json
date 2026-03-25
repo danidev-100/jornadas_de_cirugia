@@ -514,17 +514,6 @@
       }
     ]
   },
-  "dr_facundo_nogueira": {
-    "status": "downloaded",
-    "file": "unverified/dr-facundo-nogueira.png",
-    "bytes": 663868,
-    "query": "\"Dr. Facundo Nogueira\" argentina cirujano",
-    "score": 110,
-    "source_page": "https://www.topdoctors.com.ar/doctor/juan-facundo-nogueira/",
-    "image_url": "https://staticnew-prod.topdoctors.com.ar/provider/106051/image/profile/large/juan-facundo-nogueira-1621452352?width=648/format=jpeg",
-    "title": "Dr. Juan Facundo Nogueira: especialista en Neumonología en Ciudad ...",
-    "verified_source_title": "Dr. Juan Facundo Nogueira: especialista en Neumonología en Ciudad Autónoma de Buenos Aires (CABA)"
-  },
   "dr_federico_gorganchian": {
     "status": "downloaded",
     "file": "unverified/dr-federico-gorganchian.jpeg",
