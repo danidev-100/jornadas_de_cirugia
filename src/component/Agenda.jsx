@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { programaJueves, programaViernes } from "../data/programa";
+import { documentUpdates } from "../data/documentUpdates";
 import pdf from "../assets/PROGRAMA-ACM.pdf";
 import DynamicSchedule from "./dynamicSchedule/DynamicSchedule";
 
@@ -436,7 +437,7 @@ function Agenda() {
           </div>
         )}
 
-        <div className="flex justify-center">
+        <div className="grid justify-center gap-2">
           <a
             href={pdf}
             download
@@ -458,6 +459,9 @@ function Agenda() {
             </svg>
             <span>Ver Programa</span>
           </a>
+          <span className="text-center text-xs font-medium tracking-wide text-chocolate/70">
+            {documentUpdates.programa}
+          </span>
         </div>
       </div>
     </section>
