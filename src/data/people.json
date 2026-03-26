@@ -167,8 +167,10 @@
   },
   "dr_facundo_nogueira": {
     "name": "Dr. Facundo Nogueira",
+    "institution": "Hospital Universitario Austral",
     "nationality": null,
-    "submitted_at": "2026-03-09T00:52:08-03:00"
+    "submitted_at": "2026-03-09T00:52:08-03:00",
+    "image": "dr-facundo-nogueira.jpg"
   },
   "dr_federico_gorganchian": {
     "name": "Dr. Federico Gorganchian",
