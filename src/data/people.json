@@ -17,6 +17,11 @@
     "nationality": null,
     "submitted_at": null
   },
+  "dr_agustin_buero": {
+    "name": "Dr. Agustín Buero",
+    "nationality": null,
+    "submitted_at": "2026-03-26T13:41:50-03:00"
+  },
   "dr_alejandro_birman": {
     "name": "Dr. Alejandro Birman",
     "nationality": null,
@@ -44,6 +49,11 @@
     "name": "Dr. Alejandro Pairola",
     "nationality": null,
     "submitted_at": null
+  },
+  "dr_alberto_sirabo": {
+    "name": "Dr. Alberto Sirabo",
+    "nationality": null,
+    "submitted_at": "2026-03-26T13:34:55-03:00"
   },
   "dr_arnoldo_castro": {
     "name": "Dr. Arnoldo Castro",
@@ -125,6 +135,16 @@
     "nationality": null,
     "submitted_at": null
   },
+  "dr_david_smith": {
+    "name": "Dr. David Smith",
+    "nationality": null,
+    "submitted_at": "2026-03-26T13:41:50-03:00"
+  },
+  "dr_diego_basualdo": {
+    "name": "Dr. Diego Basualdo",
+    "nationality": null,
+    "submitted_at": "2026-03-26T13:41:50-03:00"
+  },
   "dr_diego_bertani": {
     "name": "Dr. Diego Bertani",
     "job_title": "Coloproctólogo",
@@ -144,6 +164,11 @@
     "institution": "Hospital Central de Mendoza",
     "nationality": null,
     "submitted_at": null
+  },
+  "dr_eduardo_isuani": {
+    "name": "Dr. Eduardo Isuani",
+    "nationality": null,
+    "submitted_at": "2026-03-26T13:41:50-03:00"
   },
   "dr_emilio_quinonez": {
     "name": "Dr. Emilio Quiñonez",
@@ -242,6 +267,11 @@
     "nationality": null,
     "submitted_at": null
   },
+  "dr_humberto_gulle": {
+    "name": "Dr. Humberto Gulle",
+    "nationality": null,
+    "submitted_at": "2026-03-26T13:34:55-03:00"
+  },
   "dr_javier_crisci": {
     "name": "Dr. Javier Crisci",
     "nationality": null,
@@ -265,6 +295,11 @@
     "nationality": null,
     "submitted_at": "2026-03-07T19:46:54-03:00"
   },
+  "dr_jorge_barboza": {
+    "name": "Dr. Jorge Barboza",
+    "nationality": null,
+    "submitted_at": "2026-03-26T13:41:50-03:00"
+  },
   "dr_jorge_ibarra": {
     "name": "Dr. Jorge Ibarra",
     "institution": "Centro Oncológico Regional COIR",
@@ -272,8 +307,15 @@
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "dr-jorge-ibarra.png"
   },
+  "dr_jorge_mutt": {
+    "name": "Dr. Jorge Mutt",
+    "nationality": null,
+    "submitted_at": "2026-03-26T13:41:50-03:00"
+  },
   "dr_jorge_nefa": {
     "name": "Dr. Jorge Nefa",
+    "job_title": "Jefe del Servicio de Cirugía General",
+    "institution": "Hospital Italiano de Mendoza",
     "nationality": null,
     "submitted_at": "2026-03-26T13:17:06-03:00",
     "image": "dr-jorge-nefa.webp"
@@ -334,6 +376,11 @@
     "nationality": null,
     "submitted_at": "2026-03-09T00:52:08-03:00",
     "image": "unverified/dr-lucio-uranga.png"
+  },
+  "dr_marcelo_sosa": {
+    "name": "Dr. Marcelo Sosa",
+    "nationality": null,
+    "submitted_at": "2026-03-26T13:41:50-03:00"
   },
   "dr_mariano_moro": {
     "name": "Dr. Mariano Moro",
@@ -464,6 +511,11 @@
     "nationality": null,
     "submitted_at": null
   },
+  "dr_rolando_pronotto": {
+    "name": "Dr. Rolando Pronotto",
+    "nationality": null,
+    "submitted_at": "2026-03-26T13:41:50-03:00"
+  },
   "dr_ruben_balmaceda": {
     "name": "Dr. Rubén Balmaceda",
     "nationality": null,
@@ -494,6 +546,11 @@
     "name": "Dr. Xavier Taype",
     "nationality": null,
     "submitted_at": null
+  },
+  "dr_tomas_nunez": {
+    "name": "Dr. Tomás Núñez",
+    "nationality": null,
+    "submitted_at": "2026-03-26T13:41:50-03:00"
   },
   "dr_walter_nardi": {
     "name": "Dr. Walter Nardi",
@@ -593,6 +650,11 @@
     "nationality": null,
     "submitted_at": "2026-03-21T20:47:13-03:00"
   },
+  "dra_tamara_porta": {
+    "name": "Dra. Tamara Porta",
+    "nationality": null,
+    "submitted_at": "2026-03-26T13:41:50-03:00"
+  },
   "dra_victoria_ardiles": {
     "name": "Dra. Victoria Ardiles",
     "institution": "Hospital Italiano de Buenos Aires",
@@ -675,7 +737,7 @@
     "submitted_at": "2026-03-21T21:03:16-03:00"
   },
   "dr_nicolas_laborato": {
-    "name": "Dr. Nicolás Laborato",
+    "name": "Dr. Nicolás Lavorato",
     "nationality": null,
     "submitted_at": "2026-03-21T21:03:16-03:00"
   },
