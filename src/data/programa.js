@@ -17,8 +17,8 @@ export const programaJueves = {
     {
       hora: "09:15–09:30",
       salaA: "Coffee Break (AM)",
-      salaB: "Coffee break (AM)",
-      salaC: "Coffee break (AM)",
+      salaB: "Coffee Break (AM)",
+      salaC: "Coffee Break (AM)",
     },
     {
       hora: "09:30–10:00",
@@ -64,9 +64,9 @@ export const programaJueves = {
     },
     {
       hora: "15:00–15:15",
-      salaA: "Coffee break (PM)",
-      salaB: "Coffee break (PM)",
-      salaC: "Coffee break (PM)",
+      salaA: "Coffee Break (PM)",
+      salaB: "Coffee Break (PM)",
+      salaC: "Coffee Break (PM)",
     },
     {
       hora: "15:30-16:00",
@@ -108,14 +108,14 @@ export const programaViernes = {
     {
       hora: "08:45–09:15",
       salaA: "Bariátrica",
-      salaB: "Comite Colegio",
+      salaB: "Comité Colegio",
       salaC: "Comunicaciones orales",
     },
     {
       hora: "09:15–09:30",
-      salaA: "Coffee break (AM)",
-      salaB: "Coffee break(AM)",
-      salaC: "Coffee break (AM)",
+      salaA: "Coffee Break (AM)",
+      salaB: "Coffee Break (AM)",
+      salaC: "Coffee Break (AM)",
     },
     {
       hora: "09:30–10:00",
@@ -161,9 +161,9 @@ export const programaViernes = {
     },
     {
       hora: "15:00–15:15",
-      salaA: "Coffee break (PM)",
-      salaB: "Coffee break (PM)",
-      salaC: "Coffee break (PM)",
+      salaA: "Coffee Break (PM)",
+      salaB: "Coffee Break (PM)",
+      salaC: "Coffee Break (PM)",
     },
     {
       hora: "15:30-16:00",

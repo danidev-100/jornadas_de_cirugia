@@ -1626,10 +1626,10 @@
           {
             "start_time": "13:00",
             "end_time": "13:30",
-            "activity": "CX ROBOTICA",
+            "activity": "Cx Robótica",
             "main_talks": [
               {
-                "title": "SIMPOSIO Cx Robótica",
+                "title": "Simposio Cx Robótica",
                 "speakers": [
                   {
                     "person_id": "dr_samuel_ruiz"

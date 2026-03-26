@@ -12,25 +12,73 @@ import {
 const ROOM_TONE_CLASSES = [
   {
     card: "border-l-lagoon bg-lagoon/10",
-    chip: "bg-lagoon/10 text-lagoon",
+    roomLabel: "text-lagoon",
   },
   {
     card: "border-l-gold bg-gold/20",
-    chip: "bg-gold/25 text-chocolate",
+    roomLabel: "text-chocolate",
   },
   {
     card: "border-l-deep-blue/35 bg-deep-blue/10",
-    chip: "bg-deep-blue/10 text-deep-blue/60",
+    roomLabel: "text-deep-blue/60",
   },
 ];
 
+const ACTIVITY_TONE_CLASSES = {
+  HPB: {
+    chip: "border border-emerald-200 bg-emerald-100 text-emerald-900",
+  },
+  Coloproctología: {
+    chip: "border border-orange-900 bg-orange-100 text-orange-900",
+  },
+  Oncología: {
+    chip: "border border-stone-300 bg-stone-200 text-stone-900",
+  },
+  "Cirugía Percutánea": {
+    chip: "border border-slate-400 bg-slate-100 text-slate-900",
+  },
+  "Esófago Gastro": {
+    chip: "border border-rose-200 bg-rose-100 text-rose-900",
+  },
+  Bariátrica: {
+    chip: "border-2 border-pink-300 bg-pink-50 text-pink-900",
+  },
+  Endoscopía: {
+    chip: "border border-orange-300 bg-orange-50 text-orange-900",
+  },
+  "Cx Robótica": {
+    chip: "border-2 border-cyan-300 bg-white text-cyan-950",
+  },
+  Tórax: {
+    chip: "border border-cyan-400 bg-cyan-50 text-cyan-900",
+  },
+  "Pared Abdominal": {
+    chip: "border border-amber-200 bg-amber-100 text-amber-900",
+  },
+  Instrumentadores: {
+    chip: "border border-red-200 bg-red-100 text-red-900",
+  },
+  PSQ: {
+    chip: "border border-sky-200 bg-sky-100 text-sky-900",
+  },
+};
+
+const DEFAULT_ACTIVITY_TONE_CLASSES = {
+  chip: "border border-blue-200 bg-blue-100 text-blue-900",
+};
+
 const DEFAULT_ROOM_TONE_CLASSES = {
-  card: "border-l-wave bg-cloud/80",
-  chip: "bg-white/80 text-deep-blue/60",
+  card: "border-wave bg-white",
+  roomLabel: "text-deep-blue/60",
 };
 
 function normalizeText(value) {
   return typeof value === "string" ? value.trim() : "";
+}
+
+function getActivityToneClasses(activity) {
+  const activityLabel = normalizeText(activity);
+  return ACTIVITY_TONE_CLASSES[activityLabel] ?? DEFAULT_ACTIVITY_TONE_CLASSES;
 }
 
 function getRoomToneClasses(roomIndex) {
@@ -260,6 +308,7 @@ function Talk({
   centerContent = false,
 }) {
   const mainTalks = getMainTalks(event);
+  const activityToneClasses = getActivityToneClasses(event?.activity);
   const roomToneClasses = getRoomToneClasses(roomIndex);
   const isFeatured = isFeaturedEvent(event);
   const cardClassName = `flex h-full flex-col gap-4 overflow-hidden rounded-r-4xl rounded-l-none border-l-4 px-5 py-5 ${
@@ -267,15 +316,13 @@ function Talk({
       ? "border-l-lagoon bg-gradient-to-br from-cloud via-white to-sand/40 shadow-sm"
       : roomToneClasses.card
   }`;
-  const activityClassName = `inline-flex w-fit rounded-2xl px-4 py-2 text-sm font-semibold tracking-widest uppercase ${
+  const activityClassName = `inline-flex w-fit rounded-2xl px-4 py-2 text-sm font-semibold tracking-widest uppercase shadow-sm ${
     isFeatured
       ? "border border-lagoon/20 bg-white/90 text-lagoon"
-      : roomToneClasses.chip
+      : activityToneClasses.chip
   }`;
   const roomLabelClassName = `text-xs font-semibold uppercase ${
-    isFeatured
-      ? "text-lagoon"
-      : roomToneClasses.chip.split(" ").at(-1) ?? "text-deep-blue/60"
+    isFeatured ? "text-lagoon" : roomToneClasses.roomLabel
   }`;
   const mergedCardClassName = `flex h-full items-center justify-center rounded-r-4xl rounded-l-none border border-l-4 px-8 py-10 text-center ${
     isFeatured
