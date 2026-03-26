@@ -95,9 +95,11 @@
     "image": "unverified/dr-cuenca-abente.jpeg"
   },
   "dr_cugat": {
-    "name": "Dr. Cugat",
+    "name": "Dr. Esteban Cugat Andorrà",
+    "job_title": "Cirugía General Adultos",
     "nationality": "España",
-    "submitted_at": "2026-03-07T20:45:54-03:00"
+    "submitted_at": "2026-03-07T20:45:54-03:00",
+    "image": "unverified/dr-esteban-cugat-andorra.jpg"
   },
   "dr_daniel_algieri": {
     "name": "Dr. Daniel Algieri",
@@ -273,7 +275,8 @@
   "dr_jorge_nefa": {
     "name": "Dr. Jorge Nefa",
     "nationality": null,
-    "submitted_at": null
+    "submitted_at": "2026-03-26T13:17:06-03:00",
+    "image": "dr-jorge-nefa.webp"
   },
   "dr_jose_varela": {
     "name": "Dr. José Varela",
