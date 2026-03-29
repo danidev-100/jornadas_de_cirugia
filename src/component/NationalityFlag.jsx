@@ -1,5 +1,6 @@
 const FLAG_BY_NATIONALITY = {
   España: "🇪🇸",
+  Portugal: "🇵🇹",
 };
 
 function NationalityFlag({ nationality, className = "text-sm leading-none" }) {
