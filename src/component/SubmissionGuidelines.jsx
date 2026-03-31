@@ -23,7 +23,7 @@ function SubmissionGuidelines() {
 
         <article className="mx-auto grid max-w-4xl gap-6 text-left md:gap-8">
           <p className="text-xl font-semibold leading-8 text-ink text-pretty md:text-2xl md:leading-9">
-            La fecha límite para presentar los trabajos científicos es el 1 de
+            La fecha límite para presentar los trabajos científicos es el 5 de
             abril de 2026.
           </p>
           <p className="text-lg leading-8 text-chocolate text-pretty md:text-xl md:leading-9">
