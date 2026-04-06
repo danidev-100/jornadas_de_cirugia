@@ -48,14 +48,13 @@ function renderCourseTitle(title, titleLines) {
   }
 
   return (
-    <>
-      {titleLines.map((line, index) => (
+    <span className="flex flex-wrap gap-x-2 gap-y-1">
+      {titleLines.map((line) => (
         <span key={line} className="whitespace-nowrap">
-          {index > 0 ? " " : null}
           {line}
         </span>
       ))}
-    </>
+    </span>
   );
 }
 
@@ -404,11 +403,11 @@ function RegistrationCost() {
               {activeCourse ? (
                 <>
                   <div className="flex items-start justify-between gap-4">
-                    <div className="grid gap-2">
+                    <div className="grid min-w-0 gap-2">
                       <span className="text-xs font-semibold uppercase tracking-widest text-lagoon">
                         Detalle del curso
                       </span>
-                      <DialogTitle className="text-2xl font-semibold text-deep-blue sm:text-3xl">
+                      <DialogTitle className="text-2xl font-semibold leading-tight text-deep-blue sm:text-3xl">
                         {renderCourseTitle(
                           activeCourse.title,
                           activeCourse.titleLines,
