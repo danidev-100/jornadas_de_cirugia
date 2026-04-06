@@ -195,7 +195,7 @@ const courses = [
       "Dr. José Herrera",
       "Cdte. Mariano Magariños",
     ],
-    seats: 12,
+    seats: 16,
     summary:
       "Formación inicial semipresencial para profesionales que deseen desempeñarse como instructores/as en simulación quirúrgica.",
     schedule: null,
