@@ -210,8 +210,8 @@ const courses = [
     ],
     priceOptions: [
       {
-        label: "Arancel a confirmar",
-        price: null,
+        label: "Arancel general",
+        price: 250000,
         registrationHref: eventGoRegistrationUrl,
       },
     ],
