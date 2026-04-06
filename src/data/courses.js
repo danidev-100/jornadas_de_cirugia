@@ -84,7 +84,7 @@ const courses = [
       "Rafael Pazos",
       "Pablo Peroni",
     ],
-    seats: null,
+    seats: 15,
     summary:
       "Programa federal de educación continua en intervencionismo con simulación práctica aplicada a procedimientos percutáneos.",
     schedule: "Viernes 8 de Mayo, de 09:00 a 13:00 hs",
@@ -139,7 +139,7 @@ const courses = [
       "Dra. Eliana Cilia",
       "Dr. Hernán Cordero",
     ],
-    seats: null,
+    seats: 15,
     summary:
       "Entrenamiento hands-on en endoscopia digestiva para cirujanos, con práctica estructurada en habilidades diagnósticas y terapéuticas.",
     schedule: "Viernes 8 de Mayo, de 09:00 a 13:00 hs",
@@ -195,7 +195,7 @@ const courses = [
       "Dr. José Herrera",
       "Cdte. Mariano Magariños",
     ],
-    seats: null,
+    seats: 12,
     summary:
       "Formación inicial semipresencial para profesionales que deseen desempeñarse como instructores/as en simulación quirúrgica.",
     schedule: null,
