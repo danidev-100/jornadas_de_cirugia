@@ -5,6 +5,14 @@ import laparoscopiaProgramPdf from "../../cursos/PROGRAMA-PSQ-ACM.pdf";
 
 const eventGoRegistrationUrl =
   "https://www.eventgo.ar/AAC/MiCuenta.dll/EXEC/2/09e54rs187huhp15g17zc0pwgjd1";
+const laparoscopiaBasicoResidentesRegistrationUrl =
+  "https://forms.gle/DSUVXpw4GTbXADFD9";
+const laparoscopiaBasicoCirujanosRegistrationUrl =
+  "https://forms.gle/XZK3C5DqtPwbiSBb8";
+const laparoscopiaAvanzadoSociosRegistrationUrl =
+  "https://forms.gle/hq8CaFePjVkJTNpG8";
+const laparoscopiaAvanzadoNoSociosRegistrationUrl =
+  "https://forms.gle/83L3NDt1u7sx2bM5A";
 
 const courses = [
   {
@@ -29,10 +37,14 @@ const courses = [
       {
         label: "Residentes",
         price: 100000,
-        registrationHref: null,
+        registrationHref: laparoscopiaBasicoResidentesRegistrationUrl,
         requirements: ["Presentar mini CV"],
       },
-      { label: "Cirujano", price: 120000, registrationHref: null },
+      {
+        label: "Cirujano",
+        price: 120000,
+        registrationHref: laparoscopiaBasicoCirujanosRegistrationUrl,
+      },
     ],
   },
   {
@@ -57,7 +69,7 @@ const courses = [
       {
         label: "Socios",
         price: 240000,
-        registrationHref: null,
+        registrationHref: laparoscopiaAvanzadoSociosRegistrationUrl,
         requirements: [
           "Socio MAAC",
           "Presentar mini CV detallando la formación docente",
@@ -66,7 +78,7 @@ const courses = [
       {
         label: "No socios",
         price: 320000,
-        registrationHref: null,
+        registrationHref: laparoscopiaAvanzadoNoSociosRegistrationUrl,
         requirements: ["Presentar mini CV detallando la formación docente"],
       },
     ],
