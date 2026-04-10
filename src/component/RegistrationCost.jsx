@@ -18,12 +18,16 @@ const registrationFormUrl = "https://form.piprestaciones.ar/event/cirugia";
 const certificateMailTo =
   "mailto:secretaria.acmza@gmail.com?subject=Certificado%20de%20categor%C3%ADa%20-%20Jornadas%20de%20Cirug%C3%ADa&body=Hola%2C%20adjunto%20mi%20certificado%20para%20acreditar%20mi%20categor%C3%ADa%20de%20inscripci%C3%B3n.";
 
-function formatCourseSeats(seats) {
+function formatCourseSeats(seats, remainingSeats = null) {
   if (seats === null) {
     return "A confirmar";
   }
 
-  return String(seats);
+  if (remainingSeats === null) {
+    return String(seats);
+  }
+
+  return `${seats} (Quedan ${remainingSeats})`;
 }
 
 function formatCourseField(value) {
@@ -174,7 +178,14 @@ function RegistrationCost() {
                     </thead>
                     <tbody className="divide-y divide-chocolate/10">
                       {courses.map(
-                        ({ id, seats, tableInstructors, title, titleLines }) => (
+                        ({
+                          id,
+                          remainingSeats,
+                          seats,
+                          tableInstructors,
+                          title,
+                          titleLines,
+                        }) => (
                         <tr key={id} className="align-top">
                           <td className="px-6 py-5">
                             <p className="text-lg font-semibold leading-7 text-deep-blue">
@@ -188,7 +199,7 @@ function RegistrationCost() {
                           </td>
                           <td className="px-6 py-5">
                             <p className="whitespace-nowrap text-base font-semibold leading-7 text-deep-blue">
-                              {formatCourseSeats(seats)}
+                              {formatCourseSeats(seats, remainingSeats)}
                             </p>
                           </td>
                           <td className="px-6 py-5">
@@ -212,7 +223,14 @@ function RegistrationCost() {
 
               <ul className="grid gap-4 md:hidden">
                 {courses.map(
-                  ({ id, seats, tableInstructors, title, titleLines }) => (
+                  ({
+                    id,
+                    remainingSeats,
+                    seats,
+                    tableInstructors,
+                    title,
+                    titleLines,
+                  }) => (
                   <li
                     key={id}
                     className="grid gap-4 rounded-3xl border border-chocolate/10 bg-white p-5 shadow-sm shadow-chocolate/5"
@@ -241,7 +259,7 @@ function RegistrationCost() {
                           Cupos
                         </dt>
                         <dd className="text-base font-semibold leading-7 text-deep-blue">
-                          {formatCourseSeats(seats)}
+                          {formatCourseSeats(seats, remainingSeats)}
                         </dd>
                       </div>
 
@@ -489,7 +507,10 @@ function RegistrationCost() {
                           Cupos
                         </p>
                         <p className="text-base font-semibold leading-7 text-deep-blue">
-                          {formatCourseSeats(activeCourse.seats)}
+                          {formatCourseSeats(
+                            activeCourse.seats,
+                            activeCourse.remainingSeats,
+                          )}
                         </p>
                       </div>
 
