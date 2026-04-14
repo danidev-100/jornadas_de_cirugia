@@ -1,30 +1,4 @@
-export function formatPrice(price) {
-  const numericPrice =
-    typeof price === "number"
-      ? price
-      : Number(String(price).replace(/[^\d.-]/g, ""));
-
-  if (Number.isNaN(numericPrice)) {
-    return `$${price}`;
-  }
-
-  return `$${new Intl.NumberFormat("es-AR").format(numericPrice)}`;
-}
-
-export function renderPriceTierLabel(label) {
-  const match = String(label).match(/^(.*?)(\s*\([^)]*\))$/);
-
-  if (!match) {
-    return label;
-  }
-
-  return (
-    <>
-      {match[1]}{" "}
-      <span className="whitespace-nowrap">{match[2].trim()}</span>
-    </>
-  );
-}
+import { formatPrice, renderPriceTierLabel } from "./priceTierFormatting";
 
 function PriceTier({ label, price }) {
   return (
@@ -34,7 +8,7 @@ function PriceTier({ label, price }) {
           {renderPriceTierLabel(label)}
         </p>
         <div className="flex items-end gap-2 lg:shrink-0">
-          <span className="text-[2rem] font-bold leading-none text-orange-500 sm:text-[2.2rem] lg:text-4xl">
+          <span className="text-3xl font-bold leading-none text-orange-500 sm:text-4xl">
             {formatPrice(price)}
           </span>
           <span className="text-sm font-semibold uppercase tracking-wide text-slate-500">

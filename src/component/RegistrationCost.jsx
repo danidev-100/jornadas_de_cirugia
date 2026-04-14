@@ -1,7 +1,8 @@
 import { Dialog, DialogPanel, DialogTitle } from "@headlessui/react";
 import { useState } from "react";
 import courses from "../data/courses";
-import PriceTier, { formatPrice } from "./PriceTier";
+import PriceTier from "./PriceTier";
+import { formatPrice } from "./priceTierFormatting";
 
 const registrationPrices = [
   { label: "Socios (AAC-ACM)", price: 100000 },
