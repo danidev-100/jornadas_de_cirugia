@@ -849,17 +849,6 @@
       }
     ]
   },
-  "dr_juan_pablo_cordoba": {
-    "status": "downloaded",
-    "file": "unverified/dr-juan-pablo-cordoba.png",
-    "bytes": 74437,
-    "query": "\"Dr. Juan Pablo Córdoba\" argentina cirujano",
-    "score": 107,
-    "source_page": "https://www.directoriomedico.net/proctologos/juan-pablo-cordoba",
-    "image_url": "https://www.directoriomedico.net/pictures/social_media/pimage-8796-57-photo.png",
-    "title": "Juan pablo cordoba - Proctólogos - Medico",
-    "verified_source_title": "Juan pablo cordoba on Directorio M&eacute;dico"
-  },
   "dr_juan_pablo_gempel": {
     "status": "downloaded",
     "file": "unverified/dr-juan-pablo-gempel.jpeg",
