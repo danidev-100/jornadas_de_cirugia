@@ -104,7 +104,7 @@ const courses = [
     schedule: "Viernes 8 de Mayo, de 09:00 a 13:00 hs",
     location: "Hospital Central. Av. Alem 430, Mendoza.",
     programHref: percutaneoProgramPdf,
-    programUpdate: "Update: 25/03",
+    programUpdate: "Update: 14/04",
     detailPoints: [
       "Duración: 4 horas con 5 estaciones de simulación.",
       "Drenaje de colecciones",
@@ -160,7 +160,7 @@ const courses = [
     schedule: "Viernes 8 de Mayo, de 09:00 a 13:00 hs",
     location: "Hospital Central. Av. Alem 430, Mendoza.",
     programHref: endoscopiaProgramPdf,
-    programUpdate: "Update: 25/03",
+    programUpdate: "Update: 14/04",
     detailPoints: [
       "Nivel 1: endoscopia alta y baja con familiarización anatómica y uso del canal de trabajo.",
       "Nivel 2: hemostasia, resección de lesiones y manejo de estenosis.",
@@ -217,7 +217,7 @@ const courses = [
     schedule: null,
     location: null,
     programHref: instructoresProgramPdf,
-    programUpdate: "Update: 25/03",
+    programUpdate: "Update: 14/04",
     detailPoints: [
       "Modalidad semipresencial con módulos virtuales y encuentro presencial.",
       "Duración total: 20 horas entre tramos virtuales y presenciales.",
