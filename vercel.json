@@ -1,6 +1,85 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "headers": [
+    {
+      "source": "/programa",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store, max-age=0"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=\"PROGRAMA-ACM.pdf\""
+        }
+      ]
+    },
+    {
+      "source": "/programa/",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store, max-age=0"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=\"PROGRAMA-ACM.pdf\""
+        }
+      ]
+    },
+    {
+      "source": "/reglamento",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store, max-age=0"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=\"REGLAMENTO-ACM.pdf\""
+        }
+      ]
+    },
+    {
+      "source": "/reglamento/",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store, max-age=0"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=\"REGLAMENTO-ACM.pdf\""
+        }
+      ]
+    },
+    {
+      "source": "/documentos/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store, max-age=0"
+        }
+      ]
+    }
+  ],
   "rewrites": [
+    {
+      "source": "/programa",
+      "destination": "/documentos/PROGRAMA-ACM.pdf"
+    },
+    {
+      "source": "/programa/",
+      "destination": "/documentos/PROGRAMA-ACM.pdf"
+    },
+    {
+      "source": "/reglamento",
+      "destination": "/documentos/REGLAMENTO-ACM.pdf"
+    },
+    {
+      "source": "/reglamento/",
+      "destination": "/documentos/REGLAMENTO-ACM.pdf"
+    },
     {
       "source": "/(.*)",
       "destination": "/index.html"

@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { programaJueves, programaViernes } from "../data/programa";
+import { documentLinks } from "../data/documentLinks";
 import { documentUpdates } from "../data/documentUpdates";
-import pdf from "../assets/PROGRAMA-ACM.pdf";
 import DynamicSchedule from "./dynamicSchedule/DynamicSchedule";
 
 const SHOW_SCHEDULE_V1 = import.meta.env.DEV;
@@ -439,7 +439,7 @@ function Agenda() {
 
         <div className="grid justify-center gap-2">
           <a
-            href={pdf}
+            href={documentLinks.programa}
             download
             className="inline-flex items-center gap-1 rounded-3xl bg-chocolate px-6 py-3 font-semibold text-white transition hover:bg-lagoon-dark"
           >
@@ -457,7 +457,7 @@ function Agenda() {
                 d="M12 9.75v6.75m0 0-3-3m3 3 3-3m-8.25 6a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.233-2.33 3 3 0 0 1 3.758 3.848A3.752 3.752 0 0 1 18 19.5H6.75Z"
               />
             </svg>
-            <span>Ver Programa</span>
+            <span>Descargar Programa</span>
           </a>
           <span className="text-center text-xs font-medium tracking-wide text-chocolate/70">
             {documentUpdates.programa}

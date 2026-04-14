@@ -1,4 +1,4 @@
-import pdf from "../assets/REGLAMENTO-ACM.pdf";
+import { documentLinks } from "../data/documentLinks";
 import { documentUpdates } from "../data/documentUpdates";
 
 function SubmissionGuidelines() {
@@ -42,7 +42,7 @@ function SubmissionGuidelines() {
           <div className="flex flex-col items-center justify-center gap-4 md:flex-row md:items-start">
             <div className="grid justify-items-center gap-2">
               <a
-                href={pdf}
+                href={documentLinks.reglamento}
                 download
                 className="flex items-center gap-1 rounded-3xl bg-chocolate px-6 py-3 font-semibold text-white transition hover:bg-lagoon-dark"
               >
@@ -62,7 +62,7 @@ function SubmissionGuidelines() {
                     />
                   </svg>
                 </div>
-                <h2>Reglamento</h2>
+                <h2>Descargar Reglamento</h2>
               </a>
               <span className="text-xs font-medium tracking-wide text-chocolate/70">
                 {documentUpdates.reglamento}
