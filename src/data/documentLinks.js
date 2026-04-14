@@ -5,6 +5,6 @@ function withBaseUrl(path) {
 }
 
 export const documentLinks = {
-  programa: withBaseUrl("/programa"),
+  programa: withBaseUrl("/programa/descarga"),
   reglamento: withBaseUrl("/reglamento"),
 };

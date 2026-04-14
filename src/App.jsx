@@ -14,82 +14,31 @@ import Organization from "./component/Organization";
 import FixedCode from "./component/Whatsapp";
 import Accommodation from "./component/Accommodation";
 
-function decodeRepeatedly(value, maxIterations = 4) {
-  let decodedValue = value;
-
-  for (let iteration = 0; iteration < maxIterations; iteration += 1) {
-    try {
-      const nextValue = decodeURIComponent(decodedValue);
-
-      if (nextValue === decodedValue) {
-        break;
-      }
-
-      decodedValue = nextValue;
-    } catch {
-      break;
-    }
-  }
-
-  return decodedValue;
-}
-
-function normalizeSectionId(value) {
-  return decodeRepeatedly(value)
-    .trim()
-    .replace(/^\/+|\/+$/g, "")
-    .replace(/^#+/, "");
-}
-
-function getSectionIdFromLocation() {
-  const sectionParam = new URLSearchParams(window.location.search).get("section");
-  const candidates = [window.location.hash, window.location.pathname, sectionParam];
-
-  for (const candidate of candidates) {
-    if (!candidate) {
-      continue;
-    }
-
-    const sectionId = normalizeSectionId(candidate);
-
-    if (sectionId && document.getElementById(sectionId)) {
-      return sectionId;
-    }
-  }
-
-  return null;
-}
-
 function normalizeEncodedHashPath() {
-  const sectionId = getSectionIdFromLocation();
-
-  if (!sectionId) {
+  if (window.location.hash) {
     return;
   }
 
-  const params = new URLSearchParams(window.location.search);
-  params.delete("section");
+  const decodedPathname = decodeURIComponent(window.location.pathname);
 
-  const nextSearch = params.toString();
-  const normalizedHash = `#${sectionId}`;
-  const nextUrl = `${import.meta.env.BASE_URL}${nextSearch ? `?${nextSearch}` : ""}${normalizedHash}`;
-  const currentUrl = `${window.location.pathname}${window.location.search}${window.location.hash}`;
-
-  if (currentUrl === nextUrl) {
+  if (!decodedPathname.startsWith("/#")) {
     return;
   }
+
+  const normalizedHash = decodedPathname.slice(1);
+  const nextUrl = `${import.meta.env.BASE_URL}${window.location.search}${normalizedHash}`;
 
   window.history.replaceState(null, "", nextUrl);
 }
 
 function scrollToHashTarget() {
   normalizeEncodedHashPath();
-  const targetId = getSectionIdFromLocation();
 
-  if (!targetId) {
+  if (!window.location.hash) {
     return;
   }
 
+  const targetId = decodeURIComponent(window.location.hash.slice(1));
   const target = document.getElementById(targetId);
 
   if (!target) {

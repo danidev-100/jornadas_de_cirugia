@@ -1,8 +1,40 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "headers": [
+  "redirects": [
+    {
+      "source": "/cursos",
+      "destination": "/#cursos",
+      "permanent": false
+    },
+    {
+      "source": "/cursos/",
+      "destination": "/#cursos",
+      "permanent": false
+    },
+    {
+      "source": "/inscripciones",
+      "destination": "/#inscripciones",
+      "permanent": false
+    },
+    {
+      "source": "/inscripciones/",
+      "destination": "/#inscripciones",
+      "permanent": false
+    },
     {
       "source": "/programa",
+      "destination": "/#programa",
+      "permanent": false
+    },
+    {
+      "source": "/programa/",
+      "destination": "/#programa",
+      "permanent": false
+    }
+  ],
+  "headers": [
+    {
+      "source": "/programa/descarga",
       "headers": [
         {
           "key": "Cache-Control",
@@ -15,7 +47,7 @@
       ]
     },
     {
-      "source": "/programa/",
+      "source": "/programa/descarga/",
       "headers": [
         {
           "key": "Cache-Control",
@@ -65,11 +97,11 @@
   ],
   "rewrites": [
     {
-      "source": "/programa",
+      "source": "/programa/descarga",
       "destination": "/documentos/PROGRAMA-ACM.pdf"
     },
     {
-      "source": "/programa/",
+      "source": "/programa/descarga/",
       "destination": "/documentos/PROGRAMA-ACM.pdf"
     },
     {
