@@ -539,11 +539,13 @@ function drawTimeCell(commands, x, top, width, height, startTime, endTime) {
   pushFilledRect(commands, x, top, width, height, PDF_COLORS.timeBackground);
   pushStrokedRect(commands, x, top, width, height, PDF_COLORS.border, 0.8);
 
-  pushText(commands, startTime, x + 10, top + 10, {
-    size: 9,
-    font: "F2",
-    color: PDF_COLORS.text,
-  });
+  if (startTime) {
+    pushText(commands, startTime, x + 10, top + 10, {
+      size: 9,
+      font: "F2",
+      color: PDF_COLORS.text,
+    });
+  }
 
   if (endTime) {
     pushText(commands, endTime, x + 10, top + Math.max(24, height - 12), {
@@ -786,6 +788,13 @@ function buildSchedulePages() {
   scheduleEvents.forEach((dayEntry) => {
     const { roomNames, segments, desktopPlacements } = buildScheduleByTime(dayEntry);
     if (segments.length === 0) return;
+    const segmentHasPlacement = segments.map((segment) =>
+      desktopPlacements.some(
+        (placement) =>
+          placement.segmentStartIndex <= segment.index &&
+          placement.segmentEndIndex > segment.index,
+      ),
+    );
 
     const sizingPage = startSchedulePage(dayEntry.day, roomNames, 0);
     const placementLayouts = desktopPlacements.map((placement, index) => ({
@@ -816,15 +825,21 @@ function buildSchedulePages() {
         segmentIndex += 1
       ) {
         const segment = segments[segmentIndex];
+        const isLastSegmentInPage = segmentIndex === pageRange.endSegmentIndex - 1;
+        const hasPlacement = segmentHasPlacement[segmentIndex];
+        const nextSegmentHasPlacement = isLastSegmentInPage
+          ? false
+          : segmentHasPlacement[segmentIndex + 1];
+        const startTime = hasPlacement ? segment.start_time : null;
+        const endTime =
+          hasPlacement && (isLastSegmentInPage || !nextSegmentHasPlacement)
+            ? segment.end_time
+            : null;
         const rowTop =
           page.cursorTop +
           (segmentHeightPrefix[segmentIndex] -
             segmentHeightPrefix[pageRange.startSegmentIndex]);
         const rowHeight = segmentHeights[segmentIndex];
-        const endTime =
-          segmentIndex === pageRange.endSegmentIndex - 1
-            ? segment.end_time
-            : null;
 
         drawTimeCell(
           page.commands,
@@ -832,7 +847,7 @@ function buildSchedulePages() {
           rowTop,
           TABLE.timeWidth,
           rowHeight,
-          segment.start_time,
+          startTime,
           endTime,
         );
 
