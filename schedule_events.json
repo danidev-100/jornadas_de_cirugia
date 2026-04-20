@@ -1660,7 +1660,7 @@
                 ],
                 "moderators": [
                   {
-                    "label": "Gustavo Smith"
+                    "label": "Dr. Gustavo Smith"
                   }
                 ],
                 "commentators": [],
@@ -1876,14 +1876,48 @@
           {
             "start_time": "10:15",
             "end_time": "11:00",
-            "activity": "TRABAJOS CIENTÍFICOS",
-            "main_talks": []
+            "activity": "Espacio ILLS 2027",
+            "main_talks": [
+              {
+                "title": "Hepatectomía laparoscópica",
+                "speakers": [
+                  {
+                    "person_id": "juan_pekolj"
+                  }
+                ],
+                "lightning_talks": [],
+                "moderators": [],
+                "commentators": [],
+                "secretaries": []
+              },
+              {
+                "title": "Hepatectomía robótica",
+                "speakers": [
+                  {
+                    "person_id": "dr_cugat"
+                  }
+                ],
+                "lightning_talks": [],
+                "moderators": [],
+                "commentators": [],
+                "secretaries": []
+              }
+            ]
           },
           {
             "start_time": "11:15",
             "end_time": "11:45",
-            "activity": "TRABAJOS CIENTÍFICOS",
-            "main_talks": []
+            "activity": "Espacio ILLS 2027",
+            "main_talks": [
+              {
+                "title": "Discusión",
+                "speakers": [],
+                "lightning_talks": [],
+                "moderators": [],
+                "commentators": [],
+                "secretaries": []
+              }
+            ]
           },
           {
             "start_time": "12:00",
