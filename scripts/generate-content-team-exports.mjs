@@ -30,6 +30,8 @@ const TABLE = {
   headerHeight: 32,
   timeWidth: 76,
   minRowHeight: 46,
+  minSegmentHeight: 18,
+  pointsPerMinute: 1.2,
   cellPaddingX: 10,
   cellPaddingY: 8,
 };
@@ -544,12 +546,17 @@ function drawTimeCell(commands, x, top, width, height, startTime, endTime) {
   });
 
   if (endTime) {
-    pushText(commands, endTime, x + 10, top + 24, {
+    pushText(commands, endTime, x + 10, top + Math.max(24, height - 12), {
       size: 7.2,
       font: "F1",
       color: PDF_COLORS.muted,
     });
   }
+}
+
+function drawEmptyScheduleCell(commands, x, top, width, height) {
+  pushFilledRect(commands, x, top, width, height, PDF_COLORS.white);
+  pushStrokedRect(commands, x, top, width, height, PDF_COLORS.border, 0.8);
 }
 
 function drawEventCell(commands, x, top, width, height, layout) {
@@ -641,78 +648,230 @@ function addPageFooter(page, pageNumber, pageCount) {
   );
 }
 
+function getScheduleContentHeight() {
+  const headerTop = PAGE.marginTop + 28;
+  const scheduleTop = headerTop + TABLE.headerHeight;
+
+  return PAGE.height - PAGE.marginBottom - scheduleTop;
+}
+
+function getSegmentBaseHeight(segment) {
+  return Math.max(
+    TABLE.minSegmentHeight,
+    segment.durationMinutes * TABLE.pointsPerMinute,
+  );
+}
+
+function sumRange(values, startIndex, endIndex) {
+  let total = 0;
+
+  for (let index = startIndex; index < endIndex; index += 1) {
+    total += values[index];
+  }
+
+  return total;
+}
+
+function buildSegmentHeightPrefix(segmentHeights) {
+  const prefix = [0];
+
+  segmentHeights.forEach((height) => {
+    prefix.push(prefix[prefix.length - 1] + height);
+  });
+
+  return prefix;
+}
+
+function calculateSegmentHeights(segments, placementLayouts) {
+  const segmentHeights = segments.map(getSegmentBaseHeight);
+  const prioritizedPlacementLayouts = [...placementLayouts].sort(
+    (leftEntry, rightEntry) => {
+      if (rightEntry.placement.segmentSpan !== leftEntry.placement.segmentSpan) {
+        return rightEntry.placement.segmentSpan - leftEntry.placement.segmentSpan;
+      }
+
+      return rightEntry.layout.height - leftEntry.layout.height;
+    },
+  );
+
+  prioritizedPlacementLayouts.forEach(({ placement, layout }) => {
+    const currentHeight = sumRange(
+      segmentHeights,
+      placement.segmentStartIndex,
+      placement.segmentEndIndex,
+    );
+
+    if (currentHeight >= layout.height) return;
+
+    const missingHeight = layout.height - currentHeight;
+    const heightPerSegment = missingHeight / placement.segmentSpan;
+
+    for (
+      let segmentIndex = placement.segmentStartIndex;
+      segmentIndex < placement.segmentEndIndex;
+      segmentIndex += 1
+    ) {
+      segmentHeights[segmentIndex] += heightPerSegment;
+    }
+  });
+
+  return segmentHeights;
+}
+
+function buildAllowedBreakIndices(segmentCount, placements) {
+  const allowedBreakIndices = [];
+
+  for (let boundaryIndex = 1; boundaryIndex < segmentCount; boundaryIndex += 1) {
+    const isBlocked = placements.some(
+      (placement) =>
+        placement.segmentStartIndex < boundaryIndex &&
+        placement.segmentEndIndex > boundaryIndex,
+    );
+
+    if (!isBlocked) {
+      allowedBreakIndices.push(boundaryIndex);
+    }
+  }
+
+  allowedBreakIndices.push(segmentCount);
+
+  return allowedBreakIndices;
+}
+
+function buildSchedulePageRanges(segments, segmentHeights, placements) {
+  const maxPageHeight = getScheduleContentHeight();
+  const segmentHeightPrefix = buildSegmentHeightPrefix(segmentHeights);
+  const allowedBreakIndices = buildAllowedBreakIndices(segments.length, placements);
+  const pageRanges = [];
+  let startSegmentIndex = 0;
+
+  while (startSegmentIndex < segments.length) {
+    const candidateEndIndices = allowedBreakIndices.filter(
+      (endIndex) => endIndex > startSegmentIndex,
+    );
+
+    let endSegmentIndex = null;
+
+    candidateEndIndices.forEach((candidateEndIndex) => {
+      const rangeHeight =
+        segmentHeightPrefix[candidateEndIndex] -
+        segmentHeightPrefix[startSegmentIndex];
+
+      if (rangeHeight <= maxPageHeight) {
+        endSegmentIndex = candidateEndIndex;
+      }
+    });
+
+    if (endSegmentIndex == null) {
+      endSegmentIndex = candidateEndIndices[0];
+    }
+
+    pageRanges.push({
+      startSegmentIndex,
+      endSegmentIndex,
+    });
+
+    startSegmentIndex = endSegmentIndex;
+  }
+
+  return {
+    pageRanges,
+    segmentHeightPrefix,
+  };
+}
+
 function buildSchedulePages() {
   const pages = [];
 
   scheduleEvents.forEach((dayEntry) => {
-    const { roomNames, timeRows } = buildScheduleByTime(dayEntry);
-    let pageIndex = 0;
-    let page = startSchedulePage(dayEntry.day, roomNames, pageIndex);
+    const { roomNames, segments, desktopPlacements } = buildScheduleByTime(dayEntry);
+    if (segments.length === 0) return;
 
-    timeRows.forEach((timeRow) => {
-      const cellLayouts = timeRow.isMergedBreak
-        ? [
-            buildCellLayout(
-              roomNames
-                .map((roomName) => timeRow.roomEventsByRoom[roomName])
-                .find(Boolean),
-              page.roomWidth * roomNames.length,
-              true,
-            ),
-          ]
-        : roomNames.map((roomName) =>
-            buildCellLayout(timeRow.roomEventsByRoom[roomName], page.roomWidth),
-          );
+    const sizingPage = startSchedulePage(dayEntry.day, roomNames, 0);
+    const placementLayouts = desktopPlacements.map((placement, index) => ({
+      placement,
+      index,
+      layout: buildCellLayout(
+        placement.event,
+        placement.type === "mergedBreak"
+          ? sizingPage.roomWidth * roomNames.length
+          : sizingPage.roomWidth,
+        placement.type === "mergedBreak",
+      ),
+    }));
+    const segmentHeights = calculateSegmentHeights(segments, placementLayouts);
+    const { pageRanges, segmentHeightPrefix } = buildSchedulePageRanges(
+      segments,
+      segmentHeights,
+      desktopPlacements,
+    );
 
-      const rowHeight = Math.max(
-        TABLE.minRowHeight,
-        ...cellLayouts.map((layout) => layout.height),
-      );
-
-      if (page.cursorTop + rowHeight > page.bottomLimit) {
-        pages.push(page);
-        pageIndex += 1;
-        page = startSchedulePage(dayEntry.day, roomNames, pageIndex);
-      }
-
-      drawTimeCell(
-        page.commands,
-        PAGE.marginX,
-        page.cursorTop,
-        TABLE.timeWidth,
-        rowHeight,
-        timeRow.start_time,
-        timeRow.end_time,
-      );
-
+    pageRanges.forEach((pageRange, pageIndex) => {
+      const page = startSchedulePage(dayEntry.day, roomNames, pageIndex);
       const scheduleX = PAGE.marginX + TABLE.timeWidth;
 
-      if (timeRow.isMergedBreak) {
-        drawEventCell(
+      for (
+        let segmentIndex = pageRange.startSegmentIndex;
+        segmentIndex < pageRange.endSegmentIndex;
+        segmentIndex += 1
+      ) {
+        const segment = segments[segmentIndex];
+        const rowTop =
+          page.cursorTop +
+          (segmentHeightPrefix[segmentIndex] -
+            segmentHeightPrefix[pageRange.startSegmentIndex]);
+        const rowHeight = segmentHeights[segmentIndex];
+        const endTime =
+          segmentIndex === pageRange.endSegmentIndex - 1
+            ? segment.end_time
+            : null;
+
+        drawTimeCell(
           page.commands,
-          scheduleX,
-          page.cursorTop,
-          page.roomWidth * roomNames.length,
+          PAGE.marginX,
+          rowTop,
+          TABLE.timeWidth,
           rowHeight,
-          cellLayouts[0],
+          segment.start_time,
+          endTime,
         );
-      } else {
-        cellLayouts.forEach((layout, index) => {
-          drawEventCell(
+
+        roomNames.forEach((roomName, roomIndex) => {
+          drawEmptyScheduleCell(
             page.commands,
-            scheduleX + index * page.roomWidth,
-            page.cursorTop,
+            scheduleX + roomIndex * page.roomWidth,
+            rowTop,
             page.roomWidth,
             rowHeight,
-            layout,
           );
         });
       }
 
-      page.cursorTop += rowHeight;
-    });
+      placementLayouts.forEach(({ placement, layout }) => {
+        if (placement.segmentStartIndex < pageRange.startSegmentIndex) return;
+        if (placement.segmentEndIndex > pageRange.endSegmentIndex) return;
 
-    pages.push(page);
+        const top =
+          page.cursorTop +
+          (segmentHeightPrefix[placement.segmentStartIndex] -
+            segmentHeightPrefix[pageRange.startSegmentIndex]);
+        const height =
+          segmentHeightPrefix[placement.segmentEndIndex] -
+          segmentHeightPrefix[placement.segmentStartIndex];
+        const x =
+          placement.type === "mergedBreak"
+            ? scheduleX
+            : scheduleX + placement.roomIndex * page.roomWidth;
+        const width =
+          placement.type === "mergedBreak"
+            ? page.roomWidth * roomNames.length
+            : page.roomWidth;
+
+        drawEventCell(page.commands, x, top, width, height, layout);
+      });
+
+      pages.push(page);
+    });
   });
 
   pages.forEach((page, index) => addPageFooter(page, index + 1, pages.length));

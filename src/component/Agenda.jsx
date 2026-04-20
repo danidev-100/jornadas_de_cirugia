@@ -4,7 +4,7 @@ import { documentLinks } from "../data/documentLinks";
 import { documentUpdates } from "../data/documentUpdates";
 import DynamicSchedule from "./dynamicSchedule/DynamicSchedule";
 
-const SHOW_SCHEDULE_V1 = import.meta.env.DEV;
+const SHOW_SCHEDULE_V1 = import.meta.env.DEV && false;
 
 const PROGRAM_OVERVIEW_STATS = [
   {

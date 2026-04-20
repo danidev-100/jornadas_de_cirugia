@@ -311,7 +311,7 @@ function Talk({
   const activityToneClasses = getActivityToneClasses(event?.activity);
   const roomToneClasses = getRoomToneClasses(roomIndex);
   const isFeatured = isFeaturedEvent(event);
-  const cardClassName = `flex h-full flex-col gap-4 overflow-hidden rounded-r-4xl rounded-l-none border-l-4 px-5 py-5 ${
+  const cardClassName = `flex h-full flex-col gap-4 overflow-hidden rounded-r-4xl rounded-l-none border-l-4 px-3 py-4 md:px-5 md:py-5 ${
     isFeatured
       ? "border-l-lagoon bg-gradient-to-br from-cloud via-white to-sand/40 shadow-sm"
       : roomToneClasses.card
