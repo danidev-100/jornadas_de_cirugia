@@ -1642,14 +1642,27 @@
             "activity": "Cx Robótica",
             "main_talks": [
               {
-                "title": "Simposio Cx Robótica",
-                "speakers": [
+                "title": "Simposio Cirugía Robótica",
+                "speakers": [],
+                "lightning_talks": [
                   {
+                    "title": "¿Cómo establecer un programa de Cirugía Robótica?",
                     "person_id": "dr_samuel_ruiz"
+                  },
+                  {
+                    "title": "Simulación en Cirugía Robótica",
+                    "speakers": [
+                      {
+                        "person_id": "dr_herrera_jose"
+                      }
+                    ]
                   }
                 ],
-                "lightning_talks": [],
-                "moderators": [],
+                "moderators": [
+                  {
+                    "label": "Gustavo Smith"
+                  }
+                ],
                 "commentators": [],
                 "secretaries": []
               }
