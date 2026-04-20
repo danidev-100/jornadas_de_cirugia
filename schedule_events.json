@@ -1165,16 +1165,21 @@
             "activity": "Cx Robótica",
             "main_talks": [
               {
-                "title": "Expositor invitado internacional",
-                "speakers": [
+                "title": "Cirugía pancreática robótica",
+                "speakers": [],
+                "lightning_talks": [
                   {
+                    "title": "Simulación en DPC robótica",
+                    "person_id": "dr_cugat"
+                  },
+                  {
+                    "title": "Pancreatectomía robótica",
                     "person_id": "dr_cugat"
                   }
                 ],
-                "lightning_talks": [],
                 "moderators": [
                   {
-                    "person_id": "dr_samuel_ruiz"
+                    "person_id": "dr_mauricio_linzey"
                   }
                 ],
                 "commentators": [],
