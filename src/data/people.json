@@ -353,6 +353,14 @@
     "nationality": null,
     "submitted_at": null
   },
+  "dr_leandro_grando": {
+    "name": "Dr. Leandro Grando",
+    "job_title": "Especialista en Cirugía de Tórax",
+    "institution": "Hospital Sant Pau/Hospital del Mar de Barcelona",
+    "image": "dr-leandro-grando.jpeg",
+    "nationality": "España",
+    "submitted_at": "2026-04-24T09:13:11-03:00"
+  },
   "dr_luciano_deluca": {
     "name": "Dr. Luciano Deluca",
     "job_title": "Director médico y cirujano bariátrico y metabólico",

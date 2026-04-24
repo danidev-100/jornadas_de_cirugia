@@ -163,6 +163,12 @@ function getSpeakerReferences(lightningTalk) {
   return [];
 }
 
+function getCommentatorReferences(lightningTalk) {
+  return Array.isArray(lightningTalk?.commentators)
+    ? lightningTalk.commentators
+    : [];
+}
+
 function PersonReference({ reference }) {
   const personReference = resolvePersonReference(reference);
   if (!personReference?.name) return null;
@@ -241,6 +247,10 @@ function MainTalkSection({ mainTalk, isLast }) {
         <div className="flex flex-col gap-3">
           {lightningTalks.map((lightningTalk, index) => {
             const speakerReferences = getSpeakerReferences(lightningTalk);
+            const commentatorReferences = getCommentatorReferences(lightningTalk);
+            const shouldShowRoleLabels = commentatorReferences.length > 0;
+            const speakerRoleLabel =
+              speakerReferences.length === 1 ? "Disertante" : "Disertantes";
 
             return (
               <div key={`lightning-${index}`} className="flex flex-col gap-1">
@@ -249,7 +259,20 @@ function MainTalkSection({ mainTalk, isLast }) {
                 </p>
                 {speakerReferences.length > 0 ? (
                   <p className="text-sm leading-snug text-ink/90">
+                    {shouldShowRoleLabels ? (
+                      <span className="font-semibold text-deep-blue/55">
+                        {speakerRoleLabel}:{" "}
+                      </span>
+                    ) : null}
                     <PersonReferenceList references={speakerReferences} />
+                  </p>
+                ) : null}
+                {commentatorReferences.length > 0 ? (
+                  <p className="text-sm leading-snug text-ink/80">
+                    <span className="font-semibold text-deep-blue/55">
+                      Comentadores:{" "}
+                    </span>
+                    <PersonReferenceList references={commentatorReferences} />
                   </p>
                 ) : null}
               </div>

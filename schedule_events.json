@@ -1528,29 +1528,62 @@
                 "speakers": [],
                 "lightning_talks": [
                   {
-                    "title": "Resecciones pulmonares sublobares: segmentectomías anatómicas poco habituales por vía toracoscópica. Técnica y utilidad",
+                    "title": "Resecciones pulmonares sublobulares, segmentectomías anatómicas poco habituales por vía toracoscópica. Técnica, utilidad de la simulación 3D, cuál es su indicación correcta",
                     "speakers": [
+                      {
+                        "person_id": "dr_tomas_nunez"
+                      }
+                    ],
+                    "commentators": [
                       {
                         "person_id": "dr_david_smith"
                       },
                       {
-                        "person_id": "dr_diego_basualdo"
+                        "label": "Dr. Diego Basualdo (San Juan)"
+                      },
+                      {
+                        "label": "Dr. Francisco Aguilar (Salta)"
                       }
                     ]
                   },
                   {
-                    "title": "Implementación de un programa de cirugía robótica",
+                    "title": "Los inicios y el camino hacia el futuro en la Cirugía torácica robótica",
                     "speakers": [
+                      {
+                        "person_id": "dr_leandro_grando"
+                      }
+                    ],
+                    "commentators": [
                       {
                         "person_id": "dr_david_smith"
                       },
+                      {
+                        "person_id": "dra_tamara_porta"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Implementación de un programa de cirugía torácica robótica",
+                    "speakers": [
+                      {
+                        "person_id": "dr_david_smith"
+                      }
+                    ],
+                    "commentators": [
                       {
                         "person_id": "dr_agustin_buero"
                       },
                       {
                         "person_id": "dr_tomas_nunez"
+                      },
+                      {
+                        "label": "Dr. Mario E. F. Bustos (Córdoba)"
                       }
                     ]
+                  },
+                  {
+                    "title": "Casos clínicos: aspectos técnicos de las resecciones pulmonares anatómicas asistidas por robot. Neumonectomías, lobectomías, segmentectomías",
+                    "speakers": []
                   }
                 ],
                 "moderators": [],
