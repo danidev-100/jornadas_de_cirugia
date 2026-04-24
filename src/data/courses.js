@@ -22,7 +22,7 @@ const courses = [
     tableInstructors: "Dr. Gonzalo Crosbie",
     modalInstructors: ["Dr. Gonzalo Crosbie"],
     seats: 12,
-    remainingSeats: 10,
+    remainingSeats: 4,
     summary:
       "Actividad presencial del programa PSQ enfocada en el entrenamiento práctico de habilidades laparoscópicas básicas.",
     schedule: "Jueves 07 de Mayo 2026 de 9 a 17 hs.",
@@ -55,6 +55,7 @@ const courses = [
     tableInstructors: "Dr. Gonzalo Crosbie",
     modalInstructors: ["Dr. Gonzalo Crosbie"],
     seats: 12,
+    remainingSeats: 6,
     summary:
       "Actividad presencial del programa PSQ orientada a entrenamiento avanzado en simulación laparoscópica.",
     schedule: "Jueves 07 de Mayo 2026 de 9 a 17 hs.",
@@ -98,7 +99,7 @@ const courses = [
       "Pablo Peroni",
     ],
     seats: 15,
-    remainingSeats: 14,
+    remainingSeats: 5,
     summary:
       "Programa federal de educación continua en intervencionismo con simulación práctica aplicada a procedimientos percutáneos.",
     schedule: "Viernes 8 de Mayo, de 09:00 a 13:00 hs",
@@ -154,7 +155,7 @@ const courses = [
       "Dr. Hernán Cordero",
     ],
     seats: 15,
-    remainingSeats: 14,
+    remainingSeats: 5,
     summary:
       "Entrenamiento hands-on en endoscopia digestiva para cirujanos, con práctica estructurada en habilidades diagnósticas y terapéuticas.",
     schedule: "Viernes 8 de Mayo, de 09:00 a 13:00 hs",
@@ -211,7 +212,7 @@ const courses = [
       "Cdte. Mariano Magariños",
     ],
     seats: 16,
-    remainingSeats: 15,
+    remainingSeats: 10,
     summary:
       "Formación inicial semipresencial para profesionales que deseen desempeñarse como instructores/as en simulación quirúrgica.",
     schedule: null,
