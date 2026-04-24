@@ -105,7 +105,7 @@
                 ],
                 "commentators": [
                   {
-                    "label": "Dr. Pablo Sonzini Astudillo"
+                    "person_id": "dr_pablo_sonzini_astudillo"
                   }
                 ],
                 "secretaries": []
@@ -156,7 +156,7 @@
                 ],
                 "commentators": [
                   {
-                    "label": "Dr. Pablo Sonzini Astudillo"
+                    "person_id": "dr_pablo_sonzini_astudillo"
                   }
                 ],
                 "secretaries": []
@@ -338,16 +338,16 @@
                 ],
                 "commentators": [
                   {
-                    "label": "Dra. Marina de la Rosa"
+                    "person_id": "dra_marina_de_la_rosa"
                   },
                   {
-                    "label": "Dra. Paulina Aguirre"
+                    "person_id": "dra_paulina_aguirre"
                   },
                   {
-                    "label": "Dra. María Laura Del Bueno"
+                    "person_id": "dra_maria_laura_del_bueno"
                   },
                   {
-                    "label": "Dra. Lourdes Mollare"
+                    "person_id": "dra_lourdes_mollare"
                   },
                   {
                     "person_id": "dr_francisco_barragan"
@@ -383,7 +383,7 @@
                     "person_id": "dr_gonzalo_crosbie"
                   },
                   {
-                    "label": "Dr. Abel José"
+                    "person_id": "dr_abel_jose"
                   },
                   {
                     "person_id": "dr_fabian_lerda"
@@ -538,7 +538,7 @@
                     "person_id": "dra_gisela_aquije_matta"
                   },
                   {
-                    "label": "Sra. Claudia Santaflaminio"
+                    "person_id": "sra_claudia_santaflaminio"
                   }
                 ]
               },
@@ -668,7 +668,7 @@
                     "title": "Ni-VATS en pacientes de alto riesgo: experiencia inicial",
                     "speakers": [
                       {
-                        "label": "Dr. José Alisinet"
+                        "person_id": "dr_jose_alisinet"
                       }
                     ],
                     "commentators": [
@@ -714,7 +714,7 @@
                         "person_id": "dr_ruben_balmaceda"
                       },
                       {
-                        "label": "Dr. Mario Bustos"
+                        "person_id": "dr_mario_bustos"
                       }
                     ]
                   }
@@ -747,7 +747,9 @@
                   {
                     "title": "Tecnología al servicio de la estrategia"
                   },
-                  { "title": "Indicaciones - Ventajas técnicas - Resultados y curva de aprendizaje - Costos y futuro" }
+                  {
+                    "title": "Indicaciones - Ventajas técnicas - Resultados y curva de aprendizaje - Costos y futuro"
+                  }
                 ],
                 "moderators": [
                   {
@@ -1232,7 +1234,7 @@
                     "person_id": "dr_daniel_pirchi"
                   },
                   {
-                    "label": "Dr. Fernando M Iudica"
+                    "person_id": "dr_fernando_m_iudica"
                   }
                 ],
                 "secretaries": []
@@ -1426,7 +1428,7 @@
                     "person_id": "dr_pablo_cingolani"
                   },
                   {
-                    "label": "Dr. Guillermo Saez"
+                    "person_id": "dr_guillermo_saez"
                   },
                   {
                     "person_id": "dr_dario_guareschi"
@@ -1527,14 +1529,14 @@
                     "title": "Residencias de cirugía",
                     "speakers": [
                       {
-                        "label": "Dr. Carlos Salas"
+                        "person_id": "dr_carlos_salas"
                       }
                     ]
                   }
                 ],
                 "moderators": [
                   {
-                    "label": "Dr. Juan Pablo Huentelen"
+                    "person_id": "dr_juan_pablo_huentelen"
                   }
                 ],
                 "commentators": [],
@@ -1569,10 +1571,10 @@
                         "person_id": "dr_david_smith"
                       },
                       {
-                        "label": "Dr. Diego Basualdo (San Juan)"
+                        "person_id": "dr_diego_basualdo"
                       },
                       {
-                        "label": "Dr. Francisco Aguilar (Salta)"
+                        "person_id": "dr_francisco_aguilar"
                       }
                     ]
                   },
@@ -1607,7 +1609,7 @@
                         "person_id": "dr_tomas_nunez"
                       },
                       {
-                        "label": "Dr. Mario Bustos"
+                        "person_id": "dr_mario_bustos"
                       }
                     ]
                   },
@@ -1723,7 +1725,7 @@
                 ],
                 "moderators": [
                   {
-                    "label": "Dr. Gustavo Smith"
+                    "person_id": "dr_gustavo_smith"
                   }
                 ],
                 "commentators": [],

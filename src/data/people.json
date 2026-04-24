@@ -896,5 +896,92 @@
     "name": "Dr. Gonzalo Brizuela Del Moral",
     "nationality": null,
     "submitted_at": "2026-03-25T10:47:42-03:00"
+  },
+  "dr_pablo_sonzini_astudillo": {
+    "name": "Dr. Pablo Sonzini Astudillo",
+    "nationality": null,
+    "submitted_at": "2026-04-24T12:04:49-03:00"
+  },
+  "dra_marina_de_la_rosa": {
+    "name": "Dra. Marina de la Rosa",
+    "nationality": null,
+    "submitted_at": "2026-04-24T12:04:49-03:00"
+  },
+  "dra_paulina_aguirre": {
+    "name": "Dra. Paulina Aguirre",
+    "nationality": null,
+    "submitted_at": "2026-04-24T12:04:49-03:00"
+  },
+  "dra_maria_laura_del_bueno": {
+    "name": "Dra. María Laura Del Bueno",
+    "nationality": null,
+    "submitted_at": "2026-04-24T12:04:49-03:00"
+  },
+  "dra_lourdes_mollare": {
+    "name": "Dra. Lourdes Mollare",
+    "nationality": null,
+    "submitted_at": "2026-04-24T12:04:49-03:00"
+  },
+  "dr_abel_jose": {
+    "name": "Dr. Abel José",
+    "nationality": null,
+    "submitted_at": "2026-04-24T12:04:49-03:00"
+  },
+  "sra_claudia_santaflaminio": {
+    "name": "Sra. Claudia Santaflaminio",
+    "nationality": null,
+    "submitted_at": "2026-04-24T12:04:49-03:00"
+  },
+  "dr_jose_alisinet": {
+    "name": "Dr. José Alisinet",
+    "nationality": null,
+    "submitted_at": "2026-04-24T12:04:49-03:00"
+  },
+  "dr_mario_bustos": {
+    "name": "Dr. Mario Bustos",
+    "nationality": null,
+    "submitted_at": "2026-04-24T12:04:49-03:00"
+  },
+  "dr_fernando_m_iudica": {
+    "name": "Dr. Fernando M Iudica",
+    "nationality": null,
+    "submitted_at": "2026-04-24T12:04:49-03:00"
+  },
+  "dr_guillermo_saez": {
+    "name": "Dr. Guillermo Saez",
+    "nationality": null,
+    "submitted_at": "2026-04-24T12:04:49-03:00"
+  },
+  "dr_carlos_salas": {
+    "name": "Dr. Carlos Salas",
+    "nationality": null,
+    "submitted_at": "2026-04-24T12:04:49-03:00"
+  },
+  "dr_juan_pablo_huentelen": {
+    "name": "Dr. Juan Pablo Huentelen",
+    "credentials": "MAAC, MD",
+    "job_title": "Médico cirujano general",
+    "institution": "Hospital Luis Carlos Lagomaggiore",
+    "nationality": null,
+    "submitted_at": "2026-04-24T12:04:49-03:00",
+    "image": "juan-pablo-huentelen.jpeg"
+  },
+  "dr_francisco_aguilar": {
+    "name": "Dr. Francisco Aguilar",
+    "nationality": null,
+    "submitted_at": "2026-04-24T12:04:49-03:00"
+  },
+  "dr_gustavo_smith": {
+    "name": "Dr. Gustavo Smith",
+    "nationality": null,
+    "submitted_at": "2026-04-24T12:04:49-03:00"
+  },
+  "dr_rafael_cenci": {
+    "name": "Dr. Rafael Cenci",
+    "job_title": "Médico especialista en cirugía general y cirugía torácica",
+    "institution": "Hospital Central de Mendoza",
+    "nationality": null,
+    "submitted_at": "2026-04-24T12:15:01-03:00",
+    "image": "rafael-cenci.jpeg"
   }
 }
