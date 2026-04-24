@@ -539,8 +539,11 @@
   },
   "dr_samuel_ruiz": {
     "name": "Dr. Samuel Ruiz",
+    "job_title": "Cirujano general y torácico",
+    "institution": "Clínica Colón de Mar del Plata",
     "nationality": null,
-    "submitted_at": null
+    "submitted_at": "2026-04-24T11:36:50-03:00",
+    "image": "dr-samuel-ruiz.png"
   },
   "dr_mauricio_linzey": {
     "name": "Dr. Mauricio Linzey",
