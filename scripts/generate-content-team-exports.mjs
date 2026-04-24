@@ -110,6 +110,13 @@ function getSortedPeople() {
   );
 }
 
+function shouldShowInSpeakers(person) {
+  return (
+    person.talk_count > 0 &&
+    Boolean(person.image || person.job_title || person.institution)
+  );
+}
+
 function resolvePersonReference(reference) {
   if (!reference) return null;
 
@@ -974,6 +981,7 @@ function buildPdfDocument(pages) {
 
 function renderSpeakersList() {
   return `${getSortedPeople()
+    .filter(shouldShowInSpeakers)
     .map((person) =>
       [person.name, person.job_title, person.institution]
         .map(normalizeText)

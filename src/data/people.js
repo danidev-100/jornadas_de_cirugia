@@ -29,8 +29,11 @@ const imageByFileName = Object.fromEntries(
   }),
 );
 
-function shouldShowInSpeakers(person) {
-  return Boolean(person.image || person.job_title || person.institution);
+function shouldShowInSpeakers(person, talkCount) {
+  return (
+    talkCount > 0 &&
+    Boolean(person.image || person.job_title || person.institution)
+  );
 }
 
 const talkCountByPersonId = buildTalkCountByPersonId(scheduleEvents);
@@ -44,7 +47,7 @@ const basePeopleEntries = Object.entries(peopleData).map(([id, person]) => {
     imageSrc: person.image ? imageByFileName[person.image] ?? null : null,
     talk_count: talkCount,
     ranking_score: getRankingScore(person, talkCount),
-    showInSpeakers: shouldShowInSpeakers(person),
+    showInSpeakers: shouldShowInSpeakers(person, talkCount),
   };
 });
 
