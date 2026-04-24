@@ -103,7 +103,11 @@
                     "person_id": "dr_eduardo_cassone"
                   }
                 ],
-                "commentators": [],
+                "commentators": [
+                  {
+                    "label": "Dr. Pablo Sonzini Astudillo"
+                  }
+                ],
                 "secretaries": []
               }
             ]
@@ -150,7 +154,11 @@
                     "person_id": "dr_carlos_valenzuela"
                   }
                 ],
-                "commentators": [],
+                "commentators": [
+                  {
+                    "label": "Dr. Pablo Sonzini Astudillo"
+                  }
+                ],
                 "secretaries": []
               }
             ]
@@ -330,13 +338,13 @@
                 ],
                 "commentators": [
                   {
-                    "label": "Dra. Karina de la Rosa"
+                    "label": "Dra. Marina de la Rosa"
                   },
                   {
                     "label": "Dra. Paulina Aguirre"
                   },
                   {
-                    "label": "Dra. María Laura De Bueno"
+                    "label": "Dra. María Laura Del Bueno"
                   },
                   {
                     "label": "Dra. Lourdes Mollare"
@@ -426,7 +434,7 @@
                     "person_id": "dr_juan_patron_uriburu"
                   },
                   {
-                    "person_id": "dr_diego_fernandez"
+                    "person_id": "dra_laura_fernandez"
                   }
                 ],
                 "moderators": [],
@@ -449,9 +457,6 @@
                 "lightning_talks": [],
                 "moderators": [
                   {
-                    "person_id": "dr_daniel_pirchi"
-                  },
-                  {
                     "person_id": "dr_diego_sinagra"
                   }
                 ],
@@ -471,7 +476,7 @@
                 "lightning_talks": [],
                 "moderators": [
                   {
-                    "person_id": "dr_fernando_wright"
+                    "person_id": "dr_daniel_pirchi"
                   }
                 ],
                 "commentators": [],
@@ -531,6 +536,9 @@
                 "speakers": [
                   {
                     "person_id": "dra_gisela_aquije_matta"
+                  },
+                  {
+                    "label": "Sra. Claudia Santaflaminio"
                   }
                 ]
               },
@@ -612,9 +620,6 @@
                 "commentators": [
                   {
                     "person_id": "dr_axel_beskow"
-                  },
-                  {
-                    "person_id": "dr_cuenca_abente"
                   }
                 ],
                 "secretaries": []
@@ -664,7 +669,9 @@
                     "speakers": [
                       {
                         "label": "Dr. José Alisinet"
-                      },
+                      }
+                    ],
+                    "commentators": [
                       {
                         "person_id": "dr_eduardo_isuani"
                       },
@@ -678,7 +685,9 @@
                     "speakers": [
                       {
                         "person_id": "dr_dardo_e_pena"
-                      },
+                      }
+                    ],
+                    "commentators": [
                       {
                         "person_id": "dr_jorge_barboza"
                       },
@@ -694,10 +703,18 @@
                     "title": "Síndrome de opérculo torácico: ¿abordaje axilar o transpleural uniportal?",
                     "speakers": [
                       {
+                        "person_id": "dr_agustin_buero"
+                      }
+                    ],
+                    "commentators": [
+                      {
                         "person_id": "dr_jorge_mutt"
                       },
                       {
                         "person_id": "dr_ruben_balmaceda"
+                      },
+                      {
+                        "label": "Dr. Mario Bustos"
                       }
                     ]
                   }
@@ -1205,14 +1222,13 @@
                     "person_id": "dr_mauricio_ramirez"
                   }
                 ],
-                "moderators": [
-                  {
-                    "person_id": "dr_cuenca_abente"
-                  }
-                ],
+                "moderators": [],
                 "commentators": [
                   {
                     "person_id": "dr_daniel_pirchi"
+                  },
+                  {
+                    "label": "Dr. Fernando M Iudica"
                   }
                 ],
                 "secretaries": []
@@ -1366,10 +1382,6 @@
                   {
                     "title": "Caso 1",
                     "person_id": "dr_raffa_ignacio"
-                  },
-                  {
-                    "title": "Caso 2",
-                    "person_id": "dr_fernando_iglesias"
                   }
                 ],
                 "moderators": [
@@ -1477,9 +1489,6 @@
                     "speakers": [
                       {
                         "person_id": "dr_hernan_bertoni"
-                      },
-                      {
-                        "person_id": "dr_taype_xavier"
                       }
                     ]
                   }
@@ -1501,10 +1510,27 @@
               {
                 "title": "¿Cómo mejorar la calidad de las residencias y servicios de cirugía mediante evaluaciones continuas?",
                 "speakers": [],
-                "lightning_talks": [],
+                "lightning_talks": [
+                  {
+                    "title": "Servicios de cirugía",
+                    "speakers": [
+                      {
+                        "person_id": "dr_daniel_pirchi"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Residencias de cirugía",
+                    "speakers": [
+                      {
+                        "label": "Dr. Carlos Salas"
+                      }
+                    ]
+                  }
+                ],
                 "moderators": [
                   {
-                    "person_id": "dr_daniel_pirchi"
+                    "label": "Dr. Juan Pablo Huentelen"
                   }
                 ],
                 "commentators": [],
@@ -1577,7 +1603,7 @@
                         "person_id": "dr_tomas_nunez"
                       },
                       {
-                        "label": "Dr. Mario E. F. Bustos (Córdoba)"
+                        "label": "Dr. Mario Bustos"
                       }
                     ]
                   },
