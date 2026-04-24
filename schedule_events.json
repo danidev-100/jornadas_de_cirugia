@@ -1222,7 +1222,11 @@
                     "person_id": "dr_mauricio_ramirez"
                   }
                 ],
-                "moderators": [],
+                "moderators": [
+                  {
+                    "person_id": "dr_franco_signorini"
+                  }
+                ],
                 "commentators": [
                   {
                     "person_id": "dr_daniel_pirchi"
