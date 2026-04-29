@@ -99,7 +99,7 @@ const courses = [
       "Pablo Peroni",
     ],
     seats: 15,
-    remainingSeats: 5,
+    remainingSeats: 9,
     summary:
       "Programa federal de educación continua en intervencionismo con simulación práctica aplicada a procedimientos percutáneos.",
     schedule: "Viernes 8 de Mayo, de 09:00 a 13:00 hs",
