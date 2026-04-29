@@ -182,10 +182,12 @@ function Day({ day, date, rooms }) {
 
   return (
     <article className="mt-16 flex flex-col gap-4 md:mt-20">
-      <div className="flex w-full md:justify-end">
-        <div className="w-full rounded-full md:w-auto md:max-w-full">
-          <div className="rounded-full py-4 text-right md:text-left">
-            <h3 className="text-2xl font-semibold text-lagoon">{day}</h3>
+      <div className="sticky top-24 z-30 flex w-full justify-end py-2">
+        <div className="w-full md:w-auto md:max-w-full">
+          <div className="text-right">
+            <h3 className="text-xl font-semibold text-lagoon drop-shadow-md md:text-2xl">
+              {day}
+            </h3>
           </div>
         </div>
       </div>
