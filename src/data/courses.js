@@ -212,7 +212,7 @@ const courses = [
       "Cdte. Mariano Magariños",
     ],
     seats: 16,
-    remainingSeats: 10,
+    remainingSeats: 0,
     summary:
       "Formación inicial semipresencial para profesionales que deseen desempeñarse como instructores/as en simulación quirúrgica.",
     schedule: null,

@@ -19,7 +19,15 @@ const registrationFormUrl = "https://form.piprestaciones.ar/event/cirugia";
 const certificateMailTo =
   "mailto:secretaria.acmza@gmail.com?subject=Certificado%20de%20categor%C3%ADa%20-%20Jornadas%20de%20Cirug%C3%ADa&body=Hola%2C%20adjunto%20mi%20certificado%20para%20acreditar%20mi%20categor%C3%ADa%20de%20inscripci%C3%B3n.";
 
+function isCourseComplete(remainingSeats) {
+  return remainingSeats === 0;
+}
+
 function formatCourseSeats(seats, remainingSeats = null) {
+  if (isCourseComplete(remainingSeats)) {
+    return "Completo";
+  }
+
   if (seats === null) {
     return "A confirmar";
   }
@@ -186,36 +194,45 @@ function RegistrationCost() {
                           tableInstructors,
                           title,
                           titleLines,
-                        }) => (
-                        <tr key={id} className="align-top">
-                          <td className="px-6 py-5">
-                            <p className="text-lg font-semibold leading-7 text-deep-blue">
-                              {renderCourseTitle(title, titleLines)}
-                            </p>
-                          </td>
-                          <td className="px-6 py-5">
-                            <p className="text-base leading-7 text-chocolate">
-                              {tableInstructors}
-                            </p>
-                          </td>
-                          <td className="px-6 py-5">
-                            <p className="whitespace-nowrap text-base font-semibold leading-7 text-deep-blue">
-                              {formatCourseSeats(seats, remainingSeats)}
-                            </p>
-                          </td>
-                          <td className="px-6 py-5">
-                            <button
-                              type="button"
-                              onClick={() =>
-                                setActiveModal({ kind: "course", courseId: id })
-                              }
-                              className="inline-flex whitespace-nowrap rounded-full bg-ocean-blue px-5 py-3 text-center font-semibold text-white transition hover:opacity-90"
-                            >
-                              Ver detalles
-                            </button>
-                          </td>
-                        </tr>
-                        ),
+                        }) => {
+                          const courseIsComplete =
+                            isCourseComplete(remainingSeats);
+
+                          return (
+                            <tr key={id} className="align-top">
+                              <td className="px-6 py-5">
+                                <p className="text-lg font-semibold leading-7 text-deep-blue">
+                                  {renderCourseTitle(title, titleLines)}
+                                </p>
+                              </td>
+                              <td className="px-6 py-5">
+                                <p className="text-base leading-7 text-chocolate">
+                                  {tableInstructors}
+                                </p>
+                              </td>
+                              <td className="px-6 py-5">
+                                <p className="whitespace-nowrap text-base font-semibold leading-7 text-deep-blue">
+                                  {formatCourseSeats(seats, remainingSeats)}
+                                </p>
+                              </td>
+                              <td className="px-6 py-5">
+                                <button
+                                  type="button"
+                                  disabled={courseIsComplete}
+                                  onClick={() =>
+                                    setActiveModal({
+                                      kind: "course",
+                                      courseId: id,
+                                    })
+                                  }
+                                  className="inline-flex whitespace-nowrap rounded-full bg-ocean-blue px-5 py-3 text-center font-semibold text-white transition enabled:hover:opacity-90 disabled:cursor-not-allowed disabled:bg-slate-200 disabled:text-slate-500"
+                                >
+                                  Ver detalles
+                                </button>
+                              </td>
+                            </tr>
+                          );
+                        },
                       )}
                     </tbody>
                   </table>
@@ -231,57 +248,65 @@ function RegistrationCost() {
                     tableInstructors,
                     title,
                     titleLines,
-                  }) => (
-                  <li
-                    key={id}
-                    className="grid gap-4 rounded-3xl border border-chocolate/10 bg-white p-5 shadow-sm shadow-chocolate/5"
-                  >
-                    <dl className="grid gap-4">
-                      <div className="grid gap-1">
-                        <dt className="text-xs font-semibold uppercase tracking-widest text-deep-blue/60">
-                          Nombre
-                        </dt>
-                        <dd className="text-lg font-semibold leading-7 text-deep-blue">
-                          {renderCourseTitle(title, titleLines)}
-                        </dd>
-                      </div>
+                  }) => {
+                    const courseIsComplete = isCourseComplete(remainingSeats);
 
-                      <div className="grid gap-1">
-                        <dt className="text-xs font-semibold uppercase tracking-widest text-deep-blue/60">
-                          Instructores
-                        </dt>
-                        <dd className="text-base leading-7 text-chocolate">
-                          {tableInstructors}
-                        </dd>
-                      </div>
+                    return (
+                      <li
+                        key={id}
+                        className="grid gap-4 rounded-3xl border border-chocolate/10 bg-white p-5 shadow-sm shadow-chocolate/5"
+                      >
+                        <dl className="grid gap-4">
+                          <div className="grid gap-1">
+                            <dt className="text-xs font-semibold uppercase tracking-widest text-deep-blue/60">
+                              Nombre
+                            </dt>
+                            <dd className="text-lg font-semibold leading-7 text-deep-blue">
+                              {renderCourseTitle(title, titleLines)}
+                            </dd>
+                          </div>
 
-                      <div className="grid gap-1">
-                        <dt className="text-xs font-semibold uppercase tracking-widest text-deep-blue/60">
-                          Cupos
-                        </dt>
-                        <dd className="text-base font-semibold leading-7 text-deep-blue">
-                          {formatCourseSeats(seats, remainingSeats)}
-                        </dd>
-                      </div>
+                          <div className="grid gap-1">
+                            <dt className="text-xs font-semibold uppercase tracking-widest text-deep-blue/60">
+                              Instructores
+                            </dt>
+                            <dd className="text-base leading-7 text-chocolate">
+                              {tableInstructors}
+                            </dd>
+                          </div>
 
-                      <div className="grid gap-1">
-                        <dt className="text-xs font-semibold uppercase tracking-widest text-deep-blue/60">
-                        </dt>
-                        <dd>
-                          <button
-                            type="button"
-                            onClick={() =>
-                              setActiveModal({ kind: "course", courseId: id })
-                            }
-                            className="inline-flex w-full items-center justify-center rounded-full bg-ocean-blue px-5 py-3 text-center font-semibold text-white transition hover:opacity-90"
-                          >
-                            Ver detalles
-                          </button>
-                        </dd>
-                      </div>
-                    </dl>
-                  </li>
-                  ),
+                          <div className="grid gap-1">
+                            <dt className="text-xs font-semibold uppercase tracking-widest text-deep-blue/60">
+                              Cupos
+                            </dt>
+                            <dd className="text-base font-semibold leading-7 text-deep-blue">
+                              {formatCourseSeats(seats, remainingSeats)}
+                            </dd>
+                          </div>
+
+                          <div className="grid gap-1">
+                            <dt className="text-xs font-semibold uppercase tracking-widest text-deep-blue/60">
+                            </dt>
+                            <dd>
+                              <button
+                                type="button"
+                                disabled={courseIsComplete}
+                                onClick={() =>
+                                  setActiveModal({
+                                    kind: "course",
+                                    courseId: id,
+                                  })
+                                }
+                                className="inline-flex w-full items-center justify-center rounded-full bg-ocean-blue px-5 py-3 text-center font-semibold text-white transition enabled:hover:opacity-90 disabled:cursor-not-allowed disabled:bg-slate-200 disabled:text-slate-500"
+                              >
+                                Ver detalles
+                              </button>
+                            </dd>
+                          </div>
+                        </dl>
+                      </li>
+                    );
+                  },
                 )}
               </ul>
             </section>
