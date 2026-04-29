@@ -517,7 +517,7 @@
     "image": "unverified/dr-raffa-ignacio.jpeg"
   },
   "dr_rodrigo_sanchez_claria": {
-    "name": "Dr. Rodrigo Sánchez Claria",
+    "name": "Dr. Rodrigo Sánchez Clariá",
     "nationality": null,
     "submitted_at": null
   },
@@ -976,6 +976,12 @@
     "nationality": null,
     "submitted_at": "2026-04-24T12:04:49-03:00"
   },
+  "dr_hector_agnesio": {
+    "name": "Dr. Héctor Agnesio"
+  },
+  "dr_gustavo_schmidt": {
+    "name": "Dr. Gustavo Schmidt"
+  },
   "dr_rafael_cenci": {
     "name": "Dr. Rafael Cenci",
     "job_title": "Médico especialista en cirugía general y cirugía torácica",
@@ -983,5 +989,11 @@
     "nationality": null,
     "submitted_at": "2026-04-24T12:15:01-03:00",
     "image": "rafael-cenci.jpeg"
+  },
+  "dr_mario_gutierrez": {
+    "name": "Dr. Mario Gutierrez"
+  },
+  "dr_jorge_rodriguez": {
+    "name": "Dr. Jorge Rodríguez"
   }
 }

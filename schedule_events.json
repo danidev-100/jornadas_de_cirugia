@@ -1201,7 +1201,17 @@
                     "person_id": "dr_mauricio_linzey"
                   }
                 ],
-                "commentators": [],
+                "commentators": [
+                  {
+                    "person_id": "dr_gustavo_kohan"
+                  },
+                  {
+                    "person_id": "dr_samuel_ruiz"
+                  },
+                  {
+                    "person_id": "dr_herrera_jose"
+                  }
+                ],
                 "secretaries": []
               }
             ]
@@ -1741,7 +1751,7 @@
             "activity": "Cx Robótica",
             "main_talks": [
               {
-                "title": "Simposio Cirugía Robótica",
+                "title": "Cirugía Robótica",
                 "speakers": [],
                 "lightning_talks": [
                   {
@@ -1759,10 +1769,20 @@
                 ],
                 "moderators": [
                   {
-                    "person_id": "dr_gustavo_smith"
+                    "person_id": "dr_mario_gutierrez"
                   }
                 ],
-                "commentators": [],
+                "commentators": [
+                  {
+                    "person_id": "dr_hector_agnesio"
+                  },
+                  {
+                    "person_id": "dr_gonzalo_crosbie"
+                  },
+                  {
+                    "person_id": "dr_jorge_rodriguez"
+                  }
+                ],
                 "secretaries": []
               }
             ]
@@ -1945,54 +1965,45 @@
             "main_talks": []
           },
           {
-            "start_time": "11:00",
-            "end_time": "11:15",
-            "activity": "Espacio ILLS 2027",
-            "main_talks": [
-              {
-                "title": "Hepatectomía laparoscópica",
-                "speakers": [
-                  {
-                    "person_id": "juan_pekolj"
-                  }
-                ],
-                "lightning_talks": [],
-                "moderators": [],
-                "commentators": [],
-                "secretaries": []
-              }
-            ]
-          },
-          {
             "start_time": "11:15",
-            "end_time": "11:30",
-            "activity": "Espacio ILLS 2027",
-            "main_talks": [
-              {
-                "title": "Hepatectomía robótica",
-                "speakers": [
-                  {
-                    "person_id": "dr_cugat"
-                  }
-                ],
-                "lightning_talks": [],
-                "moderators": [],
-                "commentators": [],
-                "secretaries": []
-              }
-            ]
-          },
-          {
-            "start_time": "11:30",
             "end_time": "12:00",
             "activity": "Espacio ILLS 2027",
             "main_talks": [
               {
-                "title": "TBD",
-                "speakers": [],
-                "lightning_talks": [],
-                "moderators": [],
-                "commentators": [],
+                "title": "Hepatectomías mínimamente invasivas",
+                "lightning_talks": [
+                  {
+                    "title": "Hepatectomía laparoscópica",
+                    "person_id": "juan_pekolj"
+                  },
+                  {
+                    "title": "Hepatectomía robótica",
+                    "person_id": "dr_cugat"
+                  },
+                  {
+                    "title": "Hepatectomía mínimamente invasiva",
+                    "person_id": "dr_rodrigo_sanchez_claria"
+                  }
+                ],
+                "moderators": [
+                  {
+                    "person_id": "dr_bufaliza"
+                  }
+                ],
+                "commentators": [
+                  {
+                    "person_id": "dr_jorge_nefa"
+                  },
+                  {
+                    "person_id": "dr_gustavo_schmidt"
+                  },
+                  {
+                    "person_id": "dr_hector_agnesio"
+                  },
+                  {
+                    "person_id": "dr_christian_bertona"
+                  }
+                ],
                 "secretaries": []
               }
             ]
