@@ -681,40 +681,18 @@
                     ]
                   },
                   {
-                    "title": "Cirugía en la miastenia gravis: indicaciones y elección del abordaje (convencional o mínimamente invasivo)",
+                    "title": "Los inicios y el camino hacia el futuro en la Cirugía torácica robótica",
                     "speakers": [
                       {
-                        "person_id": "dr_dardo_e_pena"
+                        "person_id": "dr_leandro_grando"
                       }
                     ],
                     "commentators": [
                       {
-                        "person_id": "dr_jorge_barboza"
+                        "person_id": "dr_david_smith"
                       },
                       {
-                        "person_id": "dr_marcelo_sosa"
-                      },
-                      {
-                        "person_id": "dr_rolando_pronotto"
-                      }
-                    ]
-                  },
-                  {
-                    "title": "Síndrome de opérculo torácico: ¿abordaje axilar o transpleural uniportal?",
-                    "speakers": [
-                      {
-                        "person_id": "dr_agustin_buero"
-                      }
-                    ],
-                    "commentators": [
-                      {
-                        "person_id": "dr_jorge_mutt"
-                      },
-                      {
-                        "person_id": "dr_ruben_balmaceda"
-                      },
-                      {
-                        "person_id": "dr_mario_bustos"
+                        "person_id": "dra_tamara_porta"
                       }
                     ]
                   }
@@ -1589,18 +1567,21 @@
                     ]
                   },
                   {
-                    "title": "Los inicios y el camino hacia el futuro en la Cirugía torácica robótica",
+                    "title": "Síndrome de opérculo torácico: ¿abordaje axilar o transpleural uniportal?",
                     "speakers": [
                       {
-                        "person_id": "dr_leandro_grando"
+                        "person_id": "dr_agustin_buero"
                       }
                     ],
                     "commentators": [
                       {
-                        "person_id": "dr_david_smith"
+                        "person_id": "dr_jorge_mutt"
                       },
                       {
-                        "person_id": "dra_tamara_porta"
+                        "person_id": "dr_ruben_balmaceda"
+                      },
+                      {
+                        "person_id": "dr_mario_bustos"
                       }
                     ]
                   },
@@ -1710,8 +1691,8 @@
             "main_talks": []
           },
           {
-            "start_time": "13:00",
-            "end_time": "13:45",
+            "start_time": "13:45",
+            "end_time": "14:15",
             "activity": "Pared Abdominal",
             "main_talks": [
               {
@@ -1746,8 +1727,8 @@
             ]
           },
           {
-            "start_time": "13:45",
-            "end_time": "14:15",
+            "start_time": "13:00",
+            "end_time": "13:45",
             "activity": "Cx Robótica",
             "main_talks": [
               {
