@@ -181,9 +181,12 @@ function Day({ day, date, rooms }) {
     buildScheduleByTime({ day, date, rooms });
 
   return (
-    <article className="mt-16 flex flex-col gap-4 md:mt-20">
+    <article
+      id={date}
+      className="mt-16 flex scroll-mt-36 flex-col gap-4 md:mt-20"
+    >
       <div className="sticky top-24 z-30 flex w-full justify-end py-2">
-        <div className="w-full md:w-auto md:max-w-full">
+        <div className="relative isolate w-fit max-w-full before:absolute before:inset-0 before:-z-10 before:rounded-full before:bg-white before:blur-lg py-4">
           <div className="text-right">
             <h3 className="text-xl font-semibold text-lagoon drop-shadow-md md:text-2xl">
               {day}
