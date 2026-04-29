@@ -1626,7 +1626,41 @@
           },
           {
             "start_time": "10:15",
-            "end_time": "11:00",
+            "end_time": "10:45",
+            "activity": "Tórax",
+            "main_talks": [
+              {
+                "title": "Resecciones pulmonares anatómicas asistidas por robot: aspectos técnicos",
+                "speakers": [],
+                "lightning_talks": [
+                  {
+                    "title": "Neumonectomías, lobectomías y segmentectomías"
+                  }
+                ],
+                "moderators": [],
+                "commentators": [],
+                "secretaries": []
+              }
+            ]
+          },
+          {
+            "start_time": "10:45",
+            "end_time": "11:15",
+            "activity": "Tórax",
+            "main_talks": [
+              {
+                "title": "Temas libres: presentación de 5 videos",
+                "speakers": [],
+                "lightning_talks": [],
+                "moderators": [],
+                "commentators": [],
+                "secretaries": []
+              }
+            ]
+          },
+          {
+            "start_time": "11:15",
+            "end_time": "12:00",
             "activity": "AAMRCG",
             "main_talks": [
               {
@@ -1660,8 +1694,14 @@
             ]
           },
           {
-            "start_time": "11:15",
-            "end_time": "12:00",
+            "start_time": "12:00",
+            "end_time": "13:00",
+            "activity": "Almuerzo",
+            "main_talks": []
+          },
+          {
+            "start_time": "13:00",
+            "end_time": "13:45",
             "activity": "Pared Abdominal",
             "main_talks": [
               {
@@ -1696,14 +1736,8 @@
             ]
           },
           {
-            "start_time": "12:00",
-            "end_time": "13:00",
-            "activity": "Almuerzo",
-            "main_talks": []
-          },
-          {
-            "start_time": "13:00",
-            "end_time": "13:30",
+            "start_time": "13:45",
+            "end_time": "14:15",
             "activity": "Cx Robótica",
             "main_talks": [
               {
@@ -1728,25 +1762,6 @@
                     "person_id": "dr_gustavo_smith"
                   }
                 ],
-                "commentators": [],
-                "secretaries": []
-              }
-            ]
-          },
-          {
-            "start_time": "13:45",
-            "end_time": "14:15",
-            "activity": "Tórax",
-            "main_talks": [
-              {
-                "title": "Resecciones pulmonares anatómicas asistidas por robot: aspectos técnicos",
-                "speakers": [],
-                "lightning_talks": [
-                  {
-                    "title": "Neumonectomías, lobectomías y segmentectomías"
-                  }
-                ],
-                "moderators": [],
                 "commentators": [],
                 "secretaries": []
               }
@@ -1807,21 +1822,6 @@
           {
             "start_time": "15:30",
             "end_time": "16:00",
-            "activity": "Tórax",
-            "main_talks": [
-              {
-                "title": "Temas libres: presentación de 5 videos",
-                "speakers": [],
-                "lightning_talks": [],
-                "moderators": [],
-                "commentators": [],
-                "secretaries": []
-              }
-            ]
-          },
-          {
-            "start_time": "16:15",
-            "end_time": "16:45",
             "activity": "Esófago Gastro",
             "main_talks": [
               {
@@ -1850,8 +1850,8 @@
             ]
           },
           {
-            "start_time": "17:00",
-            "end_time": "17:30",
+            "start_time": "16:15",
+            "end_time": "16:45",
             "activity": "Endoscopía",
             "main_talks": [
               {
@@ -1877,8 +1877,8 @@
             ]
           },
           {
-            "start_time": "17:45",
-            "end_time": "18:15",
+            "start_time": "17:00",
+            "end_time": "17:30",
             "activity": "AAMRCG",
             "main_talks": [
               {
