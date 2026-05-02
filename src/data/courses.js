@@ -28,7 +28,7 @@ const courses = [
     schedule: "Jueves 07 de Mayo 2026 de 9 a 17 hs.",
     location: "Hotel Sheraton Mendoza (Sala C)",
     programHref: laparoscopiaProgramPdf,
-    programUpdate: "Update: 01/04",
+    programUpdate: "Update: 02/05",
     detailPoints: [
       "PSQ básico 9:00 a 10:30",
       "Hernias 13:30 a 15:00",
@@ -61,7 +61,7 @@ const courses = [
     schedule: "Jueves 07 de Mayo 2026 de 9 a 17 hs.",
     location: "Hotel Sheraton Mendoza (Sala C)",
     programHref: laparoscopiaProgramPdf,
-    programUpdate: "Update: 01/04",
+    programUpdate: "Update: 02/05",
     detailPoints: [
       "PSQ avanzado 10:30 a 12:00",
       "Hernias 13:30 a 15:00",
@@ -105,7 +105,7 @@ const courses = [
     schedule: "Viernes 8 de Mayo, de 09:00 a 13:00 hs",
     location: "Hospital Central. Av. Alem 430, Mendoza.",
     programHref: percutaneoProgramPdf,
-    programUpdate: "Update: 14/04",
+    programUpdate: "Update: 02/05",
     detailPoints: [
       "Duración: 4 horas con 5 estaciones de simulación.",
       "Drenaje de colecciones",
@@ -161,7 +161,7 @@ const courses = [
     schedule: "Viernes 8 de Mayo, de 09:00 a 13:00 hs",
     location: "Hospital Central. Av. Alem 430, Mendoza.",
     programHref: endoscopiaProgramPdf,
-    programUpdate: "Update: 14/04",
+    programUpdate: "Update: 02/05",
     detailPoints: [
       "Nivel 1: endoscopia alta y baja con familiarización anatómica y uso del canal de trabajo.",
       "Nivel 2: hemostasia, resección de lesiones y manejo de estenosis.",
@@ -218,7 +218,7 @@ const courses = [
     schedule: null,
     location: null,
     programHref: instructoresProgramPdf,
-    programUpdate: "Update: 14/04",
+    programUpdate: "Update: 02/05",
     detailPoints: [
       "Modalidad semipresencial con módulos virtuales y encuentro presencial.",
       "Duración total: 20 horas entre tramos virtuales y presenciales.",

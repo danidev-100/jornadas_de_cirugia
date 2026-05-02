@@ -1,4 +1,4 @@
 export const documentUpdates = {
-  programa: "Update: 24/04",
+  programa: "Update: 2/05",
   reglamento: "Update: 06/04",
 };
