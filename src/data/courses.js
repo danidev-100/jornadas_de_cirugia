@@ -22,7 +22,7 @@ const courses = [
     tableInstructors: "Dr. Gonzalo Crosbie",
     modalInstructors: ["Dr. Gonzalo Crosbie"],
     seats: 12,
-    remainingSeats: 4,
+    remainingSeats: 0,
     summary:
       "Actividad presencial del programa PSQ enfocada en el entrenamiento práctico de habilidades laparoscópicas básicas.",
     schedule: "Jueves 07 de Mayo 2026 de 9 a 17 hs.",
