@@ -166,7 +166,7 @@
     "submitted_at": null
   },
   "dr_eduardo_isuani": {
-    "name": "Dr. Eduardo Nannini",
+    "name": "Dr. Fernando Nannini",
     "nationality": null,
     "submitted_at": "2026-03-26T13:41:50-03:00"
   },
@@ -420,8 +420,7 @@
     "job_title": "Staff de la unidad de esófago y estómago",
     "institution": "Hospital Universitario Fundación Favaloro",
     "nationality": null,
-    "submitted_at": "2026-03-09T00:52:08-03:00",
-    "image": "unverified/dr-mauricio-ramirez.jpeg"
+    "submitted_at": "2026-03-09T00:52:08-03:00"
   },
   "dr_maximiliano_tittarelli": {
     "name": "Dr. Maximiliano Tittarelli",
@@ -918,7 +917,7 @@
     "submitted_at": "2026-04-24T12:04:49-03:00"
   },
   "dra_lourdes_mollare": {
-    "name": "Dra. Lourdes Mollare",
+    "name": "Dra. Lourdes Mollard",
     "nationality": null,
     "submitted_at": "2026-04-24T12:04:49-03:00"
   },
