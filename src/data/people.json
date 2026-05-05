@@ -952,9 +952,12 @@
     "submitted_at": "2026-04-24T12:04:49-03:00"
   },
   "dr_carlos_salas": {
-    "name": "Dr. Carlos Salas",
+    "name": "Dr. Carlos Federico Salas",
+    "job_title": "Jefe del servicio de cirugía general",
+    "institution": "Hospital Regional Ramón Carrillo, Santiago del Estero",
     "nationality": null,
-    "submitted_at": "2026-04-24T12:04:49-03:00"
+    "submitted_at": "2026-04-24T12:04:49-03:00",
+    "image": "dr-carlos-salas.jpeg"
   },
   "dr_juan_pablo_huentelen": {
     "name": "Dr. Juan Pablo Huentelen",
