@@ -115,15 +115,26 @@
           {
             "start_time": "10:15",
             "end_time": "11:00",
-            "activity": "ACM",
+            "activity": "Equidad-Igualdad",
             "main_talks": [
               {
-                "title": "Gremial",
-                "speakers": [],
-                "lightning_talks": [],
-                "moderators": [],
-                "commentators": [],
-                "secretaries": []
+                "title": " Innovación quirúrgica con perspectiva de equidad: acceso, oportunidades y diversidad en el ámbito institucional",
+                "speakers": [
+                  {
+                    "person_id": "dra_gisela_aquije_matta"
+                  },
+                  {
+                    "person_id": "sra_claudia_santaflaminio"
+                  }
+                ]
+              },
+              {
+                "title": "Formación en residencias y posgrados quirúrgicos desde la perspectiva de equidad, igualdad y diversidad",
+                "speakers": [
+                  {
+                    "person_id": "dra_loreley_toresan"
+                  }
+                ]
               }
             ]
           },
@@ -492,7 +503,7 @@
           },
           {
             "start_time": "09:45",
-            "end_time": "10:15",
+            "end_time": "10:30",
             "activity": "Coloproctología",
             "main_talks": [
               {
@@ -527,33 +538,7 @@
             ]
           },
           {
-            "start_time": "10:15",
-            "end_time": "11:00",
-            "activity": "Equidad-Igualdad",
-            "main_talks": [
-              {
-                "title": " Innovación quirúrgica con perspectiva de equidad: acceso, oportunidades y diversidad en el ámbito institucional",
-                "speakers": [
-                  {
-                    "person_id": "dra_gisela_aquije_matta"
-                  },
-                  {
-                    "person_id": "sra_claudia_santaflaminio"
-                  }
-                ]
-              },
-              {
-                "title": "Formación en residencias y posgrados quirúrgicos desde la perspectiva de equidad, igualdad y diversidad",
-                "speakers": [
-                  {
-                    "person_id": "dra_loreley_toresan"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "start_time": "11:15",
+            "start_time": "10:30",
             "end_time": "12:00",
             "activity": "Pared Abdominal",
             "main_talks": [

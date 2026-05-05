@@ -28,8 +28,8 @@ export const programaJueves = {
     },
     {
       hora: "10:15–11:00",
-      salaA: "ACM",
-      salaB: "Equidad-Igualdad",
+      salaA: "Equidad-Igualdad",
+      salaB: "",
       salaC: "Comunicaciones orales",
     },
     {
