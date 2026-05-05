@@ -942,9 +942,12 @@
     "submitted_at": "2026-04-24T12:04:49-03:00"
   },
   "dr_fernando_m_iudica": {
-    "name": "Dr. Fernando M Iudica",
+    "name": "Dr. Fernando Iudica",
+    "job_title": "Director médico",
+    "institution": "Hospital Universitario Austral",
     "nationality": null,
-    "submitted_at": "2026-04-24T12:04:49-03:00"
+    "submitted_at": "2026-04-24T12:04:49-03:00",
+    "image": "dr-fernando-iudica.jpeg"
   },
   "dr_guillermo_saez": {
     "name": "Dr. Guillermo Saez",
