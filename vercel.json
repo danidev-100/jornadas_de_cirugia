@@ -2,6 +2,16 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     {
+      "source": "/sunset",
+      "destination": "/#sunset",
+      "permanent": false
+    },
+    {
+      "source": "/sunset/",
+      "destination": "/#sunset",
+      "permanent": false
+    },
+    {
       "source": "/cursos",
       "destination": "/#cursos",
       "permanent": false
