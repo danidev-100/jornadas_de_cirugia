@@ -15,34 +15,38 @@ const PROGRAM_OVERVIEW_STATS = [
   {
     label: "Horario",
     value: "08:00 - 19:00",
-    description: "Bloques por la manana y la tarde, con pausas integradas.",
+    description: "Acreditaciones el jueves de 7:30 a 8:00 hs.",
   },
   {
     label: "Salas",
     value: "3 simultaneas",
-    description: "Dos enfocadas en especialidades quirurgicas y una dedicada a PSQ y trabajos cientificos.",
+    description: "Salas A y B para especialidades quirurgicas; Sala C para trabajos cientificos y PSQ.",
   },
 ];
 
 const PROGRAM_OVERVIEW_SECTIONS = [
   {
-    title: "Aulas 1 y 2",
+    title: "Salas A y B",
     content:
       "Especialidades quirurgicas como HPB, coloproctologia, pared abdominal, torax, oncologia, mama y equidad, mas espacios para la Asociacion de Residentes.",
   },
   {
-    title: "Aula 3",
+    title: "Sala C",
     content:
-      "Presentacion de Trabajos Cientificos y Curso Intra-Jornadas de PSQ a partir de las 13:00.",
+      "Presentacion de Trabajos Cientificos y Curso Intra-Jornadas de PSQ a partir de las 13:00 hs.",
   },
   {
     title: "Pausas",
     content:
-      "Cafe AM de 15 minutos, almuerzo de 13:00 a 14:00 y Cafe PM de 15 minutos.",
+      "Cafe AM de 30 minutos, almuerzo de 12:00 a 13:00 y Cafe PM de 30 minutos.",
   },
   {
     title: "Acto inaugural",
     content: "Se realiza el jueves al cierre de la jornada, en formato plenario.",
+  },
+  {
+    title: "Acreditaciones",
+    content: "Jueves 7/5/26 de 7:30 a 8:00 hs.",
   },
 ];
 

@@ -8,6 +8,12 @@
         "venue_name": "Salón Fader",
         "events": [
           {
+            "start_time": "07:30",
+            "end_time": "08:00",
+            "activity": "Acreditaciones",
+            "main_talks": []
+          },
+          {
             "start_time": "08:00",
             "end_time": "08:30",
             "activity": "Trauma",
@@ -422,6 +428,12 @@
         "venue_name": "Salón Agrelo",
         "events": [
           {
+            "start_time": "07:30",
+            "end_time": "08:00",
+            "activity": "Acreditaciones",
+            "main_talks": []
+          },
+          {
             "start_time": "08:00",
             "end_time": "08:30",
             "activity": "Coloproctología",
@@ -633,6 +645,12 @@
                   },
                   {
                     "person_id": "dr_xaris_merino_rosas"
+                  },
+                  {
+                    "person_id": "dr_marcos_sanchez"
+                  },
+                  {
+                    "person_id": "dr_sergio_mainero"
                   }
                 ],
                 "commentators": [],
@@ -808,6 +826,12 @@
         "room": "SALA C",
         "venue_name": "Salón Perdriel",
         "events": [
+          {
+            "start_time": "07:30",
+            "end_time": "08:00",
+            "activity": "Acreditaciones",
+            "main_talks": []
+          },
           {
             "start_time": "08:00",
             "end_time": "08:30",
