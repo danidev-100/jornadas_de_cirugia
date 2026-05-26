@@ -36,6 +36,7 @@ function validateForm(values) {
 }
 
 function Contact() {
+  const isContactFormDisabled = true;
   const [values, setValues] = useState(INITIAL_VALUES);
   const [errors, setErrors] = useState({});
   const [status, setStatus] = useState("idle");
@@ -143,9 +144,10 @@ function Contact() {
                 placeholder="Nombre completo"
                 value={values.name}
                 onChange={handleChange}
+                disabled={isContactFormDisabled}
                 aria-invalid={Boolean(errors.name)}
                 aria-describedby={errors.name ? "contact-name-error" : undefined}
-                className="rounded-full border border-gray-400 bg-white/90 px-5 py-3 placeholder:text-slate-500 focus:border-ocean-blue focus:outline-none focus:ring-2 focus:ring-ocean-blue"
+                className="rounded-full border border-gray-400 bg-white/90 px-5 py-3 placeholder:text-slate-500 focus:border-ocean-blue focus:outline-none focus:ring-2 focus:ring-ocean-blue disabled:cursor-not-allowed disabled:bg-gray-100 disabled:opacity-70"
               />
               {errors.name ? (
                 <span id="contact-name-error" className="text-sm text-red-700">
@@ -163,9 +165,10 @@ function Contact() {
                 placeholder="Correo"
                 value={values.email}
                 onChange={handleChange}
+                disabled={isContactFormDisabled}
                 aria-invalid={Boolean(errors.email)}
                 aria-describedby={errors.email ? "contact-email-error" : undefined}
-                className="rounded-full border border-gray-400 bg-white/90 px-5 py-3 placeholder:text-slate-500 focus:border-ocean-blue focus:outline-none focus:ring-2 focus:ring-ocean-blue"
+                className="rounded-full border border-gray-400 bg-white/90 px-5 py-3 placeholder:text-slate-500 focus:border-ocean-blue focus:outline-none focus:ring-2 focus:ring-ocean-blue disabled:cursor-not-allowed disabled:bg-gray-100 disabled:opacity-70"
               />
               {errors.email ? (
                 <span id="contact-email-error" className="text-sm text-red-700">
@@ -184,6 +187,7 @@ function Contact() {
                   autoComplete="off"
                   value={values.company}
                   onChange={handleChange}
+                  disabled={isContactFormDisabled}
                 />
               </label>
             </div>
@@ -196,9 +200,10 @@ function Contact() {
                 rows={4}
                 value={values.message}
                 onChange={handleChange}
+                disabled={isContactFormDisabled}
                 aria-invalid={Boolean(errors.message)}
                 aria-describedby={errors.message ? "contact-message-error" : undefined}
-                className="rounded-3xl border border-gray-400 bg-white/90 px-5 py-3 placeholder:text-slate-500 focus:border-ocean-blue focus:outline-none focus:ring-2 focus:ring-ocean-blue"
+                className="rounded-3xl border border-gray-400 bg-white/90 px-5 py-3 placeholder:text-slate-500 focus:border-ocean-blue focus:outline-none focus:ring-2 focus:ring-ocean-blue disabled:cursor-not-allowed disabled:bg-gray-100 disabled:opacity-70"
               />
               {errors.message ? (
                 <span id="contact-message-error" className="text-sm text-red-700">
@@ -210,7 +215,7 @@ function Contact() {
             <div className="grid justify-items-center gap-3">
               <button
                 type="submit"
-                disabled={isSubmitting}
+                disabled={isContactFormDisabled || isSubmitting}
                 className="flex min-w-28 justify-center rounded-full bg-ocean-blue px-6 py-3 text-center text-sm font-semibold text-white shadow-lg shadow-ocean-blue/30 transition hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-70"
               >
                 {isSubmitting ? "Enviando..." : "Enviar"}
