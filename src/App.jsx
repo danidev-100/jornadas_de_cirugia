@@ -11,7 +11,6 @@ import Speakers from "./component/Speakers";
 import SubmissionGuidelines from "./component/SubmissionGuidelines";
 import RegistrationCost from "./component/RegistrationCost";
 import Organization from "./component/Organization";
-import FixedCode from "./component/Whatsapp";
 import Accommodation from "./component/Accommodation";
 import ClosingParty from "./component/ClosingParty";
 
@@ -82,7 +81,6 @@ const App = () => {
 
   return (
     <div>
-      <FixedCode className=""/>
       <Nav />
       <Hero />
       <Container className="bg-cloud">

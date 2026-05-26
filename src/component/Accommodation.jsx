@@ -7,7 +7,6 @@ import {
   PhoneIcon,
 } from "@heroicons/react/24/outline";
 import { useEffect, useState } from "react";
-import { FaWhatsapp } from "react-icons/fa";
 import huentalaLogo from "../assets/hotels/huentala.png";
 import hualtaLogo from "../assets/hotels/hualta.png";
 import sheratonLogo from "../assets/hotels/sheraton.png";
@@ -52,8 +51,6 @@ const hotels = [
 
 const infoLinks = {
   email: "mailto:secretaria.acmza@gmail.com",
-  whatsapp: "https://wa.me/5492634365089",
-  whatsappLabel: "+54 9 2634 36-5089",
 };
 
 function HotelLine({ href, icon, label, value, external = false }) {
@@ -77,25 +74,15 @@ function HotelLine({ href, icon, label, value, external = false }) {
   );
 }
 
-function ContactCard({ href, icon, title, detail, variant = "default" }) {
+function ContactCard({ href, icon, title, detail }) {
   const Icon = icon;
-  const baseClassName =
-    variant === "whatsapp"
-      ? "border-emerald-100 bg-white text-emerald-700 hover:border-emerald-200"
-      : "border-deep-blue/10 bg-white text-deep-blue hover:border-lagoon";
 
   return (
     <a
       href={href}
-      target={variant === "whatsapp" ? "_blank" : undefined}
-      rel={variant === "whatsapp" ? "noreferrer" : undefined}
-      className={`flex items-start gap-4 rounded-3xl border p-4 shadow-sm transition ${baseClassName}`}
+      className="flex items-start gap-4 rounded-3xl border border-deep-blue/10 bg-white p-4 text-deep-blue shadow-sm transition hover:border-lagoon"
     >
-      <div
-        className={`flex size-11 shrink-0 items-center justify-center rounded-2xl ${
-          variant === "whatsapp" ? "bg-emerald-50" : "bg-cloud"
-        }`}
-      >
+      <div className="flex size-11 shrink-0 items-center justify-center rounded-2xl bg-cloud">
         <Icon className="size-5" />
       </div>
       <div className="flex min-w-0 flex-col">
@@ -298,13 +285,6 @@ function Accommodation() {
                   icon={EnvelopeIcon}
                   title="Consultas por email"
                   detail="Secretaría ACM"
-                />
-                <ContactCard
-                  href={infoLinks.whatsapp}
-                  icon={FaWhatsapp}
-                  title="Consultas por WhatsApp"
-                  detail={infoLinks.whatsappLabel}
-                  variant="whatsapp"
                 />
               </div>
             </div>

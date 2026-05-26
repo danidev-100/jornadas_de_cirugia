@@ -1,4 +1,3 @@
-import { FaWhatsapp } from "react-icons/fa";
 import { LuFacebook } from "react-icons/lu";
 import { CiInstagram } from "react-icons/ci";
 
@@ -6,7 +5,6 @@ import navigation from "../data/navigation";
 import logoNav from "../assets/logo-nav.png";
 
 const SOCIAL_LINKS = {
-  whatsapp: "https://wa.me/5492634365089", // Reemplaza con tu número y código de país
   instagram:
     "https://www.instagram.com/asociacioncirugiamendoza?igsh=bHdqazEybHUxdjdw&utm_source=qr",
   facebook: "https://www.facebook.com/share/18Df2zrGEH/?mibextid=wwXIfr",
@@ -36,19 +34,6 @@ function Footer() {
           ))}
         </div>
         <div className="flex flex-row flex-wrap gap-10 text-xl text-white lg:flex-col lg:justify-start">
-          <div className="flex items-center gap-2">
-            <a
-              className="flex items-center gap-0 sm:gap-2"
-              href={SOCIAL_LINKS.whatsapp}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="WhatsApp"
-            >
-              <FaWhatsapp className="text-lagoon  text-4xl" />
-              <div className="hidden sm:block">Whatsapp</div>
-            </a>
-          </div>
-
           <div className="flex items-center gap-2">
             <a
               className="flex items-center gap-0 sm:gap-2"
