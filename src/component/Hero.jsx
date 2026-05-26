@@ -1,6 +1,12 @@
-import { CalendarIcon, MapPinIcon } from "@heroicons/react/24/outline";
+import {
+  ArrowDownTrayIcon,
+  CalendarIcon,
+  MapPinIcon,
+} from "@heroicons/react/24/outline";
 import heroBackground from "../assets/bg.png";
 import JornadasLogo from "./JornadasLogo";
+
+const CERTIFICATES_URL = "https://piprestaciones.ar/cwe/cirugia26";
 
 function Hero() {
   return (
@@ -20,6 +26,25 @@ function Hero() {
             style={{ filter: "drop-shadow(0 6px 8px rgba(0, 0, 0, 0.28))" }}
           />
         </div>
+        <a
+          href={CERTIFICATES_URL}
+          aria-label="Descargar certificados de participantes"
+          className="group flex w-11/12 max-w-xl justify-self-center items-center justify-between gap-4 rounded-3xl bg-deep-blue/90 px-5 py-4 text-white shadow-lg shadow-ink/20 transition duration-300 hover:bg-ink focus:outline-2 focus:outline-offset-4 focus:outline-white sm:px-6"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <span className="flex min-w-0 flex-col gap-1">
+            <span className="text-sm font-semibold uppercase tracking-wide text-gold">
+              Certificados para participantes
+            </span>
+            <span className="text-xl font-bold leading-tight sm:text-2xl">
+              Descargar certificado
+            </span>
+          </span>
+          <span className="flex size-12 shrink-0 items-center justify-center rounded-2xl bg-white text-deep-blue transition duration-300 group-hover:bg-gold">
+            <ArrowDownTrayIcon className="size-7" aria-hidden="true" />
+          </span>
+        </a>
         <div className="bg-ink opacity-75 py-5 px-4 rounded-4xl text-white flex flex-col md:flex-row items-center gap-2 md:gap-6 mb-18 mx-6">
           <div className="flex gap-2 items-center">
             <CalendarIcon className="size-6 text-gold" />
@@ -36,7 +61,6 @@ function Hero() {
             <span className="text-lg">Hotel Sheraton, Mendoza</span>
           </a>
         </div>
-
       </div>
     </div>
   );
